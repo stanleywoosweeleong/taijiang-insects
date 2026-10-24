@@ -533,7 +533,6 @@ function itemHTML(s){
   return `<button class="item ${saved.has(s.p)?"saved":""}" data-p="${s.p}">
     <div class="thumb">${orderGlyph(s.order)}${s.ph?`<img src="${photoUrl(s)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
     <div class="t"><div class="nm">${esc(nm(s))}</div>
-    ${lang!=="en"?`<div class="muted">${esc(s.name.en)}</div>`:""}
     <div class="sci">${esc(s.sci)}</div>
     <div class="meta">${s.size?`<span class="tag">${esc(sizeText(s))}</span>`:""}${now?`<span class="tag now">${esc(T().now)}</span>`:""}${badgeTag(s)}</div></div></button>`;
 }
@@ -582,7 +581,6 @@ function detailHTML(s){
   const t=T(); const cur=curMonth();
   const photos = s.ph ? Array.from({length:s.ph},(_,i)=>`<div class="ph"><img src="${photoUrl(s,i)}" alt="${esc(nm(s))}" loading="${i?"lazy":"eager"}" onerror="this.parentNode.remove()"></div>`).join("")
                       : `<div class="ph">${orderGlyph(s.order)}<div class="nophoto">${esc(t.noPhoto)}</div></div>`;
-  const others = [["hans","简体"],["hant","繁體"],["en","English"],["ms","Malay"]].filter(([k])=>k!==lang && !(k==="hans"&&lang==="hant"&&s.name.hans===s.name.hant) && !(k==="hant"&&lang==="hans"&&s.name.hans===s.name.hant)).map(([k,l])=>`${esc(s.name[k])}`).join(" · ");
   const months = t.monthNames.map((n,i)=>`<div class="${s.m.includes(i+1)?"on":""} ${i+1===cur?"cur":""}">${i+1}</div>`).join("");
   const tags = HAB_KEYS.filter(k=>s.hab.includes(k)).map(k=>`<span class="ht hab"><svg viewBox="0 0 24 24"><use href="#h-${k}"/></svg>${esc(t.hab[k])}</span>`).join("")
     + MIC_KEYS.filter(k=>s.mic.includes(k)).map(k=>`<span class="ht mic"><svg viewBox="0 0 24 24"><use href="#m-${k}"/></svg>${esc(t.mic[k])}</span>`).join("")
@@ -592,7 +590,6 @@ function detailHTML(s){
   const al = s.al[lang==="hans"?"hans":lang==="hant"?"hant":"hant"]; // aliases are Chinese names from the source
   return `<div class="photos">${photos}</div>
     <h2 class="dname">${esc(nm(s))}</h2>
-    <div class="onames">${others}</div>
     <div class="dsci">${esc(s.sci)}</div>
     <div class="taxo"><span class="tag">${orderGlyph(s.order,"")} ${esc(orderName(s.order))}</span><span class="tag">${esc(s.fam)}${(lang==="hans"||lang==="hant")?" · "+esc(s.famzh[lang]):""}</span>${badgeTag(s)}<span class="tag">${esc(t.bookPage)} ${s.p}</span></div>
     <div class="actions"><button class="chip ${saved.has(s.p)?"on":""}" id="btn-save">${esc(saved.has(s.p)?t.unsave:t.save)}</button><button class="chip" id="btn-record">${esc(t.record)}</button></div>

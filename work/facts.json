@@ -1,0 +1,9662 @@
+[
+ {
+  "page": 45,
+  "zh": "橙尾細蟌",
+  "en": "Wandering Midget",
+  "sci": "Agriocnemis pygmaea (Rambur, 1842)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Coenagrionidae",
+  "family_zh": "細蟌科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   21.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "未熟雌蟲腹部、合胸側面皆為橙紅色。"
+  ],
+  "onphoto": [
+   "♂♀未熟",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 46,
+  "zh": "紅腹細蟌",
+  "en": "Orange-tailed Sprite",
+  "sci": "Ceriagrion auranticum ryukyuanum Asahina, 1967",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Coenagrionidae",
+  "family_zh": "細蟌科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   33.0,
+   41.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "O",
+   "細",
+   "蟌",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 47,
+  "zh": "青紋細蟌",
+  "en": "Common Bluetail",
+  "sci": "Ischnura senegalensis (Rambur, 1842)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Coenagrionidae",
+  "family_zh": "細蟌科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   29.0,
+   33.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "稚蟲。"
+  ],
+  "onphoto": [
+   "♂綠色型♀褐色型",
+   "♂藍色型♀未熟",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 48,
+  "zh": "烏點晏蜓",
+  "en": "Pale-spotted Emperor",
+  "sci": "Anax guttatus (Burmeister, 1839)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Aeshnidae",
+  "family_zh": "晏蜓科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   81.0,
+   85.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "頭部前額區的山形黑斑是本種的特徵。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "晏",
+   "蜓",
+   "科",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 49,
+  "zh": "長鋏晏蜓",
+  "en": "Hyaline Dusk-hawker",
+  "sci": "Gynacantha hyalina Selys, 1882",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Aeshnidae",
+  "family_zh": "晏蜓科",
+  "months": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   61.0,
+   67.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "稚蟲。"
+  ],
+  "onphoto": [
+   "♂♂未熟",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 50,
+  "zh": "粗腰蜻蜓",
+  "en": "Grizzled Pintail",
+  "sci": "Acisoma panorpoides panorpoides Rambur, 1842",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "成蟲膨大的腹節是本種的名字由來。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蜻",
+   "蜓",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 51,
+  "zh": "橙斑蜻蜓",
+  "en": "Blue Darter",
+  "sci": "Brachydiplax chalybea flavovittata Ris, 1911",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   34.0,
+   38.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲的複眼與胸部特寫。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 52,
+  "zh": "褐斑蜻蜓",
+  "en": "Asian Amberwing",
+  "sci": "Brachythemis contaminata (Fabricius, 1793)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   30.0,
+   34.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲的翅脈與翅痣皆為橙紅色。",
+   "稚蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "♀",
+   "蜻",
+   "蜓",
+   "科",
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 53,
+  "zh": "猩紅蜻蜓",
+  "en": "Oriental Scarlet",
+  "sci": "Crocothemis servilia servilia (Drury, 1770)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   38.0,
+   44.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "未熟雄蟲與雌蟲十分相像，可從攫握器辨別。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 54,
+  "zh": "侏儒蜻蜓",
+  "en": "Blue Percher",
+  "sci": "Diplacodes trivialis (Rambur, 1842)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   30.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "O",
+   "蜻",
+   "蜓",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 55,
+  "zh": "高翔蜻蜓",
+  "en": "Coastal Glider",
+  "sci": "Macrodiplax cora (Kaup in Brauer, 1867)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   36.0,
+   43.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "腹部背面工字紋路十分明顯。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 56,
+  "zh": "杜松蜻蜓",
+  "en": "Slender Skimmer",
+  "sci": "Orthetrum sabina sabina (Drury, 1770)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   49.0,
+   53.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲側面照。",
+   "雄蟲複眼特寫。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蜻",
+   "蜓",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 57,
+  "zh": "薄翅蜻蜓",
+  "en": "Wandering Glider",
+  "sci": "Pantala flavescens (Fabricius, 1798)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   44.0,
+   50.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "翅特寫。",
+   "薄翅蜻蜓雌蟲的尾毛很長，容易與雄",
+   "蟲混淆。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 58,
+  "zh": "彩裳蜻蜓",
+  "en": "Variegated Flutterer",
+  "sci": "Rhyothemis variegata arria (Drury, 1773)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   31.0,
+   42.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "墨綠色的合胸具有金屬光澤。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蜻",
+   "蜓",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 59,
+  "zh": "夜遊蜻蜓",
+  "en": "Evening Skimmer",
+  "sci": "Tholymis tillarga (Fabricius, 1798)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   40.0,
+   45.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲翅上具有白斑。",
+   "雌蟲翅上無白斑。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 60,
+  "zh": "海霸蜻蜓(微斑亞種)",
+  "en": "Ocean Glider",
+  "sci": "Tramea transmarina euryale (Selys, 1878)",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   49.0,
+   54.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲前額有不明顯的金屬光澤。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蜻",
+   "蜓",
+   "科",
+   "♂♀♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 61,
+  "zh": "纖腰蜻蜓",
+  "en": "Ocean GliderDingy Dusk-darter",
+  "sci": "Zyxomma petiolatum Rambur, 1842",
+  "badge": "",
+  "order": "Odonata",
+  "family": "Libellulidae",
+  "family_zh": "蜻蜓科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   49.0,
+   51.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "發達的綠色複眼別具特色。",
+   "雄蟲細長的腹部為名字由來。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 63,
+  "zh": "長頭蝗屬",
+  "en": "Long-headed Grasshopper",
+  "sci": "Acrida sp.",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   40.0,
+   60.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "若蟲只有翅芽構造。"
+  ],
+  "onphoto": [
+   "綠色型褐色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 64,
+  "zh": "斑蝗",
+  "en": "",
+  "sci": "Aiolopus thalassinus tamulus (Fabricius, 1798)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "後足脛節紅、藍色斑紋十分明顯。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "綠色型",
+   "蝗",
+   "科",
+   "綠褐色型褐色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 65,
+  "zh": "臺灣大蝗",
+  "en": "Large Green Grasshopper",
+  "sci": "Chondracris rosea (De Geer, 1773)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   55.0,
+   65.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "若蟲"
+  ],
+  "onphoto": [
+   "成蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 66,
+  "zh": "赤脛異距蝗",
+  "en": "",
+  "sci": "Heteropternis rufipes (Shiraki, 1910)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "後足紅色脛節十分顯眼"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蝗",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 67,
+  "zh": "小稻蝗",
+  "en": "Small Rice Grasshopper",
+  "sci": "Oxya hyla intricata (Stål, 1861)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   30.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "主要取食禾本科植物。"
+  ],
+  "onphoto": [
+   "上雄下雌",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 68,
+  "zh": "白條細蝗",
+  "en": "",
+  "sci": "Stenocatantops splendens (Thunberg, 1815)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   35.0,
+   45.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "複眼上有許多黑色條紋。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蝗",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 69,
+  "zh": "疣蝗",
+  "en": "Band-winged grasshopper",
+  "sci": "Trilophidia annulata (Thunberg, 1815)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   35.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "正在蛻皮的若蟲。"
+  ],
+  "onphoto": [
+   "在荒地上的疣蝗隱蔽性極好",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 70,
+  "zh": "短角外斑腿蝗",
+  "en": "",
+  "sci": "Xenocatantops brachycerus (Willemse, C., 1932)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Acrididae",
+  "family_zh": "蝗科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "O",
+   "蝗",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 71,
+  "zh": "臺灣負蝗",
+  "en": "Pinkwinged Grasshopper",
+  "sci": "Atractomorpha sinensis Bolívar, I., 1905",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Pyrgomorphidae",
+  "family_zh": "錐頭蝗科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "若蟲外觀與成蟲相似，身上布滿白色小斑點。"
+  ],
+  "onphoto": [
+   "綠色型褐色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 72,
+  "zh": "日本蚤蝗",
+  "en": "Pigmy Mole Crickets",
+  "sci": "Xya japonica (Haan, 1842)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Tridactylidae",
+  "family_zh": "蚤蝗科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "O",
+   "蚤",
+   "蝗",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 73,
+  "zh": "石首棺頭蟋蟀",
+  "en": "",
+  "sci": "Loxoblemmus equestris Saussure, 1877",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Gryllidae",
+  "family_zh": "蟋蟀科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   14.0,
+   20.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲頭部紋路十分特別。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 74,
+  "zh": "臺灣大蟋蟀",
+  "en": "Taiwan Giant Cricket",
+  "sci": "Tarbinskiellus portentosus (Lichtenstein, 1796)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Gryllidae",
+  "family_zh": "蟋蟀科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   35.0,
+   45.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "臺灣大蟋蟀棲息的洞穴外觀。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "蟋",
+   "蟀",
+   "科",
+   "G",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 75,
+  "zh": "東方螻蛄",
+  "en": "Oriental Mole Cricket",
+  "sci": "Gryllotalpa orientalis Burmeister, 1838",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Gryllotalpidae",
+  "family_zh": "螻蛄科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   25.0,
+   35.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "前足特化為挖掘足。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 76,
+  "zh": "褐背細蟴",
+  "en": "Spotted Meadow Katydid",
+  "sci": "Conocephalus (Anisoptera) maculatus (Le Gouillou, 1841)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Tettigoniidae",
+  "family_zh": "螽蟴科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   20.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "O",
+   "螽",
+   "蟴",
+   "科",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 77,
+  "zh": "褐背露蟴",
+  "en": "Brown-backed Bush Katydid",
+  "sci": "Conocephalus (Anisoptera) maculatus (Le Gouillou, 1841) Ducetia japonica (Thunberg, 1815)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Tettigoniidae",
+  "family_zh": "螽蟴科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   30.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雌蟲全身顏色單一。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 78,
+  "zh": "蒼白優草螽",
+  "en": "Small Rice Grasshopper",
+  "sci": "Euconocephalus pallidus (Redtenbacher, 1891)",
+  "badge": "",
+  "order": "Orthoptera",
+  "family": "Tettigoniidae",
+  "family_zh": "螽蟴科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   45.0,
+   60.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "褐色型。",
+   "具有十分發達的口器。"
+  ],
+  "onphoto": [
+   "目",
+   "O",
+   "螽",
+   "蟴",
+   "科",
+   "綠色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 80,
+  "zh": "寬腹斧螳",
+  "en": "Giant Asian Mantis",
+  "sci": "Hierodula patellifera (Serville, 1893)",
+  "badge": "",
+  "order": "Mantodea",
+  "family": "Mantidae",
+  "family_zh": "螳科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   50.0,
+   70.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "前足腿節內側的黃色突起明顯。",
+   "寬腹斧螳的螵蛸。"
+  ],
+  "onphoto": [
+   "目",
+   "M",
+   "螳",
+   "科",
+   "M",
+   "♀綠色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 81,
+  "zh": "薄翅螳",
+  "en": "European Mantis",
+  "sci": "Mantis religiosa Linnaeus, 1758",
+  "badge": "",
+  "order": "Mantodea",
+  "family": "Mantidae",
+  "family_zh": "螳科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   50.0,
+   75.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "雌雄腹部末端比較。",
+   "薄翅螳的螵蛸。"
+  ],
+  "onphoto": [
+   "♀前足的斑紋是一大特徵",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 82,
+  "zh": "大刀螳屬",
+  "en": "",
+  "sci": "Tenodera sp.",
+  "badge": "",
+  "order": "Mantodea",
+  "family": "Mantidae",
+  "family_zh": "螳科",
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   70.0,
+   100.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "枯葉大刀螳的螵蛸。"
+  ],
+  "onphoto": [
+   "目",
+   "M",
+   "螳",
+   "科",
+   "M",
+   "♀褐色型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 84,
+  "zh": "潛蠊屬",
+  "en": "",
+  "sci": "Pycnoscelus sp.",
+  "badge": "",
+  "order": "Blattodea",
+  "family": "Blaberidae",
+  "family_zh": "匍蠊科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   10.0,
+   20.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "夜間常會受路燈吸引，在路燈附近草叢可發現。"
+  ],
+  "onphoto": [
+   "目",
+   "匍",
+   "蠊",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 85,
+  "zh": "家屋斑蠊",
+  "en": "Harlequin Roach",
+  "sci": "Neostylopyga rhombifolia Stoll, 1813",
+  "badge": "外來種",
+  "order": "Blattodea",
+  "family": "Blattidae",
+  "family_zh": "蜚蠊科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "扁平的身體能躲藏於樹皮間縫隙。"
+  ],
+  "onphoto": [
+   "本種斑紋十分豐富",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 87,
+  "zh": "臺灣家白蟻",
+  "en": "Formosan Subterranean Termite",
+  "sci": "Coptotermes formosanus Shiraki, 1909",
+  "badge": "",
+  "order": "Isoptera",
+  "family": "Rhinotermitidae",
+  "family_zh": "鼻白蟻科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   4.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "念珠狀觸角為等翅目一大特色。"
+  ],
+  "onphoto": [
+   "有翅生殖型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 88,
+  "zh": "臺灣土白蟻",
+  "en": "",
+  "sci": "Odontotermes formosanus (Shiraki, 1909)",
+  "badge": "",
+  "order": "Isoptera",
+  "family": "Termitidae",
+  "family_zh": "白蟻科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   26.0,
+   29.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "翅脫落後的生殖型白蟻，可見殘",
+   "留在身上的翅。"
+  ],
+  "onphoto": [
+   "目",
+   "白",
+   "蟻",
+   "科",
+   "m",
+   "有翅生殖型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 90,
+  "zh": "紅脈熊蟬",
+  "en": "Large Brown Cicada",
+  "sci": "Cryptotympana atrata (Fabricius, 1775)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Cicadidae",
+  "family_zh": "蟬科",
+  "months": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   35.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "左雄右雌，雄蟲具有腹瓣，雌蟲尾節膨大。",
+   "蟬蛻。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "蟬",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 91,
+  "zh": "臺灣暗蟬",
+  "en": "Taiwan Twilight Cicada",
+  "sci": "Taiwanosemia hoppoensis (Matsumura, 1907)",
+  "badge": "特有種",
+  "order": "Hemiptera",
+  "family": "Cicadidae",
+  "family_zh": "蟬科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   20.0,
+   35.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "從土中鑽出準備羽化的若蟲。",
+   "剛羽化的成蟲。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 92,
+  "zh": "禾蛛緣椿象",
+  "en": "Rice Earhead Bug",
+  "sci": "Leptocorisa acuta (Thunberg, 1783)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Alydidae",
+  "family_zh": "蛛緣科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   14.0,
+   17.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "常在禾本科植物上活動。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "蛛",
+   "緣",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 93,
+  "zh": "條蜂緣椿象",
+  "en": "Bean Bug",
+  "sci": "Riptortus linearis (Fabricius, 1775)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Alydidae",
+  "family_zh": "蛛緣科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   13.0,
+   16.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "頭胸部側邊的乳黃色紋路為辨識重點。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 94,
+  "zh": "負子蟲",
+  "en": "Water Bug",
+  "sci": "Diplonychus sp.",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Belostomatidae",
+  "family_zh": "負科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   14.0,
+   16.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "夜間趨光飛來的個體。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "♀",
+   "負",
+   "科",
+   "m",
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 95,
+  "zh": "嬌背蹺椿象",
+  "en": "",
+  "sci": "Metacanthus pulchellus (Dallas, 1852)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Berytidae",
+  "family_zh": "錘角科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "觸角、足極為纖長，有如踩著高蹺。"
+  ],
+  "onphoto": [
+   "胸部後緣可以見到三根長刺突起",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 96,
+  "zh": "瘤緣椿象",
+  "en": "",
+  "sci": "Acanthocoris scaber Linnaeus, 1763",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Coreidae",
+  "family_zh": "緣科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "本種為菜園中常見的椿象。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "緣",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 97,
+  "zh": "稻棘緣椿象",
+  "en": "",
+  "sci": "Cletus punctiger (Dallas, 1852)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Coreidae",
+  "family_zh": "緣科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   12.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配中的稻棘緣椿象。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 98,
+  "zh": "黑竹緣椿象",
+  "en": "Bamboo Bug",
+  "sci": "Notobitus meleagris (Fabricius, 1787)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Coreidae",
+  "family_zh": "緣科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   18.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "緣",
+   "科",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 99,
+  "zh": "小皺椿象",
+  "en": "",
+  "sci": "Cyclopelta parva (Distant, 1900)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Dinidoridae",
+  "family_zh": "兜科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   11.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "常見成蟲、若蟲群聚在水黃皮上。",
+   "成蟲、剛孵化若蟲、卵塊同時存在的畫面。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 100,
+  "zh": "南亞大眼長椿象",
+  "en": "Big-Eyed Bug",
+  "sci": "Geocoris ochropterus (Fieber, 1844)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Geocoridae",
+  "family_zh": "大眼長科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "體型扁平，有著發達的口器。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "大",
+   "眼",
+   "長",
+   "科",
+   "G",
+   "外型很逗趣的南亞大眼長椿象",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 101,
+  "zh": "圓臀大黽",
+  "en": "",
+  "sci": "Aquarius paludum (Fabricius, 1794)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Gerridae",
+  "family_zh": "黽科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   12.0,
+   20.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "卵黏附在水中枯枝落葉上。"
+  ],
+  "onphoto": [
+   "長翅型成蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 102,
+  "zh": "黃斑海黽",
+  "en": "",
+  "sci": "Asclepios apicalis (Esaki, 1924)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Gerridae",
+  "family_zh": "黽科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.0,
+   3.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "若蟲的深色斑紋較不發達，",
+   "外觀有些不同。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "黽",
+   "科",
+   "G",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 103,
+  "zh": "暗條澤背黽",
+  "en": "",
+  "sci": "Limnogonus fossarum (Fabricius, 1775)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Gerridae",
+  "family_zh": "黽科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   7.0,
+   8.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "若蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 104,
+  "zh": "突背斑紅椿象",
+  "en": "Gutta Bug",
+  "sci": "Physopelta gutta gutta (Burmeister, 1834)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Largidae",
+  "family_zh": "大紅科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   14.0,
+   19.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "腹部腹面側邊的三枚新月形黑斑。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "大",
+   "紅",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 105,
+  "zh": "日本水椿象",
+  "en": "Water Treader",
+  "sci": "Mesovelia horvathi Lundblad, 1933",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Mesoveliidae",
+  "family_zh": "水科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   2.0,
+   2.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 106,
+  "zh": "四紋小划椿象",
+  "en": "Water Boatman",
+  "sci": "Micronecta quadristrigata Breddin, 1905",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Micronectidae",
+  "family_zh": "小划科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   2.2,
+   3.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "正在取食藻類的四紋小划椿象。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "小",
+   "划",
+   "科",
+   "M",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 107,
+  "zh": "普小仰椿象",
+  "en": "Backswimmers",
+  "sci": "Anisops ogasawarensis Matsumura, 1915",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Notonectidae",
+  "family_zh": "仰科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   7.0,
+   7.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "複眼十分發達",
+   "腹部有長毛，能「捕捉」空氣。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 108,
+  "zh": "大臭椿象",
+  "en": "",
+  "sci": "Chalcopis glandulosa (Wolff, 1811)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Pentatomidae",
+  "family_zh": "",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   24.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 109,
+  "zh": "黃斑椿象",
+  "en": "Yellow-Spotted Stink Bug",
+  "sci": "Erthesina fullo (Thunberg, 1783)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Pentatomidae",
+  "family_zh": "",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "黃斑椿象的卵列。",
+   "剛孵化的若蟲圍繞在卵邊，有群聚性。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 110,
+  "zh": "圓白星椿象",
+  "en": "Two-Spotted Sesame Bug",
+  "sci": "Eysarcoris guttiger (Thunberg, 1783)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Pentatomidae",
+  "family_zh": "",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "圓白星椿象的若蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "科",
+   "m",
+   "圓白星椿象側角較突出白星椿象側角較不突出",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 111,
+  "zh": "小珀椿象",
+  "en": "Brown-Winged Green Bug",
+  "sci": "Plautia stali (Scott, 1874)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Pentatomidae",
+  "family_zh": "",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   6.0,
+   8.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 112,
+  "zh": "亞銅平龜椿象",
+  "en": "Black Bean Bug",
+  "sci": "Brachyplatys subaeneus (Westwood, 1837)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Plataspidae",
+  "family_zh": "龜科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   5.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "龜",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 113,
+  "zh": "縱斑彩獵椿象",
+  "en": "",
+  "sci": "Euagorus plagiatus (Burmeister, 1834)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Reduviidae",
+  "family_zh": "獵科",
+  "months": [
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   13.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 114,
+  "zh": "魏斯曼荊獵椿",
+  "en": "",
+  "sci": "Acanthaspis westermanni Reuter, 1881",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Reduviidae",
+  "family_zh": "獵科",
+  "months": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   12.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "獵",
+   "科",
+   "前胸背板黃褐色的成蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 115,
+  "zh": "環足蚊獵椿象",
+  "en": "Thread-Legged Assassin Bug",
+  "sci": "Gardena albiannulata Ishikawa, 2005",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Reduviidae",
+  "family_zh": "獵科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   12.0,
+   16.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 116,
+  "zh": "黑斑褐獵椿象",
+  "en": "",
+  "sci": "Oncocephalus assimilis Reuter, 1882",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Reduviidae",
+  "family_zh": "獵科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   15.0,
+   17.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "前足腿節有明顯膨大。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "獵",
+   "科",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 117,
+  "zh": "紅肩美姬緣椿象",
+  "en": "Red-Shouldered Bug",
+  "sci": "Jadera haematoloma (Herrich-Schäffer, 1847)",
+  "badge": "外來種",
+  "order": "Hemiptera",
+  "family": "Rhopalidae",
+  "family_zh": "姬緣科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   9.0,
+   14.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "常在枯枝落葉間吸食臺灣欒",
+   "樹掉落的種子。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 118,
+  "zh": "大紅姬緣椿象",
+  "en": "Soapberry Bug",
+  "sci": "Leptocoris abdominalis abdominalis (Fabricius, 1803)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Rhopalidae",
+  "family_zh": "姬緣科",
+  "months": [
+   3,
+   4,
+   5
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   16.0,
+   21.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體。",
+   "成蟲、若蟲會聚集在一起吸",
+   "食臺灣欒樹種子。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "姬",
+   "緣",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 119,
+  "zh": "小紅姬緣椿象",
+  "en": "Soapberry Bug",
+  "sci": "Leptocoris augur (Fabricius, 1781)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Rhopalidae",
+  "family_zh": "姬緣科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   12.0,
+   16.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "若蟲。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 120,
+  "zh": "白邊長足長椿象",
+  "en": "",
+  "sci": "Dieuches uniformis Distant, 1903",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Rhyparochromidae",
+  "family_zh": "地長科",
+  "months": [
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   9.0,
+   9.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "地",
+   "長",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 121,
+  "zh": "角盾椿象",
+  "en": "Ocellated Shield Bug",
+  "sci": "Cantao ocellatus (Thunberg, 1784)",
+  "badge": "",
+  "order": "Hemiptera",
+  "family": "Scutelleridae",
+  "family_zh": "盾背科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   19.0,
+   26.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "橙黃色且斑紋較不發達的個體。"
+  ],
+  "onphoto": [
+   "橙紅色的個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 123,
+  "zh": "暗色白緣虎甲蟲",
+  "en": "Coastal Tiger Beetle",
+  "sci": "Callytron inspeculare inspeculare (Horn, 1904)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Carabidae",
+  "family_zh": "步行蟲科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   9.0,
+   12.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配時雄蟲會於上方咬住雌",
+   "蟲前胸背板後緣。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 124,
+  "zh": "臺灣八星虎甲蟲",
+  "en": "",
+  "sci": "Cosmodela batesi (Fleutiaux, 1893)",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Carabidae",
+  "family_zh": "步行蟲科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   15.0,
+   21.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "翅鞘上共有八枚白斑",
+   "夜間會停棲在低矮的植物上",
+   "休息。"
+  ],
+  "onphoto": [
+   "目",
+   "步",
+   "行",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 125,
+  "zh": "黃紋炮步行蟲",
+  "en": "",
+  "sci": "Pheropsophus javanus (Dejean, 1825)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Carabidae",
+  "family_zh": "步行蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   13.0,
+   20.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "口器發達，是乾草地中重要",
+   "的掠食者。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 126,
+  "zh": "大葫蘆步行蟲屬",
+  "en": "Big-Headed Ground Beetle",
+  "sci": "Scarites sp.",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Carabidae",
+  "family_zh": "步行蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   40.0,
+   40.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "大型的種類",
+   "的幼蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "步",
+   "行",
+   "蟲",
+   "科",
+   "小型的種類",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 127,
+  "zh": "橙斑大龍蝨",
+  "en": "",
+  "sci": "Cybister rugosus (MacLeay, 1825)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Dytiscidae",
+  "family_zh": "龍蝨科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   28.0,
+   33.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "流線形的體型很適應水中活動。",
+   "特化的游泳足。"
+  ],
+  "onphoto": [
+   "腹部有大面積的橙黃色斑紋",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 128,
+  "zh": "點刻三線大龍蝨",
+  "en": "Three-Punctured Diving Beetle",
+  "sci": "Cybister tripunctatus (Olivier, 1795)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Dytiscidae",
+  "family_zh": "龍蝨科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   24.0,
+   28.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "腹部無橙黃色斑紋。"
+  ],
+  "onphoto": [
+   "目",
+   "龍",
+   "蝨",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 129,
+  "zh": "梅矮吉丁蟲",
+  "en": "Three-Punctured Diving Beetle",
+  "sci": "Trachys inconspicua Saunders,1873",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Buprestidae",
+  "family_zh": "吉丁蟲科",
+  "months": [
+   4,
+   5,
+   6
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.0,
+   3.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 130,
+  "zh": "馬庫白星天牛",
+  "en": "White-Spotted Longicorn Beetle",
+  "sci": "Anoplophora macularia (Thomson, 1865)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   24.0,
+   35.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "天",
+   "牛",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 131,
+  "zh": "桑天牛",
+  "en": "White-Spotted Longicorn Beetle",
+  "sci": "Apriona rugicollis Chevrolat, 1852",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   5,
+   6,
+   7
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   30.0,
+   46.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 132,
+  "zh": "菊紋虎天牛",
+  "en": "",
+  "sci": "Chlorophorus anticemaculatus Schwarzer, 1925",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   5,
+   6,
+   7
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "前胸背板中央具心形斑紋。"
+  ],
+  "onphoto": [
+   "目",
+   "天",
+   "牛",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 133,
+  "zh": "圖紋虎天牛",
+  "en": "",
+  "sci": "Chlorophorus graphus Holzschuh, 1998",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   5,
+   6,
+   7
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   13.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 134,
+  "zh": "印度叉尾天牛",
+  "en": "",
+  "sci": "Niphona parallela (White, 1858)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   15.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "全身都密布細毛。"
+  ],
+  "onphoto": [
+   "目",
+   "天",
+   "牛",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 135,
+  "zh": "家天牛",
+  "en": "",
+  "sci": "Stromatium longicorne (Newman, 1842)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Cerambycidae",
+  "family_zh": "天牛科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   15.0,
+   30.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 136,
+  "zh": "大黑星龜金花蟲",
+  "en": "Spotted Tortoise Beetle",
+  "sci": "Aspidomorpha miliaris (Fabricius, 1775)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "花",
+   "蟲",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 137,
+  "zh": "甘藷龜金花蟲",
+  "en": "Green Tortoise Beetle",
+  "sci": "Cassida circumdata Herbst, 1790",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體。",
+   "甘藷葉上的食痕。"
+  ],
+  "onphoto": [
+   "斑紋消失的個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 138,
+  "zh": "黃褐姬豔螢金花蟲",
+  "en": "",
+  "sci": "Calomicrus jungchangi Lee & Beenen, 2012",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   4.0,
+   4.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "海馬齒上的食痕與排遺。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "花",
+   "蟲",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 139,
+  "zh": "蓼絨螢金花蟲",
+  "en": "",
+  "sci": "Galerucella grisescens (Joannis, 1866)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體。",
+   "卵。"
+  ],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 140,
+  "zh": "甘藷猿金花蟲",
+  "en": "",
+  "sci": "Colasposoma auripenne (Motschulsky, 1860)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "褐色型",
+   "深藍色型。",
+   "頭、胸顏色不同的個體。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "花",
+   "蟲",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 141,
+  "zh": "黑斑紅長筒金花蟲",
+  "en": "",
+  "sci": "Coptocephala bifasciata Jacoby, 1888",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.5,
+   6.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "黑斑較不發達的個體。"
+  ],
+  "onphoto": [
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 142,
+  "zh": "華麗筒金花蟲",
+  "en": "",
+  "sci": "Cryptocephalus nitidissimus Chujo, 1934",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "金",
+   "花",
+   "蟲",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 143,
+  "zh": "藍帶細頸金花蟲",
+  "en": "Blue-Banded Lema Leaf Beetle",
+  "sci": "Lema (Petauristes) solani Fabricius, 1798",
+  "badge": "外來種",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.8,
+   6.7
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 144,
+  "zh": "錦葵溝基葉蚤",
+  "en": "",
+  "sci": "Sinocrepis obscurofasciata (Jacoby, 1892)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Chrysomelidae",
+  "family_zh": "金花蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   2.0,
+   2.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "成蟲及食痕",
+   "進食中的個體。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "花",
+   "蟲",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 145,
+  "zh": "長縱條瓢蟲",
+  "en": "",
+  "sci": "Brumoides ohtai Miyatake, 1970",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   2.7,
+   2.9
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲捕食蚜蟲。",
+   "直接在蛻皮中化蛹。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 146,
+  "zh": "六條瓢蟲",
+  "en": "",
+  "sci": "Cheilomenes sexmaculata (Fabricius, 1781)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.2,
+   6.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "目",
+   "瓢是蚜蟲的天敵",
+   "蟲",
+   "科",
+   "交配中的不同型個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 147,
+  "zh": "七星瓢蟲",
+  "en": "7-Spot Ladybird",
+  "sci": "Coccinella septempunctata Linnaeus, 1758",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.5,
+   7.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 148,
+  "zh": "波紋瓢蟲",
+  "en": "Transverse Ladybird",
+  "sci": "Coccinella transversalis Fabricius, 1781",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "瓢",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 149,
+  "zh": "孟氏隱唇瓢蟲",
+  "en": "Mealybug Ladybird",
+  "sci": "Cryptolaemus montrouzieri Mulsant, 1853",
+  "badge": "外來種",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.0,
+   4.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 150,
+  "zh": "茄二十八星瓢蟲",
+  "en": "28-Spotted Potato Ladybird",
+  "sci": "Henosepilachna vigintioctopunctata (Fabricius, 1775)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   6.0,
+   8.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "瓢",
+   "蟲",
+   "科",
+   "12斑型28斑型",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 151,
+  "zh": "黃瓢蟲",
+  "en": "Yellow Ladybird",
+  "sci": "Illeis koebelei Timberlake, 1943",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "卵。",
+   "幼蟲取食白粉菌。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 152,
+  "zh": "錨紋瓢蟲",
+  "en": "",
+  "sci": "Lemnia biplagiata (Swartz, 1808)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.8,
+   6.8
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "目",
+   "瓢雙帶型個體",
+   "蟲",
+   "科",
+   "錨紋型的特殊色個體不同型的交配中個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 153,
+  "zh": "橙瓢蟲",
+  "en": "Striped Ladybird",
+  "sci": "Micraspis discolor (Fabricius, 1798)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.7,
+   4.9
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 154,
+  "zh": "臺灣兼食瓢蟲",
+  "en": "",
+  "sci": "Micraspis taiwanensis Yu, 2001",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   4.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "體色較橙瓢蟲鮮豔許多。"
+  ],
+  "onphoto": [
+   "目",
+   "瓢",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 155,
+  "zh": "楔斑溜瓢蟲",
+  "en": "Ashy Gray Ladybird",
+  "sci": "Olla v-nigrum (Mulsant, 1866)",
+  "badge": "外來種",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   4.2,
+   5.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "剛羽化的成蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 156,
+  "zh": "龜紋瓢蟲",
+  "en": "",
+  "sci": "Propylaea japonica (Thunberg, 1781)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.4,
+   4.6
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "瓢",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 157,
+  "zh": "澳洲瓢蟲",
+  "en": "Cardinal Ladybird",
+  "sci": "Rodolia cardinalis (Mulsant, 1850)",
+  "badge": "外來種",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   2.6,
+   4.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "捕食體型懸殊的埃及吹",
+   "綿介殼蟲。",
+   "終齡幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 158,
+  "zh": "小紅瓢蟲",
+  "en": "",
+  "sci": "Rodolia pumila Weise, 1892",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.0,
+   4.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "捕食體型較大的吹綿介殼蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "瓢",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 159,
+  "zh": "四斑小瓢蟲",
+  "en": "",
+  "sci": "Scymnus (pullus) quadrillum Motschulsky, 1858",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Coccinellidae",
+  "family_zh": "瓢蟲科",
+  "months": [
+   3,
+   4,
+   5
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   1.5,
+   1.8
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 160,
+  "zh": "黑絨厚象鼻蟲",
+  "en": "",
+  "sci": "Desmidophorus crassus Hubenthal, 1917",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Curculionidae",
+  "family_zh": "象鼻蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   10.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "象",
+   "鼻",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 161,
+  "zh": "綠艷閻魔蟲",
+  "en": "",
+  "sci": "Saprinus optabilis Marseul, 1855",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Histeridae",
+  "family_zh": "閻魔蟲科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": false
+  },
+  "size_mm": [
+   4.0,
+   5.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 162,
+  "zh": "大員牙蟲",
+  "en": "",
+  "sci": "Berosus tayouanus Ueng, Wang & Wang, 2007",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Hydrophilidae",
+  "family_zh": "牙蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": false,
+   "water": true,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   4.0,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "飛行能力強，是水、陸、空",
+   "三棲昆蟲。",
+   "的幼蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "牙",
+   "蟲",
+   "科",
+   "足上的長毛與身上的空隙能吸附氣泡",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 163,
+  "zh": "大陸窗螢",
+  "en": "",
+  "sci": "Pyrocoelia analis Fabricius, 1801",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Lampyridae",
+  "family_zh": "螢科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": false
+  },
+  "size_mm": [
+   14.0,
+   16.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。"
+  ],
+  "onphoto": [
+   "♂♂",
+   "具兩節發光器",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 164,
+  "zh": "姬黑條金龜",
+  "en": "",
+  "sci": "Anomala erubescens Ohaus, 1925",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   4,
+   5,
+   6
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   9.0,
+   10.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "身上具綠色金屬光澤",
+   "體型圓筒狀。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "龜",
+   "子",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 165,
+  "zh": "臺灣青銅金龜",
+  "en": "",
+  "sci": "Anomala expansa expansa (Bates, 1866)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   22.0,
+   31.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 166,
+  "zh": "曹德青銅金龜",
+  "en": "",
+  "sci": "Anomala sauteri Ohaus, 1915",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   13.0,
+   14.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "胸、腹部的長毛為一大特色。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "龜",
+   "子",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 167,
+  "zh": "絨毛金龜屬",
+  "en": "",
+  "sci": "Maladera sp.",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   4.8,
+   5.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "夜間在馬纓丹上啃食嫩葉。",
+   "交配中的偏黃褐色個體。"
+  ],
+  "onphoto": [
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 168,
+  "zh": "銅點花金龜",
+  "en": "",
+  "sci": "Protaetia culta culta Waterhouse, 1879",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   16.0,
+   21.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "金",
+   "龜",
+   "子",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 169,
+  "zh": "藍豔白點花金龜",
+  "en": "",
+  "sci": "Protaetia inquinata Arrow, 1913",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   26.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "偏綠色的個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 170,
+  "zh": "東方白點花金龜",
+  "en": "Oriental Flower Beetle",
+  "sci": "Protaetia orientalis sakaii Kobayashi, 1994",
+  "badge": "特有亞種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   21.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "喜歡在構樹上吸食果實。"
+  ],
+  "onphoto": [
+   "目",
+   "金",
+   "龜",
+   "子",
+   "科",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 171,
+  "zh": "暗藍扁騷金龜",
+  "en": "",
+  "sci": "Thaumastopeus shangaicus (Poll, 1886)",
+  "badge": "外來種",
+  "order": "Coleoptera",
+  "family": "Scarabaeidae",
+  "family_zh": "金龜子科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   29.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "也會吸食構樹果實。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 172,
+  "zh": "紅胸隱翅蟲",
+  "en": "Nairobi Fly",
+  "sci": "Paederus (Heteropaederus) fuscipes Curtis, 1826",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Staphylinidae",
+  "family_zh": "隱翅蟲科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   8.0,
+   10.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "趨光來的個體。"
+  ],
+  "onphoto": [
+   "目",
+   "隱",
+   "翅",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 173,
+  "zh": "二色擬緣腹朽木蟲",
+  "en": "",
+  "sci": "Coccinella septempunctata Linnaeus, 1758",
+  "badge": "特有種",
+  "order": "Coleoptera",
+  "family": "Tenebrionidae",
+  "family_zh": "擬步行蟲科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   9.0,
+   11.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "趨光而來即在燈光下交配的個體。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 174,
+  "zh": "紅頸豔翅長迴木蟲",
+  "en": "Red-Legged Darkling Beetle",
+  "sci": "Strongylium erythrocephalum (Fabricius, 1801)",
+  "badge": "",
+  "order": "Coleoptera",
+  "family": "Tenebrionidae",
+  "family_zh": "擬步行蟲科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   35.0,
+   35.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "擬",
+   "步",
+   "行",
+   "蟲",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 176,
+  "zh": "黑翅蜂虻",
+  "en": "Barred Beefly",
+  "sci": "Ligyra tantalus (Fabricius, 1794)",
+  "badge": "",
+  "order": "Diptera",
+  "family": "Bombyliidae",
+  "family_zh": "蜂虻科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   12.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "蜂虻科的翅脈。"
+  ],
+  "onphoto": [
+   "目",
+   "蜂",
+   "虻",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 177,
+  "zh": "大頭金蠅",
+  "en": "Oriental Latrine Fly",
+  "sci": "Chrysomya megacephala (Fabricius, 1794)",
+  "badge": "",
+  "order": "Diptera",
+  "family": "Calliphoridae",
+  "family_zh": "麗蠅科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   10.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "亮麗的金屬光澤是許多麗蠅的共同特徵",
+   "頰上密布橙黃色的毛。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 178,
+  "zh": "寶玉蚜蠅屬",
+  "en": "",
+  "sci": "Eristalinus sp.",
+  "badge": "",
+  "order": "Diptera",
+  "family": "Syrphidae",
+  "family_zh": "食蚜蠅科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   10.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "複眼極大，複眼上的斑紋別具特色。"
+  ],
+  "onphoto": [
+   "目",
+   "食",
+   "蚜",
+   "蠅",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 179,
+  "zh": "瓜實蠅",
+  "en": "Melon Fly",
+  "sci": "Bactrocera (Zeugodacus) cucurbitae (Coquillett, 1899)",
+  "badge": "",
+  "order": "Diptera",
+  "family": "Tephritidae",
+  "family_zh": "果實蠅科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   5.0,
+   7.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 181,
+  "zh": "霧紋桑舞蛾",
+  "en": "",
+  "sci": "Choreutis ophiosema (Lower, 1896)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Choreutidae",
+  "family_zh": "偽捲蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   10.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 182,
+  "zh": "甜菜白帶野螟蛾",
+  "en": "Hawaiian Beet Webworm Moth",
+  "sci": "Spoladea recurvalis (Fabricius, 1775)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Crambidae",
+  "family_zh": "草螟科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   18.0,
+   18.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "常停棲在低矮草叢葉背。"
+  ],
+  "onphoto": [
+   "目",
+   "草",
+   "螟",
+   "科",
+   "m",
+   "夜間趨光的個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 183,
+  "zh": "紅緣燈蛾",
+  "en": "Red Tiger Moth",
+  "sci": "Aloa lactinea (Cramer, 1777)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   50.0,
+   60.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "終齡幼蟲。",
+   "腹部鮮豔的顏色有如虎紋。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 184,
+  "zh": "黑條灰燈蛾",
+  "en": "",
+  "sci": "Creatonotos gangis (Linnaeus, 1763)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   40.0,
+   40.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "腹背的紅色非常鮮豔。"
+  ],
+  "onphoto": [
+   "目",
+   "裳",
+   "蛾",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 185,
+  "zh": "臺灣黃毒蛾",
+  "en": "",
+  "sci": "Euproctis taiwana (Shiraki, 1913)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   20.0,
+   30.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體，上雌下雄。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 186,
+  "zh": "綠安鈕夜蛾",
+  "en": "Green Drab Moth",
+  "sci": "Ophiusa tirhaca (Cramer, 1777)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   50.0,
+   50.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "裳",
+   "蛾",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 187,
+  "zh": "伊貝鹿蛾",
+  "en": "",
+  "sci": "Syntomoides imaon (Cramer, 1780)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   35.0,
+   40.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體，上雌下雄。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 188,
+  "zh": "普三色星燈蛾",
+  "en": "Heliotrope Moth",
+  "sci": "Utetheisa pulchelloides vaga Jordan, 1939",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Erebidae",
+  "family_zh": "裳蛾科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   25.0,
+   30.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "終齡幼蟲。",
+   "寄主植物為白水木。"
+  ],
+  "onphoto": [
+   "目",
+   "裳",
+   "蛾",
+   "科",
+   "成蟲顏色亮麗",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 189,
+  "zh": "大蓑蛾",
+  "en": "",
+  "sci": "Eumeta pryeri (Leech, 1888)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Psychidae",
+  "family_zh": "蓑蛾科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   35.0,
+   40.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲的蓑巢。",
+   "幼蟲露出蓑巢覓食。"
+  ],
+  "onphoto": [
+   "趨光而來的雄蟲",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 190,
+  "zh": "禾弄蝶",
+  "en": "Rice Swift",
+  "sci": "Borbo cinnara (Wallace, 1866)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Hesperiidae",
+  "family_zh": "弄蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   35.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "弄",
+   "蝶",
+   "科",
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 191,
+  "zh": "黃斑弄蝶",
+  "en": "Confucian Dart",
+  "sci": "Potanthus confucius angustatus (Matsumura, 1910)",
+  "badge": "特有亞種",
+  "order": "Lepidoptera",
+  "family": "Hesperiidae",
+  "family_zh": "弄蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   25.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "停棲時有如一架戰鬥機。"
+  ],
+  "onphoto": [
+   "腹面的黃色帶紋與翅底色的差異不明顯",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 192,
+  "zh": "細邊琉灰蝶",
+  "en": "Plain Hedge Blue",
+  "sci": "Celastrina lavendularis himilcon (Fruhstorfer, 1909)",
+  "badge": "特有亞種",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   30.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "小",
+   "灰",
+   "蝶",
+   "科",
+   "雄蟲常見於濕地吸水",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 193,
+  "zh": "奇波灰蝶",
+  "en": "Gram Blue",
+  "sci": "Euchrysops cnejus (Fabricius, 1798)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   25.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 194,
+  "zh": "豆波灰蝶",
+  "en": "Pea Blue",
+  "sci": "Lampides boeticus (Linnaeus, 1767)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   25.0,
+   28.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "小",
+   "灰",
+   "蝶",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 195,
+  "zh": "細灰蝶",
+  "en": "Zebra Blue",
+  "sci": "Leptotes plinius (Fabricius, 1793)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   25.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 196,
+  "zh": "藍灰蝶",
+  "en": "Pale Grass Blue",
+  "sci": "Zizeeria maha okinawana",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   18.0,
+   20.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "低溫乾季型個體。"
+  ],
+  "onphoto": [
+   "目",
+   "小",
+   "灰",
+   "蝶",
+   "科",
+   "高溫 (雨季) 型個體",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 197,
+  "zh": "折列藍灰蝶",
+  "en": "Lesser Grass Blue",
+  "sci": "Zizina otis riukuensis (Matsumura, 1929)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Lycaenidae",
+  "family_zh": "小灰蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   13.0,
+   15.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 198,
+  "zh": "金斑蝶",
+  "en": "Plain Tiger",
+  "sci": "Danaus chrysippus (Linnaeus, 1758)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   50.0,
+   65.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "目",
+   "♂",
+   "蛺",
+   "蝶",
+   "科",
+   "m",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 199,
+  "zh": "淡紋青斑蝶",
+  "en": "Blue Tiger",
+  "sci": "Tirumala limniace limniace (Cramer, 1775)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   75.0,
+   85.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 200,
+  "zh": "波蛺蝶",
+  "en": "Angled Castor",
+  "sci": "Ariadne ariadne pallidior Fruhstorfer, 1899",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   50.0,
+   60.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "成蟲腹面。",
+   "終齡幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "目",
+   "蛺",
+   "蝶",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 201,
+  "zh": "網絲蛺蝶",
+  "en": "Common Mapwing",
+  "sci": "Cyrestis thyodamas formosana Fruhstorfer, 1898",
+  "badge": "特有亞種",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   45.0,
+   50.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "幼蟲。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 202,
+  "zh": "幻蛺蝶",
+  "en": "Great Eggfly",
+  "sci": "Hypolimnas bolina kezia (Butler, 1877)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   65.0,
+   85.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "蛺",
+   "蝶",
+   "科",
+   "m",
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 203,
+  "zh": "雌擬幻蛺蝶",
+  "en": "Danaid Eggfly",
+  "sci": "Hypolimnas misippus (Linnaeus, 1764)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   65.0,
+   80.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 204,
+  "zh": "眼蛺蝶",
+  "en": "Peacock Pansy",
+  "sci": "Junonia almana (Linnaeus, 1758)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   50.0,
+   60.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "蛺",
+   "蝶",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 205,
+  "zh": "暮眼蝶",
+  "en": "Common Evening Brown",
+  "sci": "Melanitis leda (Linnaeus, 1758)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Nymphalidae",
+  "family_zh": "蛺蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   55.0,
+   70.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "森林暮眼蝶的前翅眼點與翅腹面標本照。"
+  ],
+  "onphoto": [
+   "高溫型 (雨季型) ",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 206,
+  "zh": "青鳳蝶",
+  "en": "Common Bluebottle",
+  "sci": "Graphium sarpedon connectens (Fruhstorfer, 1906)",
+  "badge": "特有亞種",
+  "order": "Lepidoptera",
+  "family": "Papilionidae",
+  "family_zh": "鳳蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   50.0,
+   60.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "雄蟲常聚集在濕地吸水。"
+  ],
+  "onphoto": [
+   "目",
+   "鳳",
+   "蝶",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 207,
+  "zh": "花鳳蝶",
+  "en": "Lime Butterfly",
+  "sci": "Graphium sarpedon connectens (Fruhstorfer, 1906) Papilio demoleus Linnaeus, 1758",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Papilionidae",
+  "family_zh": "鳳蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   70.0,
+   80.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "四齡幼蟲。",
+   "五齡幼蟲。",
+   "蛹。"
+  ],
+  "onphoto": [
+   "♀",
+   "♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 208,
+  "zh": "鑲邊尖粉蝶",
+  "en": "Striated Albatross",
+  "sci": "Appias olferna peducaea Fruhstorfer, 1910",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Pieridae",
+  "family_zh": "粉蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   40.0,
+   40.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "夜間常停棲在植株下。"
+  ],
+  "onphoto": [
+   "目",
+   "粉",
+   "蝶",
+   "科",
+   "♂低溫型 (乾季型) ",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 209,
+  "zh": "黃蝶",
+  "en": "Common Grass Yellow",
+  "sci": "Eurema hecabe (Linnaeus, 1758)",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Pieridae",
+  "family_zh": "粉蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   35.0,
+   40.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 210,
+  "zh": "白粉蝶",
+  "en": "Small Cabbage White",
+  "sci": "Pieris rapae crucivora Boisduval, 1836",
+  "badge": "",
+  "order": "Lepidoptera",
+  "family": "Pieridae",
+  "family_zh": "粉蝶科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   45.0,
+   50.0
+  ],
+  "size_type": "wingspan",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體。",
+   "夜間常成群於植株下休息。"
+  ],
+  "onphoto": [
+   "目",
+   "粉",
+   "蝶",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 212,
+  "zh": "中華蜜蜂",
+  "en": "Asian Honey bee",
+  "sci": "Apis cerana Fabricius, 1793",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Apidae",
+  "family_zh": "蜜蜂科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   10.0,
+   13.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "後足脛節具有長毛圍成的「花粉籃」構造。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "蜜",
+   "蜂",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 213,
+  "zh": "義大利蜂",
+  "en": "European Honey bee",
+  "sci": "Apis mellifera Linnaeus, 1758",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Apidae",
+  "family_zh": "蜜蜂科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": true
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   13.0,
+   15.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "「花粉籃」中收集了滿滿的花粉。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 214,
+  "zh": "蓬萊沙蜂",
+  "en": "Formosan Sand Wasp",
+  "sci": "Bembix formosana Bischoff, 1913",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Crabronidae",
+  "family_zh": "銀口蜂科",
+  "months": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   17.0,
+   20.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "為躲避蓬萊沙蜂而躲入",
+   "蚵殼中的大頭金蠅。",
+   "捕獲獵物後雌蟲會在沙",
+   "地上挖洞。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "銀",
+   "口",
+   "蜂",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 215,
+  "zh": "蟻蜂科",
+  "en": "Velvet Ants",
+  "sci": "Mutillidae spp.",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Mutillidae",
+  "family_zh": "蟻蜂科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": null,
+  "size_type": null,
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 216,
+  "zh": "土蜂科",
+  "en": "Scoliid Wasps",
+  "sci": "Scoliidae spp.",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Scoliidae",
+  "family_zh": "土蜂科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": null,
+  "size_type": null,
+  "alias_zh": "",
+  "captions": [
+   "訪花中的"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "土Campsomeris sp.與左圖不同種的 Campsomeris sp.",
+   "蜂",
+   "科",
+   "較為少見的 Scolia erythrosoma",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 217,
+  "zh": "螳小蜂屬",
+  "en": "Mantis Parasitic Wasp",
+  "sci": "Podagrion sp.",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Torymidae",
+  "family_zh": "長尾小蜂科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   2.5,
+   2.5
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "羽化後在螵蛸上活動的雌蟲",
+   "螳小蜂羽化後在螵蛸上留下許多孔洞。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 218,
+  "zh": "大腿小蜂屬",
+  "en": "",
+  "sci": "Brachymeria sp.",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Chalcididae",
+  "family_zh": "小蜂科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   3.0,
+   5.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "m",
+   "小",
+   "蜂",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 219,
+  "zh": "黃領錐腹蜾蠃",
+  "en": "Okinawa Mud Wasp",
+  "sci": "Delta esuriens okinawae Giordani Soika, 1986",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Vespidae",
+  "family_zh": "胡蜂科",
+  "months": [
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   14.0,
+   19.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "長長的腹柄是蜾蠃的一大特色。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 220,
+  "zh": "帶鈴腹胡蜂",
+  "en": "Common Paper Wasp",
+  "sci": "Ropalidia fasciata (Fabricius, 1804)",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Vespidae",
+  "family_zh": "胡蜂科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   8.0,
+   10.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "位於海茄苳樹叢間的蜂巢。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "胡",
+   "蜂",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 221,
+  "zh": "黃腰虎頭蜂",
+  "en": "Lesser Banded Hornet",
+  "sci": "Vespa affinis (Linnaeus, 1764)",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Vespidae",
+  "family_zh": "胡蜂科",
+  "months": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": false
+  },
+  "size_mm": [
+   20.0,
+   25.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "大顎發達，看起來十分兇惡。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 222,
+  "zh": "長腳捷山蟻",
+  "en": "Yellow Crazy Ant",
+  "sci": "Anoplolepis gracilipes (Smith, 1857)",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Formicidae",
+  "family_zh": "蟻科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": true
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   4.5,
+   6.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "觀察螞蟻的過程常常可以獲得許多樂趣，以本圖為例：由左向",
+   "右行走的螞蟻腹部較小，由右向左活動的螞蟻腹部則充滿了食",
+   "物，來自不同方向的螞蟻相遇時常碰碰觸角、交換食物，看到",
+   "這樣的景象就可以猜測蟻巢應是在左側，食物來源則在右側。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "蟻",
+   "科",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 223,
+  "zh": "黑棘山蟻",
+  "en": "Weaver Ant",
+  "sci": "Polyrhachis dives Smith, 1857",
+  "badge": "",
+  "order": "Hymenoptera",
+  "family": "Formicidae",
+  "family_zh": "蟻科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": true,
+   "windbreak": true,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   7.0,
+   8.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "黑棘山蟻圍繞著介殼蟲吸食蜜露。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 224,
+  "zh": "熱帶火蟻",
+  "en": "Fire Ant",
+  "sci": "Solenopsis geminata Fabricius, 1840",
+  "badge": "外來種",
+  "order": "Hymenoptera",
+  "family": "Formicidae",
+  "family_zh": "蟻科",
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": true,
+   "wood": true,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": true,
+   "light": true
+  },
+  "size_mm": [
+   3.0,
+   8.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "大量的新生蟻后準備進行婚飛。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "蟻",
+   "科",
+   "m",
+   "婚飛時大量個體會傾巢而出",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 226,
+  "zh": "刺蝶角蛉",
+  "en": "",
+  "sci": "Acheron trux (Walker, 1853)",
+  "badge": "",
+  "order": "Neuroptera",
+  "family": "Ascalaphidae",
+  "family_zh": "長角蛉科",
+  "months": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   40.0,
+   45.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "複眼具有眼溝。",
+   "幼蟲正在捕食小昆蟲。"
+  ],
+  "onphoto": [
+   "目",
+   "長",
+   "角",
+   "蛉",
+   "科",
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 227,
+  "zh": "褐胸蝶角蛉",
+  "en": "",
+  "sci": "Ascalaphus placidus (Gerstaecker, 1894)",
+  "badge": "",
+  "order": "Neuroptera",
+  "family": "Ascalaphidae",
+  "family_zh": "長角蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   23.0,
+   31.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "背面的黃斑形成一條背中線。",
+   "剛孵化的幼蟲。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 228,
+  "zh": "褐頂蝶角蛉",
+  "en": "",
+  "sci": "Ascalohybris subjacens (Walker, 1853)",
+  "badge": "",
+  "order": "Neuroptera",
+  "family": "Ascalaphidae",
+  "family_zh": "長角蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   32.0,
+   40.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [],
+  "onphoto": [
+   "目",
+   "長",
+   "角",
+   "蛉",
+   "科",
+   "♂",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 229,
+  "zh": "土阱蟻蛉",
+  "en": "",
+  "sci": "Cueta sauteri Esben-Petersen, 1913",
+  "badge": "",
+  "order": "Neuroptera",
+  "family": "Myrmeleontidae",
+  "family_zh": "蟻蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   25.0,
+   30.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "沙阱底部側向通道。",
+   "中胸氣孔位於柄突上",
+   "圖中箭頭處。",
+   "頭部腹面特寫。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 230,
+  "zh": "胸紋蟻蛉",
+  "en": "",
+  "sci": "Myrmeleon littoralis Miller & Stange, 1999",
+  "badge": "特有種",
+  "order": "Neuroptera",
+  "family": "Myrmeleontidae",
+  "family_zh": "蟻蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": true,
+   "wetgrass": false,
+   "drygrass": false,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   26.0,
+   38.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "防風林下層發現的沙阱。",
+   "頭部背面特寫。",
+   "頭部腹面特寫。"
+  ],
+  "onphoto": [
+   "目",
+   "蟻",
+   "蛉",
+   "科",
+   "M",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 231,
+  "zh": "臀腋蟻蛉",
+  "en": "",
+  "sci": "Myrmeleon persimilis Miller & Stange, 1999",
+  "badge": "特有種",
+  "order": "Neuroptera",
+  "family": "Myrmeleontidae",
+  "family_zh": "蟻蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   22.0,
+   29.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "頭部背面特寫。",
+   "頭部腹面特寫。"
+  ],
+  "onphoto": [
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 232,
+  "zh": "沙阱蟻蛉",
+  "en": "",
+  "sci": "Myrmeleon punctinervis Banks, 1937",
+  "badge": "特有種",
+  "order": "Neuroptera",
+  "family": "Myrmeleontidae",
+  "family_zh": "蟻蛉科",
+  "months": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": false,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": false,
+   "leaf": true,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   23.0,
+   28.0
+  ],
+  "size_type": "forewing",
+  "alias_zh": "",
+  "captions": [
+   "頭部腹面特寫。",
+   "幼蟲於沙中造的繭。",
+   "繭中的蛹。"
+  ],
+  "onphoto": [
+   "目",
+   "蟻",
+   "蛉",
+   "科",
+   "M",
+   "m",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 234,
+  "zh": "日本球蠼螋",
+  "en": "",
+  "sci": "Labidura japonica (de Haan, 1842)",
+  "badge": "",
+  "order": "Dermaptera",
+  "family": "Labiduridae",
+  "family_zh": "球蠼螋科",
+  "months": [
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   16.0,
+   22.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "尾鋏特寫。"
+  ],
+  "onphoto": [
+   "目",
+   "m",
+   "球",
+   "蠼",
+   "螋",
+   "科",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ },
+ {
+  "page": 235,
+  "zh": "普通真肥蠼螋",
+  "en": "",
+  "sci": "Euborellia plebeja (Dohrn, 1863)",
+  "badge": "",
+  "order": "Dermaptera",
+  "family": "Carcinophoridae",
+  "family_zh": "肥蠼螋科",
+  "months": [
+   6,
+   7,
+   8
+  ],
+  "habitat": {
+   "mangrove": false,
+   "windbreak": false,
+   "wetgrass": true,
+   "drygrass": true,
+   "water": false
+  },
+  "micro": {
+   "ground": true,
+   "leaf": false,
+   "wood": false,
+   "water": false,
+   "flower": false
+  },
+  "activity": {
+   "day": false,
+   "light": true
+  },
+  "size_mm": [
+   11.0,
+   14.0
+  ],
+  "size_type": "body",
+  "alias_zh": "",
+  "captions": [
+   "交配中的個體。"
+  ],
+  "onphoto": [
+   "♂♀",
+   "紅樹林防風林濕草地乾草地水域地葉地木地地水地地花地日光"
+  ]
+ }
+]

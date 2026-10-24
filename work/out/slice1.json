@@ -1,0 +1,872 @@
+[
+ {
+  "page": 45,
+  "name": {
+   "hant": "橙尾細蟌",
+   "en": "Wandering Midget",
+   "ms": "Pepatung jarum ekor jingga"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "臺灣體型最小的豆娘。雄蟲複眼上黑下綠，胸部綠色帶黑線，腹部背面黑色，尾端第7至10節為橙黃色。雌蟲尾端沒有橙色；未成熟雌蟲的腹部與胸側呈橙紅色。",
+   "en": "Taiwan's smallest damselfly. The male has eyes black above and green below, a green thorax with black lines, a black-backed abdomen and an orange-yellow tip on segments 7 to 10. Females lack the orange tip; young females are orange-red on the abdomen and the sides of the thorax.",
+   "ms": "Pepatung jarum terkecil di Taiwan. Jantan bermata hitam di atas dan hijau di bawah, dada hijau bergaris hitam, perut hitam di bahagian atas dan hujung perut ruas 7 hingga 10 berwarna jingga kekuningan. Betina tiada hujung jingga; betina muda berwarna merah jingga pada perut dan sisi dada."
+  },
+  "habits": {
+   "hant": "成蟲和水中的稚蟲都捕食更小的昆蟲。常見於水池、濕草地，成蟲特別喜歡水草茂密的靜水環境。",
+   "en": "Both the adults and the water-dwelling young hunt smaller insects. Look for it at ponds and wet grassland; adults prefer still water with thick plant growth.",
+   "ms": "Dewasa dan anaknya yang hidup dalam air memburu serangga yang lebih kecil. Mudah ditemui di kolam dan padang rumput lembap; yang dewasa suka air tenang yang penuh tumbuhan."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔地區。",
+   "en": "Common across Taiwan from the lowlands to low elevations.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 46,
+  "name": {
+   "hant": "紅腹細蟌",
+   "en": "Orange-tailed Sprite",
+   "ms": "Pepatung jarum perut merah jingga"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "整條腹部橙紅色，是最好認的特徵。雄蟲複眼和胸部褐綠色，翅透明，翅痣褐色。雌蟲外觀與雄蟲相近，但複眼綠色，背面有時帶黑色紋路。",
+   "en": "The whole abdomen is orange-red, the easiest clue. Males have brownish-green eyes and thorax, clear wings and a brown wing spot. Females look similar but have green eyes and sometimes dark markings on the back.",
+   "ms": "Seluruh perutnya merah jingga, tanda paling mudah dikenali. Jantan bermata dan berdada hijau keperangan, sayap jernih dengan bintik sayap perang. Betina hampir serupa tetapi bermata hijau dan kadang-kadang ada corak hitam di belakang."
+  },
+  "habits": {
+   "hant": "成蟲與稚蟲都是肉食性，常見於水池、濕草地等靜水環境。成蟲連體型較小的其他豆娘也會捕食。",
+   "en": "Adults and young are both predators, found at ponds, wet grassland and other still water. Adults even catch smaller damselflies.",
+   "ms": "Dewasa dan anaknya pemangsa, biasa di kolam, padang rumput lembap dan air tenang lain. Yang dewasa juga menangkap pepatung jarum lain yang lebih kecil."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至淺山地區。",
+   "en": "Common across Taiwan from the lowlands to the foothills.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga kaki bukit."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 47,
+  "name": {
+   "hant": "青紋細蟌",
+   "en": "Common Bluetail",
+   "ms": "Pepatung jarum ekor biru"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲有綠色與藍色兩型，腹部背面都是黑色，靠近尾端的第8節和部分第9節為藍色。雌蟲有褐色型和似雄型；未成熟雌蟲的複眼和胸部呈橙紅色。",
+   "en": "Males come in a green form and a blue form; both have a black-backed abdomen with blue on segment 8 and part of segment 9 near the tip. Females come in a brownish form and a male-like form; young females have orange-red eyes and thorax.",
+   "ms": "Jantan ada dua bentuk, hijau dan biru; kedua-duanya berperut hitam di atas dengan warna biru pada ruas 8 dan sebahagian ruas 9 dekat hujung. Betina ada bentuk keperangan dan bentuk seperti jantan; betina muda bermata dan berdada merah jingga."
+  },
+  "habits": {
+   "hant": "台江地區最常見的豆娘，出現在各種靜水域。成蟲與稚蟲都捕食小昆蟲；稚蟲耐鹽，連靠海的草澤也能生活。",
+   "en": "The most common damselfly in the Taijiang area, found at all kinds of still water. Adults and young eat small insects, and the young tolerate salt, so they can live even in coastal marshes.",
+   "ms": "Pepatung jarum paling biasa di kawasan Taijiang, ditemui di pelbagai jenis air tenang. Dewasa dan anaknya makan serangga kecil, dan anaknya tahan air masin, jadi boleh hidup di paya dekat pantai."
+  },
+  "range": {
+   "hant": "廣泛分布於全臺灣平地至中海拔山區。",
+   "en": "Widespread across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Tersebar luas di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 48,
+  "name": {
+   "hant": "烏點晏蜓",
+   "en": "Pale-spotted Emperor",
+   "ms": "Pepatung besar bertompok biru"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "台江地區最大型的蜻蜓。雄蟲複眼綠色，額頭有「山」字形黑斑，胸部翠綠；翅靠近基部後緣有一大塊黃斑，腹部黑色，第2、3節有三塊藍斑。雌蟲翅上沒有黃斑，藍斑也較不明顯。",
+   "en": "The largest dragonfly in the Taijiang area. The male has green eyes, a black mark shaped like the Chinese character 山 on the forehead and a bright green thorax. A large yellow patch sits near the rear base of the wings, and the black abdomen has three blue patches on segments 2 and 3. Females lack the yellow wing patch and have weaker blue markings.",
+   "ms": "Pepatung terbesar di kawasan Taijiang. Jantan bermata hijau, ada tanda hitam berbentuk aksara Cina 山 di dahi dan dada hijau terang. Ada tompok kuning besar dekat pangkal belakang sayap, dan perut hitamnya ada tiga tompok biru pada ruas 2 dan 3. Betina tiada tompok kuning pada sayap dan tompok birunya kurang jelas."
+  },
+  "habits": {
+   "hant": "雄蟲在水面上空來回巡飛，速度極快，不容易看清楚。稚蟲耐鹽，可在靠海的水域生活；雌蟲把卵產在水邊的水草、青苔或泥土上。",
+   "en": "Males patrol over the water at great speed and are hard to watch closely. The young tolerate salt and can live in coastal waters. Females lay eggs on waterside plants, moss or mud.",
+   "ms": "Jantan meronda di atas air dengan sangat laju dan sukar diperhati dengan dekat. Anaknya tahan air masin dan boleh hidup di perairan dekat pantai. Betina bertelur pada tumbuhan air, lumut atau lumpur di tepi air."
+  },
+  "range": {
+   "hant": "分布於離島及本島近海的靜水域，南部較常見，是台江最容易見到的晏蜓。",
+   "en": "Found at still water near the coast of Taiwan and its outlying islands, more common in the south, and the emperor dragonfly most easily seen at Taijiang.",
+   "ms": "Ditemui di air tenang dekat pantai di Taiwan dan pulau-pulau luarnya, lebih biasa di selatan, dan merupakan pepatung maharaja yang paling mudah dilihat di Taijiang."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 49,
+  "name": {
+   "hant": "長鋏晏蜓",
+   "en": "Hyaline Dusk-hawker",
+   "ms": "Pepatung senja hutan"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "住在森林的晏蜓。雄蟲額頭有三角形黑斑，複眼下半有數個圓形黑斑，胸部綠色、前方一條粗黑線；腹部黑色，每節有綠斑，第2、3節特別細，尾端抱握器細長。雌蟲體色較淡，腹部較粗。",
+   "en": "A forest-dwelling hawker. The male has a triangular black mark on the forehead, several round black spots on the lower half of the eyes and a green thorax with a thick black line in front. The black abdomen has green marks on every segment, is very thin at segments 2 and 3 and ends in long, slender claspers. Females are paler with a thicker abdomen.",
+   "ms": "Pepatung yang tinggal di hutan. Jantan ada tanda hitam segi tiga di dahi, beberapa bintik hitam bulat di bahagian bawah mata dan dada hijau dengan garis hitam tebal di depan. Perutnya hitam dengan tanda hijau pada setiap ruas, sangat ramping pada ruas 2 dan 3, dan berhujung penyepit yang panjang dan halus. Betina lebih pucat dan perutnya lebih tebal."
+  },
+  "habits": {
+   "hant": "成蟲與稚蟲皆肉食，喜歡森林內或林緣的靜水域。雄蟲只在清晨和黃昏到水邊巡飛，平時躲在樹林下停棲，隱密又飛得快，很難觀察。雌蟲在水邊軟泥產卵。",
+   "en": "Adults and young are predators, living at still water inside or at the edge of forest. Males patrol near water only at dawn and dusk and otherwise rest hidden under trees; shy and fast, it is hard to observe. Females lay eggs in soft mud at the water's edge.",
+   "ms": "Dewasa dan anaknya pemangsa, hidup di air tenang dalam hutan atau di pinggir hutan. Jantan meronda dekat air hanya pada waktu subuh dan senja, dan selebihnya berehat tersembunyi di bawah pokok; pemalu dan laju, jadi sukar diperhati. Betina bertelur dalam lumpur lembut di tepi air."
+  },
+  "range": {
+   "hant": "分布於臺灣平地至低海拔山區，台江的族群住在防風林中。",
+   "en": "Found from the lowlands to low mountains of Taiwan; the Taijiang population lives in the windbreak forest.",
+   "ms": "Ditemui dari tanah rendah hingga gunung rendah di Taiwan; populasi di Taijiang tinggal dalam hutan penahan angin."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 50,
+  "name": {
+   "hant": "粗腰蜻蜓",
+   "en": "Grizzled Pintail",
+   "ms": "Pepatung kecil perut gembung"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "小型蜻蜓，腹部前段第1至5節明顯膨大。雄蟲複眼與胸部藍色，帶不規則黑紋，腹部前7節藍色夾黑色縱紋，其餘黑色，上方抱握器白色。雌蟲花紋相似，但以黃褐色為主。",
+   "en": "A small dragonfly whose abdomen is clearly swollen at segments 1 to 5. The male has blue eyes and a blue thorax with irregular black marks, blue-and-black striped segments 1 to 7, a black tip and white upper claspers. Females have a similar pattern but are mainly yellowish-brown.",
+   "ms": "Pepatung kecil yang perutnya jelas gembung pada ruas 1 hingga 5. Jantan bermata biru dan berdada biru dengan corak hitam tidak sekata, ruas 1 hingga 7 biru berjalur hitam, hujung perut hitam dan penyepit atas putih. Betina bercorak serupa tetapi kebanyakannya perang kekuningan."
+  },
+  "habits": {
+   "hant": "相當常見，出沒於各種靜水域，成蟲多在水邊草叢中活動。",
+   "en": "A very common species of all kinds of still water; adults usually stay in grass near the water.",
+   "ms": "Spesies yang sangat biasa di pelbagai air tenang; yang dewasa biasanya berada dalam rumput berhampiran air."
+  },
+  "range": {
+   "hant": "廣泛分布於全臺灣平地至中海拔山區。",
+   "en": "Widespread across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Tersebar luas di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 51,
+  "name": {
+   "hant": "橙斑蜻蜓",
+   "en": "Blue Darter",
+   "ms": "Pepatung biru jalur kuning"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲胸部黑色、前方灰藍，胸側有兩條黃帶，翅基褐色；腹部前5節灰藍、後5節黑色，前3節側邊有黃斑。額頭帶金屬藍光，複眼上褐下綠。雌蟲腹部黑色，第4至7節有黃斑。",
+   "en": "The male has a black thorax, grey-blue in front, with two yellow bands on the sides and brown wing bases. The first 5 abdominal segments are grey-blue and the last 5 black, with yellow side spots on segments 1 to 3. The forehead is metallic blue and the eyes brown above, green below. Females have a black abdomen with yellow spots on segments 4 to 7.",
+   "ms": "Jantan berdada hitam, biru kelabu di depan, dengan dua jalur kuning di sisi dan pangkal sayap perang. Lima ruas pertama perut biru kelabu dan lima ruas terakhir hitam, dengan bintik kuning di sisi ruas 1 hingga 3. Dahinya biru berkilat seperti logam dan matanya perang di atas, hijau di bawah. Betina berperut hitam dengan bintik kuning pada ruas 4 hingga 7."
+  },
+  "habits": {
+   "hant": "出現在水塘、湖泊等靜水域。雄蟲兇悍，常停在水邊植物上驅趕各種蜻蜓；雌蟲平時在附近森林活動，點水產卵時才到水邊。",
+   "en": "Found at ponds, lakes and other still water. Males are aggressive, perching on waterside plants and chasing off all kinds of dragonflies. Females usually stay in nearby forest and only come to the water to lay eggs.",
+   "ms": "Ditemui di kolam, tasik dan air tenang lain. Jantan garang, hinggap pada tumbuhan di tepi air dan menghalau pelbagai jenis pepatung. Betina biasanya berada di hutan berdekatan dan hanya datang ke air untuk bertelur."
+  },
+  "range": {
+   "hant": "廣泛分布於全臺灣平地至低、中海拔山區。",
+   "en": "Widespread across Taiwan from the lowlands to low and mid-elevation mountains.",
+   "ms": "Tersebar luas di seluruh Taiwan dari tanah rendah hingga gunung paras rendah dan sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 52,
+  "name": {
+   "hant": "褐斑蜻蜓",
+   "en": "Asian Amberwing",
+   "ms": "Pepatung sayap jingga"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "小型蜻蜓。雄蟲很好認：兩對翅從基部起約三分之二是橙紅色，腹部也是橙紅色，胸部黃褐帶不規則黑紋。雌蟲和未成熟雄蟲體色較淺，翅透明，翅痣橙黃色。",
+   "en": "A small dragonfly. The male is easy to spot: about two-thirds of each wing, from the base outward, is orange-red, the abdomen is orange-red too, and the yellowish-brown thorax has irregular black marks. Females and young males are paler, with clear wings and an orange-yellow wing spot.",
+   "ms": "Pepatung kecil. Jantan mudah dikenali: kira-kira dua pertiga setiap sayap, dari pangkal ke luar, berwarna merah jingga, perutnya juga merah jingga, dan dadanya perang kekuningan bercorak hitam tidak sekata. Betina dan jantan muda lebih pucat, sayap jernih dengan bintik sayap jingga kekuningan."
+  },
+  "habits": {
+   "hant": "台江水域中最常見的蜻蜓，出現在各種靜水域，成蟲常在水邊草叢活動。稚蟲能耐鹽分和輕度污染。",
+   "en": "The most common dragonfly on Taijiang's waters, found at all kinds of still water; adults stay around waterside grass. The young can tolerate salt and mild pollution.",
+   "ms": "Pepatung paling biasa di perairan Taijiang, ditemui di pelbagai air tenang; yang dewasa berada di sekitar rumput tepi air. Anaknya tahan air masin dan pencemaran ringan."
+  },
+  "range": {
+   "hant": "廣泛分布於全臺灣海邊至低海拔地區。",
+   "en": "Widespread across Taiwan from the coast to low elevations.",
+   "ms": "Tersebar luas di seluruh Taiwan dari pantai hingga kawasan rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 53,
+  "name": {
+   "hant": "猩紅蜻蜓",
+   "en": "Oriental Scarlet",
+   "ms": "Pepatung merah"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲從頭、複眼、胸部、腳到腹部全身鮮紅，翅基紅色、翅痣黃色，腹部中央有一條黑色縱線。雌蟲全身黃褐色，腹部同樣有黑色縱線；未成熟雄蟲和雌蟲很像。",
+   "en": "The male is bright red all over, from head, eyes and thorax to legs and abdomen, with red wing bases, a yellow wing spot and a black line down the middle of the abdomen. Females are yellowish-brown all over but share the black abdominal line; young males look much like females.",
+   "ms": "Jantan merah terang di seluruh badan, dari kepala, mata dan dada hingga kaki dan perut, dengan pangkal sayap merah, bintik sayap kuning dan garis hitam di tengah perut. Betina perang kekuningan di seluruh badan tetapi juga ada garis hitam pada perut; jantan muda sangat mirip betina."
+  },
+  "habits": {
+   "hant": "數量多、很常見，出現在各種濕地水域。雄蟲停在水邊植物上，常互相追逐爭地盤；雌蟲較常在水邊草地覓食。",
+   "en": "Common and plentiful at all kinds of wetlands. Males perch on waterside plants and often chase each other over territory; females more often feed in grass near the water.",
+   "ms": "Banyak dan biasa di pelbagai tanah lembap. Jantan hinggap pada tumbuhan tepi air dan sering berkejaran merebut kawasan; betina lebih kerap mencari makan di rumput dekat air."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低、中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low and mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras rendah dan sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 54,
+  "name": {
+   "hant": "侏儒蜻蜓",
+   "en": "Blue Percher",
+   "ms": "Pepatung kecil biru kelabu"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "常見的小型蜻蜓。雄蟲複眼藍色，胸部和腹部灰藍色，腹部末端第7至10節黑色，尾端抱握器白色。雌蟲黃褐色，腹部有黑色縱線，中段略帶藍色，尾毛白色。",
+   "en": "A common small dragonfly. The male has blue eyes, a grey-blue thorax and abdomen, black segments 7 to 10 at the tip and white claspers. Females are yellowish-brown with black lines along the abdomen, a bluish tinge in the middle of the abdomen and white tail tips.",
+   "ms": "Pepatung kecil yang biasa. Jantan bermata biru, berdada dan berperut biru kelabu, ruas 7 hingga 10 di hujung hitam dan penyepit putih. Betina perang kekuningan dengan garis hitam memanjang pada perut, kebiruan di tengah perut dan hujung ekor putih."
+  },
+  "habits": {
+   "hant": "常在水邊草地上看到，南部數量較多。雄蟲停在水邊低矮的草上，也常在草地上巡飛；雌蟲則在離水較遠的草叢活動。",
+   "en": "Often seen in grass beside all kinds of wetlands, and more numerous in the south. Males perch on low plants at the water's edge and patrol over grass; females keep to grass farther from water.",
+   "ms": "Sering dilihat di rumput tepi pelbagai tanah lembap, dan lebih banyak di selatan. Jantan hinggap pada tumbuhan rendah di tepi air dan meronda di atas rumput; betina berada di rumput yang lebih jauh dari air."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 55,
+  "name": {
+   "hant": "高翔蜻蜓",
+   "en": "Coastal Glider",
+   "ms": "Pepatung merah pantai"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲頭、胸、腹全為鮮紅色，複眼上紅下灰，最好認的是胸側的W字形黑線；腹部背面有黑色「工」字縱紋，翅基與翅痣黃褐色。雌蟲胸部黃褐、腹部橙黃，其他特徵與雄蟲相似。",
+   "en": "The male's head, thorax and abdomen are bright red and the eyes red above, grey below. The best clue is a black W-shaped line on the side of the thorax; the abdomen has a black stripe along the back shaped like the Chinese character 工, and the wing bases and wing spots are yellowish-brown. Females have a yellowish-brown thorax and orange-yellow abdomen but otherwise look like males.",
+   "ms": "Kepala, dada dan perut jantan merah terang, matanya merah di atas dan kelabu di bawah. Tanda paling jelas ialah garis hitam berbentuk W di sisi dada; perutnya ada jalur hitam di belakang berbentuk aksara Cina 工, dan pangkal sayap serta bintik sayapnya perang kekuningan. Betina berdada perang kekuningan dan berperut jingga kekuningan, selebihnya serupa jantan."
+  },
+  "habits": {
+   "hant": "住在靠近海岸的池塘、湖泊和草澤。雄蟲常停在明顯的高處覓食、佔地盤，也在水面巡飛；雌蟲多在周邊草地覓食。成蟲會群聚，常見大群一起飛舞捕食。",
+   "en": "Lives at ponds, lakes and marshes near the coast. Males perch on high, open spots to hunt and hold territory, and also patrol over the water; females feed mostly in nearby grass. Adults gather in groups, and large swarms can be seen flying and feeding together.",
+   "ms": "Hidup di kolam, tasik dan paya dekat pantai. Jantan hinggap di tempat tinggi yang terbuka untuk memburu dan menjaga kawasan, dan juga meronda di atas air; betina kebanyakannya mencari makan di rumput sekitar. Yang dewasa suka berkumpul, dan kumpulan besar boleh dilihat terbang dan makan bersama."
+  },
+  "range": {
+   "hant": "海邊至低海拔淺山可見，主要分布在西部沿海與澎湖近岸水域，台江國家公園有相當大的族群。",
+   "en": "Seen from the shore to low foothills, mainly in waters along Taiwan's west coast and the Penghu coast, with a sizeable population in Taijiang National Park.",
+   "ms": "Dilihat dari pantai hingga kaki bukit rendah, terutamanya di perairan sepanjang pantai barat Taiwan dan pantai Penghu, dengan populasi yang besar di Taman Negara Taijiang."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 56,
+  "name": {
+   "hant": "杜松蜻蜓",
+   "en": "Slender Skimmer",
+   "ms": "Pepatung hijau ekor ramping"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲複眼墨綠，胸部深淺不一的綠色，側面有六條黑線。腹部前3節膨大、綠底黑紋，第4節以後細長、黑色，末端稍膨大，第4至6節側下方有白斑，抱握器白色。雌雄外觀相似。",
+   "en": "The male has dark green eyes and a green thorax of mixed shades with six black lines on its side. Abdominal segments 1 to 3 are swollen and green with black stripes; from segment 4 the abdomen becomes long, thin and black, widening slightly at the tip, with white marks on the sides and underside of segments 4 to 6 and white claspers. Females look like males.",
+   "ms": "Jantan bermata hijau gelap dan berdada hijau dengan warna terang gelap bercampur, serta enam garis hitam di sisi dada. Ruas 1 hingga 3 perut gembung, hijau berjalur hitam; dari ruas 4 perut menjadi panjang, ramping dan hitam, sedikit mengembang di hujung, dengan tompok putih di sisi dan bawah ruas 4 hingga 6 serta penyepit putih. Betina serupa jantan."
+  },
+  "habits": {
+   "hant": "適應力極強，幾乎任何靜水域都有，也住在溪流緩流處。成蟲兇猛，能捕食和自己差不多大的蜻蜓，常停在樹葉或枝條上；雄蟲常在水池上方巡飛，驅趕其他蜻蜓。",
+   "en": "Extremely adaptable: found at almost any still water and also in slow stretches of streams. Adults are fierce and can catch dragonflies as big as themselves. They often perch on leaves or twigs, and males patrol over ponds driving other dragonflies away.",
+   "ms": "Sangat mudah menyesuaikan diri: ditemui di hampir semua air tenang dan juga di bahagian anak sungai yang alirannya perlahan. Yang dewasa garang dan boleh menangkap pepatung yang sama besar dengannya. Ia sering hinggap pada daun atau ranting, dan jantan meronda di atas kolam menghalau pepatung lain."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至低、中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low and mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras rendah dan sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 57,
+  "name": {
+   "hant": "薄翅蜻蜓",
+   "en": "Wandering Glider",
+   "ms": "Pepatung pengembara"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲複眼上紅褐下灰，臉部前方黃色，胸部黃褐色，翅透明、翅痣褐色。腹部橙黃色，背面中央有黑斑，越靠近尾端黑斑越大。雌雄外觀相似。",
+   "en": "The male has eyes reddish-brown above and grey below, a yellow face and a yellowish-brown thorax, with clear wings and a brown wing spot. The abdomen is orange-yellow with black marks along the middle of the back that grow larger toward the tip. Females look like males.",
+   "ms": "Jantan bermata perang kemerahan di atas dan kelabu di bawah, muka kuning dan dada perang kekuningan, dengan sayap jernih dan bintik sayap perang. Perutnya kuning jingga dengan tompok hitam di tengah belakang yang makin besar ke arah hujung. Betina serupa jantan."
+  },
+  "habits": {
+   "hant": "最常見的蜻蜓，常成群在空曠地上飛行。會飛越海洋遷移，從海面到高山山頂都能見到。成蟲利用各種靜水域，稚蟲適應力強，能耐污染和鹽分。",
+   "en": "The most common dragonfly, often flying in groups over open ground. It migrates across the sea and is found from sea level to high mountain tops. Adults use all kinds of still water, and the hardy young can tolerate pollution and salt.",
+   "ms": "Pepatung paling biasa, sering terbang berkumpulan di kawasan lapang. Ia berhijrah merentas laut dan ditemui dari paras laut hingga puncak gunung tinggi. Yang dewasa menggunakan pelbagai air tenang, dan anaknya yang tahan lasak boleh hidup dalam air tercemar dan masin."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至高海拔山區。",
+   "en": "Common across Taiwan from the lowlands to high mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung tinggi."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 58,
+  "name": {
+   "hant": "彩裳蜻蜓",
+   "en": "Variegated Flutterer",
+   "ms": "Pepatung kupu-kupu"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "翅膀黃色，布滿不規則黑斑，黑斑大小和位置個體差異很大。雄蟲複眼黃褐色，胸部和腹部墨綠色，帶金屬光澤。雌蟲翅上黑斑更多，前翅翅尖透明。",
+   "en": "The wings are yellow and covered in irregular black patches, whose size and pattern vary a lot between individuals. The male has yellowish-brown eyes and a dark green, metallic-shining thorax and abdomen. Females have more black on the wings and clear tips to the front wings.",
+   "ms": "Sayapnya kuning dan penuh tompok hitam tidak sekata, yang saiz dan susunannya sangat berbeza antara individu. Jantan bermata perang kekuningan, berdada dan berperut hijau gelap berkilat seperti logam. Betina ada lebih banyak hitam pada sayap dan hujung sayap depan yang jernih."
+  },
+  "habits": {
+   "hant": "住在水質乾淨的靜水域。飛得慢，姿態像蝴蝶，所以有「蝴蝶蜻蜓」之稱，成蟲常成群活動。雄蟲喜歡停在植物高處，常在水邊樹上守衛。",
+   "en": "Lives at clean still water. It flies slowly, fluttering like a butterfly, hence the nickname butterfly dragonfly, and adults often gather in groups. Males like to perch high on plants and often stand guard in trees by the water.",
+   "ms": "Hidup di air tenang yang bersih. Ia terbang perlahan dan berkibar seperti kupu-kupu, sebab itu digelar pepatung kupu-kupu, dan yang dewasa sering berkumpul. Jantan suka hinggap di tempat tinggi pada tumbuhan dan sering berkawal di pokok tepi air."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 59,
+  "name": {
+   "hant": "夜遊蜻蜓",
+   "en": "Evening Skimmer",
+   "ms": "Pepatung senja merah"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲頭、胸、腹紅色，複眼上紅下黃；後翅中央內側有一大塊褐斑，緊鄰外側還有一大塊白斑。雌蟲黃褐色，後翅只有褐斑、沒有白斑；未成熟雄蟲除了白斑外與雌蟲相似。",
+   "en": "The male has a red head, thorax and abdomen, and eyes red above, yellow below. Each hind wing has a large brown patch near the middle on the inner side, with a large white patch right beside it on the outer side. Females are yellowish-brown and have the brown patch but no white patch; young males look like females apart from the white patch.",
+   "ms": "Jantan berkepala, berdada dan berperut merah, mata merah di atas dan kuning di bawah. Setiap sayap belakang ada tompok perang besar dekat tengah di sebelah dalam, dengan tompok putih besar betul-betul di sebelahnya di sebelah luar. Betina perang kekuningan dan ada tompok perang tetapi tiada tompok putih; jantan muda mirip betina kecuali ada tompok putih."
+  },
+  "habits": {
+   "hant": "出現在各種靜水域，成蟲到黃昏才出來活動，沿著岸邊植物巡飛。飛得快，會在定點盤旋後突然快速移位，不容易觀察。",
+   "en": "Found at all kinds of still water. Adults only come out at dusk, patrolling along waterside plants. They fly fast, hovering on the spot and then darting off, so they are hard to observe.",
+   "ms": "Ditemui di pelbagai air tenang. Yang dewasa hanya keluar waktu senja, meronda di sepanjang tumbuhan di tebing. Ia terbang laju, berlegar di satu tempat kemudian meluru pergi, jadi sukar diperhati."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 60,
+  "name": {
+   "hant": "海霸蜻蜓(微斑亞種)",
+   "en": "Ocean Glider",
+   "ms": "Pepatung pangkal sayap perang"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "雄蟲複眼紅褐色，前額帶紫色金屬光澤，胸部褐色；翅透明、翅脈褐色，後翅基部有褐斑。腹部紅色，末端第8至10節黑色。雌蟲斑紋與雄蟲相似，但全身黃褐色。",
+   "en": "The male has reddish-brown eyes, a forehead with a purple metallic sheen and a brown thorax. The wings are clear with brown veins, and the hind wings have a brown patch at the base. The abdomen is red with black segments 8 to 10 at the tip. Females share the pattern but are yellowish-brown all over.",
+   "ms": "Jantan bermata perang kemerahan, dahi berkilat ungu seperti logam dan dada perang. Sayapnya jernih dengan urat perang, dan sayap belakang ada tompok perang di pangkal. Perutnya merah dengan ruas 8 hingga 10 di hujung berwarna hitam. Betina sama coraknya tetapi perang kekuningan di seluruh badan."
+  },
+  "habits": {
+   "hant": "住在靜水域。雄蟲在水面上空巡飛，常停在水邊較高的樹枝上。飛得快、停得高，觀察較為困難。",
+   "en": "Lives at still water. Males patrol over the water and often perch on high branches nearby. Fast-flying and perching high, it is fairly hard to observe.",
+   "ms": "Hidup di air tenang. Jantan meronda di atas air dan sering hinggap pada dahan tinggi berdekatan. Kerana terbang laju dan hinggap tinggi, ia agak sukar diperhati."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至中海拔山區。",
+   "en": "Common across Taiwan from the lowlands to mid-elevation mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung paras sederhana."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 61,
+  "name": {
+   "hant": "纖腰蜻蜓",
+   "en": "Dingy Dusk-darter",
+   "ms": "Pepatung senja pinggang ramping"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "最大特徵是極纖細的腹部：前3節膨大，其餘各節非常細。雄蟲複眼大、綠色，胸部深褐色，翅透明至淡褐色、翅基深褐，腹部黑褐色。雌蟲體色較淺，腹部較粗短。",
+   "en": "Its key feature is an extremely slender abdomen: segments 1 to 3 are swollen and the rest are very thin. The male has large green eyes, a dark brown thorax, clear to pale brown wings with dark brown bases, and a blackish-brown abdomen. Females are paler with a shorter, thicker abdomen.",
+   "ms": "Ciri utamanya perut yang sangat ramping: ruas 1 hingga 3 gembung dan ruas lain sangat halus. Jantan bermata besar dan hijau, dada perang gelap, sayap jernih hingga perang muda dengan pangkal perang gelap, dan perut perang kehitaman. Betina lebih pucat dengan perut yang lebih pendek dan tebal."
+  },
+  "habits": {
+   "hant": "適應力強，池塘、草澤、山溝和受潮汐影響的水域都有。雄蟲黃昏才活動，飛得快、體色暗，很難觀察；雌蟲常在水邊密林中，習性像森林型蜻蜓。",
+   "en": "Adaptable, living at ponds, marshes, gullies and tidal waters. Males are active at dusk; being fast and dull-coloured, they are very hard to see. Females often stay in dense woods near water, behaving like a forest dragonfly.",
+   "ms": "Mudah menyesuaikan diri, hidup di kolam, paya, alur bukit dan perairan pasang surut. Jantan aktif waktu senja; kerana laju dan warnanya kusam, ia sangat sukar dilihat. Betina sering berada di hutan tebal dekat air, berkelakuan seperti pepatung hutan."
+  },
+  "range": {
+   "hant": "普遍分布於全臺平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 63,
+  "name": {
+   "hant": "長頭蝗屬",
+   "en": "Long-headed Grasshopper",
+   "ms": "Belalang kepala panjang"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "頭部細長呈三角錐形，兩側各有一條黃褐色稜線，觸角短而扁、像長劍。體色多為綠色或褐色，變化大，體側常有褐斑，後腳粗壯細長。雌蟲約70-85 mm，明顯比雄蟲大。",
+   "en": "The head is long and narrow, shaped like a pointed cone, with a yellowish-brown ridge along each side, and the antennae are short and flat like sword blades. Colour is mostly green or brown and very variable, often with brown marks on the sides, and the hind legs are long and strong. Females reach about 70 to 85 mm, clearly larger than males.",
+   "ms": "Kepalanya panjang dan sempit, berbentuk kon tajam, dengan rabung perang kekuningan di setiap sisi, dan sesungutnya pendek dan leper seperti bilah pedang. Warnanya kebanyakan hijau atau perang dan sangat berubah-ubah, selalunya ada tompok perang di sisi badan, dan kaki belakangnya panjang dan kuat. Betina kira-kira 70 hingga 85 mm, jelas lebih besar daripada jantan."
+  },
+  "habits": {
+   "hant": "主要吃禾本科的草，在草地上十分常見，把卵產在沙土中。飛行時後腳和前翅摩擦，會發出「答、答」聲。目前資料不足，暫以屬名表示。",
+   "en": "Feeds mainly on grasses and is very common in grassland; eggs are laid in sandy soil. In flight the hind legs rub against the front wings, making a clicking 'da-da' sound. The exact species is not yet confirmed, so it is listed by genus.",
+   "ms": "Makan terutamanya rumput dan sangat biasa di padang rumput; telur diletakkan dalam tanah berpasir. Semasa terbang, kaki belakangnya bergesel dengan sayap depan dan berbunyi 'tak-tak'. Spesiesnya belum dipastikan, jadi ia disenaraikan mengikut genus."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 64,
+  "name": {
+   "hant": "斑蝗",
+   "en": "Slender Green-winged Grasshopper",
+   "ms": "Belalang bertompok"
+  },
+  "en_name_source": "common",
+  "id": {
+   "hant": "體色多變，多為淺褐色，有些帶大片綠、紅或深褐斑。眼後到胸背常有一片深色斑，胸背中央另有一塊異色斑；前翅末端有大片黑斑，後腳脛節常帶紅色或藍色斑紋。雌蟲較大。",
+   "en": "Colour varies but is mostly light brown; some have large green, red or dark brown patches. A dark patch often runs from behind the eye onto the back of the thorax, which also has a differently coloured patch in the middle. The front wings have a large black area at the tip, and the hind shins often show red or blue marks. Females are larger.",
+   "ms": "Warnanya berubah-ubah tetapi kebanyakannya perang muda; ada yang bertompok besar hijau, merah atau perang gelap. Tompok gelap selalunya bermula dari belakang mata hingga ke belakang dada, yang juga ada tompok berlainan warna di tengah. Sayap depan ada kawasan hitam yang besar di hujung, dan betis kaki belakang selalunya bertanda merah atau biru. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，住在開闊的草地上。警覺性很高，一受驚擾就迅速飛走。",
+   "en": "Eats many kinds of plants and lives in open grassland. Very alert, it flies off quickly when disturbed.",
+   "ms": "Makan pelbagai tumbuhan dan hidup di padang rumput terbuka. Sangat berwaspada dan cepat terbang apabila diganggu."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 65,
+  "name": {
+   "hant": "臺灣大蝗",
+   "en": "Large Green Grasshopper",
+   "ms": "Belalang hijau besar"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "臺灣體型最大的蝗蟲，雌蟲約75-85 mm。全身綠色，複眼下方臉頰有一條黃綠色條紋，觸角黃綠色；各腳脛節外側紅色，後腳脛節上的刺非常發達。",
+   "en": "Taiwan's largest grasshopper; females reach about 75 to 85 mm. It is green all over, with a yellow-green stripe on the cheek below the eye and yellow-green antennae. The outer side of every shin is red, and the hind shins carry strong spines.",
+   "ms": "Belalang terbesar di Taiwan; betina boleh mencapai kira-kira 75 hingga 85 mm. Seluruh badannya hijau, dengan jalur hijau kekuningan pada pipi di bawah mata dan sesungut hijau kekuningan. Bahagian luar setiap betis berwarna merah, dan betis kaki belakang ada duri yang kuat."
+  },
+  "habits": {
+   "hant": "吃各種植物。成蟲在夏末出現，南部可一直見到冬天；冬季常在道路上看到成蟲曬太陽。",
+   "en": "Eats many kinds of plants. Adults appear in late summer and, in the south, can be seen into winter, when they are often found sunbathing on roads.",
+   "ms": "Makan pelbagai tumbuhan. Yang dewasa muncul pada akhir musim panas dan, di selatan, boleh dilihat hingga musim sejuk, ketika ia sering berjemur di atas jalan."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區；名稱雖有「臺灣」，其實廣布於印度、東南亞和東亞，並非臺灣特有種。",
+   "en": "Common across Taiwan from the lowlands to low mountains; despite the 'Taiwan' in its Chinese name, it is not unique to Taiwan but ranges widely across India, Southeast Asia and East Asia.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah; walaupun nama Cinanya ada perkataan 'Taiwan', ia bukan hanya terdapat di Taiwan tetapi tersebar luas di India, Asia Tenggara dan Asia Timur."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 66,
+  "name": {
+   "hant": "赤脛異距蝗",
+   "en": "Red-shanked grasshopper",
+   "ms": "Belalang betis merah"
+  },
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體色多變，以深褐色為主，夾雜淺灰、灰和褐色斑點。觸角長，後腳大腿內側和脛節橙紅色，前翅末端有大塊黑斑；翅超出後腳大腿的部分比胸背還長。雌蟲較大。",
+   "en": "Colour varies but is mainly dark brown, speckled with pale grey, grey and brown. The antennae are long, the inner side of the hind thighs and the hind shins are orange-red, and the front wings have a large black patch at the tip. The part of the wings reaching past the hind thighs is longer than the back of the thorax. Females are larger.",
+   "ms": "Warnanya berubah-ubah tetapi kebanyakannya perang gelap, berbintik kelabu pucat, kelabu dan perang. Sesungutnya panjang, bahagian dalam paha belakang dan betis belakang merah jingga, dan sayap depan ada tompok hitam besar di hujung. Bahagian sayap yang melepasi paha belakang lebih panjang daripada belakang dada. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，常出現在荒地。反應機敏、保護色極佳，往往要走過去驚動牠飛起，才會發現。",
+   "en": "Eats many kinds of plants and is often found on waste ground. Quick to react and well camouflaged, it is usually noticed only after you walk past and startle it.",
+   "ms": "Makan pelbagai tumbuhan dan sering ditemui di tanah terbiar. Pantas bertindak dan pandai menyamar, ia biasanya hanya kelihatan selepas anda lalu dan mengejutkannya."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 67,
+  "name": {
+   "hant": "小稻蝗",
+   "en": "Small Rice Grasshopper",
+   "ms": "Belalang padi kecil"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "身體以綠色為主，兩側各有一條黑色寬縱帶，與翅上的黑色部分相連；頭頂、胸背到翅背連成一條赤褐色帶，整體分成赤褐、黑、綠三種顏色。雌蟲較大，雄蟲觸角較長。",
+   "en": "Mainly green, with a broad black stripe along each side that joins the black part of the wings. A reddish-brown band runs from the top of the head along the back of the thorax and onto the wings, so the body looks divided into reddish-brown, black and green zones. Females are larger; males have longer antennae.",
+   "ms": "Kebanyakannya hijau, dengan jalur hitam lebar di setiap sisi yang bersambung dengan bahagian hitam sayap. Jalur perang kemerahan berjalan dari atas kepala, sepanjang belakang dada hingga ke sayap, jadi badannya kelihatan terbahagi kepada warna perang kemerahan, hitam dan hijau. Betina lebih besar; jantan bersesungut lebih panjang."
+  },
+  "habits": {
+   "hant": "以禾本科植物為主食，會危害水稻、甘蔗、玉米、高粱、麥、甘藷和豆類等作物。一年兩代，常成群出現；日治時期是水稻重要害蟲，現在危害較小。",
+   "en": "Feeds mainly on grasses and can damage crops such as rice, sugarcane, maize, sorghum, wheat, sweet potato and beans. It has two generations a year and often appears in groups. Once a major rice pest in the Japanese colonial era, it causes less damage today.",
+   "ms": "Makan terutamanya rumput dan boleh merosakkan tanaman seperti padi, tebu, jagung, sorgum, gandum, ubi keledek dan kekacang. Ia ada dua generasi setahun dan sering muncul berkumpulan. Dahulu perosak padi yang penting pada zaman penjajahan Jepun, kini kerosakannya lebih kecil."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 68,
+  "name": {
+   "hant": "白條細蝗",
+   "en": "White-striped slender grasshopper",
+   "ms": "Belalang jalur putih"
+  },
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體色以赤褐色為主，後胸側面有一條白色斜紋，是中文名的由來。從複眼到胸背側面有一條黑色寬帶；後腳大腿內側與脛節偏紅，翅灰色。雌蟲較大。",
+   "en": "Mainly reddish-brown, with a white slanting stripe on the side of the rear thorax, which gives it its Chinese name. A broad black band runs from the eye along the side of the thorax. The inner hind thighs and the shins are reddish, and the wings are grey. Females are larger.",
+   "ms": "Kebanyakannya perang kemerahan, dengan jalur putih serong di sisi dada belakang, asal nama Cinanya. Jalur hitam lebar bermula dari mata di sepanjang sisi dada. Bahagian dalam paha belakang dan betis kemerahan, dan sayapnya kelabu. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，常在荒草地中活動，生性機敏。",
+   "en": "Eats many kinds of plants and is usually found on weedy waste ground; it is alert and quick.",
+   "ms": "Makan pelbagai tumbuhan dan biasanya ditemui di tanah terbiar yang berumput; ia berwaspada dan pantas."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 69,
+  "name": {
+   "hant": "疣蝗",
+   "en": "Band-winged grasshopper",
+   "ms": "Belalang berbintil"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "灰褐色夾雜黑、灰斑紋，偽裝效果很好。頭頂和胸背有許多小突起，體側長有絨毛。前翅暗褐色、翅端黑色，後腳大腿外側有寬大黑斑。雌蟲較大。",
+   "en": "Grey-brown mixed with black and grey markings, giving excellent camouflage. The top of the head and the back of the thorax are covered in small bumps, and the sides of the body are hairy. The front wings are dark brown with black tips, and the outer side of each hind thigh has a broad black patch. Females are larger.",
+   "ms": "Perang kelabu bercampur corak hitam dan kelabu, menjadikannya pandai menyamar. Atas kepala dan belakang dada penuh bintil kecil, dan sisi badannya berbulu halus. Sayap depan perang gelap dengan hujung hitam, dan bahagian luar setiap paha belakang ada tompok hitam lebar. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，喜歡較乾燥的荒地。受到驚擾時會先靜止不動，不會馬上飛走。",
+   "en": "Eats many kinds of plants and prefers fairly dry waste ground. When disturbed it first freezes instead of flying off at once.",
+   "ms": "Makan pelbagai tumbuhan dan suka tanah terbiar yang agak kering. Apabila diganggu, ia diam tidak bergerak dahulu dan tidak terus terbang."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 70,
+  "name": {
+   "hant": "短角外斑腿蝗",
+   "en": "Short-horned banded-leg grasshopper",
+   "ms": "Belalang paha berbelang"
+  },
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "黃褐至深褐色，胸背與翅背的顏色通常和身體略有不同，後胸側面有一條淺色斜紋。最好認的是後腳大腿上三條平行的淺色大斑；大腿內側與脛節橙紅色。雌蟲較大。",
+   "en": "Yellowish-brown to dark brown, with the back of the thorax and the top of the wings usually a slightly different shade from the body, and a pale slanting stripe on the side of the rear thorax. The best clue is three large, parallel pale bands on each hind thigh; the inner thigh and the shin are orange-red. Females are larger.",
+   "ms": "Perang kekuningan hingga perang gelap, dengan belakang dada dan bahagian atas sayap biasanya sedikit berlainan warna daripada badan, dan jalur pucat serong di sisi dada belakang. Tanda paling mudah ialah tiga jalur pucat besar yang selari pada setiap paha belakang; bahagian dalam paha dan betis merah jingga. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，常在草地活動，是台江國家公園最常見的蝗蟲之一。",
+   "en": "Eats many kinds of plants, lives in grassland and is one of the most common grasshoppers in Taijiang National Park.",
+   "ms": "Makan pelbagai tumbuhan, hidup di padang rumput dan merupakan salah satu belalang paling biasa di Taman Negara Taijiang."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 71,
+  "name": {
+   "hant": "臺灣負蝗",
+   "en": "Pinkwinged Grasshopper",
+   "ms": "Belalang sayap merah jambu"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "頭部尖、呈三角錐形，觸角長在頭的尖端。體色從全綠到紅褐都有，頭和身體側緣常有淺色顆粒狀小點。後翅基部紅色，往外漸淡成粉紅至透明，是英文名的由來。雌蟲較大。",
+   "en": "The head is pointed like a cone, with the antennae set at the very tip. Colour ranges from all green to reddish-brown, often with small, pale, grain-like dots along the edges of the head and body. The hind wings are red at the base, fading outward to pink and then clear, which gives it its English name. Females are larger.",
+   "ms": "Kepalanya tirus seperti kon, dengan sesungut terletak di hujungnya. Warnanya dari hijau sepenuhnya hingga perang kemerahan, selalunya ada bintik kecil pucat seperti butiran di tepi kepala dan badan. Sayap belakang merah di pangkal dan makin pudar ke luar menjadi merah jambu lalu jernih, asal nama Inggerisnya. Betina lebih besar."
+  },
+  "habits": {
+   "hant": "吃各種植物，是最常見的蝗蟲之一，生性機敏，善於跳躍。",
+   "en": "Eats many kinds of plants and is one of the most common grasshoppers; alert and a strong jumper.",
+   "ms": "Makan pelbagai tumbuhan dan merupakan salah satu belalang paling biasa; berwaspada dan pandai melompat."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區；名稱雖有「臺灣」，但並非臺灣特有種。",
+   "en": "Common across Taiwan from the lowlands to low mountains; despite the 'Taiwan' in its Chinese name, it is not found only in Taiwan.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah; walaupun nama Cinanya ada perkataan 'Taiwan', ia bukan hanya terdapat di Taiwan."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 72,
+  "name": {
+   "hant": "日本蚤蝗",
+   "en": "Pigmy Mole Cricket",
+   "ms": "Belalang kutu"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "體型極小，以黑色為主，複眼偏褐，上方有白色眉狀斑。胸背兩側有大塊白斑，前翅和腳上有小白點，後腳發達。外形很像螻蛄，但其實和蝗蟲較接近，因此中文改稱「蚤蝗」。",
+   "en": "Tiny and mostly black, with brownish eyes topped by white eyebrow-like marks. The back of the thorax has large white patches on both sides, the front wings and legs have small white spots, and the hind legs are strong. It looks like a mole cricket but is actually closer to grasshoppers, so its Chinese name was changed to flea grasshopper.",
+   "ms": "Sangat kecil dan kebanyakannya hitam, dengan mata keperangan yang ada tanda putih seperti kening di atasnya. Belakang dada ada tompok putih besar di kedua-dua sisi, sayap depan dan kaki ada bintik putih kecil, dan kaki belakangnya kuat. Rupanya seperti anjing tanah tetapi sebenarnya lebih dekat dengan belalang, jadi nama Cinanya ditukar kepada 'belalang kutu'."
+  },
+  "habits": {
+   "hant": "吃各種植物，會挖洞躲藏或啃食植物根部。多住在潮濕、落葉多的土中，菜園、河岸泥灘、海灘沙地和海岸濕地都能找到，常成群活動。體型極小又善跳，不易觀察。",
+   "en": "Eats plants, digging burrows to hide in and nibbling roots. It lives in damp soil rich in fallen leaves and can be found in vegetable gardens, muddy riverbanks, sandy beaches and coastal wetlands, often in groups. Being tiny and a good jumper, it is hard to observe.",
+   "ms": "Makan tumbuhan, menggali lubang untuk bersembunyi dan menggigit akar. Ia hidup dalam tanah lembap yang banyak daun gugur dan boleh ditemui di kebun sayur, tebing sungai berlumpur, pantai berpasir dan tanah lembap pantai, selalunya berkumpulan. Kerana sangat kecil dan pandai melompat, ia sukar diperhati."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 73,
+  "name": {
+   "hant": "石首棺頭蟋蟀",
+   "en": "Coffin-headed cricket",
+   "ms": "Cengkerik kepala keranda"
+  },
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體色黑褐色。雄蟲頭部前緣向前突出，前額扁平像棺木，上面有一條淺色斑紋；頭頂與胸背交界處有數條淺褐色斑紋。雌蟲頭部沒有明顯突出。",
+   "en": "Blackish-brown. The male's face juts forward into a flat forehead shaped like a coffin, crossed by a pale stripe, and there are several light brown streaks where the head meets the thorax. The female's head does not clearly jut out.",
+   "ms": "Perang kehitaman. Muka jantan menjorok ke depan menjadi dahi leper seperti keranda, dengan satu jalur pucat, dan ada beberapa coretan perang muda di tempat kepala bertemu dada. Kepala betina tidak jelas menjorok."
+  },
+  "habits": {
+   "hant": "吃各種植物的根、莖、葉，常躲在草叢和落葉間，會被燈光吸引。",
+   "en": "Feeds on the roots, stems and leaves of many plants and lives among grass and fallen leaves. It is attracted to lights.",
+   "ms": "Makan akar, batang dan daun pelbagai tumbuhan, dan hidup di celah rumput dan daun gugur. Ia tertarik kepada cahaya lampu."
+  },
+  "range": {
+   "hant": "台灣全島的低地林緣到低海拔山區都很普遍。",
+   "en": "Common across Taiwan, from lowland forest edges to low mountains.",
+   "ms": "Biasa di seluruh Taiwan, dari pinggir hutan tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 74,
+  "name": {
+   "hant": "臺灣大蟋蟀",
+   "en": "Taiwan Giant Cricket",
+   "ms": "Cengkerik besar"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "臺灣最大的蟋蟀，身體粗壯，以赤褐色為主。胸背中央深褐、兩側黃褐，中間有一條黃褐色線；翅黑褐色，越往外越偏黃褐，各腳黃褐色。",
+   "en": "Taiwan's largest cricket, stout and mainly reddish-brown. The back of the thorax is dark brown in the middle and yellowish-brown at the sides, with a yellowish-brown centre line. The wings are blackish-brown, turning yellowish-brown toward the edges, and the legs are yellowish-brown.",
+   "ms": "Cengkerik terbesar di Taiwan, tegap dan kebanyakannya perang kemerahan. Belakang dadanya perang gelap di tengah dan perang kekuningan di tepi, dengan garis tengah perang kekuningan. Sayapnya perang kehitaman, makin kekuningan ke arah tepi, dan kakinya perang kekuningan."
+  },
+  "habits": {
+   "hant": "在沙質農地或荒地挖地道居住，白天躲在洞裡，晚上出來覓食、求偶，會被燈光吸引。啃食植物根莖葉，常危害葉菜。是傳統「灌土猴」活動的主角，過去也是重要的蛋白質來源。",
+   "en": "Digs tunnels in sandy farmland or waste ground, hiding in its burrow by day and coming out at night to feed and find a mate. It eats roots, stems and leaves, often damages leafy vegetables, and is attracted to lights. It is the star of the traditional Taiwanese pastime of flooding burrows to catch crickets, and was once an important source of protein.",
+   "ms": "Menggali terowong di tanah ladang berpasir atau tanah terbiar, bersembunyi dalam lubang pada siang hari dan keluar pada waktu malam untuk makan dan mencari pasangan. Ia makan akar, batang dan daun, sering merosakkan sayur berdaun, dan tertarik kepada cahaya lampu. Ia watak utama dalam aktiviti tradisi Taiwan menuang air ke dalam lubang untuk menangkap cengkerik, dan dahulu menjadi sumber protein yang penting."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ },
+ {
+  "page": 75,
+  "name": {
+   "hant": "東方螻蛄",
+   "en": "Oriental Mole Cricket",
+   "ms": "Anjing tanah timur"
+  },
+  "en_name_source": "book",
+  "id": {
+   "hant": "最大特徵是前腳：腿節粗大像釘耙，專門用來挖土。身體赤褐色，頭小，胸背發達，背面有V字紋，前翅比後翅短。",
+   "en": "Its front legs are the giveaway: thick and rake-like, built for digging. The body is reddish-brown with a small head and a large thorax marked with a V on top; the front wings are shorter than the hind wings.",
+   "ms": "Kaki depannya tanda paling jelas: tebal seperti penggaru, khas untuk menggali. Badannya perang kemerahan dengan kepala kecil dan dada besar bertanda V di atas; sayap depan lebih pendek daripada sayap belakang."
+  },
+  "habits": {
+   "hant": "什麼都吃，會啃食植物根莖、幼苗、種子，連土中的蚯蚓也吃。擅長疾走、挖土和飛行，平時躲在地底，傍晚才到地面活動；趨光性強，常飛到路燈周圍。",
+   "en": "Eats almost anything: roots, seedlings, seeds and even earthworms in the soil. It runs, digs and flies well, usually stays underground and comes up in the evening; strongly drawn to light, it often flies to street lamps.",
+   "ms": "Makan hampir apa sahaja: akar, anak benih, biji benih malah cacing tanah. Ia pandai berlari, menggali dan terbang, biasanya berada di bawah tanah dan naik ke permukaan pada waktu petang; sangat tertarik kepada cahaya, ia sering terbang ke lampu jalan."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣全島平地至低海拔山區。",
+   "en": "Common across Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa di seluruh Taiwan dari tanah rendah hingga gunung rendah."
+  },
+  "alias": {
+   "hant": "",
+   "en": "",
+   "ms": ""
+  }
+ }
+]

@@ -1,0 +1,386 @@
+{
+  "park": {
+    "title": {"hant": "台江國家公園", "en": "Taijiang National Park", "ms": "Taman Negara Taijiang"},
+    "body": {
+      "hant": "台江國家公園位於臺南，是臺灣第一座濕地型國家公園，有海岸沙灘、泥灘、草澤水塘、紅樹林、防風林和廢棄魚塭等多種環境。這裡雖然長期有人墾殖和養殖，卻仍保留大片次生林、荒地和少受干擾的水塘。對體型嬌小的昆蟲來說，這裡的每一寸土地都可能是家。",
+      "en": "Taijiang National Park in Tainan is Taiwan's first wetland national park, with sandy beaches, mudflats, marshes and ponds, mangroves, windbreak forests and old fish ponds. People have farmed and fished here for a long time, yet large patches of young forest, wasteland and quiet ponds remain. For small insects, every corner here can be a home.",
+      "ms": "Taman Negara Taijiang di Tainan ialah taman negara tanah bencah yang pertama di Taiwan, dengan pantai berpasir, dataran lumpur, paya dan kolam, paya bakau, hutan penahan angin serta kolam ikan terbiar. Walaupun manusia sudah lama bertani dan menternak ikan di sini, masih banyak hutan sekunder, tanah terbiar dan kolam yang tenang. Bagi serangga kecil, setiap sudut di sini boleh menjadi rumah."
+    }
+  },
+  "history": {
+    "title": {"hant": "台江昆蟲小歷史", "en": "A short insect history", "ms": "Sejarah ringkas serangga Taijiang"},
+    "body": {
+      "hant": "1857 年，英國動物學家史溫侯（Robert Swinhoe）在國聖港（今七股三股村一帶）看見虎甲蟲捕食蛾，這很可能是台江昆蟲生態最早的紀錄。1905–1916 年間，德國標本商人漢斯．紹德（Hans Sauter）僱用並訓練許多採集人，在安平採到大量標本，是台江昆蟲調查的先驅。沿海平地的昆蟲過去常被認為單調貧乏，其實相當特殊，而且很容易受到干擾。",
+      "en": "In 1857 the British zoologist Robert Swinhoe saw tiger beetles hunting moths at Guosheng Harbour (near today's Sangu Village, Qigu) — probably the earliest record of insect life in Taijiang. From 1905 to 1916, the German specimen dealer Hans Sauter hired and trained many collectors, who gathered large numbers of specimens at Anping. Coastal lowland insects were long thought dull and few, but they are in fact distinctive and easily disturbed.",
+      "ms": "Pada tahun 1857, ahli zoologi British Robert Swinhoe melihat kumbang harimau memburu kupu-kupu di Pelabuhan Guosheng (kini sekitar Kampung Sangu, Qigu) — mungkin catatan terawal tentang kehidupan serangga di Taijiang. Antara tahun 1905 dan 1916, peniaga spesimen Jerman Hans Sauter mengupah dan melatih ramai pengumpul, yang mengumpul banyak spesimen di Anping. Serangga di tanah rendah pesisir lama dianggap membosankan dan sedikit, tetapi sebenarnya istimewa dan mudah terganggu."
+    }
+  },
+  "habitats": [
+    {
+      "key": "windbreak",
+      "title": {"hant": "防風林", "en": "Windbreak forest", "ms": "Hutan penahan angin"},
+      "body": {
+        "hant": "防風林分布在網仔寮汕、頂頭額汕、新浮崙汕北側，以及曾文溪口到鹽水溪口的海邊。主要樹種是木麻黃和欖仁，林緣和林下長滿草本植物與灌木，林間還藏著許多水塘。這裡的小環境最多樣，是昆蟲種類最豐富的棲地。",
+        "en": "Windbreak forests stand on the north side of the Wangzailiao, Dingtou'e and Xinfulun sandbars, and along the shore from the Zengwen River mouth to the Yanshui River mouth. The main trees are casuarina and Indian almond, with herbs and shrubs at the edges and underneath, and many ponds hidden among the trees. With so many small hiding places, this is the richest habitat in the park for insects.",
+        "ms": "Hutan penahan angin terletak di sebelah utara beting pasir Wangzailiao, Dingtou'e dan Xinfulun, serta di sepanjang pantai dari muara Sungai Zengwen hingga muara Sungai Yanshui. Pokok utamanya ialah pokok ru dan ketapang, dengan herba dan pokok renek di pinggir dan di bawah hutan, serta banyak kolam tersembunyi di celah pokok. Dengan begitu banyak tempat tinggal kecil, inilah habitat yang paling kaya dengan jenis serangga."
+      },
+      "typical": {
+        "hant": "林緣明亮處有鳳蝶、粉蝶、小灰蝶、弄蝶和蜂類訪花，林蔭下有蛺蝶，水塘邊有蜻蜓、豆娘、水黽和龍蝨，落葉間有擬步行蟲、叩頭蟲和金龜子，還有螳螂、獵椿象、瓢蟲等捕食者。",
+        "en": "Swallowtails, whites, blues, skippers and bees visit flowers at the sunny edges, brush-footed butterflies rest in the shade, dragonflies, damselflies, water striders and diving beetles use the ponds, darkling beetles, click beetles and scarabs live in the leaf litter, and mantises, assassin bugs and ladybirds hunt them all.",
+        "ms": "Rama-rama ekor layang-layang, rama-rama putih, rama-rama biru kecil, rama-rama pelompat dan lebah melawat bunga di pinggir hutan yang terang, rama-rama kaki berus berehat di tempat teduh, pepatung, pepatung jarum, peluncur air dan kumbang penyelam menghuni kolam, kumbang gelap, kumbang ketik dan kumbang skarab hidup dalam sampah daun, manakala belalang sembah, pepijat pembunuh dan kumbang kura-kura memburu mangsa."
+      }
+    },
+    {
+      "key": "mangrove",
+      "title": {"hant": "紅樹林", "en": "Mangrove", "ms": "Paya bakau"},
+      "body": {
+        "hant": "紅樹林生長在感潮溝、河口和魚塭四周，較大片的有海寮紅樹林區、城西濕地景觀區、四草紅樹林保護區和鹽水溪河口。主要樹種是海茄苳、欖李、五梨跤和少量水筆仔。茂密的林蔭是蚊、蠅、蝶、蛾停歇的庇護所，也是水棲和葉棲昆蟲的家。",
+        "en": "Mangroves grow along tidal creeks, river mouths and around fish ponds; the largest stands are the Hailiao Mangrove Area, Chengxi Wetland Scenic Area, Sicao Mangrove Reserve and the Yanshui River mouth. The main trees are grey mangrove (Avicennia), Lumnitzera, Rhizophora and a little Kandelia. Their thick shade shelters resting mosquitoes, flies, butterflies and moths, and gives homes to water- and leaf-dwelling insects.",
+        "ms": "Paya bakau tumbuh di sepanjang alur pasang surut, muara sungai dan di sekeliling kolam ikan; kawasan terbesar ialah Kawasan Paya Bakau Hailiao, Kawasan Pemandangan Tanah Bencah Chengxi, Rizab Paya Bakau Sicao dan muara Sungai Yanshui. Pokok utamanya ialah api-api, teruntum, bakau (Rhizophora) dan sedikit Kandelia. Rimbunannya menjadi tempat berlindung nyamuk, lalat, rama-rama dan kupu-kupu, serta rumah bagi serangga air dan serangga daun."
+      },
+      "typical": {
+        "hant": "紅樹本身養活一些蛾、椿象、葉蟬和介殼蟲，葉蟬和介殼蟲分泌的蜜露會引來螞蟻；最特別的是感潮溝裡的黃斑海黽，牠是極少數能在這麼鹹的水中生活的昆蟲。",
+        "en": "Some moths, stink bugs, leafhoppers and scale insects feed on the mangroves, and ants come to share the sweet honeydew of the leafhoppers and scale insects; the star is the yellow-spotted sea skater of the tidal creeks, one of very few insects that can live in such salty water.",
+        "ms": "Sesetengah kupu-kupu, pepijat busuk, bena daun dan koya memakan pokok bakau, dan semut datang untuk berkongsi embun madu yang dirembeskan oleh bena daun dan koya; yang paling istimewa ialah peluncur laut bertompok kuning di alur pasang surut, antara sangat sedikit serangga yang boleh hidup dalam air semasin itu."
+      }
+    },
+    {
+      "key": "wetgrass",
+      "title": {"hant": "濕草地", "en": "Wet grassland", "ms": "Padang rumput basah"},
+      "body": {
+        "hant": "台江是「濕地型」國家公園，有曾文溪口、四草、七股鹽田和鹽水溪口四處重要濕地。除了大片泥灘，還有許多草澤和廢棄魚塭，長滿藻類、蘆葦和海雀稗等半水生植物。濕草地也是水鳥覓食和繁殖的地方，是台江最重要的棲地。",
+        "en": "Taijiang is a wetland national park with four important wetlands: the Zengwen River mouth, Sicao, the Qigu salt pans and the Yanshui River mouth. Besides the large mudflats, there are many marshes and abandoned fish ponds full of algae, reeds, seashore paspalum and other half-aquatic plants. These wet grasslands also feed and shelter waterbirds, making them the park's most important habitat.",
+        "ms": "Taijiang ialah taman negara tanah bencah dengan empat tanah bencah penting: muara Sungai Zengwen, Sicao, kolam garam Qigu dan muara Sungai Yanshui. Selain dataran lumpur yang luas, terdapat banyak paya rumput dan kolam ikan terbiar yang dipenuhi alga, teberau, rumput paspalum pantai dan tumbuhan separa akuatik lain. Padang rumput basah ini juga tempat burung air mencari makan dan membiak, menjadikannya habitat paling penting di taman ini."
+      },
+      "typical": {
+        "hant": "水中有搖蚊和蚊子的幼蟲、蜻蜓與豆娘的稚蟲，以及划椿、牙蟲、龍蝨；水面有水黽和水椿象；岸邊草地有蜻蜓、細蟌、蟋蟀、蝗蟲、天牛、椿象、葉蟬，海雀稗上還常見大量橙瓢蟲。",
+        "en": "Midge and mosquito larvae, dragonfly and damselfly nymphs, water boatmen, water scavenger beetles and diving beetles live in the water; water striders and water bugs move on the surface; and the grassy banks hold dragonflies, damselflies, crickets, grasshoppers, longhorn beetles, stink bugs, leafhoppers and crowds of orange ladybirds on seashore paspalum.",
+        "ms": "Larva agas dan nyamuk, nimfa pepatung dan pepatung jarum, pendayung air, kumbang pemakan sampah air dan kumbang penyelam hidup dalam air; peluncur air dan pepijat air bergerak di permukaan; manakala tebing berumput dihuni pepatung, pepatung jarum, cengkerik, belalang, kumbang tanduk panjang, pepijat busuk, bena daun dan banyak kumbang kura-kura oren pada rumput paspalum pantai."
+      }
+    },
+    {
+      "key": "drygrass",
+      "title": {"hant": "乾草地", "en": "Dry grassland", "ms": "Padang rumput kering"},
+      "body": {
+        "hant": "乾草地出現在海岸、河口沙洲、鹽鹼地、荒廢的農田與魚塭，以及變乾的濕草地。禾本科、菊科、莧科、豆科等先驅植物在這裡長成大片草原，例如白茅、狗牙根、海雀稗、濱刺麥、馬鞍藤和大花咸豐草，植物種類是各棲地之冠。這裡的食物鏈複雜，就像法布爾筆下的「荒石園」，是觀察昆蟲的最佳場所。",
+        "en": "Dry grasslands form along the coast, on river-mouth sandbars, on salty ground, in abandoned farms and fish ponds, and where wetlands have dried out. Pioneer plants from the grass, daisy, amaranth and bean families cover the ground — such as cogon grass, Bermuda grass, seashore paspalum, spinifex, beach morning glory and Bidens — giving it the most plant species of any habitat. Its rich food web makes it, like the stony wasteland garden of French naturalist Jean-Henri Fabre, the best place to watch insects.",
+        "ms": "Padang rumput kering terbentuk di pantai, beting pasir muara, tanah masin, ladang dan kolam ikan terbiar, serta tanah bencah yang sudah kering. Tumbuhan perintis daripada famili rumput, famili bunga matahari, famili bayam dan famili kekacang menutupi tanah — antaranya lalang, rumput Bermuda, rumput paspalum pantai, rumput gulung, tapak kuda dan bunga Bidens — menjadikan habitat ini paling banyak jenis tumbuhan. Rantaian makanannya yang kaya menjadikannya, seperti taman batu terbiar ahli alam Perancis Jean-Henri Fabre, tempat terbaik untuk memerhati serangga."
+      },
+      "typical": {
+        "hant": "草叢中有葉蟬、螽蟴、蝗蟲、蟋蟀；蛺蝶、小灰蝶、弄蝶、蜂類和食蚜蠅在花間忙碌；地面有步行蟲、擬步行蟲、螞蟻和蟻獅的陷阱，螳螂、虎甲蟲、胡蜂、蛛蜂和寄生蜂則四處獵捕。",
+        "en": "Leafhoppers, katydids, grasshoppers and crickets live in the grass; brush-footed butterflies, blues, skippers, bees and hoverflies visit the flowers; ground beetles, darkling beetles, ants and antlion pits fill the ground; and mantises, tiger beetles, social wasps, spider wasps and parasitic wasps hunt everywhere.",
+        "ms": "Bena daun, belalang daun, belalang dan cengkerik hidup dalam rumput; rama-rama kaki berus, rama-rama biru kecil, rama-rama pelompat, lebah dan lalat bunga melawat bunga; kumbang tanah, kumbang gelap, semut dan lubang perangkap undur-undur memenuhi tanah; manakala belalang sembah, kumbang harimau, tebuan, penyengat labah-labah dan penyengat parasit memburu di merata tempat."
+      }
+    },
+    {
+      "key": "water",
+      "title": {"hant": "溪溝水塘", "en": "Creeks and ponds", "ms": "Alur dan kolam"},
+      "body": {
+        "hant": "淡水魚塭、鹹水魚塭、半淡鹹的廢棄魚塭、防風林間的雨水池塘，以及連接魚塭與海洋的感潮溝，交織成台江的水脈。這些水的鹽度會隨天氣、人為干擾和水體交流而改變，也影響周圍的植物和生物。土堤上長著白茅、大黍、蘆葦、大花咸豐草、馬鞍藤等耐鹽與不耐鹽的植物，組成和乾草地相似。",
+        "en": "Freshwater and saltwater fish ponds, half-salty abandoned ponds, rain-fed pools in the windbreak forest, and tidal creeks linking the ponds to the sea together form the park's waterways. Their saltiness changes with the weather, human activity and the mixing of waters, and this shapes the plants and animals around them. The banks carry both salt-tolerant and salt-sensitive plants, such as cogon grass, Guinea grass, reeds, Bidens and beach morning glory — much like the dry grassland.",
+        "ms": "Kolam ikan air tawar dan air masin, kolam terbiar berair payau, kolam air hujan di hutan penahan angin, serta alur pasang surut yang menghubungkan kolam dengan laut membentuk rangkaian air taman ini. Kemasinan air berubah mengikut cuaca, gangguan manusia dan percampuran air, lalu mempengaruhi tumbuhan dan hidupan di sekelilingnya. Tebingnya ditumbuhi tumbuhan yang tahan dan tidak tahan garam, seperti lalang, rumput Guinea, teberau, bunga Bidens dan tapak kuda — hampir sama dengan padang rumput kering."
+      },
+      "typical": {
+        "hant": "很鹹的感潮溝裡，除了牙蟲等少數耐鹽昆蟲，幾乎沒有其他水生昆蟲；半淡鹹水中有搖蚊、水蠆、龍蝨、牙蟲、水椿象、水黽和划椿；淡水中蜻蜓、豆娘種類最多；土堤上則常見蝗蟲、椿象、葉蟬、瓢蟲、金花蟲、蝴蝶、蜜蜂和食蚜蠅。",
+        "en": "Very salty tidal creeks have almost no water insects apart from a few salt-tolerant ones such as water scavenger beetles; brackish water has midges, dragonfly and damselfly nymphs, diving beetles, water scavenger beetles, water bugs, water striders and water boatmen; fresh water has the most dragonflies and damselflies; and the banks host grasshoppers, stink bugs, leafhoppers, ladybirds, leaf beetles, butterflies, bees and hoverflies.",
+        "ms": "Alur pasang surut yang sangat masin hampir tiada serangga air kecuali sedikit spesies tahan garam seperti kumbang pemakan sampah air; air payau dihuni agas, nimfa pepatung dan pepatung jarum, kumbang penyelam, kumbang pemakan sampah air, pepijat air, peluncur air dan pendayung air; air tawar paling banyak pepatung dan pepatung jarum; manakala tebing didiami belalang, pepijat busuk, bena daun, kumbang kura-kura, kumbang daun, rama-rama, lebah dan lalat bunga."
+      }
+    }
+  ],
+  "anatomy": {
+    "intro": {
+      "hant": "昆蟲是身體分節、有堅硬外骨骼的節肢動物，也是無脊椎動物中唯一會飛的一群。成蟲的身體分成頭、胸、腹三部分，並有六隻（三對）腳，看到這兩個特徵，大概就能確定牠是昆蟲。蜘蛛、蜈蚣、馬陸、蝦蟹都不是昆蟲。",
+      "en": "Insects are arthropods: their bodies are made of segments inside a hard outer skeleton, and they are the only invertebrates that can fly. An adult insect has three body parts — head, thorax and abdomen — and six legs (three pairs); spot these two features and it is almost surely an insect. Spiders, centipedes, millipedes, shrimps and crabs are not insects.",
+      "ms": "Serangga ialah artropod: badannya bersegmen dan dibalut rangka luar yang keras, dan serangga ialah satu-satunya haiwan tanpa tulang belakang yang boleh terbang. Serangga dewasa mempunyai tiga bahagian badan — kepala, toraks dan abdomen — serta enam kaki (tiga pasang); jika nampak dua ciri ini, hampir pasti ia serangga. Labah-labah, lipan, ulat gonggok, udang dan ketam bukan serangga."
+    },
+    "parts": [
+      {
+        "key": "antenna",
+        "label": {"hant": "觸角", "en": "Antenna", "ms": "Sesungut"},
+        "body": {
+          "hant": "觸角長在頭部前方，通常在兩眼之間，上面布滿感覺器，能觸摸、聞味、嚐味，有的還能聽聲音。不同昆蟲的觸角形狀差別很大。",
+          "en": "The antennae sit at the front of the head, usually between the eyes, and are covered in sense organs for touch, smell, taste and sometimes hearing. Their shape varies greatly between insects.",
+          "ms": "Sesungut terletak di depan kepala, biasanya di antara mata, dan dipenuhi organ deria untuk menyentuh, menghidu, merasa dan kadangkala mendengar. Bentuknya sangat berbeza antara serangga."
+        }
+      },
+      {
+        "key": "compound_eye",
+        "label": {"hant": "複眼", "en": "Compound eye", "ms": "Mata majmuk"},
+        "body": {
+          "hant": "複眼是主要的視覺器官，由許多「小眼」組成。複眼越大，小眼越多，看得越清楚，比較螞蟻的小複眼和蜻蜓的大複眼就知道。",
+          "en": "The main eyes, made of many tiny units. The bigger the eye, the more units it has and the better the insect sees — compare an ant's small eyes with a dragonfly's huge ones.",
+          "ms": "Mata utama serangga, terdiri daripada banyak unit mata kecil. Lebih besar mata, lebih banyak unitnya dan lebih jelas penglihatannya — bandingkan mata kecil semut dengan mata besar pepatung."
+        }
+      },
+      {
+        "key": "ocelli",
+        "label": {"hant": "單眼", "en": "Simple eyes", "ms": "Mata ringkas"},
+        "body": {
+          "hant": "單眼通常在兩個複眼之間，最多三枚，有些昆蟲沒有。它們只分辨光線明暗，是視覺的小幫手。",
+          "en": "Up to three small eyes, usually between the compound eyes; some insects have none. They only sense light and dark, helping the main eyes.",
+          "ms": "Sehingga tiga mata kecil, biasanya di antara mata majmuk; sesetengah serangga tidak memilikinya. Ia hanya mengesan terang dan gelap untuk membantu mata utama."
+        }
+      },
+      {
+        "key": "mouthparts",
+        "label": {"hant": "口器", "en": "Mouthparts", "ms": "Bahagian mulut"},
+        "body": {
+          "hant": "口器由上唇、大顎、小顎、下唇和舌五部分組成，用來進食和感覺。昆蟲吃的東西不同，口器的樣子也跟著不同。",
+          "en": "Made of five basic parts — upper lip, jaws, second jaws, lower lip and tongue — used for feeding and sensing. Different foods have shaped very different mouthparts.",
+          "ms": "Terdiri daripada lima bahagian asas — bibir atas, rahang, rahang kedua, bibir bawah dan lidah — untuk makan dan merasa. Makanan yang berbeza menghasilkan bentuk mulut yang sangat berbeza."
+        }
+      },
+      {
+        "key": "thorax",
+        "label": {"hant": "胸部", "en": "Thorax", "ms": "Toraks"},
+        "body": {
+          "hant": "胸部是運動中心，由前胸、中胸、後胸三節組成。每節下方各有一對腳，中胸和後胸上方通常各有一對翅膀。",
+          "en": "The movement centre, made of three segments. Each segment carries one pair of legs, and the middle and last segments usually each carry a pair of wings.",
+          "ms": "Pusat pergerakan, terdiri daripada tiga segmen. Setiap segmen mempunyai sepasang kaki, dan segmen tengah serta segmen belakang biasanya masing-masing mempunyai sepasang sayap."
+        }
+      },
+      {
+        "key": "legs",
+        "label": {"hant": "足", "en": "Legs", "ms": "Kaki"},
+        "body": {
+          "hant": "大多數昆蟲有三對腳，每隻腳分成六節，末端有爪，上面常有毛和刺。不同昆蟲的腳會特化成捕捉、挖掘、游泳或跳躍等用途。",
+          "en": "Most insects have three pairs of legs. Each leg has six sections ending in claws, often with hairs and spines, and is shaped for its job — grabbing, digging, swimming or jumping.",
+          "ms": "Kebanyakan serangga mempunyai tiga pasang kaki. Setiap kaki ada enam bahagian yang berakhir dengan kuku, selalunya berbulu dan berduri, dan bentuknya sesuai dengan tugasnya — menangkap, menggali, berenang atau melompat."
+        }
+      },
+      {
+        "key": "wings",
+        "label": {"hant": "翅", "en": "Wings", "ms": "Sayap"},
+        "body": {
+          "hant": "昆蟲的翅膀不是由前肢變來的，這點和鳥、蝙蝠不同；有些昆蟲只剩一對翅，有的完全無翅。除了飛行，翅還能防身（瓢蟲的硬翅鞘）、展示花紋（蝴蝶的鱗粉）、發聲（雄蟋蟀摩擦前翅）和幫助平衡。",
+          "en": "Unlike those of birds and bats, insect wings did not grow from front limbs; some insects have only one pair, others none. Besides flying, wings can protect (a ladybird's hard wing cases), show patterns (a butterfly's scales), make sound (a male cricket rubs its forewings) and help balance.",
+          "ms": "Berbeza dengan burung dan kelawar, sayap serangga tidak berasal daripada kaki depan; ada serangga yang hanya bersayap sepasang, ada yang tiada sayap langsung. Selain terbang, sayap boleh melindungi (kulit sayap keras kumbang kura-kura), menunjukkan corak (sisik rama-rama), menghasilkan bunyi (cengkerik jantan menggosok sayap depan) dan membantu keseimbangan."
+        }
+      },
+      {
+        "key": "abdomen",
+        "label": {"hant": "腹部", "en": "Abdomen", "ms": "Abdomen"},
+        "body": {
+          "hant": "腹部裝著消化和生殖等器官。尾端可能有產卵管、尾毛、尾鋏（蠼螋）或螫針（蜂類）。",
+          "en": "Holds the digestive and reproductive organs. Its tip may carry an egg-laying tube, tail filaments, pincers (earwigs) or a sting (bees and wasps).",
+          "ms": "Menempatkan organ pencernaan dan pembiakan. Hujungnya mungkin ada tiub bertelur, filamen ekor, sepit (cocopet) atau sengat (lebah dan tebuan)."
+        }
+      }
+    ],
+    "mouthparts": [
+      {
+        "key": "chewing",
+        "label": {"hant": "咀嚼式", "en": "Chewing", "ms": "Mengunyah"},
+        "example": {"hant": "蝗蟲、甲蟲", "en": "Grasshoppers, beetles", "ms": "Belalang, kumbang"},
+        "body": {
+          "hant": "強壯的大顎能咬碎葉子或獵物。",
+          "en": "Strong jaws bite and grind leaves or prey.",
+          "ms": "Rahang yang kuat menggigit dan mengunyah daun atau mangsa."
+        }
+      },
+      {
+        "key": "piercing",
+        "label": {"hant": "刺吸式", "en": "Piercing-sucking", "ms": "Menusuk dan menghisap"},
+        "example": {"hant": "椿象、蟬", "en": "Stink bugs, cicadas", "ms": "Pepijat busuk, riang-riang"},
+        "body": {
+          "hant": "像細針一樣的口器刺進植物或獵物，吸食汁液。",
+          "en": "A needle-like beak pierces plants or prey and sucks up the juices.",
+          "ms": "Muncung seperti jarum menusuk tumbuhan atau mangsa lalu menghisap cecairnya."
+        }
+      },
+      {
+        "key": "siphoning",
+        "label": {"hant": "虹吸式", "en": "Siphoning", "ms": "Menyedut"},
+        "example": {"hant": "蝴蝶、蛾", "en": "Butterflies, moths", "ms": "Rama-rama, kupu-kupu"},
+        "body": {
+          "hant": "長長的口器平時捲起來，吸花蜜時才伸直，像一根吸管。",
+          "en": "A long tube stays coiled at rest and uncurls like a drinking straw to sip nectar.",
+          "ms": "Belalai panjang bergulung ketika rehat dan diluruskan seperti straw untuk menyedut madu bunga."
+        }
+      },
+      {
+        "key": "sponging",
+        "label": {"hant": "舐吮式", "en": "Sponging", "ms": "Menyerap"},
+        "example": {"hant": "蠅類（如果實蠅）", "en": "Flies (such as fruit flies)", "ms": "Lalat (seperti lalat buah)"},
+        "body": {
+          "hant": "口器末端像海綿，能吸起液體，或先把食物弄濕溶解再吸。",
+          "en": "A sponge-like tip mops up liquids, or wets food first and then soaks it up.",
+          "ms": "Hujung mulut seperti span menyerap cecair, atau membasahkan makanan dahulu lalu menyerapnya."
+        }
+      },
+      {
+        "key": "chewing_lapping",
+        "label": {"hant": "咀吸式", "en": "Chewing-lapping", "ms": "Mengunyah dan menjilat"},
+        "example": {"hant": "蜜蜂", "en": "Honeybees", "ms": "Lebah madu"},
+        "body": {
+          "hant": "既有能咬東西的大顎，又有能舔吸花蜜的舌。",
+          "en": "Jaws for biting, plus a tongue for lapping up nectar.",
+          "ms": "Rahang untuk menggigit, serta lidah untuk menjilat madu bunga."
+        }
+      }
+    ],
+    "legs": [
+      {
+        "key": "raptorial",
+        "label": {"hant": "捕捉足", "en": "Grasping legs", "ms": "Kaki penangkap"},
+        "example": {"hant": "螳螂", "en": "Mantises", "ms": "Belalang sembah"},
+        "body": {
+          "hant": "前腳像有刺的鐮刀，能快速夾住獵物。",
+          "en": "Spiny, sickle-like front legs snap shut on prey.",
+          "ms": "Kaki depan berduri seperti sabit mengepit mangsa dengan pantas."
+        }
+      },
+      {
+        "key": "digging",
+        "label": {"hant": "挖掘足", "en": "Digging legs", "ms": "Kaki penggali"},
+        "example": {"hant": "螻蛄", "en": "Mole crickets", "ms": "Cengkerik tanah"},
+        "body": {
+          "hant": "前腳寬大像鏟子，用來在土裡挖洞。",
+          "en": "Broad, shovel-like front legs dig tunnels in the soil.",
+          "ms": "Kaki depan lebar seperti penyodok untuk menggali terowong dalam tanah."
+        }
+      },
+      {
+        "key": "swimming",
+        "label": {"hant": "游泳足", "en": "Swimming legs", "ms": "Kaki perenang"},
+        "example": {"hant": "龍蝨", "en": "Diving beetles", "ms": "Kumbang penyelam"},
+        "body": {
+          "hant": "後腳扁平又有長毛，像船槳一樣划水。",
+          "en": "Flat, hairy hind legs row through water like oars.",
+          "ms": "Kaki belakang yang leper dan berbulu mendayung air seperti pengayuh."
+        }
+      },
+      {
+        "key": "jumping",
+        "label": {"hant": "跳躍足", "en": "Jumping legs", "ms": "Kaki pelompat"},
+        "example": {"hant": "蝗蟲", "en": "Grasshoppers", "ms": "Belalang"},
+        "body": {
+          "hant": "後腳的腿節特別粗壯，能用力彈跳。",
+          "en": "Thick, muscular hind thighs launch powerful jumps.",
+          "ms": "Paha kaki belakang yang tebal dan berotot menghasilkan lompatan yang kuat."
+        }
+      }
+    ]
+  },
+  "lifecycle": {
+    "intro": {
+      "hant": "昆蟲的一生從卵開始，到成蟲結束。堅硬的外骨骼不會跟著長大，所以昆蟲必須一次次「蛻皮」換新外殼才能長大。依照成長方式，昆蟲可分成三種類型。",
+      "en": "An insect's life runs from egg to adult. Its hard outer skeleton cannot grow, so the insect must moult — shed its old skin — again and again to get bigger. Insects grow up in three main ways.",
+      "ms": "Kehidupan serangga bermula sebagai telur dan berakhir sebagai dewasa. Rangka luarnya yang keras tidak boleh membesar, jadi serangga perlu bersalin kulit berulang kali untuk membesar. Terdapat tiga cara utama serangga membesar."
+    },
+    "types": [
+      {
+        "key": "ametabolous",
+        "label": {"hant": "無變態", "en": "No metamorphosis", "ms": "Tanpa metamorfosis"},
+        "stages": {"hant": "卵 → 若蟲 → 成蟲", "en": "Egg → nymph → adult", "ms": "Telur → nimfa → dewasa"},
+        "body": {
+          "hant": "這是最原始的成長方式，剛孵出的小蟲就像沒有翅膀的縮小版成蟲。牠們靠蛻皮慢慢長大，成熟以後仍會繼續蛻皮。",
+          "en": "This is the most primitive way: the young hatch looking like tiny wingless adults. They grow with each moult and keep moulting even after they are mature.",
+          "ms": "Ini cara paling primitif: anak yang menetas kelihatan seperti dewasa kecil tanpa sayap. Ia membesar setiap kali bersalin kulit dan terus bersalin kulit walaupun sudah matang."
+        },
+        "orders": {"hant": "石蛃、衣魚", "en": "Bristletails, silverfish", "ms": "Serangga ekor berbulu, gegat"}
+      },
+      {
+        "key": "hemimetabolous",
+        "label": {"hant": "不完全變態", "en": "Incomplete metamorphosis", "ms": "Metamorfosis tidak lengkap"},
+        "stages": {"hant": "卵 → 若蟲（稚蟲）→ 成蟲", "en": "Egg → nymph → adult", "ms": "Telur → nimfa → dewasa"},
+        "body": {
+          "hant": "若蟲長得像成蟲，背上有翅芽，最後一次蛻皮後才長出完整的翅膀。在水中生活的若蟲特別叫做「稚蟲」，若蟲的生活方式通常和成蟲相近。",
+          "en": "Nymphs look like adults with small wing buds, and grow full wings at their last moult. Nymphs that live in water are called naiads, and nymphs usually live much like the adults.",
+          "ms": "Nimfa kelihatan seperti dewasa dengan tunas sayap kecil, dan mendapat sayap penuh selepas salin kulit terakhir. Nimfa yang hidup dalam air dipanggil naiad, dan nimfa biasanya hidup seperti serangga dewasa."
+        },
+        "orders": {
+          "hant": "蜉蝣、蜻蜓、豆娘、蝗蟲、蟋蟀、蟑螂、白蟻、椿象、蟬、螳螂、蠼螋",
+          "en": "Mayflies, dragonflies, damselflies, grasshoppers, crickets, cockroaches, termites, true bugs, cicadas, mantises, earwigs",
+          "ms": "Lalat sehari, pepatung, pepatung jarum, belalang, cengkerik, lipas, anai-anai, pepijat, riang-riang, belalang sembah, cocopet"
+        }
+      },
+      {
+        "key": "holometabolous",
+        "label": {"hant": "完全變態", "en": "Complete metamorphosis", "ms": "Metamorfosis lengkap"},
+        "stages": {"hant": "卵 → 幼蟲 → 蛹 → 成蟲", "en": "Egg → larva → pupa → adult", "ms": "Telur → larva → pupa → dewasa"},
+        "body": {
+          "hant": "蛹期是完全變態昆蟲特有的休息階段，幼蟲的身體在蛹裡重新組合成成蟲的樣子。幼蟲和成蟲的長相和生活方式往往差很多，例如毛毛蟲和蝴蝶。",
+          "en": "The pupa is a resting stage found only in this group, where the larva's body is rebuilt into the adult form. Larvae and adults often look and live very differently — think of a caterpillar and a butterfly.",
+          "ms": "Pupa ialah peringkat rehat yang hanya ada pada kumpulan ini, di mana badan larva disusun semula menjadi bentuk dewasa. Larva dan dewasa selalunya sangat berbeza rupa dan cara hidup — contohnya ulat beluncas dan rama-rama."
+        },
+        "orders": {
+          "hant": "甲蟲、蝴蝶、蛾、蜂、螞蟻、蠅、蚊、草蛉、蟻獅、跳蚤",
+          "en": "Beetles, butterflies, moths, bees, wasps, ants, flies, mosquitoes, lacewings, antlions, fleas",
+          "ms": "Kumbang, rama-rama, kupu-kupu, lebah, tebuan, semut, lalat, nyamuk, serangga sayap renda, undur-undur, pinjal"
+        }
+      }
+    ]
+  },
+  "tips": {
+    "intro": {
+      "hant": "了解、關心、行動是自然保育的三部曲，而觀察就是了解的第一步。出發賞蟲前，先做好以下準備。",
+      "en": "Understand, care, act — these are the three steps of nature conservation, and watching is the first step to understanding. Get ready with these before you go.",
+      "ms": "Faham, peduli, bertindak — inilah tiga langkah pemuliharaan alam, dan memerhati ialah langkah pertama untuk memahami. Sediakan perkara ini sebelum keluar."
+    },
+    "items": [
+      {
+        "title": {"hant": "衣著與鞋子", "en": "Clothing and footwear", "ms": "Pakaian dan kasut"},
+        "body": {
+          "hant": "穿顏色樸素的長袖、長褲，可以防曬又防蚊蟲叮咬。鞋子要能把腳完全包住，穿雨鞋更方便。",
+          "en": "Wear plain-coloured long sleeves and long trousers to block the sun and insect bites. Choose shoes that cover your whole foot — rain boots are even better.",
+          "ms": "Pakai baju lengan panjang dan seluar panjang berwarna lembut untuk melindungi diri daripada matahari dan gigitan serangga. Pilih kasut yang menutup seluruh kaki — kasut but getah lebih baik lagi."
+        }
+      },
+      {
+        "title": {"hant": "工具與筆記", "en": "Tools and notes", "ms": "Alat dan catatan"},
+        "body": {
+          "hant": "可以帶手電筒、放大鏡、望遠鏡、筆記本和相機。記下時間、地點、看到的種類和現象，有照片也方便日後請教專家。在自家附近固定時間、固定地點長期觀察，更能認識身邊的環境。",
+          "en": "Bring a torch, magnifying glass, binoculars, notebook and camera. Write down the time, place, species and what you saw; photos also let you ask experts later. Watching the same spot near home at regular times is a great way to know your surroundings.",
+          "ms": "Bawa lampu suluh, kanta pembesar, teropong, buku nota dan kamera. Catat masa, tempat, jenis serangga dan apa yang dilihat; gambar juga memudahkan anda bertanya pakar kemudian. Memerhati tempat yang sama berhampiran rumah pada masa tetap ialah cara terbaik untuk mengenali persekitaran anda."
+        }
+      }
+    ]
+  },
+  "safety": {
+    "intro": {
+      "hant": "安全第一：賞蟲時保護自己，也保護昆蟲和其他生物。",
+      "en": "Safety first: protect yourself, and protect the insects and other wildlife too.",
+      "ms": "Keselamatan diutamakan: lindungi diri anda, dan juga serangga serta hidupan liar lain."
+    },
+    "items": [
+      {
+        "title": {"hant": "不碰不熟悉的動物", "en": "Don't touch unfamiliar animals", "ms": "Jangan sentuh haiwan yang tidak dikenali"},
+        "body": {
+          "hant": "許多動物有刺毛、毒性或攻擊性。隨手亂碰可能讓自己受傷，人一慌張也容易傷到動物。",
+          "en": "Many animals have stinging hairs, venom or will attack. Touching them can hurt you, and if you panic you may hurt the animal too.",
+          "ms": "Banyak haiwan mempunyai bulu gatal, bisa atau akan menyerang. Menyentuhnya boleh mencederakan anda, dan jika anda panik, haiwan itu juga mungkin tercedera."
+        }
+      },
+      {
+        "title": {"hant": "遵守法規", "en": "Follow park rules and the law", "ms": "Patuhi peraturan dan undang-undang"},
+        "body": {
+          "hant": "台江地區由台江國家公園管轄，要遵守國家公園法。所有野生動物都受野生動物保育法保護，不可任意接觸、騷擾、傷害或捕捉。",
+          "en": "The Taijiang area is managed by Taijiang National Park, and the National Park Act applies. All wild animals are protected by the Wildlife Conservation Act — do not touch, disturb, harm or catch them.",
+          "ms": "Kawasan Taijiang ditadbir oleh Taman Negara Taijiang dan tertakluk kepada Akta Taman Negara. Semua haiwan liar dilindungi oleh Akta Pemuliharaan Hidupan Liar — jangan sentuh, ganggu, cederakan atau tangkap."
+        }
+      },
+      {
+        "title": {"hant": "尊重生命", "en": "Respect life", "ms": "Hormati kehidupan"},
+        "body": {
+          "hant": "自然界的生物彼此依存，我們只是來訪的客人。不要打擾牠們的活動，也不要傷害牠們生存的權利。",
+          "en": "Living things depend on one another, and we are only visitors. Do not disturb what they are doing or take away their right to live.",
+          "ms": "Hidupan di alam saling bergantung, dan kita hanyalah tetamu. Jangan ganggu aktiviti mereka atau rampas hak mereka untuk hidup."
+        }
+      },
+      {
+        "title": {"hant": "毒蟲、蜂與蛇", "en": "Wasps, chemical-defence insects and snakes", "ms": "Tebuan, serangga berbahan kimia dan ular"},
+        "body": {
+          "hant": "許多蛾、隱翅蟲、步行蟲和螞蟻會放出化學物質，碰到可能引起皮膚過敏或灼傷，傷到眼睛更嚴重，要立刻用大量清水沖洗並就醫。蜂類幾乎都有螫針，毒液可能引起激烈過敏：遠離蜂巢、不擦香水；萬一被螫，保持冷靜、記下蜂的樣子，移到安全處後就醫。大多數蛇害羞又無毒，退後幾步或繞路即可；但台江也有眼鏡蛇、雨傘節等毒蛇，日夜都可能遇到，若被咬要記下蛇的特徵並儘快就醫。",
+          "en": "Many moths, rove beetles, ground beetles and ants release chemicals that can cause skin rashes or burns, and are worse in the eyes — wash with plenty of clean water at once and see a doctor. Almost all bees and wasps have a sting whose venom can cause a strong allergic reaction: keep away from nests and don't wear perfume; if stung, stay calm, note what the insect looked like, move to a safe place and get medical help. Most snakes are shy and harmless, so just step back or walk around them; but cobras and many-banded kraits also live in Taijiang and may appear day or night — if bitten, note the snake's features and get to a hospital quickly.",
+          "ms": "Banyak kupu-kupu, semut kayap, kumbang tanah dan semut mengeluarkan bahan kimia yang boleh menyebabkan ruam atau melecur kulit, dan lebih bahaya jika terkena mata — segera bilas dengan banyak air bersih dan dapatkan rawatan. Hampir semua lebah dan tebuan mempunyai sengat yang bisanya boleh menyebabkan alahan teruk: jauhi sarang dan jangan pakai minyak wangi; jika disengat, bertenang, ingat rupa serangga itu, pergi ke tempat selamat dan dapatkan rawatan. Kebanyakan ular pemalu dan tidak berbisa, jadi undur atau lalu di tepi sahaja; tetapi ular tedung dan ular katam juga tinggal di Taijiang dan boleh ditemui siang atau malam — jika dipatuk, ingat ciri-ciri ular itu dan segera ke hospital."
+        }
+      }
+    ],
+    "emergency": {
+      "hant": "在園區遇到動物傷害，請撥緊急電話 119，或聯絡台江國家公園管理處 (06) 3910000、六孔管理站 (06) 7880220、保七總隊第七大隊台江分隊 (06) 3910220。",
+      "en": "If you are hurt by an animal in the park, call 119, or contact Taijiang National Park Headquarters (06) 3910000, Liukong Station (06) 7880220, or the Taijiang Unit, 7th Brigade, 7th Special Police Corps (06) 3910220.",
+      "ms": "Jika dicederakan haiwan di kawasan taman, hubungi talian kecemasan 119, atau Ibu Pejabat Taman Negara Taijiang (06) 3910000, Stesen Liukong (06) 7880220, atau Unit Taijiang, Briged Ke-7, Kor Polis Khas Ke-7 (06) 3910220."
+    }
+  }
+}

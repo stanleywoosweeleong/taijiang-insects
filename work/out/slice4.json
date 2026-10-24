@@ -1,0 +1,632 @@
+[
+ {
+  "page": 141,
+  "name": {"hant": "黑斑紅長筒金花蟲", "en": "Black-spotted red case-bearing leaf beetle", "ms": "Kumbang daun merah bertompok hitam"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "全身橙紅色，頭部黑而發亮。翅鞘有兩列黑斑，個體差異很大，有的黑斑連在一起，有的非常小。腳黑色但脛節基部黃色，可用來和相似的黑額長筒金花蟲區分。雄蟲頭較寬、大顎較發達。",
+   "en": "An orange-red beetle with a shiny black head. Each wing case carries two rows of black spots that vary a lot – in some beetles they join up, in others they are tiny. The legs are black but yellow at the base of the shin, which separates it from the similar Physosmaragdina nigrifrons. Males have a broader head and larger jaws.",
+   "ms": "Kumbang berwarna merah jingga dengan kepala hitam berkilat. Setiap sayap keras ada dua baris tompok hitam yang sangat berbeza antara individu – ada yang bersambung, ada yang sangat kecil. Kakinya hitam tetapi pangkal betisnya kuning; ciri ini membezakannya daripada spesies serupa Physosmaragdina nigrifrons. Jantan berkepala lebih lebar dan rahangnya lebih besar."
+  },
+  "habits": {
+   "hant": "吃植物，寄主種類很廣，包括灰木、田菁、樟樹、九芎、苦楝等不同科的植物。卵外面包著糞殼，幼蟲孵化後背著糞做的殼四處走動。",
+   "en": "A plant feeder with many unrelated host plants, including Symplocos, Sesbania, camphor, Lagerstroemia and chinaberry. The egg is wrapped in a case made of droppings, and the larva carries this case on its back as it moves about.",
+   "ms": "Pemakan tumbuhan daripada banyak famili, antaranya Symplocos, Sesbania, pokok kapur, Lagerstroemia dan mindi. Telurnya dibalut sarung najis, dan larvanya bergerak sambil memikul sarung itu di belakang."
+  },
+  "range": {
+   "hant": "常見於平地到低海拔山區。",
+   "en": "Common from the lowlands to low mountains.",
+   "ms": "Biasa ditemui dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 142,
+  "name": {"hant": "華麗筒金花蟲", "en": "Splendid case-bearing leaf beetle", "ms": "Kumbang daun jingga berjalur hitam"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "小型金花蟲，頭部和隆起的前胸背板都是亮橙色。翅鞘橙黃到乳白色，橫著兩道寬大黑紋，每邊各有九列整齊的刻點。腳橙褐色，觸角黑色。",
+   "en": "A small leaf beetle with an orange head and a raised, shiny orange shield behind it. The wing cases are orange-yellow to creamy white, crossed by two broad black bands, with nine neat rows of tiny pits on each side. Legs orange-brown; antennae black.",
+   "ms": "Kumbang daun kecil berkepala jingga dengan perisai dada yang membonjol dan berkilat jingga. Sayap kerasnya kuning jingga hingga putih susu, dengan dua jalur hitam yang lebar dan sembilan baris lekuk kecil yang tersusun rapi pada setiap belah. Kaki perang jingga; sesungut hitam."
+  },
+  "habits": {
+   "hant": "吃植物，成蟲和幼蟲都吃大花咸豐草的花和葉，也曾見成蟲在裸花鹼蓬的花上活動，可能也是食物。卵有糞殼，幼蟲背著糞殼走動。",
+   "en": "A plant feeder. Adults and larvae eat the flowers and leaves of Spanish needle (Bidens pilosa); adults have also been seen on Suaeda flowers, which may be another food. The egg has a case of droppings, which the larva carries on its back.",
+   "ms": "Pemakan tumbuhan. Dewasa dan larva makan bunga dan daun kancing baju (Bidens pilosa); dewasa juga pernah dilihat pada bunga Suaeda, yang mungkin juga makanannya. Telurnya bersarung najis, dan larva memikul sarung itu di belakang."
+  },
+  "range": {
+   "hant": "臺灣特有種，全島分布不明，目前只在臺北、臺南的平地荒地有紀錄。",
+   "en": "Found only in Taiwan; its full range is unknown, with records so far only from lowland waste ground in Taipei and Tainan.",
+   "ms": "Spesies endemik Taiwan; taburannya belum jelas, setakat ini hanya direkod di tanah terbiar tanah rendah di Taipei dan Tainan."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 143,
+  "name": {"hant": "藍帶細頸金花蟲", "en": "Blue-Banded Lema Leaf Beetle", "ms": "Kumbang daun jalur biru"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "橙黃色，頭、腳和胸部腹面黑中帶藍色光澤。翅鞘有整齊刻點和兩條帶藍光的黑色寬帶，第2條常延伸到尾端，外緣留一條橙黃邊。幼蟲頭黑身黃，會把糞便堆在背上。",
+   "en": "An orange-yellow beetle whose black parts – head, legs and underside of the thorax – shine blue. The wing cases have neat rows of pits and two broad blue-black bands, the second often running to the tip, leaving a thin orange-yellow edge. The larva is yellow with a black head and piles its droppings on its back.",
+   "ms": "Kumbang kuning jingga; bahagian hitamnya – kepala, kaki dan bawah dada – berkilat biru. Sayap kerasnya ada baris lekuk yang rapi dan dua jalur lebar hitam kebiruan; jalur kedua selalunya memanjang hingga hujung, meninggalkan tepi kuning jingga yang nipis. Larvanya kuning berkepala hitam dan menimbun najis di atas belakangnya."
+  },
+  "habits": {
+   "hant": "吃植物，成蟲和幼蟲都啃食光果龍葵的葉子。原產美國東部，是外來種。",
+   "en": "A plant feeder; both adults and larvae eat the leaves of American black nightshade (Solanum americanum). It is an introduced species, native to the eastern United States.",
+   "ms": "Pemakan tumbuhan; dewasa dan larva makan daun terung meranti (Solanum americanum). Ia spesies asing yang berasal dari timur Amerika Syarikat."
+  },
+  "range": {
+   "hant": "普遍分布於平地到低海拔山區。",
+   "en": "Widespread from the lowlands to low mountains.",
+   "ms": "Tersebar luas dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 144,
+  "name": {"hant": "錦葵溝基葉蚤", "en": "Hibiscus flea beetle", "ms": "Kumbang lompat kepala jingga"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "很小的葉蚤。頭部和微微隆起的前胸背板都是亮橙紅色，翅鞘黑到褐色、很有光澤。腳紅褐色，腿節粗大；觸角紅褐色，共11節。",
+   "en": "A tiny flea beetle. The head and the slightly raised shield behind it are shiny orange-red, while the wing cases are glossy black to brown. Legs reddish-brown with swollen thighs; antennae reddish-brown with 11 segments.",
+   "ms": "Kumbang lompat yang sangat kecil. Kepala dan perisai dada yang sedikit membonjol berwarna merah jingga berkilat, manakala sayap kerasnya hitam hingga perang berkilat. Kaki perang kemerahan dengan peha yang membengkak; sesungut perang kemerahan, 11 ruas."
+  },
+  "habits": {
+   "hant": "吃朱槿、木芙蓉、黃槿等錦葵科植物的葉子，在葉面留下不規則咬痕和小洞。成蟲喜歡成群聚集，在台江主要出現在黃槿上。",
+   "en": "Eats the leaves of hibiscus-family plants such as Chinese hibiscus, cotton rose and sea hibiscus, leaving ragged bite marks and small holes. Adults gather in groups; in Taijiang they are mostly found on sea hibiscus.",
+   "ms": "Makan daun tumbuhan keluarga bunga raya seperti bunga raya, Hibiscus mutabilis dan baru laut, meninggalkan kesan gigitan tidak sekata dan lubang kecil. Dewasa suka berkumpul; di Taijiang kebanyakannya ditemui pada pokok baru laut."
+  },
+  "range": {
+   "hant": "廣泛分布於平地到低海拔山區，但體型小，很容易被忽略。",
+   "en": "Widespread from the lowlands to low mountains, but easily overlooked because it is so small.",
+   "ms": "Tersebar luas dari tanah rendah hingga bukit rendah, tetapi mudah terlepas pandang kerana saiznya kecil."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 145,
+  "name": {"hant": "長縱條瓢蟲", "en": "Long-striped ladybird", "ms": "Kumbang kura-kura jalur panjang"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "小型卵圓形瓢蟲，前胸背板亮橙色。乳白色翅鞘每邊有兩條黑色縱帶，合起來成為三條等寬的直帶，都沒有延伸到翅尾。幼蟲黃褐色，身上有許多肉棘和長毛。",
+   "en": "A small oval ladybird with a shiny orange shield behind the head. The creamy-white wing cases each carry two black lengthwise stripes; when closed they form three stripes of equal width, none reaching the tip. The larva is yellow-brown with many fleshy spines and long hairs.",
+   "ms": "Kumbang kura-kura kecil berbentuk bujur dengan perisai dada jingga berkilat. Setiap sayap keras putih susu ada dua jalur hitam memanjang; bila tertutup ia membentuk tiga jalur sama lebar yang tidak sampai ke hujung sayap. Larvanya perang kekuningan dengan banyak duri berisi dan bulu panjang."
+  },
+  "habits": {
+   "hant": "捕食性，成蟲和幼蟲都吃蚜蟲、介殼蟲等極小的昆蟲。依作者觀察，3–5月出現，多半在草地上發現。",
+   "en": "A predator; adults and larvae eat aphids, scale insects and other very small insects. In the author's experience it appears from March to May, mostly in grassland.",
+   "ms": "Pemangsa; dewasa dan larva makan kutu daun, koya dan serangga lain yang sangat kecil. Menurut pemerhatian penulis, ia muncul dari Mac hingga Mei, kebanyakannya di kawasan rumput."
+  },
+  "range": {
+   "hant": "紀錄稀少的平地種，台江可見於感潮溝旁的草地和荒地草叢，臺北、臺南、嘉義及新北麟山鼻海邊也有紀錄，1985年起已入侵日本沖繩並在當地定居。",
+   "en": "A rarely recorded lowland species, found in Taijiang in grass beside tidal ditches and on waste ground, and also recorded in Taipei, Tainan, Chiayi and on the coast at Linshanbi, New Taipei; it invaded Okinawa, Japan, in 1985 and is now established there.",
+   "ms": "Spesies tanah rendah yang jarang direkod; di Taijiang ia ditemui dalam rumput di tepi parit pasang surut dan tanah terbiar, dan juga direkod di Taipei, Tainan, Chiayi serta pantai Linshanbi di New Taipei; ia menceroboh Okinawa, Jepun pada 1985 dan kini menetap di sana."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 146,
+  "name": {"hant": "六條瓢蟲", "en": "Six-spotted zigzag ladybird", "ms": "Kumbang kura-kura enam jalur"},
+  "en_name_source": "common",
+  "id": {
+   "hant": "頭部黑色，兩眼之間有一塊方形白斑。黑色前胸背板前緣和側緣白色，中央有倒八字形白斑，是辨認關鍵，因為翅鞘花紋變化極多。典型翅鞘橙紅到紅色，每邊有三條長短不一的橫向黑斑。幼蟲黑色，背上有白色縱斑。",
+   "en": "Black head with a square white patch between the eyes. The black shield behind the head has white front and side edges and a white V-shaped mark in the middle – the key feature, because the wing pattern varies greatly. Typical wing cases are orange-red to red with three black cross-bars of uneven length on each side. The larva is black with white stripes along the back.",
+   "ms": "Kepala hitam dengan tompok putih segi empat di antara mata. Perisai dada hitam bertepi putih di depan dan sisi, dengan tanda putih berbentuk V di tengah – inilah ciri utama kerana corak sayap sangat berubah-ubah. Sayap keras biasanya merah jingga hingga merah dengan tiga palang hitam melintang yang tidak sama panjang pada setiap belah. Larva hitam dengan jalur putih memanjang di belakang."
+  },
+  "habits": {
+   "hant": "捕食性，是極普遍的瓢蟲，常大量出現在銀合歡、多花油柑等各種植物上，捕食木蝨和蚜蟲。",
+   "en": "A very common predator, often found in large numbers on Leucaena, Phyllanthus and many other plants, eating psyllids and aphids.",
+   "ms": "Pemangsa yang sangat biasa, sering ditemui dalam jumlah besar pada petai belalang, Phyllanthus dan pelbagai tumbuhan lain, memakan kutu melompat (psilid) dan kutu daun."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣各地平地到低海拔山區。",
+   "en": "Widespread across Taiwan from the lowlands to low mountains.",
+   "ms": "Tersebar luas di seluruh Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 147,
+  "name": {"hant": "七星瓢蟲", "en": "7-Spot Ladybird", "ms": "Kumbang kura-kura tujuh bintik"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "頭黑，額頭有兩枚白斑；黑色前胸背板兩側各有一塊大的四邊形白斑。橙到紅色翅鞘近基部各有一白斑，黑點共七枚：左右各三枚，加上中央一枚兩翅合成的黑斑，因此得名。幼蟲黑色，有成對橙黃斑。",
+   "en": "Black head with two white spots on the forehead; the black shield behind it has a large four-sided white patch on each side. The orange to red wing cases have a white spot near the base and seven black spots in all: three on each side plus one shared spot at the centre, which gives the name. The larva is black with paired orange-yellow marks.",
+   "ms": "Kepala hitam dengan dua tompok putih di dahi; perisai dada hitam ada tompok putih besar empat segi pada setiap sisi. Sayap keras jingga hingga merah ada tompok putih dekat pangkal dan tujuh bintik hitam kesemuanya: tiga pada setiap belah serta satu bintik dikongsi di tengah, maka namanya begitu. Larva hitam dengan tanda kuning jingga berpasangan."
+  },
+  "habits": {
+   "hant": "捕食性，常在農地、荒地和樹林中捕食蚜蟲。",
+   "en": "A predator, commonly hunting aphids in farmland, waste ground and woodland.",
+   "ms": "Pemangsa yang biasa memburu kutu daun di ladang, tanah terbiar dan hutan."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣平地到低海拔山區。",
+   "en": "Widespread in Taiwan from the lowlands to low mountains.",
+   "ms": "Tersebar luas di Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 148,
+  "name": {"hant": "波紋瓢蟲", "en": "Transverse Ladybird", "ms": "Kumbang kura-kura corak berombak"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "卵形，腹部末端尖。黑頭上有兩枚橙紅斑，黑色前胸背板前緣兩側各一枚紅斑。橙紅到紅色翅鞘有三列黑斑：第1列是略呈T形、不相連的波浪紋，第2、3列連在一起，翅鞘接縫有黑色縱紋。腳黑色。",
+   "en": "Oval with a pointed rear end. The black head has two orange-red spots, and the black shield behind it has a red spot at each front corner. The orange-red to red wing cases carry three rows of black marks: the first a broken, wavy, roughly T-shaped band, the second and third joined together; a black line runs down the centre seam. Legs black.",
+   "ms": "Berbentuk bujur dengan hujung belakang tirus. Kepala hitam ada dua tompok merah jingga, dan perisai dada hitam ada tompok merah di setiap bucu depan. Sayap keras merah jingga hingga merah ada tiga baris tanda hitam: baris pertama berombak, terputus dan agak berbentuk T, manakala baris kedua dan ketiga bersambung; garis hitam menuruni sambungan tengah sayap. Kaki hitam."
+  },
+  "habits": {
+   "hant": "捕食性，成蟲和幼蟲都吃蚜蟲，常在銀合歡上捕食銀合歡木蝨。",
+   "en": "A predator; adults and larvae eat aphids and are often seen on Leucaena eating the leucaena psyllid.",
+   "ms": "Pemangsa; dewasa dan larva makan kutu daun dan sering dilihat pada petai belalang memakan kutu melompat petai belalang."
+  },
+  "range": {
+   "hant": "臺灣各地從平地到低海拔山區都普遍可見。",
+   "en": "Common throughout Taiwan from the lowlands to low mountains.",
+   "ms": "Biasa ditemui di seluruh Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 149,
+  "name": {"hant": "孟氏隱唇瓢蟲", "en": "Mealybug Ladybird", "ms": "Kumbang kura-kura koya tepung"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "橢圓形，全身披黃色短毛。頭部和前胸背板橙色，翅鞘黑色、末端橙色，而且略短於腹部。幼蟲白色，身上覆蓋一條條白色蠟粉。",
+   "en": "Oval and covered in short yellow hairs. The head and the shield behind it are orange; the wing cases are black with orange tips and slightly shorter than the abdomen. The larva is white, covered in strips of white wax.",
+   "ms": "Berbentuk bujur dan diliputi bulu pendek kuning. Kepala dan perisai dada jingga; sayap keras hitam dengan hujung jingga dan sedikit lebih pendek daripada abdomen. Larvanya putih, diliputi jalur-jalur lilin putih."
+  },
+  "habits": {
+   "hant": "捕食性，成蟲和幼蟲都吃介殼蟲和蚜蟲，是粉介殼蟲的天敵之一，也會在銀合歡上吃銀合歡木蝨。",
+   "en": "A predator; adults and larvae eat scale insects and aphids. It is one of the natural enemies of mealybugs and also eats leucaena psyllids on Leucaena.",
+   "ms": "Pemangsa; dewasa dan larva makan koya dan kutu daun. Ia salah satu musuh semula jadi koya tepung dan juga makan kutu melompat pada petai belalang."
+  },
+  "range": {
+   "hant": "原產澳洲，1909年由日治時期昆蟲學者素木得一自夏威夷引入，現在普遍分布於平地到低、中海拔山區。",
+   "en": "Native to Australia; brought in from Hawaii in 1909 by the entomologist Shiraki Tokuichi during the Japanese era, and now widespread from the lowlands to low and middle mountains.",
+   "ms": "Berasal dari Australia; dibawa masuk dari Hawaii pada 1909 oleh ahli entomologi Shiraki Tokuichi semasa zaman Jepun, dan kini tersebar luas dari tanah rendah hingga kawasan bukit rendah dan pergunungan sederhana."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 150,
+  "name": {"hant": "茄二十八星瓢蟲", "en": "28-Spotted Potato Ladybird", "ms": "Kumbang kura-kura 28 bintik"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "身體渾圓、背部拱起，密布灰白短毛。頭、前胸背板和翅鞘都是橙褐色，前胸背板有許多小黑斑。斑型多樣，28斑型是臺灣斑點最多的瓢蟲；12斑型和茄十二星瓢蟲很像，但後者前胸背板通常無斑或只有一斑。幼蟲乳白，長滿黑色肉棘。",
+   "en": "Round, domed and densely covered in short greyish-white hairs. The head, shield and wing cases are orange-brown, the shield with many small black dots. Spot patterns vary; the 28-spot form has more spots than any other ladybird in Taiwan. The 12-spot form looks like a related 12-spotted eggplant ladybird, which usually has no spot, or just one, on the shield. The larva is creamy white with many black fleshy spines.",
+   "ms": "Bulat, membonjol dan diliputi bulu pendek putih kelabu. Kepala, perisai dada dan sayap keras perang jingga; perisai dada ada banyak bintik hitam kecil. Corak bintiknya pelbagai; bentuk 28 bintik mempunyai bintik paling banyak antara kumbang kura-kura di Taiwan. Bentuk 12 bintik mirip kumbang kura-kura terung 12 bintik, tetapi spesies itu biasanya tiada bintik atau hanya satu pada perisai dada. Larva putih susu dengan banyak duri hitam berisi."
+  },
+  "habits": {
+   "hant": "吃植物，寄主包括茄科、葫蘆科、豆科等多種經濟作物。在台江常在防風林下層的光果龍葵上發現。",
+   "en": "A plant feeder whose hosts include many crops in the nightshade, gourd and bean families. In Taijiang it is often found on American black nightshade in the understorey of windbreak forests.",
+   "ms": "Pemakan tumbuhan; perumahnya termasuk banyak tanaman ekonomi daripada keluarga terung, labu dan kekacang. Di Taijiang ia sering ditemui pada terung meranti di bahagian bawah hutan penahan angin."
+  },
+  "range": {
+   "hant": "在臺灣分布廣泛，從平地到海拔2200公尺的中海拔山區都看得到。",
+   "en": "Widespread in Taiwan, from the lowlands up to middle mountains at 2,200 m.",
+   "ms": "Tersebar luas di Taiwan, dari tanah rendah hingga pergunungan sederhana setinggi 2,200 m."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 151,
+  "name": {"hant": "黃瓢蟲", "en": "Yellow Ladybird", "ms": "Kumbang kura-kura kuning"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "翅鞘鮮黃色、沒有斑紋，外緣透明。頭和前胸背板白色，前胸背板後緣的兩枚黑斑加上黑色複眼，乍看像四個黑點。腳黃色。幼蟲乳白色，有排列整齊的黑斑。",
+   "en": "Bright yellow wing cases with no spots and clear outer edges. The head and the shield behind it are white; two black spots at the back of the shield together with the black eyes look at first glance like four black dots. Legs yellow. The larva is creamy white with neat rows of black spots.",
+   "ms": "Sayap keras kuning terang tanpa bintik, dengan tepi luar lut sinar. Kepala dan perisai dada putih; dua tompok hitam di belakang perisai dada bersama mata hitam kelihatan sekali imbas seperti empat bintik hitam. Kaki kuning. Larva putih susu dengan baris bintik hitam yang rapi."
+  },
+  "habits": {
+   "hant": "吃白粉菌的瓢蟲，住在染上白粉病的作物和樹上，卵、幼蟲、成蟲常聚在一起。在台江常見於防風林邊緣和下層染病的大花咸豐草上。",
+   "en": "A fungus-eating ladybird that feeds on powdery mildew, living on infected crops and trees where eggs, larvae and adults often cluster together. In Taijiang it is common on infected Spanish needle at the edges and understorey of windbreak forests.",
+   "ms": "Kumbang kura-kura pemakan kulat yang makan kulat tepung; ia tinggal pada tanaman dan pokok yang dijangkiti, dengan telur, larva dan dewasa sering berkumpul bersama. Di Taijiang ia biasa ditemui pada kancing baju yang dijangkiti di pinggir dan bawah hutan penahan angin."
+  },
+  "range": {
+   "hant": "廣泛分布於臺灣平地與低海拔山區。",
+   "en": "Widespread in Taiwan in the lowlands and low mountains.",
+   "ms": "Tersebar luas di Taiwan di tanah rendah dan kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 152,
+  "name": {"hant": "錨紋瓢蟲", "en": "Anchor-marked ladybird", "ms": "Kumbang kura-kura tanda sauh"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體型大、接近圓形。頭黑，雄蟲額頭白色，雌蟲額頭黑色帶兩枚小白斑。黑色前胸背板前緣有兩枚大白斑。典型翅鞘橙到紅色，末端有錨形黑斑，基部兩側各一黑斑；另有雙帶、無斑、雙斑、黑色等型，以錨紋型和雙帶型最常見。",
+   "en": "A large, nearly round ladybird. The head is black; males have a white forehead, females a black one with two small white spots. The black shield behind the head has two big white patches at the front. Typical wing cases are orange to red with an anchor-shaped black mark at the tip and a black spot on each side at the base. Other forms are two-banded, spotless, two-spotted and black; the anchor and two-banded forms are the most common.",
+   "ms": "Kumbang kura-kura besar yang hampir bulat. Kepala hitam; jantan berdahi putih, betina berdahi hitam dengan dua tompok putih kecil. Perisai dada hitam ada dua tompok putih besar di depan. Sayap keras biasanya jingga hingga merah dengan tanda hitam berbentuk sauh di hujung dan satu tompok hitam pada setiap sisi pangkal. Ada juga bentuk dua jalur, tanpa bintik, dua bintik dan hitam; bentuk sauh dan dua jalur paling biasa."
+  },
+  "habits": {
+   "hant": "捕食性，吃蚜蟲、介殼蟲、葉蟬、飛蝨等昆蟲。在台江，水邊的蘆葦叢裡可以找到大量個體。",
+   "en": "A predator of aphids, scale insects, leafhoppers and planthoppers. In Taijiang, large numbers can be found in reed beds beside water.",
+   "ms": "Pemangsa kutu daun, koya, lelompat daun dan bena. Di Taijiang, ia boleh ditemui dalam jumlah besar dalam rumpun Phragmites di tepi air."
+  },
+  "range": {
+   "hant": "主要分布於臺灣各地平地到低海拔山區。",
+   "en": "Found mainly in the lowlands to low mountains throughout Taiwan.",
+   "ms": "Terutamanya ditemui di tanah rendah hingga kawasan bukit rendah di seluruh Taiwan."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 153,
+  "name": {"hant": "橙瓢蟲", "en": "Striped Ladybird", "ms": "Kumbang kura-kura jingga"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "卵形，亮橙到橙紅色。前胸背板前緣和側緣半透明，後緣有兩枚相連黑斑。翅鞘中央接縫是一條黑線，靠近接縫處顏色較淡，外緣半透明。腳橙色。幼蟲黑中透橙，有許多白斑和黑色短毛。",
+   "en": "Oval, bright orange to orange-red. The shield behind the head has see-through front and side edges and two joined black spots at the back. A black line runs down the centre seam of the wing cases, which are paler near the seam and see-through at the outer edge. Legs orange. The larva is black tinged with orange, with many white spots and short black hairs.",
+   "ms": "Bujur, jingga terang hingga merah jingga. Perisai dada bertepi depan dan sisi separa lut sinar, dengan dua tompok hitam bersambung di belakang. Garis hitam menuruni sambungan tengah sayap keras; warnanya lebih pucat dekat sambungan dan tepi luarnya separa lut sinar. Kaki jingga. Larva hitam bercampur jingga, dengan banyak tompok putih dan bulu hitam pendek."
+  },
+  "habits": {
+   "hant": "雜食性，捕食蚜蟲、木蝨、葉蟬、飛蝨、薊馬，食物不夠時也吃水稻等禾本科植物的雄蕊，被視為友善環境農業的指標生物。在台江大量出現在海雀稗濕草地上，吃它的雄蕊。",
+   "en": "Eats both insects and plants: it hunts aphids, psyllids, leafhoppers, planthoppers and thrips, and when prey is scarce eats the stamens of rice and other grasses. It is regarded as an indicator of environment-friendly farming. In Taijiang it is abundant on wet seashore paspalum grassland, feeding on the stamens.",
+   "ms": "Pemakan serangga dan tumbuhan: ia memburu kutu daun, kutu melompat, lelompat daun, bena dan trips, dan apabila mangsa kurang ia makan benang sari padi serta rumput lain. Ia dianggap petunjuk pertanian mesra alam. Di Taijiang ia sangat banyak di padang rumput basah Paspalum vaginatum, memakan benang sarinya."
+  },
+  "range": {
+   "hant": "分布於臺灣各地平地到低海拔山區。",
+   "en": "Found throughout Taiwan from the lowlands to low mountains.",
+   "ms": "Ditemui di seluruh Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 154,
+  "name": {"hant": "臺灣兼食瓢蟲", "en": "Taiwan omnivorous ladybird", "ms": "Kumbang kura-kura jingga Taiwan"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "卵形的橙紅色瓢蟲，前胸背板沒有斑紋，前緣與側緣透明；翅縫是一條黑線，翅鞘外緣透明。外觀很像橙瓢蟲，但顏色更亮麗，翅縫黑線極細，翅外緣半透明的部分更寬。",
+   "en": "An oval orange-red ladybird with an unspotted shield whose front and side edges are see-through; a black line marks the centre seam and the wing-case edges are clear. It looks like the Striped Ladybird but is brighter, with a much finer black seam line and a wider see-through edge to the wings.",
+   "ms": "Kumbang kura-kura bujur merah jingga dengan perisai dada tanpa bintik yang bertepi depan dan sisi lut sinar; garis hitam menandakan sambungan tengah dan tepi sayap keras lut sinar. Ia mirip kumbang kura-kura jingga (Micraspis discolor) tetapi warnanya lebih terang, garis hitam di sambungan jauh lebih halus dan tepi lut sinarnya lebih lebar."
+  },
+  "habits": {
+   "hant": "可能是捕食性，標本紀錄顯示牠可能吃粉介殼蟲；因為數量稀少，其他習性還不清楚。",
+   "en": "Probably a predator; specimen records suggest it may eat mealybugs. It is rare, so little else is known about its habits.",
+   "ms": "Mungkin pemangsa; rekod spesimen menunjukkan ia mungkin makan koya tepung. Ia jarang ditemui, jadi tabiat lain belum diketahui."
+  },
+  "range": {
+   "hant": "臺灣特有種，分布於平地到低海拔地區，常和橙瓢蟲生活在同一地方。",
+   "en": "Found only in Taiwan, from the lowlands to low elevations, sharing its range with the Striped Ladybird.",
+   "ms": "Endemik Taiwan, dari tanah rendah hingga kawasan rendah, berkongsi kawasan dengan kumbang kura-kura jingga."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 155,
+  "name": {"hant": "楔斑溜瓢蟲", "en": "Ashy Gray Ladybird", "ms": "Kumbang kura-kura kelabu"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "半球形，底色象牙白到灰白，是臺灣唯一白色的瓢蟲。頭頂有兩枚相連黑斑，前胸背板七枚黑斑；每邊翅鞘八枚黑斑，按4-3-1排成三列，翅縫黑色。另有黑色型：翅鞘黑色，左右各一大塊紅斑。",
+   "en": "Dome-shaped with an ivory to greyish-white base colour – the only white ladybird in Taiwan. There are two joined black spots on the head and seven on the shield behind it; each wing case has eight black spots in three rows of 4-3-1, with a black centre seam. A black form also occurs: black wing cases with one large red spot on each side.",
+   "ms": "Berbentuk separuh bola dengan warna dasar putih gading hingga putih kelabu – satu-satunya kumbang kura-kura putih di Taiwan. Ada dua tompok hitam bersambung di kepala dan tujuh pada perisai dada; setiap sayap keras ada lapan tompok hitam dalam tiga baris 4-3-1, dengan sambungan tengah hitam. Ada juga bentuk hitam: sayap keras hitam dengan satu tompok merah besar pada setiap belah."
+  },
+  "habits": {
+   "hant": "捕食性，常在銀合歡上吃銀合歡木蝨，在樹上就能輕鬆看到卵、幼蟲、蛹和成蟲。幼蟲灰黑色，帶黑、黃、白色斑點。",
+   "en": "A predator commonly found on Leucaena eating the leucaena psyllid; eggs, larvae, pupae and adults are all easy to see there. The larva is greyish-black with black, yellow and white spots.",
+   "ms": "Pemangsa yang biasa ditemui pada petai belalang memakan kutu melompat petai belalang; telur, larva, pupa dan dewasa mudah dilihat di situ. Larvanya hitam kelabu dengan bintik hitam, kuning dan putih."
+  },
+  "range": {
+   "hant": "原產美洲，早期只入侵花蓮、臺東、高雄，近年已擴散到臺南、嘉義、澎湖等平地到低海拔地區，在台江很常見。",
+   "en": "Native to the Americas; it first invaded Hualien, Taitung and Kaohsiung and has recently spread to the lowlands and low elevations of Tainan, Chiayi and Penghu, and is now common in Taijiang.",
+   "ms": "Berasal dari benua Amerika; mula-mula menceroboh Hualien, Taitung dan Kaohsiung, kini telah merebak ke tanah rendah dan kawasan rendah di Tainan, Chiayi dan Penghu, dan biasa ditemui di Taijiang."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 156,
+  "name": {"hant": "龜紋瓢蟲", "en": "Tortoise-patterned ladybird", "ms": "Kumbang kura-kura corak tempurung"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體型較小。頭部黑色，雌蟲前緣有兩枚白斑，雄蟲則是一塊白斑。黑色前胸背板前緣和兩側有不規則白邊，是辨認重點。翅鞘黃到紅色、翅縫黑色，花紋變化很大，從標準龜紋型到幾乎全黑或幾乎無斑都有。",
+   "en": "A fairly small ladybird. The head is black, with two white spots at the front in females and one white patch in males. The black shield behind the head has irregular white edges at the front and sides – the main clue for identification. The wing cases are yellow to red with a black seam; the pattern varies greatly, from the standard tortoise-shell pattern to almost all black or almost spotless.",
+   "ms": "Kumbang kura-kura yang agak kecil. Kepala hitam; betina ada dua tompok putih di depan, jantan satu tompok putih. Perisai dada hitam bertepi putih tidak sekata di depan dan sisi – inilah ciri utama untuk mengenalinya. Sayap keras kuning hingga merah dengan sambungan hitam; coraknya sangat berubah-ubah, dari corak tempurung kura-kura biasa hingga hampir hitam sepenuhnya atau hampir tanpa bintik."
+  },
+  "habits": {
+   "hant": "捕食性，活動力強，常在長了蚜蟲的植物上四處走動，以各種蚜蟲為食。",
+   "en": "An active predator, often moving about on plants with aphids and feeding on many kinds of aphid.",
+   "ms": "Pemangsa yang aktif, sering bergerak di atas tumbuhan yang ada kutu daun dan memakan pelbagai jenis kutu daun."
+  },
+  "range": {
+   "hant": "普遍分布於臺灣平地到低海拔山區。",
+   "en": "Widespread in Taiwan from the lowlands to low mountains.",
+   "ms": "Tersebar luas di Taiwan dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 157,
+  "name": {"hant": "澳洲瓢蟲", "en": "Cardinal Ladybird", "ms": "Kumbang kura-kura merah tompok hitam"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "卵形，背部不太隆起，全身有短毛。頭和前胸背板黑色，前胸背板前緣紅色。紅色翅鞘翅縫黑色，中央有一枚兩翅合成的黑斑，前方各一枚C形黑斑，後方各一枚圈形黑斑。腳紅色。幼蟲紅色、有細毛和整齊黑斑。",
+   "en": "Oval, rather flat-backed and covered in short hairs. The head and shield are black, the shield with a red front edge. The red wing cases have a black seam, a shared black spot in the middle, a C-shaped black mark at the front of each side and a ring-shaped black mark behind. Legs red. The larva is red and hairy, with neat rows of black spots.",
+   "ms": "Bujur, belakang tidak begitu membonjol dan diliputi bulu pendek. Kepala dan perisai dada hitam, perisai bertepi depan merah. Sayap keras merah dengan sambungan hitam, satu tompok hitam dikongsi di tengah, tanda hitam berbentuk C di depan setiap belah dan tanda hitam berbentuk cincin di belakang. Kaki merah. Larva merah berbulu halus dengan bintik hitam yang tersusun rapi."
+  },
+  "habits": {
+   "hant": "捕食性，主要吃吹綿介殼蟲，是世界有名的生物防治天敵。在台江多在防風林中，捕食血桐上的埃及吹綿介殼蟲。",
+   "en": "A predator that feeds mainly on cottony cushion scales and is world-famous for biological pest control. In Taijiang it is mostly found in windbreak forests, eating Egyptian cottony cushion scales on Macaranga trees.",
+   "ms": "Pemangsa yang terutamanya makan koya kapas dan terkenal di seluruh dunia sebagai agen kawalan biologi. Di Taijiang ia kebanyakannya ditemui dalam hutan penahan angin, memakan koya kapas Mesir pada pokok mahang."
+  },
+  "range": {
+   "hant": "因生物防治而遍布全球；臺灣族群是素木得一於1909年從紐西蘭（一說夏威夷）引進，為亞洲第一個成功的生物防治例子，柑橘吹綿介殼蟲受控制後，野外已較少見。",
+   "en": "Spread worldwide for biological control; Taiwan's population was brought from New Zealand (some say Hawaii) by Shiraki Tokuichi in 1909 – Asia's first successful biological control – and now that cottony cushion scale on citrus is under control it is less often seen in the wild.",
+   "ms": "Tersebar ke seluruh dunia untuk kawalan biologi; populasi Taiwan dibawa dari New Zealand (ada yang kata Hawaii) oleh Shiraki Tokuichi pada 1909 – kejayaan kawalan biologi pertama di Asia – dan kini jarang dilihat di alam liar setelah koya kapas pada limau berjaya dikawal."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 158,
+  "name": {"hant": "小紅瓢蟲", "en": "Small red ladybird", "ms": "Kumbang kura-kura merah kecil"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "卵形，全身披紅色短絨毛，整隻都是單一的橙紅色，只有複眼是黑的。幼蟲也是橙紅色，特徵鮮明、很容易辨認。",
+   "en": "Oval and covered in short red fuzz; the whole body is plain orange-red except for the black eyes. The larva is orange-red too, making this a distinctive ladybird that is easy to recognise.",
+   "ms": "Bujur dan diliputi bulu halus pendek merah; seluruh badan merah jingga kecuali mata yang hitam. Larvanya juga merah jingga, menjadikannya kumbang kura-kura yang unik dan mudah dikenali."
+  },
+  "habits": {
+   "hant": "成蟲和幼蟲都吃血桐上的吹綿介殼蟲，常在防風林邊緣和下層的血桐出沒。牠體型小不好找，先找吹綿介殼蟲，就容易看到牠捕食比自己大好幾倍的獵物。",
+   "en": "Adults and larvae eat cottony cushion scales on Macaranga trees at the edges and understorey of windbreak forests. Being small it is hard to spot; look for the scale insects first and you will easily find it eating prey several times its own size.",
+   "ms": "Dewasa dan larva makan koya kapas pada pokok mahang di pinggir dan bawah hutan penahan angin. Ia kecil dan sukar dilihat; cari koya kapas dahulu, dan anda mudah menemuinya sedang memakan mangsa yang beberapa kali lebih besar daripadanya."
+  },
+  "range": {
+   "hant": "普遍分布於平地到低海拔山區。",
+   "en": "Widespread from the lowlands to low mountains.",
+   "ms": "Tersebar luas dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 159,
+  "name": {"hant": "四斑小瓢蟲", "en": "Four-spotted dwarf ladybird", "ms": "Kumbang kura-kura kecil empat tompok"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "極小的橢圓形瓢蟲，全身有白色細毛。黑色翅鞘上共有四枚略呈方形的黃褐斑。前胸背板黑色，前緣和側緣黃褐色；頭黃褐到深褐色，腳黃褐色。幼蟲黑褐色，有許多白色肉棘。",
+   "en": "A tiny oval ladybird covered in fine white hairs. The black wing cases carry four roughly square yellow-brown spots in total. The shield behind the head is black with yellow-brown front and side edges; the head is yellow-brown to dark brown and the legs yellow-brown. The larva is blackish-brown with many white fleshy spines.",
+   "ms": "Kumbang kura-kura bujur yang sangat kecil, diliputi bulu halus putih. Sayap keras hitam ada empat tompok perang kekuningan yang agak segi empat kesemuanya. Perisai dada hitam bertepi depan dan sisi perang kekuningan; kepala perang kekuningan hingga perang tua dan kaki perang kekuningan. Larva perang kehitaman dengan banyak duri berisi putih."
+  },
+  "habits": {
+   "hant": "捕食性，吃蚜蟲等弱小昆蟲。出現期較短，大發生時容易在大花咸豐草上看到。",
+   "en": "A predator of aphids and other small, weak insects. Its season is short, but during outbreaks it is easy to find on Spanish needle.",
+   "ms": "Pemangsa kutu daun dan serangga kecil lain yang lemah. Musim kemunculannya singkat, tetapi semasa populasi memuncak ia mudah ditemui pada kancing baju."
+  },
+  "range": {
+   "hant": "出現於平地到低海拔山區，部分地區相當普遍。",
+   "en": "Occurs from the lowlands to low mountains and is quite common in some places.",
+   "ms": "Terdapat dari tanah rendah hingga kawasan bukit rendah dan agak biasa di sesetengah tempat."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 160,
+  "name": {"hant": "黑絨厚象鼻蟲", "en": "Black velvet weevil", "ms": "Kumbang muncung baldu hitam"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "粗壯、背部隆起的象鼻蟲，全身披白、黃褐、黑褐、黑色鱗毛。黑色前胸背板上密布黃褐鱗毛，翅鞘有黑色鱗毛叢形成的瘤狀突起，腳粗壯。沒有相似種，很容易認。",
+   "en": "A stout, humped weevil covered in white, yellow-brown, dark brown and black scales. The black shield behind the head is thickly coated in yellow-brown scales, and the wing cases bear wart-like tufts of black scales. Legs thick. No similar species exists, so it is easy to recognise.",
+   "ms": "Kumbang muncung yang tegap dan berbonggol, diliputi sisik putih, perang kekuningan, perang tua dan hitam. Perisai dada hitam ditutupi sisik perang kekuningan yang tebal, dan sayap kerasnya ada jambak sisik hitam seperti ketuat. Kaki tegap. Tiada spesies yang serupa, jadi ia mudah dikenali."
+  },
+  "habits": {
+   "hant": "吃黃槿、木芙蓉等錦葵科植物。受到打擾就裝死掉下去，所以常在寄主植物下方的草叢找到。從前海邊孩童常在黃槿上抓來玩，臺語叫「樹猴」。",
+   "en": "Feeds on sea hibiscus, cotton rose and other hibiscus-family plants. When disturbed it plays dead and drops, so it is often found in the grass beneath its host plants. Coastal children used to catch it on sea hibiscus to play with; in Taiwanese it is called “tree monkey”.",
+   "ms": "Makan baru laut, Hibiscus mutabilis dan tumbuhan lain keluarga bunga raya. Apabila diganggu ia berpura-pura mati dan jatuh, jadi ia sering ditemui dalam rumput di bawah pokok perumah. Dahulu kanak-kanak di pesisir pantai suka menangkapnya pada pokok baru laut untuk bermain; dalam bahasa Taiwan ia dipanggil “monyet pokok”."
+  },
+  "range": {
+   "hant": "棲息於平地到低海拔山區，海邊的黃槿上常能看到。",
+   "en": "Lives from the lowlands to low mountains and is often seen on sea hibiscus along the coast.",
+   "ms": "Hidup dari tanah rendah hingga kawasan bukit rendah dan sering dilihat pada pokok baru laut di pesisir pantai."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 161,
+  "name": {"hant": "綠艷閻魔蟲", "en": "Green clown beetle", "ms": "Kumbang bangkai hijau berkilat"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "圓胖的小甲蟲，大顎發達，雌蟲略大。前胸背板寬厚、黑色帶金屬光澤；翅鞘藍綠色金屬光，光照下偏綠，兩側有四條爪狀刻紋，越近末端刻點越多。翅鞘短，腹部末端露出。中文名是作者依綠色光澤暫取的。",
+   "en": "A small, rounded beetle with strong jaws; females are slightly larger. The broad, thick shield behind the head is black with a metallic sheen; the wing cases are metallic blue-green, looking greener in bright light, with four claw-like grooves along each side and pits that get denser towards the tip. The wing cases are short, leaving the abdomen tip exposed. Its Chinese name is a provisional one the author based on the green sheen.",
+   "ms": "Kumbang kecil yang bulat dengan rahang kuat; betina sedikit lebih besar. Perisai dada yang lebar dan tebal berwarna hitam berkilat logam; sayap kerasnya hijau kebiruan berkilat logam, kelihatan lebih hijau di bawah cahaya, dengan empat alur seperti cakar di setiap sisi dan lekuk yang semakin rapat ke hujung. Sayap keras pendek, jadi hujung abdomen terdedah. Nama Cinanya ialah nama sementara oleh penulis berdasarkan kilauan hijaunya."
+  },
+  "habits": {
+   "hant": "捕食性，主要抓蠅蛆等柔軟的昆蟲幼蟲或蟲卵，常出現在動物屍體上。",
+   "en": "A predator that mainly catches soft insect larvae such as fly maggots, and insect eggs; it is often found on animal carcasses.",
+   "ms": "Pemangsa yang terutamanya menangkap larva serangga yang lembut seperti berenga lalat, serta telur serangga; ia sering ditemui pada bangkai haiwan."
+  },
+  "range": {
+   "hant": "常見於平地到低海拔山區。",
+   "en": "Common from the lowlands to low mountains.",
+   "ms": "Biasa ditemui dari tanah rendah hingga kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 162,
+  "name": {"hant": "大員牙蟲", "en": "Tayouan water scavenger beetle", "ms": "Kumbang air Tayouan"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "黃褐色、梭形的水生甲蟲。頭部密布深色刻點，近後緣聚成兩枚深色斑，黑色複眼位在兩側。翅鞘顏色較深且不均勻，略帶金屬光，刻點排成數條縱紋。腳上有細長毛，腹部完全被翅鞘蓋住。",
+   "en": "A yellow-brown, spindle-shaped water beetle. The head is densely dotted with dark pits that gather into two dark patches near the back; the black eyes sit at the sides. The wing cases are darker and patchy with a slight metallic sheen, their pits lined up into several lengthwise rows. The legs carry long fine hairs, and the abdomen is fully covered by the wing cases.",
+   "ms": "Kumbang air berwarna perang kekuningan dan berbentuk gelendong. Kepalanya penuh lekuk gelap yang berkumpul menjadi dua tompok gelap dekat bahagian belakang; mata hitam terletak di sisi. Sayap keras lebih gelap dan tidak sekata, sedikit berkilat logam, dengan lekuk tersusun dalam beberapa baris memanjang. Kakinya berbulu halus panjang, dan abdomen tertutup sepenuhnya oleh sayap keras."
+  },
+  "habits": {
+   "hant": "生態資料缺乏，依近似種推測，成蟲吃水中腐爛的有機物，幼蟲捕食微小的水生無脊椎動物。是臺灣已知最耐鹽的昆蟲之一，鹽度0.2–13.8%的水域都找得到。",
+   "en": "Little is known of its ecology. Based on related species, adults probably feed on rotting matter in water and larvae probably hunt tiny water invertebrates. It is one of the most salt-tolerant insects known in Taiwan, found in water with a salinity of 0.2 to 13.8%.",
+   "ms": "Ekologinya kurang diketahui. Berdasarkan spesies yang hampir, dewasa mungkin makan bahan organik reput dalam air dan larva mungkin memburu haiwan tanpa tulang belakang yang sangat kecil dalam air. Ia antara serangga paling tahan garam yang diketahui di Taiwan, ditemui dalam air bermasin 0.2 hingga 13.8%."
+  },
+  "range": {
+   "hant": "臺南沿海的感潮溝、廢棄魚塭、鹽田等各種水域都能發現。",
+   "en": "Found in coastal Tainan in all kinds of waters, including tidal ditches, abandoned fish ponds and salt pans.",
+   "ms": "Ditemui di pesisir Tainan dalam pelbagai jenis air, termasuk parit pasang surut, kolam ikan terbiar dan kolam garam."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 163,
+  "name": {"hant": "大陸窗螢", "en": "Mainland window firefly", "ms": "Kelip-kelip leher jingga"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "雄蟲前胸背板橙黃色，黑色翅鞘內外緣有橙黃邊，腹部第5–6節有兩枚長橢圓形發光器。雌蟲較大（約19–20 mm），翅退化成翅芽、不會飛，在地面爬行，第5–6節兩側各一枚發光器，共四點光。發黃綠色的持續光。",
+   "en": "Males have an orange-yellow shield behind the head and black wing cases edged in orange-yellow, with two long oval light organs on abdominal segments 5–6. Females are larger (about 19–20 mm), with wings reduced to stubs, so they cannot fly and crawl on the ground; they have a light organ on each side of segments 5–6, showing four points of light. The glow is a steady yellow-green.",
+   "ms": "Jantan mempunyai perisai dada kuning jingga dan sayap keras hitam bertepi kuning jingga, dengan dua organ cahaya bujur panjang pada ruas abdomen ke-5 hingga ke-6. Betina lebih besar (kira-kira 19–20 mm), sayapnya mengecut menjadi tunas sayap sehingga tidak boleh terbang dan merayap di tanah; ia ada organ cahaya pada setiap sisi ruas ke-5 hingga ke-6, menunjukkan empat titik cahaya. Cahayanya kuning kehijauan dan berterusan."
+  },
+  "habits": {
+   "hant": "最常見的螢火蟲之一，耐受力高、不太受人類活動影響，常在沒有光害的果園和農地出現。交配期雄蟲在空中飛舞，雌蟲在地面發光回應。幼蟲住在潮濕的陸地環境，吃蝸牛等軟體動物。",
+   "en": "One of the most commonly seen fireflies; it tolerates disturbance and human activity well and is often found in orchards and farmland free of artificial light. In the mating season males fly in the air and over the grass while females answer with their light from the ground. Larvae live on land in damp places such as riverbeds, grassland, forest floor, farms and orchards, eating snails and other molluscs.",
+   "ms": "Antara kelip-kelip yang paling biasa dilihat; ia tahan gangguan dan aktiviti manusia, dan sering ditemui di dusun dan ladang yang bebas cahaya lampu. Semasa musim mengawan, jantan terbang di udara dan di celah rumput manakala betina membalas dengan cahaya dari tanah. Larvanya hidup di darat di tempat lembap seperti dasar sungai, padang rumput, lantai hutan, ladang dan dusun, memakan siput dan moluska lain."
+  },
+  "range": {
+   "hant": "臺灣全島平原都有，澎湖、小琉球和金門也有分布。",
+   "en": "Found on plains throughout Taiwan, and also on Penghu, Xiaoliuqiu and Kinmen.",
+   "ms": "Ditemui di tanah pamah seluruh Taiwan, dan juga di Penghu, Xiaoliuqiu dan Kinmen."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 164,
+  "name": {"hant": "姬黑條金龜", "en": "Little black-striped chafer", "ms": "Kumbang perang gelap kecil"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "寬胖、圓筒形的金龜，暗褐到黑色。頭、前胸背板和小楯片黑色帶綠色光澤，有些個體前胸背板側緣有白色帶紋。翅鞘光亮暗褐色，密布縱向刻點列。腹部稍微露出翅鞘，尾端背面散生黃褐色毛。",
+   "en": "A broad, cylindrical chafer, dark brown to black. The head, the shield behind it and the small triangle between the wing bases are black with a green sheen; some individuals have a white band along the sides of the shield. The wing cases are glossy dark brown with lengthwise rows of pits. The abdomen sticks out slightly beyond the wing cases, its tip with scattered yellow-brown hairs.",
+   "ms": "Kumbang yang lebar berbentuk silinder, perang tua hingga hitam. Kepala, perisai dada dan segi tiga kecil di antara pangkal sayap berwarna hitam berkilat hijau; sesetengah individu ada jalur putih di sisi perisai dada. Sayap keras perang tua berkilat dengan baris lekuk memanjang. Abdomen sedikit terjulur melepasi sayap keras, hujungnya berbulu perang kekuningan yang jarang."
+  },
+  "habits": {
+   "hant": "紀錄很少，缺乏生態資料，只推測是植食性，會啃食葉片和訪花。",
+   "en": "Records are few and its ecology is unknown; it is thought to feed on plants, chewing leaves and visiting flowers.",
+   "ms": "Rekodnya sedikit dan ekologinya tidak diketahui; ia dijangka pemakan tumbuhan yang menggigit daun dan melawat bunga."
+  },
+  "range": {
+   "hant": "臺灣特有種，目前只知綠島和台江有採集紀錄，應是平地的種類。",
+   "en": "Found only in Taiwan; so far collected only on Green Island and in Taijiang, and probably a lowland species.",
+   "ms": "Endemik Taiwan; setakat ini hanya dikutip di Pulau Hijau (Green Island) dan Taijiang, dan mungkin spesies tanah rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 165,
+  "name": {"hant": "臺灣青銅金龜", "en": "Taiwan bronze chafer", "ms": "Kumbang hijau berkilat Taiwan"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體型較大的綠色金屬光澤金龜，有些個體帶藍色或橙色光澤。頭楯像鏟子，觸角紅褐色。前胸背板兩側刻點大而密，中央小而疏。翅鞘末端下緣有明顯側邊隆起（南部個體較不明顯）。腳暗綠到黑色，腹末超出翅鞘。",
+   "en": "A fairly large metallic-green chafer; some individuals have a blue or orange sheen. The front of the head is shovel-shaped and the antennae reddish-brown. The shield behind the head has large, dense pits at the sides and small, sparse ones in the middle. Near the tip, the lower edge of each wing case has a clear raised ridge (less obvious in southern individuals). Legs dark green to black; the abdomen tip sticks out beyond the wing cases.",
+   "ms": "Kumbang yang agak besar berwarna hijau berkilat logam; sesetengahnya berkilat biru atau jingga. Bahagian depan kepala berbentuk penyodok dan sesungut perang kemerahan. Perisai dada ada lekuk besar dan rapat di sisi tetapi kecil dan jarang di tengah. Dekat hujung, tepi bawah setiap sayap keras ada rabung timbul yang jelas (kurang jelas pada individu dari selatan). Kaki hijau tua hingga hitam; hujung abdomen terjulur melepasi sayap keras."
+  },
+  "habits": {
+   "hant": "植食性，啃食植物嫩葉，常見於豆科植物上，也會訪花；夜間強烈趨光。",
+   "en": "Chews young leaves, often on plants of the bean family, and also visits flowers. Strongly attracted to lights at night.",
+   "ms": "Menggigit daun muda, sering pada tumbuhan keluarga kekacang, dan juga melawat bunga. Sangat tertarik kepada cahaya lampu pada waktu malam."
+  },
+  "range": {
+   "hant": "廣泛分布於平地及低海拔山區，綠島和蘭嶼另各有一個亞種。",
+   "en": "Widespread in the lowlands and low mountains, with two other subspecies on Green Island and Lanyu.",
+   "ms": "Tersebar luas di tanah rendah dan kawasan bukit rendah, dengan dua subspesies lain di Pulau Hijau (Green Island) dan Lanyu."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 166,
+  "name": {"hant": "曹德青銅金龜", "en": "Sauter's bronze chafer", "ms": "Kumbang hijau berbulu kuning"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "綠色金龜，略帶橙紅色金屬光澤。頭楯、前胸背板側緣和翅鞘側緣都是黃褐色，翅鞘有不明顯縱紋。腳黃褐色，腿節和脛節有黃色長毛；胸部腹面和腹部側邊到尾端也密布黃色長毛。",
+   "en": "A green chafer with a slight orange-red metallic sheen. The front of the head and the side edges of the shield and wing cases are yellow-brown, and the wing cases have faint lengthwise lines. Legs yellow-brown with long yellow hairs on the thighs and shins; the underside of the thorax and the sides and tip of the abdomen are also thickly covered in long yellow hairs.",
+   "ms": "Kumbang hijau dengan sedikit kilauan logam merah jingga. Bahagian depan kepala serta tepi sisi perisai dada dan sayap keras berwarna perang kekuningan, dan sayap keras ada garis memanjang yang samar. Kaki perang kekuningan dengan bulu kuning panjang pada peha dan betis; bawah dada serta sisi dan hujung abdomen juga dipenuhi bulu kuning panjang."
+  },
+  "habits": {
+   "hant": "植食性，啃食植物嫩葉，也會訪花，晚上會被燈光吸引。",
+   "en": "Chews young leaves and also visits flowers; attracted to lights at night.",
+   "ms": "Menggigit daun muda dan juga melawat bunga; tertarik kepada cahaya lampu pada waktu malam."
+  },
+  "range": {
+   "hant": "臺灣特有種，廣泛分布於平地及低海拔山區。",
+   "en": "Found only in Taiwan, widespread in the lowlands and low mountains.",
+   "ms": "Endemik Taiwan, tersebar luas di tanah rendah dan kawasan bukit rendah."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 167,
+  "name": {"hant": "絨毛金龜屬", "en": "Velvet chafer", "ms": "Kumbang baldu"},
+  "en_name_source": "common",
+  "id": {
+   "hant": "小型圓筒形金龜，黃褐到暗褐色。頭部光亮暗褐、沒有刻點和細毛；雄蟲觸角末端的鰓葉長，雌蟲短。翅鞘有細毛、有光澤，縱溝明顯，側緣有一列紅褐色長毛。腳紅褐色，腿節有長毛。",
+   "en": "A small, cylindrical chafer, yellow-brown to dark brown. The head is glossy dark brown with no pits or hairs; males have long fan-like plates at the antenna tips, females short ones. The wing cases are finely hairy yet shiny, with clear lengthwise grooves and a row of long reddish-brown hairs along the edge. Legs reddish-brown with long hairs on the thighs.",
+   "ms": "Kumbang kecil berbentuk silinder, perang kekuningan hingga perang tua. Kepala perang tua berkilat tanpa lekuk atau bulu; jantan ada kepingan seperti kipas yang panjang di hujung sesungut, betina pendek. Sayap keras berbulu halus tetapi berkilat, dengan alur memanjang yang jelas dan sebaris bulu panjang perang kemerahan di tepi. Kaki perang kemerahan dengan bulu panjang pada peha."
+  },
+  "habits": {
+   "hant": "夜行性，啃食植物嫩葉，晚上常見在馬纓丹上取食，會被燈光吸引。",
+   "en": "Active at night, chewing young leaves; often seen feeding on lantana after dark, and attracted to lights.",
+   "ms": "Aktif pada waktu malam, menggigit daun muda; sering dilihat makan pada pokok bunga tahi ayam (lantana) selepas gelap, dan tertarik kepada cahaya lampu."
+  },
+  "range": {
+   "hant": "普遍分布於平地到低、中海拔山區。",
+   "en": "Widespread from the lowlands to low and middle mountains.",
+   "ms": "Tersebar luas dari tanah rendah hingga kawasan bukit rendah dan pergunungan sederhana."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 168,
+  "name": {"hant": "銅點花金龜", "en": "Copper-spotted flower chafer", "ms": "Kumbang bunga perang bertompok"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "褐綠到深褐色、沒有金屬光澤的花金龜，前胸背板和翅鞘散布許多黃褐色碎斑。頭楯前緣中央凹入、略往上翹。臺灣同屬中只有本種和蘭嶼的亞種不具金屬光澤。雄蟲腹部略呈弓形，雌蟲平坦。",
+   "en": "A dull, brownish-green to dark brown flower chafer with no metallic sheen, its shield and wing cases scattered with many small yellow-brown flecks. The front of the head is notched in the middle and slightly upturned. In Taiwan, only this species and its Lanyu subspecies in this genus lack a metallic sheen. Males have a slightly curved belly; females a flat one.",
+   "ms": "Kumbang bunga berwarna hijau keperangan hingga perang tua yang kusam tanpa kilauan logam, dengan banyak bintik kecil perang kekuningan pada perisai dada dan sayap keras. Bahagian depan kepala bertakuk di tengah dan sedikit terangkat. Di Taiwan, hanya spesies ini dan subspesiesnya di Lanyu dalam genus ini yang tidak berkilat logam. Perut jantan sedikit melengkung; betina rata."
+  },
+  "habits": {
+   "hant": "吸食樹液，也吃花粉和果實，活潑、善飛。在台江喜歡造訪臺灣海桐的花，常成群趴在構樹果實上，或在臺灣欒樹上吸樹液。",
+   "en": "Sips tree sap and eats pollen and fruit; lively and a strong flier. In Taijiang it likes Pittosporum flowers, often gathers in groups on paper mulberry fruit, and drinks sap on Taiwan golden-rain trees.",
+   "ms": "Menghisap getah pokok serta makan debunga dan buah; lincah dan pandai terbang. Di Taijiang ia suka bunga Pittosporum, sering berkumpul pada buah pokok kertas (Broussonetia), dan menghisap getah pokok Koelreuteria."
+  },
+  "range": {
+   "hant": "臺灣特有種，普遍見於平地到低、中海拔山區，非常活躍；蘭嶼另有一亞種。",
+   "en": "Found only in Taiwan, a lively and common species from the lowlands to low and middle mountains; another subspecies lives on Lanyu.",
+   "ms": "Endemik Taiwan, spesies lincah yang biasa ditemui dari tanah rendah hingga kawasan bukit rendah dan pergunungan sederhana; satu lagi subspesies hidup di Lanyu."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 169,
+  "name": {"hant": "藍豔白點花金龜", "en": "Blue white-spotted flower chafer", "ms": "Kumbang bunga biru bertompok putih"},
+  "en_name_source": "descriptive",
+  "id": {
+   "hant": "體色變異極大，有褐、綠、藍三大色系，也有近黑色的，光澤強烈。前胸背板和翅鞘有白色碎斑，頭楯前緣不上翹、中央明顯凹入。易與東方白點（褐色、刻點粗、頭楯倒W形上翹）、紫豔白點（亮紫色、頭楯平直）、綠豔白點（光澤最強、前胸無白斑）混淆。",
+   "en": "Very variable in colour – brown, green or blue types, and some nearly black – with a strong shine. The shield and wing cases bear white flecks; the front edge of the head is not upturned and is clearly notched in the middle. It is easily confused with three relatives: the Oriental Flower Beetle (brown, coarse pits, head edge upturned in an upside-down W), the purple white-spotted chafer (bright purple, straight head edge) and the green white-spotted chafer (the shiniest, with no white spots on the shield).",
+   "ms": "Warnanya sangat berbeza – jenis perang, hijau atau biru, dan ada yang hampir hitam – dengan kilauan kuat. Perisai dada dan sayap keras ada bintik putih; tepi depan kepala tidak terangkat dan jelas bertakuk di tengah. Ia mudah dikelirukan dengan tiga saudaranya: kumbang bunga Oriental (perang, lekuk kasar, tepi kepala terangkat berbentuk W terbalik), kumbang bunga ungu (ungu terang, tepi kepala lurus) dan kumbang bunga hijau (paling berkilat, tiada tompok putih pada perisai dada)."
+  },
+  "habits": {
+   "hant": "吸食樹液，也吃花粉和果實，習性和其他花金龜相同，常一起出現。",
+   "en": "Sips tree sap and eats pollen and fruit; it behaves like other flower chafers and is often found alongside them.",
+   "ms": "Menghisap getah pokok serta makan debunga dan buah; tabiatnya sama seperti kumbang bunga lain dan sering ditemui bersama mereka."
+  },
+  "range": {
+   "hant": "臺灣特有種，普遍見於平地到低、中海拔山區，非常活躍常見。",
+   "en": "Found only in Taiwan, a lively and common species from the lowlands to low and middle mountains.",
+   "ms": "Endemik Taiwan, spesies lincah yang biasa ditemui dari tanah rendah hingga kawasan bukit rendah dan pergunungan sederhana."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ },
+ {
+  "page": 170,
+  "name": {"hant": "東方白點花金龜", "en": "Oriental Flower Beetle", "ms": "Kumbang bunga bertompok putih"},
+  "en_name_source": "book",
+  "id": {
+   "hant": "褐色帶金屬光澤，刻點粗大。頭楯呈倒W形、前緣上翹。前胸背板有數枚白斑，中央縱線沒有刻點；翅鞘白斑多且常連在一起。雌蟲前腳脛節外側有三個明顯的齒，雄蟲只有兩個。",
+   "en": "Brown with a metallic sheen and coarse pits. The front of the head forms an upside-down W and is upturned. The shield behind the head has several white spots and a smooth line down the centre without pits; the wing cases have many white spots that often join. Females have three clear teeth on the outer edge of the front shins; males only two.",
+   "ms": "Perang berkilat logam dengan lekuk kasar. Bahagian depan kepala berbentuk W terbalik dan terangkat. Perisai dada ada beberapa tompok putih dan garis licin tanpa lekuk di tengah; sayap keras ada banyak tompok putih yang sering bersambung. Betina ada tiga gigi jelas di tepi luar betis kaki depan; jantan hanya dua."
+  },
+  "habits": {
+   "hant": "吸食樹液，也吃花粉和果實，常和其他花金龜一起出現。非常常見，臺語俗稱「鐵金龜」。",
+   "en": "Sips tree sap and eats pollen and fruit, often alongside other flower chafers. Very common; in Taiwanese it is called “iron beetle”.",
+   "ms": "Menghisap getah pokok serta makan debunga dan buah, sering bersama kumbang bunga lain. Sangat biasa; dalam bahasa Taiwan ia dipanggil “kumbang besi”."
+  },
+  "range": {
+   "hant": "臺灣特有亞種，普遍見於平地到低、中海拔山區，非常活躍常見。",
+   "en": "A subspecies found only in Taiwan, lively and common from the lowlands to low and middle mountains.",
+   "ms": "Subspesies endemik Taiwan, lincah dan biasa ditemui dari tanah rendah hingga kawasan bukit rendah dan pergunungan sederhana."
+  },
+  "alias": {"hant": "", "en": "", "ms": ""}
+ }
+]

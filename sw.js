@@ -1,6 +1,6 @@
 /* Taijiang Insects — offline-first service worker.
    Bump CACHE when index.html or data.js change. */
-const CACHE = "taijiang-insects-v3";
+const CACHE = "taijiang-insects-v4";
 const MODEL_HOSTS = ["cdn.jsdelivr.net","tfhub.dev","www.kaggle.com","storage.googleapis.com"];
 const SHELL = ["./", "./index.html", "./data.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => {
