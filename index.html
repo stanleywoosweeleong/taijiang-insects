@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1d5c57">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>台江昆蟲圖鑑 · Taijiang Insects</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{
+  --ink:#1a1f1e; --ink2:#2f3a38; --bg:#f4efe4; --card:#fffdf8; --line:#cfc6b3;
+  --teal:#1d5c57; --teal2:#2a7a73; --sand:#d9b26a; --rust:#9a4a3a; --sky:#2f6b9a; --moss:#5c7d3a;
+  --fs:17px; --radius:10px;
+}
+html[data-fs="1"]{--fs:19px}
+html[data-fs="2"]{--fs:21px}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang TC","PingFang SC","Noto Sans TC","Noto Sans SC","Noto Sans CJK TC","Microsoft JhengHei","Segoe UI",Roboto,sans-serif;font-size:var(--fs);line-height:1.5;font-weight:500}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+input{font:inherit;color:inherit}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+input[type=number]{-moz-appearance:textfield}
+em,i{font-style:italic}
+.hide{display:none!important}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:var(--teal);color:#fff;padding:env(safe-area-inset-top) 0 0;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.hbar{display:flex;align-items:center;gap:8px;padding:8px 12px;height:56px}
+.hbar h1{flex:1;margin:0;font-size:1.12em;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.02em}
+.hbtn{min-width:48px;height:40px;border:2px solid rgba(255,255,255,.85);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;padding:0 10px;color:#fff;background:rgba(255,255,255,.08)}
+.hbtn.back{min-width:44px;padding:0}
+.hbtn svg{width:24px;height:24px}
+
+main{padding:12px 12px 90px;max-width:760px;margin:0 auto}
+
+/* bottom nav */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:2px solid var(--line);display:flex;padding:4px 0 calc(4px + env(safe-area-inset-bottom))}
+nav.tabs button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;color:var(--ink2);font-size:.78em;font-weight:600;line-height:1.1}
+nav.tabs button svg{width:28px;height:28px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs button.on{color:var(--teal)}
+nav.tabs button.on::after{content:"";width:28px;height:3px;background:var(--teal);border-radius:2px;margin-top:1px}
+
+/* language gate */
+#gate{position:fixed;inset:0;z-index:50;background:var(--teal);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center}
+#gate .logo{width:120px;height:120px;margin-bottom:16px}
+#gate h2{margin:0 0 4px;font-size:1.7em;font-weight:800}
+#gate .sub{opacity:.92;font-size:1.05em;margin-bottom:28px;line-height:1.45}
+#gate .langs{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;max-width:420px}
+#gate .langs button{background:#fff;color:var(--teal);font-size:1.15em;font-weight:800;padding:18px 8px;border-radius:12px;border:3px solid #fff}
+#gate .langs button:active{background:#e8f1f0}
+
+/* generic blocks */
+.card{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px}
+.card h3{margin:0 0 8px;font-size:1.05em;font-weight:800;color:var(--teal)}
+.sec{margin:14px 0 6px;font-size:.95em;font-weight:800;color:var(--teal);letter-spacing:.03em}
+p{margin:0 0 10px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px}
+.chips.scroll{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.chips.scroll::-webkit-scrollbar{display:none}
+.chip{border:2px solid var(--teal);border-radius:7px;padding:7px 12px;font-weight:700;color:var(--teal);background:var(--card);white-space:nowrap;display:inline-flex;align-items:center;gap:6px;line-height:1.2}
+.chip.on{background:var(--teal);color:#fff}
+.chip svg{width:22px;height:22px}
+.chip .n{font-size:.8em;opacity:.8}
+.chip.on .n{opacity:.9}
+.bgrp{display:grid;gap:8px;margin:6px 0 12px}
+.bgrp.c2{grid-template-columns:1fr 1fr}.bgrp.c3{grid-template-columns:1fr 1fr 1fr}.bgrp.c4{grid-template-columns:repeat(4,1fr)}.bgrp.c6{grid-template-columns:repeat(6,1fr)}
+.bgrp .chip{justify-content:center;text-align:center;padding:9px 6px;white-space:normal}
+.search{display:flex;align-items:center;gap:8px;background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:6px 10px;margin-bottom:10px}
+.search input{flex:1;border:0;background:none;outline:none;min-width:0;padding:6px 0}
+.search svg{width:22px;height:22px;stroke:var(--ink2);fill:none;stroke-width:2.2}
+.muted{color:var(--ink2);font-size:.92em}
+.count{font-weight:800;color:var(--teal);margin:4px 0 8px}
+
+/* species list */
+.list{display:flex;flex-direction:column;gap:10px}
+.item{display:flex;gap:12px;align-items:center;background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:8px;text-align:left;width:100%}
+.thumb{width:86px;height:86px;flex:none;border-radius:8px;background:#e9e2d2;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb svg{width:60px;height:60px;opacity:.75}
+.item .t{flex:1;min-width:0}
+.item .nm{font-weight:800;font-size:1.05em;line-height:1.25}
+.item .sci{font-style:italic;color:var(--ink2);font-size:.9em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px;font-size:.8em}
+.tag{display:inline-block;border-radius:5px;padding:1px 7px;font-weight:700;background:#ebe5d6;color:var(--ink2)}
+.tag.now{background:var(--sand);color:#3b2a08}
+.tag.endemic{background:#dfeedc;color:#2f5a1f}.tag.sub{background:#dfeedc;color:#2f5a1f}.tag.exotic{background:#f3dcd7;color:#7a2d1f}
+.order-head{display:flex;align-items:center;gap:10px;margin:16px 0 8px;font-weight:800;color:var(--teal)}
+.order-head svg{width:32px;height:32px}
+.order-head .en{font-weight:600;color:var(--ink2);font-size:.9em}
+
+/* detail */
+.photos{display:grid;grid-template-columns:1fr;gap:8px;margin-bottom:12px}
+.photos .ph{border-radius:var(--radius);overflow:hidden;background:#e9e2d2;min-height:200px;display:flex;align-items:center;justify-content:center;position:relative}
+.photos .ph img{width:100%;display:block}
+.photos .ph svg{width:140px;height:140px;opacity:.7}
+.photos .ph .nophoto{position:absolute;bottom:8px;left:8px;right:8px;background:rgba(255,253,248,.92);border-radius:6px;padding:6px 8px;font-size:.82em;color:var(--ink2);font-weight:600}
+.dname{font-size:1.6em;font-weight:900;line-height:1.2;margin:0}
+.onames{color:var(--ink2);font-weight:600;margin:4px 0 2px;line-height:1.35}
+.dsci{font-style:italic;font-size:1.05em;margin:0 0 8px}
+.taxo{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.taxo .tag{font-size:.9em;padding:4px 10px;display:inline-flex;align-items:center;gap:6px}.taxo .tag svg{width:24px;height:24px}
+.months{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;margin:6px 0 4px}
+.months div{height:40px;border-radius:5px;background:#ece6d7;color:#8a826f;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85em;position:relative}
+.months div.on{background:#e4852b;color:#fff}
+.months div.cur{outline:3px solid var(--ink);outline-offset:-3px}
+.months div.cur::after{content:"▲";position:absolute;bottom:-16px;left:0;right:0;text-align:center;font-size:.7em;color:var(--ink)}
+.months-wrap{margin-bottom:22px}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.tagrow .ht{display:inline-flex;align-items:center;gap:6px;border-radius:6px;padding:5px 10px;font-weight:700;font-size:.92em;border:2px solid transparent}
+.tagrow .ht svg{width:22px;height:22px}
+.ht.hab{background:#f0ddd7;color:#6b2d20;border-color:#b25a48}.ht.mic{background:#dde8f2;color:#1f4a6e;border-color:#4b7fab}.ht.act{background:#e6e0ee;color:#3f2f5a;border-color:#7a6498}
+.ruler{margin:6px 0 12px}
+.ruler svg{width:100%;height:46px;display:block}
+.prevnext{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.prevnext button{border:2px solid var(--teal);border-radius:var(--radius);padding:10px;color:var(--teal);font-weight:700;text-align:left;background:var(--card);line-height:1.25}
+.prevnext button.next{text-align:right}
+.prevnext small{display:block;color:var(--ink2);font-weight:600;font-size:.8em}
+
+/* learn */
+details.lrn{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);margin-bottom:10px;padding:0 14px}
+details.lrn summary{list-style:none;cursor:pointer;padding:13px 0;font-weight:800;font-size:1.05em;color:var(--teal);display:flex;align-items:center;gap:10px}
+details.lrn summary::-webkit-details-marker{display:none}
+details.lrn summary svg.ic{width:30px;height:30px;flex:none}
+details.lrn summary::after{content:"";margin-left:auto;width:10px;height:10px;border-right:3px solid var(--teal);border-bottom:3px solid var(--teal);transform:rotate(45deg);transition:.2s}
+details.lrn[open] summary::after{transform:rotate(-135deg)}
+details.lrn .body{padding:0 0 12px}
+.fig{background:#fbf8f1;border:2px solid var(--line);border-radius:8px;padding:8px;margin:8px 0 12px}
+.fig svg{width:100%;height:auto;display:block}
+.fig .cap{font-size:.88em;color:var(--ink2);text-align:center;margin-top:4px;font-weight:600}
+.kv{margin:0 0 10px}.kv b{color:var(--teal)}
+.sub-card{border-left:4px solid var(--sand);padding:4px 0 4px 10px;margin:8px 0}
+.sub-card b{display:block;color:var(--teal)}
+
+/* key */
+.key-q{font-size:1.15em;font-weight:800;margin:0 0 10px}
+.key-opts{display:grid;gap:10px;margin-bottom:12px}
+.key-opts button{border:2px solid var(--teal);border-radius:var(--radius);background:var(--card);padding:12px 14px;text-align:left;font-weight:700;color:var(--ink);display:flex;align-items:center;gap:10px}
+.key-opts button svg{width:36px;height:36px;flex:none}
+.key-res{background:#e9f1ef;border:2px solid var(--teal);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px}
+.key-res .big{font-size:1.3em;font-weight:900;color:var(--teal)}
+.linkbtn{border:2px solid var(--teal);border-radius:8px;padding:8px 14px;color:var(--teal);font-weight:800;background:var(--card);margin-top:6px}
+
+/* about */
+.about p{margin-bottom:10px}
+.about .src{background:#fbf8f1;border:2px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.95em}
+
+/* new features */
+#totop{position:fixed;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:19;width:48px;height:48px;border-radius:12px;background:var(--teal);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center}
+#totop svg{width:26px;height:26px}
+.today{display:block;background:var(--teal);color:#fff;border-radius:var(--radius);overflow:hidden;margin-bottom:14px;text-align:left;width:100%;padding:0}
+.today .hero{background:#12403c;display:flex;align-items:center;justify-content:center;min-height:200px;max-height:62vh}
+.today .hero img{width:100%;max-height:62vh;object-fit:contain;display:block}
+.today .hero svg{width:120px;height:120px;color:#e8cf95;opacity:.9}
+.today .cap{padding:12px 14px 14px}
+.today .lab{font-size:.85em;font-weight:700;opacity:.9;display:flex;justify-content:space-between;gap:8px}
+.today .nm{font-size:1.3em;font-weight:900;line-height:1.25;margin-top:2px}
+.today .sci{font-style:italic;opacity:.92;font-size:.95em}
+.today .mid{font-size:.8em;opacity:.8;margin-top:4px;font-weight:600}
+.cam-group{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--teal);border-radius:var(--radius);padding:8px 12px;margin-bottom:8px;text-align:left;width:100%}
+.cam-group svg{width:38px;height:38px;flex:none}
+.cam-group .t{flex:1}.cam-group .nm{font-weight:900}
+.cam-group .bar{height:8px;background:#e6dfd0;border-radius:4px;overflow:hidden;margin-top:4px}.cam-group .bar div{height:100%;background:var(--teal)}
+.cam-group.low{border-color:var(--line)}.cam-group.low .bar div{background:var(--sand)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 14px}
+.actions .chip{justify-content:center;padding:10px 6px;white-space:normal;text-align:center}
+.item.saved .thumb::after{content:"★";position:absolute;top:2px;right:5px;color:var(--sand);font-size:1.1em;text-shadow:0 0 3px #000}
+.quiz-photo{border-radius:var(--radius);overflow:hidden;background:#e9e2d2;margin-bottom:12px;min-height:220px;display:flex;align-items:center;justify-content:center}
+.quiz-photo img{width:100%;display:block;max-height:60vh;object-fit:contain;background:#000}
+.qopts{display:grid;gap:10px}
+.qopts button{border:2px solid var(--teal);border-radius:var(--radius);background:var(--card);padding:12px 14px;text-align:left;font-weight:700;line-height:1.3}
+.qopts button.ok{background:#2f7a2f;border-color:#2f7a2f;color:#fff}
+.qopts button.bad{background:#a33a2a;border-color:#a33a2a;color:#fff}
+.qopts button:disabled{opacity:.9}
+.qbar{display:flex;justify-content:space-between;font-weight:800;color:var(--teal);margin-bottom:8px}
+.flash-card{border:2px solid var(--teal);border-radius:var(--radius);background:var(--card);padding:12px;text-align:center;margin-bottom:10px}
+.flash-card .ans{font-size:1.4em;font-weight:900;margin-top:8px}
+.field{margin:8px 0}
+.field label{display:block;font-weight:800;color:var(--teal);font-size:.92em;margin-bottom:4px}
+.field input,.field textarea{width:100%;border:2px solid var(--line);border-radius:8px;padding:10px;background:var(--card);font:inherit;color:var(--ink)}
+.field textarea{min-height:90px;resize:vertical}
+.pick{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.pick button{text-align:left;border:2px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--card);font-weight:700}
+.pick button.on{border-color:var(--teal);background:#e6f0ee}
+.rec{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:10px 12px;margin-bottom:10px}
+.rec .nm{font-weight:800}
+.rec .meta{color:var(--ink2);font-size:.92em;font-weight:600}
+.rec .del{color:var(--rust);font-weight:800;margin-top:6px}
+.cam-box{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px}
+.cam-box .shot{border-radius:8px;overflow:hidden;background:#000;margin:8px 0;max-height:50vh;display:flex;justify-content:center}
+.cam-box .shot img{max-width:100%;max-height:50vh;object-fit:contain}
+.conf{display:flex;align-items:center;gap:10px;margin:6px 0 10px;font-weight:800}
+.conf .bar{flex:1;height:14px;background:#ece6d7;border-radius:7px;overflow:hidden}
+.conf .bar div{height:100%;background:var(--moss)}
+.conf .bar div.low{background:var(--rust)}.conf .bar div.mid{background:var(--sand)}
+.warn{background:#fdf3dc;border:2px solid var(--sand);border-radius:8px;padding:8px 10px;font-weight:600;margin:8px 0}
+.errbox{background:#f6e2dd;border:2px solid var(--rust);border-radius:8px;padding:8px 10px;font-weight:700;color:#6b2d20;margin:8px 0}
+/* lang picker overlay */
+#lpick{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:20px}
+#lpick .box{background:var(--card);border-radius:14px;padding:18px;width:100%;max-width:400px}
+#lpick .langs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#lpick .langs button{border:2px solid var(--teal);border-radius:10px;padding:14px 6px;font-weight:800;font-size:1.1em;color:var(--teal)}
+#lpick .langs button.on{background:var(--teal);color:#fff}
+
+@media(min-width:640px){.photos{grid-template-columns:1fr 1fr}.list{display:grid;grid-template-columns:1fr 1fr}.item{align-self:start}}
+</style>
+</head>
+<body>
+
+<div id="gate" class="hide">
+  <svg class="logo" viewBox="0 0 120 120" aria-hidden="true"><use href="#ico-app"/></svg>
+  <h2 id="gate-title">台江昆蟲圖鑑</h2>
+  <div class="sub">台江昆虫图鉴 · Taijiang Insects<br>Serangga Taijiang</div>
+  <div class="langs">
+    <button data-lang="hans">简体中文</button>
+    <button data-lang="hant">繁體中文</button>
+    <button data-lang="en">English</button>
+    <button data-lang="ms">Malay</button>
+  </div>
+</div>
+
+<div id="lpick" class="hide">
+  <div class="box">
+    <div class="langs">
+      <button data-lang="hans">简体中文</button>
+      <button data-lang="hant">繁體中文</button>
+      <button data-lang="en">English</button>
+      <button data-lang="ms">Malay</button>
+    </div>
+  </div>
+</div>
+
+<header>
+  <div class="hbar">
+    <button class="hbtn back hide" id="btn-back" aria-label="back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <h1 id="h-title">台江昆蟲圖鑑</h1>
+    <button class="hbtn" id="btn-fs" aria-label="text size">Aa</button>
+    <button class="hbtn" id="btn-lang" aria-label="language">繁中</button>
+  </div>
+</header>
+
+<main id="main"></main>
+<button id="totop" class="hide" aria-label="top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14l6-6 6 6"/></svg></button>
+
+<nav class="tabs" id="tabs">
+  <button data-view="browse"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span></span></button>
+  <button data-view="identify"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M8 10.5h5M10.5 8v5"/></svg><span></span></button>
+  <button data-view="calendar"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15.5" r="1.6" fill="currentColor" stroke="none"/></svg><span></span></button>
+  <button data-view="learn"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5V5.5M8 7h8M8 10.5h8"/></svg><span></span></button>
+  <button data-view="more"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.8" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none"/><circle cx="19" cy="12" r="1.8" fill="currentColor" stroke="none"/><rect x="2.5" y="4.5" width="19" height="15" rx="3"/></svg><span></span></button>
+</nav>
+
+<!-- original illustrations: order glyphs, habitat icons, app icon -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="ico-app" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="26" fill="#1d5c57"/>
+  <ellipse cx="60" cy="56" rx="7" ry="7" fill="#f4efe4"/>
+  <rect x="56.5" y="60" width="7" height="46" rx="3.5" fill="#f4efe4"/>
+  <path d="M57 62 C 30 50, 12 56, 10 68 C 12 78, 34 74, 57 68 Z" fill="#d9b26a" opacity=".95"/>
+  <path d="M63 62 C 90 50, 108 56, 110 68 C 108 78, 86 74, 63 68 Z" fill="#d9b26a" opacity=".95"/>
+  <path d="M57 69 C 34 76, 20 84, 20 92 C 24 98, 42 90, 57 74 Z" fill="#e8cf95" opacity=".9"/>
+  <path d="M63 69 C 86 76, 100 84, 100 92 C 96 98, 78 90, 63 74 Z" fill="#e8cf95" opacity=".9"/>
+  <circle cx="55" cy="52" r="3.5" fill="#1d5c57"/><circle cx="65" cy="52" r="3.5" fill="#1d5c57"/>
+</symbol>
+<!-- orders -->
+<symbol id="o-Odonata" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="12" r="5"/><path d="M32 17v38"/><path d="M30 22C14 16 6 22 7 30c6 6 16 2 23-2Z"/><path d="M34 22c16-6 24 0 23 8-6 6-16 2-23-2Z"/><path d="M30 28C18 34 10 42 12 48c6 2 14-6 18-12Z"/><path d="M34 28c12 6 20 14 18 20-6 2-14-6-18-12Z"/></g></symbol>
+<symbol id="o-Orthoptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 36c4-8 14-12 30-12 8 0 14 3 16 8l-4 2H14z"/><path d="M14 34c6-4 20-5 38-2"/><path d="M46 24l10-16M44 25l6-19"/><path d="M50 30c-2 6-8 10-20 10"/><path d="M24 40l-8 14M24 40l-4 16"/><path d="M36 40l6 12M44 36l12 10"/><circle cx="53" cy="27" r="1.6" fill="currentColor"/></g></symbol>
+<symbol id="o-Mantodea" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M44 10l-6 6-4-2-2 6"/><circle cx="46" cy="9" r="3"/><path d="M34 18c-6 2-10 10-12 22l-4 14"/><path d="M34 18c4 10 2 24-6 36"/><path d="M32 20c-10 0-16 2-20 8"/><path d="M36 22c-4-8-12-8-18-4 6 0 10 4 12 10"/><path d="M40 20c8 0 12 6 14 14l-6-2"/><path d="M26 36l-14 4M28 46l-8 10M30 46l8 10"/></g></symbol>
+<symbol id="o-Blattodea" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="36" rx="14" ry="20"/><path d="M32 22v34M22 26c6 4 14 4 20 0"/><path d="M28 16l-14-10M36 16l14-10"/><path d="M20 30l-10-4M20 40l-12 2M22 48l-10 8M44 30l10-4M44 40l12 2M42 48l10 8"/></g></symbol>
+<symbol id="o-Isoptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="14" r="6"/><ellipse cx="32" cy="27" rx="6" ry="6"/><ellipse cx="32" cy="45" rx="9" ry="13"/><path d="M28 9l-6-5M36 9l6-5"/><path d="M26 24l-10-2M26 30l-10 6M38 24l10-2M38 30l10 6"/></g></symbol>
+<symbol id="o-Hemiptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 10c-10 0-18 8-18 20 0 12 8 24 18 26 10-2 18-14 18-26 0-12-8-20-18-20Z"/><path d="M20 24h24M32 26v30"/><path d="M26 16l-8-8M38 16l8-8"/><path d="M16 32l-10 0M18 42l-10 6M46 32l10 0M44 42l10 6"/></g></symbol>
+<symbol id="o-Coleoptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="13" r="5"/><path d="M22 24h20"/><path d="M32 24v32"/><path d="M32 24c-10 0-16 10-14 22 2 7 8 10 14 10 6 0 12-3 14-10 2-12-4-22-14-22Z"/><path d="M28 9l-6-6M36 9l6-6"/><path d="M19 32l-10-2M18 42l-10 6M45 32l10-2M46 42l10 6"/></g></symbol>
+<symbol id="o-Diptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="14" r="7"/><ellipse cx="32" cy="36" rx="9" ry="14"/><path d="M26 28C12 22 6 30 10 38c6 2 12-4 16-8Z"/><path d="M38 28c14-6 20 2 16 10-6 2-12-4-16-8Z"/><path d="M24 42l-10 8M24 36l-12 0M40 42l10 8M40 36l12 0"/></g></symbol>
+<symbol id="o-Lepidoptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 20v30"/><circle cx="32" cy="16" r="4"/><path d="M29 13l-6-8M35 13l6-8"/><path d="M30 24C18 10 6 14 8 26c2 8 12 10 22 8Z"/><path d="M34 24c12-14 24-10 22 2-2 8-12 10-22 8Z"/><path d="M30 36C20 36 10 42 12 50c4 6 14 0 18-8Z"/><path d="M34 36c10 0 20 6 18 14-4 6-14 0-18-8Z"/></g></symbol>
+<symbol id="o-Hymenoptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="24" r="6"/><ellipse cx="31" cy="30" rx="7" ry="6"/><path d="M38 32c10-2 16 6 14 14-4 6-12 4-14-4-1-4 0-8 0-10Z"/><path d="M40 36h10M40 42h10"/><path d="M28 26C32 12 44 12 46 20"/><path d="M32 28c6-8 16-6 18 0"/><path d="M14 20l-6-8M20 19l2-10"/><path d="M26 36l-6 10M32 36l0 12M36 36l8 8"/></g></symbol>
+<symbol id="o-Neuroptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="12" r="4"/><path d="M32 16v40"/><path d="M29 9l-8-5 2 4M35 9l8-5-2 4"/><path d="M30 20C16 24 8 36 12 50c8-2 14-14 18-24Z"/><path d="M34 20c14 4 22 16 18 30-8-2-14-14-18-24Z"/><path d="M22 30h6M22 38h7M42 30h-6M42 38h-7"/></g></symbol>
+<symbol id="o-Dermaptera" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="10" r="5"/><rect x="26" y="16" width="12" height="10" rx="3"/><path d="M27 26c-2 8-2 16 1 22h8c3-6 3-14 1-22"/><path d="M29 48c-6 4-8 10-4 12 2-4 5-6 7-8M35 48c6 4 8 10 4 12-2-4-5-6-7-8"/><path d="M28 6l-6-4M36 6l6-4"/><path d="M26 20l-10-2M26 32l-10 4M38 20l10-2M38 32l10 4"/></g></symbol>
+<!-- habitats -->
+<symbol id="h-mangrove" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c-4 0-7 3-7 6 0 2 1 3 3 3h8c2 0 3-1 3-3 0-3-3-6-7-6Z"/><path d="M12 13v3M12 16l-4 5M12 16l4 5M12 16l-1 5M12 16l1 5"/><path d="M3 21h18"/></g></symbol>
+<symbol id="h-windbreak" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20v-5M7 15c-3 0-4-2-3-4 1 1 2 1 3 1-1-2 0-4 2-5 1 2 3 2 4 1 1 2 0 4-1 5h1c2 0 3 1 2 3H7Z"/><path d="M17 20v-4M17 16c-2 0-3-2-2-3 2 0 2-3 2-3s0 3 2 3c1 1 0 3-2 3Z"/><path d="M3 21h18"/></g></symbol>
+<symbol id="h-wetgrass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M6 17V8M10 17V5M14 17V8M18 17V6"/><path d="M6 10c-2-1-3-3-3-5M14 11c2-1 3-3 3-5"/></g></symbol>
+<symbol id="h-drygrass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 21c0-6 1-10 3-13M12 21c0-7-1-11-3-14M18 21c0-6-1-10-3-13"/><circle cx="18" cy="5" r="2.5"/></g></symbol>
+<symbol id="h-water" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 14c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 19c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></g></symbol>
+<symbol id="m-ground" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h18M3 14c3 0 3 4 6 4s3-4 6-4 3 4 6 4"/><circle cx="8" cy="9" r="1.5"/><circle cx="16" cy="8" r="2"/></g></symbol>
+<symbol id="m-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19C5 9 11 5 20 4c0 9-4 15-14 15Z"/><path d="M5 19c3-6 7-9 11-11"/></g></symbol>
+<symbol id="m-wood" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21V7M15 21V7"/><ellipse cx="12" cy="7" rx="3" ry="2"/><path d="M9 12c2 1 4 1 6 0M9 17c2 1 4 1 6 0"/><path d="M5 21h14"/></g></symbol>
+<symbol id="m-water" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 5-6 8-6 12a6 6 0 0 0 12 0c0-4-3-7-6-12Z"/></g></symbol>
+<symbol id="m-flower" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="2.5"/><path d="M12 7.5c-1-4 2-5 2-2 2-2 5 0 2 2 4 1 2 4-1 3 2 3 0 5-2 2-2 3-4 1-2-2-3 1-5-2-1-3Z"/><path d="M12 13v8M12 17c-3 0-4-1-5-3M12 17c3 0 4-1 5-3"/></g></symbol>
+<symbol id="a-day" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"/></g></symbol>
+<symbol id="a-light" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c1 1 1 1.5 1 2.5h6c0-1 0-1.5 1-2.5A6 6 0 0 0 12 3Z"/></g></symbol>
+</defs>
+</svg>
+
+<script src="data.js"></script>
+<script>
+/* ===================== i18n ===================== */
+const I18N = {
+  hans:{appTitle:"台江昆虫图鉴",short:"简中",tabs:["图鉴","辨识","月历","学习","更多"],today:"今日昆虫",saved:"收藏",save:"☆ 收藏",unsave:"★ 已收藏",bookPage:"原书页",record:"✎ 记一笔观察",
+    more:{quiz:"看图认虫",flash:"闪卡练习",notebook:"观察笔记",about:"关于这个软件"},
+    quiz:{intro:"看照片选出正确的名字，一轮 10 题。",start:"开始",q:"这是哪一种？",ok:"答对了！",bad:"答错了，正确答案：",next:"下一题",score:"得分",again:"再来一次",done:"完成！"},
+    flash:{intro:"先看照片猜猜看，点一下翻面看答案。",flip:"翻面看答案",next:"下一张"},
+    nb:{intro:"记录你在野外看到的昆虫。记录只存在这台装置的浏览器里，请定期导出备份。",species:"昆虫",pick:"输入名称搜寻…",date:"日期",place:"地点",note:"备注",add:"新增记录",export:"导出备份 (JSON)",import:"导入备份",del:"删除",empty:"还没有记录。",count:"笔记录",noSpecies:"（未指定昆虫）"},
+    toTop:"回到顶部",midnight:"每天午夜更换（UTC+8）",camLocal:{looksLike:"手机判断：看起来像",candidates:"图鉴中可能的种类（本月活动的排前面）",low:"不太确定——请对照下面的照片。",notInsect:"这看起来不像昆虫（可能是蜘蛛或其他小动物）。",loading:"正在准备离线辨识（第一次需连网下载约 7 MB）…",fail:"离线辨识模型载入失败（第一次需要连网）。",off:"离线辨识：不可用"},cam:{btn:"📷 拍照辨识",intro:"拍一张清楚的照片（整只虫，背景简单）。软件会和图鉴里的 180 种比对，并告诉你有多像；比对不到时，可以转到 Google 继续查。",working:"辨识中…",match:"可能是",conf:"相似度",check:"请对照「怎么认」的特征再确认，辨识结果不一定正确。",alts:"其他可能",none:"图鉴里找不到相符的种类。",guess:"看起来像",google:"用 Google 搜寻这个名字",lens:"用 Google 智慧镜头查这张照片",lensHint:"分享到手机上的 Google 软件即可打开智慧镜头",retry:"再拍一张",noService:"辨识服务尚未设定（需要在 index.html 填入 Worker 网址）。你仍可用下面的 Google 智慧镜头查这张照片。",err:"辨识服务连不上，请检查网络后再试。",open:"查看"},
+    search:"搜寻名称…",all:"全部",species:"种",now:"本月",endemic:"台湾特有种",sub:"台湾特有亚种",exotic:"外来种",
+    order:"目",family:"科",size:"体长",wingspan:"展翅",forewing:"前翅长",mm:"毫米",cm_ref:"1 厘米",
+    months:"活动月份",monthNames:["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],
+    habitat:"栖地",micro:"微栖地",activity:"活动",
+    hab:{mangrove:"红树林",windbreak:"防风林",wetgrass:"湿草地",drygrass:"干草地",water:"溪沟水塘"},
+    mic:{ground:"地面",leaf:"叶上",wood:"树干木头",water:"水面水中",flower:"访花"},
+    act:{day:"白天活动",light:"夜间趋光"},
+    idTitle:"怎么认",habitsTitle:"习性",rangeTitle:"分布",aliasTitle:"别名",otherNames:"其他名称",
+    prev:"上一种",next:"下一种",noPhoto:"照片待补充——放入 img/ 资料夹即会显示",
+    idIntro:"按你看到的情况点选，下面会立即列出可能的种类。",where:"在哪里看到？",on:"停在什么上面？",when:"什么时候？",dayNight:"白天还是夜里灯下？",sizeQ:"大约多大？",group:"哪一类？",anyTime:"不限月份",anyAct:"不限",
+    sizes:["<5 mm","5–15 mm","15–30 mm","30–60 mm",">60 mm"],reset:"清除条件",results:"可能的种类",noResult:"没有符合的种类，试着减少条件。",
+    keyTitle:"这是哪一类昆虫？",keyIntro:"一步一步回答，找出它属于哪一目。",keyRestart:"重新开始",keyGo:"查看这一类的种类",keyNone:"这本图鉴没有收录这一类。",
+    calIntro:"选一个月份，看看哪些昆虫这时候最活跃。",thisMonth:"本月",
+    learnSecs:{park:"认识台江",history:"台江的昆虫史",habitats:"五种栖地",anatomy:"昆虫的身体",mouth:"口器的类型",legs:"足的类型",lifecycle:"生活史与变态",tips:"赏虫前的准备",safety:"安全第一",key:"快速辨识"},
+    typical:"常见昆虫：",example:"例如：",stages:"阶段：",emergency:"紧急联络",
+    about:{title:"关于这个软件",p1:"这个软件介绍台江国家公园（台湾台南）及周边常见的 180 种昆虫，可离线使用，支持简体中文、繁体中文、英文与马来文。",p2:"物种清单、学名、分类、体长、活动月份与栖地资料整理自下列图鉴；软件中的说明文字为重新撰写的精简摘要，并非原书内容。照片未随软件附上，版权属原摄影者；请依 README 说明取得授权后自行放入。",src:"资料来源",srcText:"《游黽飞蛉：台江昆虫图鉴》黄文伯、张原谋、庄棨州撰文，台江国家公园管理处出版，2015 年 12 月初版。ISBN 978-986-04-6579-2。",photo:"照片版权：原书摄影者（庄棨州、黄舒诚、张原谋、陈建宏、谢宗欣、钟文翔、宋绍民、王昕华）。",ver:"版本"},
+    photoBy:"照片"},
+  hant:{appTitle:"台江昆蟲圖鑑",short:"繁中",tabs:["圖鑑","辨識","月曆","學習","更多"],today:"今日昆蟲",saved:"收藏",save:"☆ 收藏",unsave:"★ 已收藏",bookPage:"原書頁",record:"✎ 記一筆觀察",
+    more:{quiz:"看圖認蟲",flash:"閃卡練習",notebook:"觀察筆記",about:"關於這個軟體"},
+    quiz:{intro:"看照片選出正確的名字，一輪 10 題。",start:"開始",q:"這是哪一種？",ok:"答對了！",bad:"答錯了，正確答案：",next:"下一題",score:"得分",again:"再來一次",done:"完成！"},
+    flash:{intro:"先看照片猜猜看，點一下翻面看答案。",flip:"翻面看答案",next:"下一張"},
+    nb:{intro:"記錄你在野外看到的昆蟲。紀錄只存在這台裝置的瀏覽器裡，請定期匯出備份。",species:"昆蟲",pick:"輸入名稱搜尋…",date:"日期",place:"地點",note:"備註",add:"新增紀錄",export:"匯出備份 (JSON)",import:"匯入備份",del:"刪除",empty:"還沒有紀錄。",count:"筆紀錄",noSpecies:"（未指定昆蟲）"},
+    toTop:"回到頂部",midnight:"每天午夜更換（UTC+8）",camLocal:{looksLike:"手機判斷：看起來像",candidates:"圖鑑中可能的種類（本月活動的排前面）",low:"不太確定——請對照下面的照片。",notInsect:"這看起來不像昆蟲（可能是蜘蛛或其他小動物）。",loading:"正在準備離線辨識（第一次需連網下載約 7 MB）…",fail:"離線辨識模型載入失敗（第一次需要連網）。",off:"離線辨識：不可用"},cam:{btn:"📷 拍照辨識",intro:"拍一張清楚的照片（整隻蟲，背景簡單）。軟體會和圖鑑裡的 180 種比對，並告訴你有多像；比對不到時，可以轉到 Google 繼續查。",working:"辨識中…",match:"可能是",conf:"相似度",check:"請對照「怎麼認」的特徵再確認，辨識結果不一定正確。",alts:"其他可能",none:"圖鑑裡找不到相符的種類。",guess:"看起來像",google:"用 Google 搜尋這個名字",lens:"用 Google 智慧鏡頭查這張照片",lensHint:"分享到手機上的 Google 軟體即可打開智慧鏡頭",retry:"再拍一張",noService:"辨識服務尚未設定（需要在 index.html 填入 Worker 網址）。你仍可用下面的 Google 智慧鏡頭查這張照片。",err:"辨識服務連不上，請檢查網路後再試。",open:"查看"},
+    search:"搜尋名稱…",all:"全部",species:"種",now:"本月",endemic:"臺灣特有種",sub:"臺灣特有亞種",exotic:"外來種",
+    order:"目",family:"科",size:"體長",wingspan:"展翅",forewing:"前翅長",mm:"公釐",cm_ref:"1 公分",
+    months:"活動月份",monthNames:["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],
+    habitat:"棲地",micro:"微棲地",activity:"活動",
+    hab:{mangrove:"紅樹林",windbreak:"防風林",wetgrass:"濕草地",drygrass:"乾草地",water:"溪溝水塘"},
+    mic:{ground:"地面",leaf:"葉上",wood:"樹幹木頭",water:"水面水中",flower:"訪花"},
+    act:{day:"白天活動",light:"夜間趨光"},
+    idTitle:"怎麼認",habitsTitle:"習性",rangeTitle:"分布",aliasTitle:"別名",otherNames:"其他名稱",
+    prev:"上一種",next:"下一種",noPhoto:"照片待補充——放入 img/ 資料夾即會顯示",
+    idIntro:"按你看到的情況點選，下面會立即列出可能的種類。",where:"在哪裡看到？",on:"停在什麼上面？",when:"什麼時候？",dayNight:"白天還是夜裡燈下？",sizeQ:"大約多大？",group:"哪一類？",anyTime:"不限月份",anyAct:"不限",
+    sizes:["<5 mm","5–15 mm","15–30 mm","30–60 mm",">60 mm"],reset:"清除條件",results:"可能的種類",noResult:"沒有符合的種類，試著減少條件。",
+    keyTitle:"這是哪一類昆蟲？",keyIntro:"一步一步回答，找出牠屬於哪一目。",keyRestart:"重新開始",keyGo:"查看這一類的種類",keyNone:"這本圖鑑沒有收錄這一類。",
+    calIntro:"選一個月份，看看哪些昆蟲這時候最活躍。",thisMonth:"本月",
+    learnSecs:{park:"認識台江",history:"台江的昆蟲史",habitats:"五種棲地",anatomy:"昆蟲的身體",mouth:"口器的類型",legs:"足的類型",lifecycle:"生活史與變態",tips:"賞蟲前的準備",safety:"安全第一",key:"快速辨識"},
+    typical:"常見昆蟲：",example:"例如：",stages:"階段：",emergency:"緊急聯絡",
+    about:{title:"關於這個軟體",p1:"這個軟體介紹台江國家公園（臺灣臺南）及周邊常見的 180 種昆蟲，可離線使用，支援簡體中文、繁體中文、英文與馬來文。",p2:"物種清單、學名、分類、體長、活動月份與棲地資料整理自下列圖鑑；軟體中的說明文字為重新撰寫的精簡摘要，並非原書內容。照片未隨軟體附上，版權屬原攝影者；請依 README 說明取得授權後自行放入。",src:"資料來源",srcText:"《游黽飛蛉：台江昆蟲圖鑑》黃文伯、張原謀、莊棨州撰文，台江國家公園管理處出版，2015 年 12 月初版。ISBN 978-986-04-6579-2。",photo:"照片版權：原書攝影者（莊棨州、黃舒誠、張原謀、陳建宏、謝宗欣、鍾文翔、宋紹民、王昕華）。",ver:"版本"},
+    photoBy:"照片"},
+  en:{appTitle:"Taijiang Insects",short:"EN",tabs:["Guide","Identify","Calendar","Learn","More"],today:"Insect of the day",saved:"Saved",save:"☆ Save",unsave:"★ Saved",bookPage:"Book page",record:"✎ Record a sighting",
+    more:{quiz:"Photo quiz",flash:"Flashcards",notebook:"Field notebook",about:"About this app"},
+    quiz:{intro:"Look at the photo and pick the right name — 10 questions a round.",start:"Start",q:"Which species is this?",ok:"Correct!",bad:"Not quite — it was:",next:"Next",score:"Score",again:"Play again",done:"Done!"},
+    flash:{intro:"Guess from the photo, then tap to flip and see the answer.",flip:"Flip to see the answer",next:"Next card"},
+    nb:{intro:"Record the insects you see in the field. Records live only in this device's browser — export a backup now and then.",species:"Insect",pick:"Type a name to search…",date:"Date",place:"Place",note:"Notes",add:"Add record",export:"Export backup (JSON)",import:"Import backup",del:"Delete",empty:"No records yet.",count:"records",noSpecies:"(no insect chosen)"},
+    toTop:"Back to top",midnight:"Changes at midnight (UTC+8)",camLocal:{looksLike:"On your phone: looks like",candidates:"Possible species in this guide (active this month first)",low:"Not very sure — compare the photos below.",notInsect:"This does not look like an insect (maybe a spider or another small animal).",loading:"Preparing offline recognition (first time downloads about 7 MB)…",fail:"The offline recogniser could not be loaded (the first time needs a connection).",off:"Offline recognition: unavailable"},cam:{btn:"📷 Identify from a photo",intro:"Take a clear photo (whole insect, plain background). The app compares it with the 180 species in this guide and tells you how close the match is; if nothing matches, you can continue on Google.",working:"Identifying…",match:"Possibly",conf:"Match",check:"Check it against the 'How to recognise it' points — the result is a suggestion, not a certainty.",alts:"Other possibilities",none:"No matching species in this guide.",guess:"It looks like",google:"Search Google for this name",lens:"Look up this photo with Google Lens",lensHint:"Share to the Google app on your phone to open Lens",retry:"Take another photo",noService:"The identification service is not set up yet (the Worker URL must be filled in index.html). You can still look the photo up with Google Lens below.",err:"The identification service could not be reached — check your connection and try again.",open:"Open"},
+    search:"Search names…",all:"All",species:"species",now:"this month",endemic:"Endemic to Taiwan",sub:"Endemic subspecies",exotic:"Introduced",
+    order:"Order",family:"Family",size:"Body length",wingspan:"Wingspan",forewing:"Forewing length",mm:"mm",cm_ref:"1 cm",
+    months:"Active months",monthNames:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    habitat:"Habitat",micro:"Where it sits",activity:"Activity",
+    hab:{mangrove:"Mangrove",windbreak:"Windbreak forest",wetgrass:"Wet grassland",drygrass:"Dry grassland",water:"Ponds & ditches"},
+    mic:{ground:"Ground",leaf:"Leaves",wood:"Trunks & wood",water:"On or in water",flower:"Flowers"},
+    act:{day:"Active by day",light:"Comes to lights at night"},
+    idTitle:"How to recognise it",habitsTitle:"Habits",rangeTitle:"Distribution",aliasTitle:"Other names",otherNames:"Names in other languages",
+    prev:"Previous",next:"Next",noPhoto:"Photo not included yet — drop one into the img/ folder and it will appear",
+    idIntro:"Tap what you saw. The matching species update instantly below.",where:"Where did you see it?",on:"What was it on?",when:"When?",dayNight:"Daytime, or at a light at night?",sizeQ:"About how big?",group:"Which group?",anyTime:"Any month",anyAct:"Any",
+    sizes:["<5 mm","5–15 mm","15–30 mm","30–60 mm",">60 mm"],reset:"Clear filters",results:"Possible species",noResult:"Nothing matches — try removing a filter.",
+    keyTitle:"What kind of insect is it?",keyIntro:"Answer step by step to find the order.",keyRestart:"Start again",keyGo:"See species in this group",keyNone:"This guide does not cover that group.",
+    calIntro:"Pick a month to see which insects are most active then.",thisMonth:"This month",
+    learnSecs:{park:"About Taijiang",history:"Insect history of Taijiang",habitats:"Five habitats",anatomy:"The insect body",mouth:"Types of mouthparts",legs:"Types of legs",lifecycle:"Life cycle & metamorphosis",tips:"Before you go",safety:"Safety first",key:"Quick identification"},
+    typical:"Typical insects: ",example:"Example: ",stages:"Stages: ",emergency:"Emergency contacts",
+    about:{title:"About this app",p1:"This app covers 180 insects commonly seen in and around Taijiang National Park (Tainan, Taiwan). It works offline and supports Simplified Chinese, Traditional Chinese, English and Malay.",p2:"The species list, scientific names, classification, sizes, active months and habitat data were compiled from the field guide below. The descriptive text in the app is a newly written condensed summary, not the book's text. Photographs are not bundled — they belong to the original photographers; see the README for how to add them once you have permission.",src:"Source",srcText:"A Field Guide to the Insects of Taijiang National Park (游黽飛蛉：台江昆蟲圖鑑), text by Huang Wen-Po, Chang Yuan-Mou and Chuang Chi-Chou; published by Taijiang National Park Headquarters, December 2015. ISBN 978-986-04-6579-2.",photo:"Photo copyright: the book's photographers (Chuang Chi-Chou, Huang Shu-Cheng, Chang Yuan-Mou, Chen Chien-Hung, Hsieh Tsung-Hsin, Chung Wen-Hsiang, Sung Shao-Min, Wang Hsin-Hua).",ver:"Version"},
+    photoBy:"Photo"},
+  ms:{appTitle:"Serangga Taijiang",short:"BM",tabs:["Panduan","Kenal pasti","Kalendar","Belajar","Lagi"],today:"Serangga hari ini",saved:"Disimpan",save:"☆ Simpan",unsave:"★ Disimpan",bookPage:"Muka surat buku",record:"✎ Catat pemerhatian",
+    more:{quiz:"Kuiz gambar",flash:"Kad imbas",notebook:"Buku nota lapangan",about:"Tentang aplikasi ini"},
+    quiz:{intro:"Lihat gambar dan pilih nama yang betul — 10 soalan setiap pusingan.",start:"Mula",q:"Spesies apakah ini?",ok:"Betul!",bad:"Salah — jawapannya:",next:"Seterusnya",score:"Markah",again:"Main lagi",done:"Selesai!"},
+    flash:{intro:"Teka daripada gambar, kemudian tekan untuk melihat jawapan.",flip:"Balik untuk lihat jawapan",next:"Kad seterusnya"},
+    nb:{intro:"Catat serangga yang anda lihat di lapangan. Rekod disimpan hanya dalam pelayar peranti ini — eksport sandaran sekali-sekala.",species:"Serangga",pick:"Taip nama untuk mencari…",date:"Tarikh",place:"Tempat",note:"Catatan",add:"Tambah rekod",export:"Eksport sandaran (JSON)",import:"Import sandaran",del:"Padam",empty:"Belum ada rekod.",count:"rekod",noSpecies:"(tiada serangga dipilih)"},
+    toTop:"Kembali ke atas",midnight:"Bertukar pada tengah malam (UTC+8)",camLocal:{looksLike:"Pada telefon anda: nampak seperti",candidates:"Spesies yang mungkin dalam panduan ini (aktif bulan ini dahulu)",low:"Tidak begitu pasti — bandingkan gambar di bawah.",notInsect:"Ini tidak kelihatan seperti serangga (mungkin labah-labah atau haiwan kecil lain).",loading:"Menyediakan pengecaman luar talian (kali pertama memuat turun kira-kira 7 MB)…",fail:"Pengecam luar talian tidak dapat dimuatkan (kali pertama memerlukan sambungan).",off:"Pengecaman luar talian: tidak tersedia"},cam:{btn:"📷 Kenal pasti dari gambar",intro:"Ambil gambar yang jelas (seluruh serangga, latar belakang ringkas). Aplikasi akan membandingkannya dengan 180 spesies dalam panduan ini dan memberitahu sejauh mana padanannya; jika tiada yang sepadan, anda boleh teruskan di Google.",working:"Mengenal pasti…",match:"Mungkin",conf:"Padanan",check:"Semak dengan ciri 'Cara mengenalinya' — keputusan ini cadangan, bukan kepastian.",alts:"Kemungkinan lain",none:"Tiada spesies yang sepadan dalam panduan ini.",guess:"Ia kelihatan seperti",google:"Cari nama ini di Google",lens:"Semak gambar ini dengan Google Lens",lensHint:"Kongsi ke aplikasi Google di telefon anda untuk membuka Lens",retry:"Ambil gambar lain",noService:"Perkhidmatan pengenalan belum disediakan (URL Worker perlu diisi dalam index.html). Anda masih boleh menyemak gambar dengan Google Lens di bawah.",err:"Perkhidmatan pengenalan tidak dapat dihubungi — semak sambungan dan cuba lagi.",open:"Buka"},
+    search:"Cari nama…",all:"Semua",species:"spesies",now:"bulan ini",endemic:"Endemik Taiwan",sub:"Subspesies endemik",exotic:"Spesies asing",
+    order:"Order",family:"Famili",size:"Panjang badan",wingspan:"Rentang sayap",forewing:"Panjang sayap depan",mm:"mm",cm_ref:"1 cm",
+    months:"Bulan aktif",monthNames:["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"],
+    habitat:"Habitat",micro:"Tempat hinggap",activity:"Aktiviti",
+    hab:{mangrove:"Hutan bakau",windbreak:"Hutan penahan angin",wetgrass:"Padang rumput basah",drygrass:"Padang rumput kering",water:"Kolam & parit"},
+    mic:{ground:"Atas tanah",leaf:"Atas daun",wood:"Batang & kayu",water:"Atas / dalam air",flower:"Bunga"},
+    act:{day:"Aktif siang hari",light:"Tertarik pada lampu waktu malam"},
+    idTitle:"Cara mengenalinya",habitsTitle:"Tabiat",rangeTitle:"Taburan",aliasTitle:"Nama lain",otherNames:"Nama dalam bahasa lain",
+    prev:"Sebelum",next:"Seterusnya",noPhoto:"Gambar belum ada — letak dalam folder img/ dan ia akan dipaparkan",
+    idIntro:"Tekan apa yang anda nampak. Senarai spesies yang sepadan dikemas kini serta-merta di bawah.",where:"Di mana anda melihatnya?",on:"Hinggap di atas apa?",when:"Bila?",dayNight:"Siang hari, atau pada lampu waktu malam?",sizeQ:"Kira-kira sebesar mana?",group:"Kumpulan mana?",anyTime:"Mana-mana bulan",anyAct:"Mana-mana",
+    sizes:["<5 mm","5–15 mm","15–30 mm","30–60 mm",">60 mm"],reset:"Kosongkan penapis",results:"Spesies yang mungkin",noResult:"Tiada yang sepadan — cuba buang satu penapis.",
+    keyTitle:"Serangga jenis apa ini?",keyIntro:"Jawab langkah demi langkah untuk mencari ordernya.",keyRestart:"Mula semula",keyGo:"Lihat spesies kumpulan ini",keyNone:"Panduan ini tidak merangkumi kumpulan itu.",
+    calIntro:"Pilih bulan untuk melihat serangga yang paling aktif ketika itu.",thisMonth:"Bulan ini",
+    learnSecs:{park:"Tentang Taijiang",history:"Sejarah serangga Taijiang",habitats:"Lima habitat",anatomy:"Badan serangga",mouth:"Jenis mulut",legs:"Jenis kaki",lifecycle:"Kitaran hidup & metamorfosis",tips:"Sebelum pergi",safety:"Keselamatan dahulu",key:"Pengenalan pantas"},
+    typical:"Serangga biasa: ",example:"Contoh: ",stages:"Peringkat: ",emergency:"Hubungan kecemasan",
+    about:{title:"Tentang aplikasi ini",p1:"Aplikasi ini memperkenalkan 180 serangga yang biasa dilihat di dalam dan sekitar Taman Negara Taijiang (Tainan, Taiwan). Ia berfungsi tanpa talian dan menyokong bahasa Cina Ringkas, Cina Tradisional, Inggeris dan Melayu.",p2:"Senarai spesies, nama saintifik, pengelasan, saiz, bulan aktif dan data habitat disusun daripada buku panduan di bawah. Teks keterangan dalam aplikasi ialah ringkasan yang ditulis semula, bukan teks buku. Gambar tidak disertakan — hak cipta milik jurugambar asal; lihat README untuk cara menambahnya setelah mendapat kebenaran.",src:"Sumber",srcText:"A Field Guide to the Insects of Taijiang National Park (游黽飛蛉：台江昆蟲圖鑑), teks oleh Huang Wen-Po, Chang Yuan-Mou dan Chuang Chi-Chou; diterbitkan oleh Ibu Pejabat Taman Negara Taijiang, Disember 2015. ISBN 978-986-04-6579-2.",photo:"Hak cipta gambar: jurugambar buku asal (Chuang Chi-Chou, Huang Shu-Cheng, Chang Yuan-Mou, Chen Chien-Hung, Hsieh Tsung-Hsin, Chung Wen-Hsiang, Sung Shao-Min, Wang Hsin-Hua).",ver:"Versi"},
+    photoBy:"Gambar"}
+};
+const ORDERS = DATA.orders; // {Odonata:{hans,hant,en,ms}, ...} in book order
+const ORDER_KEYS = Object.keys(ORDERS);
+const HAB_KEYS=["mangrove","windbreak","wetgrass","drygrass","water"], MIC_KEYS=["ground","leaf","wood","water","flower"], ACT_KEYS=["day","light"];
+const SIZE_BANDS=[[0,5],[5,15],[15,30],[30,60],[60,9999]];
+const VERSION = DATA.version;
+/* Photo identification service: deploy worker/identify.js to Cloudflare and put its URL here.
+   Leave empty to hide the camera feature's network call (Google Lens fallback still works). */
+const ID_ENDPOINT = "";
+
+/* ===================== state ===================== */
+let lang = localStorage.getItem("tj_lang");
+let fs = localStorage.getItem("tj_fs")||"0";
+document.documentElement.dataset.fs = fs;
+let view = "browse", detailPage = null, history_ = [];
+const browse = {q:"", order:"all"};
+const ident = {hab:null, mic:null, month:(new Date()).getMonth()+1, act:null, size:null, order:null};
+let calMonth = (new Date()).getMonth()+1;
+let keyNode = "start";
+const store = { get:(k,d)=>{ try{ return JSON.parse(localStorage.getItem(k)) ?? d; }catch(e){ return d; } }, set:(k,v)=>{ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} } };
+let saved = new Set(store.get("tj_saved",[]));
+let notes = store.get("tj_notes",[]);
+const quiz = {on:false,qs:[],i:0,score:0,answered:false};
+const flash = {p:null,flipped:false};
+const nbForm = {species:null,q:""};
+const cam = {file:null,dataUrl:null,busy:false,result:null,error:null, local:null, localStatus:"idle"};
+/* On-device tier: MobileNet (TensorFlow.js) recognises the insect GROUP offline; the Worker above (optional) adds a species-level guess.
+   Scripts come from jsdelivr; the model loads from ./model/ when tools/fetch_model.py has vendored it, else from TF Hub. The service worker caches both. */
+const MODEL = { tf:"https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js", mobilenet:"https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js", local:"model/model.json", version:2, alpha:0.5 };
+// ImageNet class (text before the first comma) -> group in this guide. order:null = a real class this guide does not cover.
+const IMAGENET_GROUPS = {
+  "tiger beetle":{order:"Coleoptera",fams:["Carabidae"]}, "ground beetle":{order:"Coleoptera",fams:["Carabidae"]}, "ladybug":{order:"Coleoptera",fams:["Coccinellidae"]},
+  "long-horned beetle":{order:"Coleoptera",fams:["Cerambycidae"]}, "leaf beetle":{order:"Coleoptera",fams:["Chrysomelidae"]}, "dung beetle":{order:"Coleoptera",fams:["Scarabaeidae"]},
+  "rhinoceros beetle":{order:"Coleoptera",fams:["Scarabaeidae"]}, "weevil":{order:"Coleoptera",fams:["Curculionidae"]}, "fly":{order:"Diptera"},
+  "bee":{order:"Hymenoptera",notFams:["Formicidae"]}, "ant":{order:"Hymenoptera",fams:["Formicidae"]},
+  "grasshopper":{order:"Orthoptera",fams:["Acrididae","Pyrgomorphidae","Tridactylidae"]}, "cricket":{order:"Orthoptera",fams:["Gryllidae","Gryllotalpidae","Tettigoniidae"]},
+  "walking stick":{order:null}, "cockroach":{order:"Blattodea"}, "mantis":{order:"Mantodea"}, "cicada":{order:"Hemiptera",fams:["Cicadidae"]}, "leafhopper":{order:"Hemiptera"},
+  "lacewing":{order:"Neuroptera"}, "dragonfly":{order:"Odonata",fams:["Libellulidae","Aeshnidae"]}, "damselfly":{order:"Odonata",fams:["Coenagrionidae"]},
+  "admiral":{order:"Lepidoptera",fams:["Nymphalidae"]}, "ringlet":{order:"Lepidoptera",fams:["Nymphalidae"]}, "monarch":{order:"Lepidoptera",fams:["Nymphalidae"]},
+  "cabbage butterfly":{order:"Lepidoptera",fams:["Pieridae"]}, "sulphur butterfly":{order:"Lepidoptera",fams:["Pieridae"]}, "lycaenid":{order:"Lepidoptera",fams:["Lycaenidae"]},
+};
+const NOT_INSECT = ["black and gold garden spider","barn spider","garden spider","black widow","tarantula","wolf spider","tick","centipede","scorpion","harvestman","isopod","snail","slug","trilobite"];
+function loadScript(src){ return new Promise((ok,bad)=>{ const el=document.createElement("script"); el.src=src; el.onload=ok; el.onerror=()=>bad(new Error(src)); document.head.appendChild(el); }); }
+let modelPromise=null;
+function ensureModel(){
+  if(modelPromise) return modelPromise;
+  modelPromise=(async()=>{
+    if(!window.mobilenet){ if(!window.tf) await loadScript(MODEL.tf); await loadScript(MODEL.mobilenet); }
+    let local=false; try{ local=(await fetch(MODEL.local,{method:"HEAD"})).ok; }catch(e){}
+    const o={version:MODEL.version,alpha:MODEL.alpha}; if(local) o.modelUrl=MODEL.local;
+    return window.mobilenet.load(o);
+  })();
+  modelPromise.catch(()=>{ modelPromise=null; });
+  return modelPromise;
+}
+function groupsFromPredictions(preds){
+  const acc={}; let notInsect=0;
+  preds.forEach(p=>{ const key=p.className.split(",")[0].trim().toLowerCase();
+    if(NOT_INSECT.includes(key)){ notInsect+=p.probability; return; }
+    const g=IMAGENET_GROUPS[key]; if(!g) return;
+    const id=g.order+"|"+(g.fams||[]).join("/")+"|"+(g.notFams||[]).join("/");
+    acc[id]=acc[id]||{...g,p:0}; acc[id].p+=p.probability; });
+  const groups=Object.values(acc).sort((a,b)=>b.p-a.p).filter(g=>g.p>=0.05).slice(0,3);
+  return {groups, notInsect: notInsect>0.3 && (!groups.length || notInsect>groups[0].p)};
+}
+function candidatesFor(g){
+  const cur=curMonth();
+  return DATA.species.filter(s=>s.order===g.order && (!g.fams||g.fams.includes(s.fam)) && (!g.notFams||!g.notFams.includes(s.fam)))
+    .sort((a,b)=>(b.m.includes(cur)-a.m.includes(cur))||(a.p-b.p));
+}
+async function identifyLocal(dataUrl){
+  cam.local=null; cam.localStatus="loading"; refreshCam();
+  try{
+    const model=await ensureModel(); cam.localStatus="looking"; refreshCam();
+    const im=await new Promise((ok,bad)=>{ const i=new Image(); i.onload=()=>ok(i); i.onerror=bad; i.src=dataUrl; });
+    cam.local=groupsFromPredictions(await model.classify(im,10)); cam.localStatus="done";
+  }catch(e){ cam.localStatus="fail"; }
+  refreshCam();
+}
+function localHTML(){
+  const t=T().camLocal;
+  if(cam.localStatus==="loading") return `<p class="count">${esc(t.loading)}</p>`;
+  if(cam.localStatus==="looking") return `<p class="count">${esc(T().cam.working)}</p>`;
+  if(cam.localStatus==="fail") return `<p class="muted">${esc(t.fail)}</p>`;
+  if(!cam.local) return "";
+  if(cam.local.notInsect) return `<div class="warn">${esc(t.notInsect)}</div>`;
+  if(!cam.local.groups.length) return `<div class="warn">${esc(T().cam.none)}</div>`;
+  const gs=cam.local.groups; const low=gs[0].p<0.3;
+  let h=`<div class="sec">${esc(t.looksLike)}</div>`+gs.map((g,i)=>{
+    const pct=Math.round(g.p*100);
+    if(g.order===null) return `<div class="cam-group low"><div class="t"><div class="nm">${esc(T().cam.none)}</div><div class="bar"><div style="width:${pct}%"></div></div></div></div>`;
+    const label=orderName(g.order)+(g.fams?` · ${g.fams.join(" / ")}`:"");
+    return `<button class="cam-group ${g.p<0.3?"low":""}" data-g="${i}">${orderGlyph(g.order)}<div class="t"><div class="nm">${esc(label)}</div><div class="muted">${pct}%</div><div class="bar"><div style="width:${pct}%"></div></div></div></button>`; }).join("");
+  if(low) h+=`<div class="warn">${esc(t.low)}</div>`;
+  const g=gs.find(x=>x.order!==null); if(g){ const c=candidatesFor(g); if(c.length) h+=`<div class="sec">${esc(t.candidates)}</div><div class="list">${c.map(itemHTML).join("")}</div>`; }
+  return h;
+}
+const photoUrl = (s,i=0)=> i===0 ? `img/p${s.p}.jpg` : `img/p${s.p}-${i+1}.jpg`;
+const withPhoto = ()=>DATA.species.filter(s=>s.ph>0);
+function dayIndex(){ const d=new Date(Date.now()+8*3600e3); return Math.floor(d.getTime()/864e5); } // UTC+8 day number
+const todaySpecies = ()=>{ const arr=withPhoto().length?withPhoto():DATA.species; return arr[(dayIndex()*7919)%arr.length]; }; // 7919 is coprime with 180: each species once per 180 days, never book-neighbours on consecutive days
+const $ = s=>document.querySelector(s);
+const T = ()=>I18N[lang];
+const nm = s => s.name[lang]; // localized primary name
+const zhOf = s => lang==="hans"? s.name.hans : s.name.hant;
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const curMonth = ()=> (new Date()).getMonth()+1;
+
+/* ===================== language ===================== */
+function setLang(l){
+  lang=l; localStorage.setItem("tj_lang",l);
+  document.documentElement.lang = {hans:"zh-Hans",hant:"zh-Hant",en:"en",ms:"ms"}[l];
+  $("#gate").classList.add("hide"); $("#lpick").classList.add("hide");
+  render();
+}
+document.querySelectorAll("#gate button[data-lang],#lpick button[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+$("#btn-lang").addEventListener("click",()=>{ $("#lpick").classList.remove("hide"); document.querySelectorAll("#lpick button").forEach(b=>b.classList.toggle("on",b.dataset.lang===lang)); });
+$("#lpick").addEventListener("click",e=>{ if(e.target.id==="lpick") $("#lpick").classList.add("hide"); });
+$("#btn-fs").addEventListener("click",()=>{ fs=String((Number(fs)+1)%3); localStorage.setItem("tj_fs",fs); document.documentElement.dataset.fs=fs; });
+$("#btn-back").addEventListener("click",()=>goBack());
+document.querySelectorAll("nav.tabs button").forEach(b=>b.addEventListener("click",()=>{ detailPage=null; history_=[]; view=b.dataset.view; render(); window.scrollTo(0,0); }));
+window.addEventListener("scroll",()=>{ $("#totop").classList.toggle("hide",window.scrollY<600); },{passive:true});
+$("#totop").addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+window.addEventListener("popstate",()=>{ if(detailPage!==null){ detailPage=null; render(); } });
+
+function goBack(){ if(history_.length){ detailPage=history_.pop(); } else { detailPage=null; } render(); window.scrollTo(0,0); }
+function openSpecies(p,push=true){ if(push&&detailPage!==null) history_.push(detailPage); detailPage=p; render(); window.scrollTo(0,0); try{history.pushState({p},"");}catch(e){} }
+
+/* ===================== helpers ===================== */
+const byPage = {}; DATA.species.forEach(s=>byPage[s.p]=s);
+function orderName(k){ return ORDERS[k][lang]; }
+function orderGlyph(k,cls=""){ return `<svg class="${cls}" viewBox="0 0 64 64"><use href="#o-${k}"/></svg>`; }
+function badgeTag(s){ if(!s.badge) return ""; return `<span class="tag ${s.badge}">${esc(T()[s.badge])}</span>`; }
+function sizeText(s){ if(!s.size) return ""; const lab=T()[s.st==="wingspan"?"wingspan":s.st==="forewing"?"forewing":"size"]; const v = s.size[0]===s.size[1]? `${s.size[0]}` : `${s.size[0]}–${s.size[1]}`; return `${lab} ${v} mm`; }
+function sizeBand(s){ if(!s.size) return -1; const m=(s.size[0]+s.size[1])/2; return SIZE_BANDS.findIndex(b=>m>=b[0]&&m<b[1]); }
+function searchHit(s,q){ q=q.trim().toLowerCase(); if(!q) return true; return [s.name.hans,s.name.hant,s.name.en,s.name.ms,s.sci,s.fam,s.famzh.hans,s.famzh.hant,s.al.hant,s.al.hans].some(x=>x&&x.toLowerCase().includes(q)); }
+
+function itemHTML(s){
+  const now = s.m.includes(curMonth());
+  return `<button class="item ${saved.has(s.p)?"saved":""}" data-p="${s.p}">
+    <div class="thumb">${orderGlyph(s.order)}${s.ph?`<img src="${photoUrl(s)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
+    <div class="t"><div class="nm">${esc(nm(s))}</div>
+    ${lang!=="en"?`<div class="muted">${esc(s.name.en)}</div>`:""}
+    <div class="sci">${esc(s.sci)}</div>
+    <div class="meta">${s.size?`<span class="tag">${esc(sizeText(s))}</span>`:""}${now?`<span class="tag now">${esc(T().now)}</span>`:""}${badgeTag(s)}</div></div></button>`;
+}
+function listHTML(arr, grouped=true){
+  if(!arr.length) return `<p class="muted">${esc(T().noResult)}</p>`;
+  if(!grouped) return `<div class="list">${arr.map(itemHTML).join("")}</div>`;
+  let out=""; ORDER_KEYS.forEach(k=>{ const g=arr.filter(s=>s.order===k); if(!g.length) return;
+    out+=`<div class="order-head">${orderGlyph(k)}<span>${esc(orderName(k))} <span class="n muted">(${g.length})</span></span></div><div class="list">${g.map(itemHTML).join("")}</div>`; });
+  return out;
+}
+function bindItems(){ document.querySelectorAll(".item[data-p]").forEach(b=>b.addEventListener("click",()=>openSpecies(Number(b.dataset.p)))); }
+
+/* ===================== views ===================== */
+function render(){
+  if(!lang){ $("#gate").classList.remove("hide"); return; }
+  const t=T();
+  $("#btn-lang").textContent=t.short;
+  document.querySelectorAll("nav.tabs button").forEach((b,i)=>{ b.querySelector("span").textContent=t.tabs[i]; b.classList.toggle("on",b.dataset.view===view); });
+  const back = detailPage!==null;
+  $("#btn-back").classList.toggle("hide",!back);
+  $("#h-title").textContent = back ? nm(byPage[detailPage]) : t.appTitle;
+  const m=$("#main");
+  if(back){ m.innerHTML=detailHTML(byPage[detailPage]); bindDetail(); return; }
+  ({browse:renderBrowse,identify:renderIdentify,calendar:renderCalendar,learn:renderLearn,more:renderMore})[view]();
+}
+
+function renderBrowse(){
+  const t=T(); const m=$("#main");
+  const td = todaySpecies();
+  const todayCard = `<button class="today" data-p="${td.p}"><div class="hero">${td.ph?`<img src="${photoUrl(td)}" alt="${esc(nm(td))}" onerror="this.remove()">`:orderGlyph(td.order)}</div><div class="cap"><div class="lab"><span>${esc(t.today)}</span><span>${esc(orderName(td.order))}</span></div><div class="nm">${esc(nm(td))} ›</div><div class="sci">${esc(td.sci)}</div><div class="mid">${esc(t.midnight)}</div></div></button>`;
+  const chips = [`<button class="chip ${browse.order==="all"?"on":""}" data-o="all">${esc(t.all)} <span class="n">${DATA.species.length}</span></button>`,
+                 `<button class="chip ${browse.order==="saved"?"on":""}" data-o="saved">★ ${esc(t.saved)} <span class="n">${saved.size}</span></button>`]
+    .concat(ORDER_KEYS.map(k=>`<button class="chip ${browse.order===k?"on":""}" data-o="${k}">${orderGlyph(k)}${esc(orderName(k))} <span class="n">${DATA.species.filter(s=>s.order===k).length}</span></button>`));
+  const inScope = s => browse.order==="all" || (browse.order==="saved" ? saved.has(s.p) : s.order===browse.order);
+  const arr = DATA.species.filter(s=>inScope(s)&&searchHit(s,browse.q));
+  m.innerHTML = `${browse.q||browse.order!=="all"?"":todayCard}<div class="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg><input id="q" type="search" placeholder="${esc(t.search)}" value="${esc(browse.q)}" autocomplete="off"></div>
+    <div class="chips scroll">${chips.join("")}</div>
+    <div class="count">${arr.length} ${esc(t.species)}</div>${listHTML(arr)}`;
+  const q=$("#q"); q.addEventListener("input",()=>{ browse.q=q.value; const arr2=DATA.species.filter(s=>inScope(s)&&searchHit(s,browse.q)); $(".count").textContent=`${arr2.length} ${t.species}`; $(".count").nextElementSibling?.remove(); let d=document.createElement("div"); d.innerHTML=listHTML(arr2); m.appendChild(d); bindItems(); });
+  document.querySelectorAll(".chip[data-o]").forEach(b=>b.addEventListener("click",()=>{ browse.order=b.dataset.o; renderBrowse(); }));
+  $(".today")?.addEventListener("click",e=>openSpecies(Number(e.currentTarget.dataset.p)));
+  bindItems();
+}
+
+function detailHTML(s){
+  const t=T(); const cur=curMonth();
+  const photos = s.ph ? Array.from({length:s.ph},(_,i)=>`<div class="ph"><img src="${photoUrl(s,i)}" alt="${esc(nm(s))}" loading="${i?"lazy":"eager"}" onerror="this.parentNode.remove()"></div>`).join("")
+                      : `<div class="ph">${orderGlyph(s.order)}<div class="nophoto">${esc(t.noPhoto)}</div></div>`;
+  const others = [["hans","简体"],["hant","繁體"],["en","English"],["ms","Malay"]].filter(([k])=>k!==lang && !(k==="hans"&&lang==="hant"&&s.name.hans===s.name.hant) && !(k==="hant"&&lang==="hans"&&s.name.hans===s.name.hant)).map(([k,l])=>`${esc(s.name[k])}`).join(" · ");
+  const months = t.monthNames.map((n,i)=>`<div class="${s.m.includes(i+1)?"on":""} ${i+1===cur?"cur":""}">${i+1}</div>`).join("");
+  const tags = HAB_KEYS.filter(k=>s.hab.includes(k)).map(k=>`<span class="ht hab"><svg viewBox="0 0 24 24"><use href="#h-${k}"/></svg>${esc(t.hab[k])}</span>`).join("")
+    + MIC_KEYS.filter(k=>s.mic.includes(k)).map(k=>`<span class="ht mic"><svg viewBox="0 0 24 24"><use href="#m-${k}"/></svg>${esc(t.mic[k])}</span>`).join("")
+    + ACT_KEYS.filter(k=>s.act.includes(k)).map(k=>`<span class="ht act"><svg viewBox="0 0 24 24"><use href="#a-${k}"/></svg>${esc(t.act[k])}</span>`).join("");
+  const ruler = s.size ? rulerSVG(s) : "";
+  const idx = DATA.species.indexOf(s); const prev=DATA.species[idx-1], next=DATA.species[idx+1];
+  const al = s.al[lang==="hans"?"hans":lang==="hant"?"hant":"hant"]; // aliases are Chinese names from the source
+  return `<div class="photos">${photos}</div>
+    <h2 class="dname">${esc(nm(s))}</h2>
+    <div class="onames">${others}</div>
+    <div class="dsci">${esc(s.sci)}</div>
+    <div class="taxo"><span class="tag">${orderGlyph(s.order,"")} ${esc(orderName(s.order))}</span><span class="tag">${esc(s.fam)}${(lang==="hans"||lang==="hant")?" · "+esc(s.famzh[lang]):""}</span>${badgeTag(s)}<span class="tag">${esc(t.bookPage)} ${s.p}</span></div>
+    <div class="actions"><button class="chip ${saved.has(s.p)?"on":""}" id="btn-save">${esc(saved.has(s.p)?t.unsave:t.save)}</button><button class="chip" id="btn-record">${esc(t.record)}</button></div>
+    ${s.size?`<div class="sec">${esc(sizeText(s))}</div><div class="ruler">${ruler}</div>`:""}
+    <div class="sec">${esc(t.months)}</div><div class="months-wrap"><div class="months">${months}</div></div>
+    <div class="sec">${esc(t.habitat)} · ${esc(t.micro)} · ${esc(t.activity)}</div><div class="tagrow">${tags}</div>
+    <div class="sec">${esc(t.idTitle)}</div><p>${esc(s.id[lang])}</p>
+    <div class="sec">${esc(t.habitsTitle)}</div><p>${esc(s.hb[lang])}</p>
+    <div class="sec">${esc(t.rangeTitle)}</div><p>${esc(s.rg[lang])}</p>
+    ${al?`<div class="sec">${esc(t.aliasTitle)}</div><p>${esc(al)}</p>`:""}
+    <div class="prevnext">${prev?`<button data-p="${prev.p}"><small>‹ ${esc(t.prev)}</small>${esc(nm(prev))}</button>`:"<span></span>"}${next?`<button class="next" data-p="${next.p}"><small>${esc(t.next)} ›</small>${esc(nm(next))}</button>`:""}</div>`;
+}
+function rulerSVG(s){
+  // scale bar: insect length against a 1 cm reference, capped at 100 mm visual range
+  const max = Math.max(10, Math.min(100, s.size[1]*1.15));
+  const W=600, pad=20, w=W-2*pad, px=v=>pad+v/max*w;
+  const a=px(s.size[0]), b=px(s.size[1]);
+  const ticks=[]; for(let v=0; v<=max; v+=10){ ticks.push(`<line x1="${px(v)}" y1="26" x2="${px(v)}" y2="34" stroke="#2f3a38" stroke-width="2"/><text x="${px(v)}" y="46" font-size="11" text-anchor="middle" fill="#2f3a38" font-weight="700">${v}</text>`); }
+  return `<svg viewBox="0 0 ${W} 50" preserveAspectRatio="none" style="height:50px"><rect x="${a}" y="6" width="${Math.max(4,b-a)}" height="18" rx="4" fill="#e4852b"/><line x1="${px(s.size[0])}" y1="6" x2="${px(s.size[0])}" y2="24" stroke="#9a4a3a" stroke-width="2"/><line x1="${pad}" y1="30" x2="${W-pad}" y2="30" stroke="#2f3a38" stroke-width="2"/>${ticks.join("")}<text x="${W-pad}" y="20" font-size="11" text-anchor="end" fill="#2f3a38" font-weight="700">mm</text></svg>`;
+}
+function bindDetail(){
+  document.querySelectorAll(".prevnext button[data-p]").forEach(b=>b.addEventListener("click",()=>{ detailPage=Number(b.dataset.p); render(); window.scrollTo(0,0); }));
+  $("#btn-save").addEventListener("click",()=>{ const p=detailPage; if(saved.has(p)) saved.delete(p); else saved.add(p); store.set("tj_saved",[...saved]); render(); });
+  $("#btn-record").addEventListener("click",()=>{ nbForm.species=detailPage; nbForm.q=""; detailPage=null; history_=[]; view="more"; moreOpen="notebook"; render(); setTimeout(()=>$("#sec-notebook")?.scrollIntoView({behavior:"smooth"}),50); });
+}
+
+function renderIdentify(){
+  const t=T(); const m=$("#main");
+  const grp=(label,keys,cur,field,cols,ico)=>`<div class="sec">${esc(label)}</div><div class="bgrp ${cols}">${keys.map(k=>`<button class="chip ${cur===k?"on":""}" data-f="${field}" data-v="${k}">${ico?ico(k):""}${esc(k==="__any"?t.anyAct:k==="__anyM"?t.anyTime:field==="hab"?t.hab[k]:field==="mic"?t.mic[k]:field==="act"?t.act[k]:field==="size"?t.sizes[k]:orderName(k))}</button>`).join("")}</div>`;
+  const monthBtns = `<div class="sec">${esc(t.when)}</div><div class="bgrp c6">${t.monthNames.map((n,i)=>`<button class="chip ${ident.month===i+1?"on":""}" data-f="month" data-v="${i+1}">${n}</button>`).join("")}</div><div class="bgrp c2"><button class="chip ${ident.month===null?"on":""}" data-f="month" data-v="__anyM">${esc(t.anyTime)}</button></div>`;
+  const res = DATA.species.filter(s=>(!ident.hab||s.hab.includes(ident.hab))&&(!ident.mic||s.mic.includes(ident.mic))&&(ident.month===null||s.m.includes(ident.month))&&(!ident.act||s.act.includes(ident.act))&&(ident.size===null||sizeBand(s)===ident.size)&&(!ident.order||s.order===ident.order));
+  m.innerHTML = `<p>${esc(t.idIntro)}</p>
+    <div class="cam-box" id="cam-box">${camHTML()}</div>
+    <div class="card"><h3>${esc(t.keyTitle)}</h3>${keyHTML()}</div>
+    ${grp(t.where,HAB_KEYS,ident.hab,"hab","c2",k=>`<svg viewBox="0 0 24 24"><use href="#h-${k}"/></svg>`)}
+    ${grp(t.on,MIC_KEYS,ident.mic,"mic","c2",k=>`<svg viewBox="0 0 24 24"><use href="#m-${k}"/></svg>`)}
+    ${monthBtns}
+    ${grp(t.dayNight,ACT_KEYS.concat("__any"),ident.act===null?"__any":ident.act,"act","c3",k=>k==="__any"?"":`<svg viewBox="0 0 24 24"><use href="#a-${k}"/></svg>`)}
+    ${grp(t.sizeQ,[0,1,2,3,4],ident.size,"size","c3")}
+    ${grp(t.group,ORDER_KEYS,ident.order,"order","c2",k=>orderGlyph(k))}
+    <div class="bgrp c2"><button class="chip" id="reset">${esc(t.reset)}</button></div>
+    <div class="count" id="res-count">${esc(t.results)}: ${res.length}</div><div id="res">${listHTML(res)}</div>`;
+  document.querySelectorAll("[data-f]").forEach(b=>b.addEventListener("click",()=>{
+    const f=b.dataset.f, v=b.dataset.v;
+    if(f==="month"){ ident.month = v==="__anyM"?null:Number(v); }
+    else if(f==="act"){ ident.act = v==="__any"?null:v; }
+    else if(f==="size"){ ident.size = ident.size===Number(v)?null:Number(v); }
+    else { ident[f] = ident[f]===v?null:v; }
+    renderIdentify(); window.scrollTo(0,0);
+  }));
+  $("#reset").addEventListener("click",()=>{ Object.assign(ident,{hab:null,mic:null,month:curMonth(),act:null,size:null,order:null}); renderIdentify(); });
+  bindKey(); bindItems(); bindCam();
+}
+
+/* ---- dichotomous key to orders (original, generic entomology) ---- */
+const KEY = {
+  start:{q:{hans:"它有翅膀吗？",hant:"牠有翅膀嗎？",en:"Does it have wings?",ms:"Adakah ia bersayap?"},
+    opts:[{l:{hans:"有翅膀",hant:"有翅膀",en:"Yes, winged",ms:"Ya, bersayap"},to:"wings"},{l:{hans:"没有翅膀",hant:"沒有翅膀",en:"No wings",ms:"Tiada sayap"},to:"nowings"}]},
+  nowings:{q:{hans:"触角和腰身是什么样子？",hant:"觸角和腰身是什麼樣子？",en:"What do the antennae and waist look like?",ms:"Bagaimana rupa sesungut dan pinggangnya?"},
+    opts:[{l:{hans:"触角像念珠，身体软、腰不明显",hant:"觸角像念珠，身體軟、腰不明顯",en:"Bead-like antennae, soft body, no narrow waist",ms:"Sesungut seperti manik, badan lembut, tiada pinggang"},to:"Isoptera"},
+          {l:{hans:"触角弯成肘状，有明显的细腰",hant:"觸角彎成肘狀，有明顯的細腰",en:"Elbowed antennae and a clear narrow waist",ms:"Sesungut berbentuk siku, pinggang jelas"},to:"Hymenoptera"},
+          {l:{hans:"在水面上滑行",hant:"在水面上滑行",en:"Skating on the water surface",ms:"Meluncur di atas permukaan air"},to:"Hemiptera"},
+          {l:{hans:"尾端有一对钳子",hant:"尾端有一對鉗子",en:"A pair of pincers at the tail",ms:"Sepasang penyepit di hujung ekor"},to:"Dermaptera"}]},
+  wings:{q:{hans:"有几对翅膀？",hant:"有幾對翅膀？",en:"How many pairs of wings?",ms:"Berapa pasang sayap?"},
+    opts:[{l:{hans:"一对（后翅退化成小棒）",hant:"一對（後翅退化成小棒）",en:"One pair (hind wings reduced to tiny knobs)",ms:"Sepasang (sayap belakang menjadi tombol kecil)"},to:"Diptera"},{l:{hans:"两对",hant:"兩對",en:"Two pairs",ms:"Dua pasang"},to:"two"}]},
+  two:{q:{hans:"翅膀上有鳞粉（一摸会掉粉）吗？",hant:"翅膀上有鱗粉（一摸會掉粉）嗎？",en:"Are the wings covered in powdery scales (they rub off)?",ms:"Adakah sayapnya bersisik seperti serbuk (tanggal bila disentuh)?"},
+    opts:[{l:{hans:"有鳞粉",hant:"有鱗粉",en:"Yes, scaly",ms:"Ya, bersisik"},to:"Lepidoptera"},{l:{hans:"没有鳞粉",hant:"沒有鱗粉",en:"No scales",ms:"Tidak bersisik"},to:"noscale"}]},
+  noscale:{q:{hans:"前翅是什么质地？",hant:"前翅是什麼質地？",en:"What are the front wings like?",ms:"Bagaimana sayap depannya?"},
+    opts:[{l:{hans:"硬壳（翅鞘），中间一条直缝",hant:"硬殼（翅鞘），中間一條直縫",en:"Hard shells meeting in a straight line down the back",ms:"Keras seperti cengkerang, bertemu lurus di tengah belakang"},to:"Coleoptera"},
+          {l:{hans:"半硬半膜：基部革质、末端透明",hant:"半硬半膜：基部革質、末端透明",en:"Half leathery, half clear membrane",ms:"Separuh keras seperti kulit, separuh lut sinar"},to:"Hemiptera"},
+          {l:{hans:"革质、平贴在背上；后足会跳或前足像镰刀",hant:"革質、平貼在背上；後足會跳或前足像鐮刀",en:"Leathery and folded flat along the back; jumping hind legs or sickle-like front legs",ms:"Seperti kulit, berlipat rata di belakang; kaki belakang melompat atau kaki depan seperti sabit"},to:"leathery"},
+          {l:{hans:"两对都是透明膜质",hant:"兩對都是透明膜質",en:"All four wings clear and membranous",ms:"Keempat-empat sayap lut sinar"},to:"membr"}]},
+  leathery:{q:{hans:"身体哪一个特征最明显？",hant:"身體哪一個特徵最明顯？",en:"Which feature stands out?",ms:"Ciri mana yang paling ketara?"},
+    opts:[{l:{hans:"后足粗壮会跳",hant:"後足粗壯會跳",en:"Strong jumping hind legs",ms:"Kaki belakang kuat untuk melompat"},to:"Orthoptera"},
+          {l:{hans:"前足像镰刀，头能转动",hant:"前足像鐮刀，頭能轉動",en:"Sickle-like front legs, head turns freely",ms:"Kaki depan seperti sabit, kepala boleh berpaling"},to:"Mantodea"},
+          {l:{hans:"身体扁平椭圆，头藏在背板下",hant:"身體扁平橢圓，頭藏在背板下",en:"Flat oval body, head tucked under a shield",ms:"Badan leper bujur, kepala tersorok bawah perisai"},to:"Blattodea"},
+          {l:{hans:"翅很短，尾端有钳子",hant:"翅很短，尾端有鉗子",en:"Very short wings, pincers at the tail",ms:"Sayap sangat pendek, penyepit di ekor"},to:"Dermaptera"}]},
+  membr:{q:{hans:"触角长还是短？停下来时翅膀怎么放？",hant:"觸角長還是短？停下來時翅膀怎麼放？",en:"Long or short antennae? How are the wings held at rest?",ms:"Sesungut panjang atau pendek? Bagaimana sayap dilipat semasa rehat?"},
+    opts:[{l:{hans:"触角短如刚毛，翅平展或竖起，大复眼",hant:"觸角短如剛毛，翅平展或豎起，大複眼",en:"Tiny bristle antennae, wings held out or up, huge eyes",ms:"Sesungut halus pendek, sayap terbentang atau tegak, mata besar"},to:"Odonata"},
+          {l:{hans:"触角长，翅像屋顶盖在身上，翅脉像网",hant:"觸角長，翅像屋頂蓋在身上，翅脈像網",en:"Long antennae, wings roofed over the body with net-like veins",ms:"Sesungut panjang, sayap seperti bumbung dengan urat seperti jaring"},to:"Neuroptera"},
+          {l:{hans:"有细腰或螫针，前翅比后翅大",hant:"有細腰或螫針，前翅比後翅大",en:"Narrow waist or sting, front wings larger than hind wings",ms:"Pinggang ramping atau sengat, sayap depan lebih besar"},to:"Hymenoptera"},
+          {l:{hans:"触角念珠状，四翅等大，身体软",hant:"觸角念珠狀，四翅等大，身體軟",en:"Bead-like antennae, four equal wings, soft body",ms:"Sesungut seperti manik, empat sayap sama saiz, badan lembut"},to:"Isoptera"},
+          {l:{hans:"大头，会鸣叫，刺吸式口器",hant:"大頭，會鳴叫，刺吸式口器",en:"Big-headed, sings loudly, beak-like mouth",ms:"Kepala besar, berbunyi nyaring, mulut seperti paruh"},to:"Hemiptera"}]}
+};
+function keyHTML(){
+  const t=T(); const n=KEY[keyNode];
+  if(!n){ // result = order key
+    const k=keyNode; const cnt=DATA.species.filter(s=>s.order===k).length;
+    return `<div class="key-res"><div class="big">${orderGlyph(k,"")} ${esc(orderName(k))}</div><div class="muted">${k} · ${cnt} ${esc(t.species)}</div>${cnt?`<button class="linkbtn" id="key-go" data-o="${k}">${esc(t.keyGo)}</button>`:`<p>${esc(t.keyNone)}</p>`}</div><button class="chip" id="key-restart">${esc(t.keyRestart)}</button>`;
+  }
+  return `<p class="muted">${esc(t.keyIntro)}</p><div class="key-q">${esc(n.q[lang])}</div><div class="key-opts">${n.opts.map((o,i)=>`<button data-k="${i}">${/^[A-Z]/.test(o.to)&&ORDERS[o.to]?orderGlyph(o.to):""}<span>${esc(o.l[lang])}</span></button>`).join("")}</div>${keyNode!=="start"?`<button class="chip" id="key-restart">${esc(t.keyRestart)}</button>`:""}`;
+}
+function bindKey(){
+  document.querySelectorAll("[data-k]").forEach(b=>b.addEventListener("click",()=>{ keyNode=KEY[keyNode].opts[Number(b.dataset.k)].to; renderIdentify(); }));
+  $("#key-restart")?.addEventListener("click",()=>{ keyNode="start"; renderIdentify(); });
+  $("#key-go")?.addEventListener("click",e=>{ ident.order=e.currentTarget.dataset.o; keyNode="start"; renderIdentify(); $("#res-count").scrollIntoView({behavior:"smooth"}); });
+}
+
+function renderCalendar(){
+  const t=T(); const m=$("#main");
+  const counts = Array.from({length:12},(_,i)=>DATA.species.filter(s=>s.m.includes(i+1)).length);
+  const mx=Math.max(...counts);
+  const bars = `<svg viewBox="0 0 600 150" style="width:100%;height:auto;display:block">${counts.map((c,i)=>`<rect x="${i*50+6}" y="${120-c/mx*100}" width="38" height="${c/mx*100}" rx="4" fill="${i+1===calMonth?"#e4852b":"#d9b26a"}"/><text x="${i*50+25}" y="${114-c/mx*100}" font-size="13" text-anchor="middle" font-weight="700" fill="#2f3a38">${c}</text><text x="${i*50+25}" y="142" font-size="14" text-anchor="middle" font-weight="700" fill="${i+1===calMonth?"#9a4a3a":"#2f3a38"}">${esc(t.monthNames[i])}</text>`).join("")}</svg>`;
+  const arr = DATA.species.filter(s=>s.m.includes(calMonth));
+  m.innerHTML = `<p>${esc(t.calIntro)}</p>
+    <div class="bgrp c6">${t.monthNames.map((n,i)=>`<button class="chip ${calMonth===i+1?"on":""}" data-m="${i+1}">${n}</button>`).join("")}</div>
+    <div class="fig">${bars}<div class="cap">${esc(t.species)} / ${esc(t.months)}</div></div>
+    <div class="count">${esc(t.monthNames[calMonth-1])}${calMonth===curMonth()?` (${esc(t.thisMonth)})`:""}: ${arr.length} ${esc(t.species)}</div>${listHTML(arr)}`;
+  document.querySelectorAll("[data-m]").forEach(b=>b.addEventListener("click",()=>{ calMonth=Number(b.dataset.m); renderCalendar(); }));
+  bindItems();
+}
+
+/* ---- learn ---- */
+const L = ()=>DATA.learn;
+const lt = o => o ? (o[lang] ?? o[lang==="hans"?"hant":"hant"] ?? "") : "";
+function renderLearn(){
+  const t=T(); const m=$("#main"); const d=L(); const S=t.learnSecs;
+  const sec=(key,ico,body)=>`<details class="lrn"><summary>${ico}${esc(S[key])}</summary><div class="body">${body}</div></details>`;
+  const ic=id=>`<svg class="ic" viewBox="0 0 64 64"><use href="#${id}"/></svg>`;
+  const habIco=k=>`<svg class="ic" viewBox="0 0 24 24"><use href="#h-${k}"/></svg>`;
+  m.innerHTML =
+    sec("park",ic("o-Odonata"),`<p>${esc(lt(d.park.body))}</p>`) +
+    sec("history",ic("o-Coleoptera"),`<p>${esc(lt(d.history.body))}</p>`) +
+    sec("habitats",habIco("wetgrass"),d.habitats.map(h=>`<div class="sub-card"><b>${habIco(h.key)} ${esc(lt(h.title))}</b><p>${esc(lt(h.body))}</p><p class="muted"><b>${esc(t.typical)}</b>${esc(lt(h.typical))}</p></div>`).join("")) +
+    sec("anatomy",ic("o-Orthoptera"),`<p>${esc(lt(d.anatomy.intro))}</p><div class="fig">${anatomySVG()}</div>${d.anatomy.parts.map(p=>`<p class="kv"><b>${esc(lt(p.label))}</b> — ${esc(lt(p.body))}</p>`).join("")}`) +
+    sec("mouth",ic("o-Hemiptera"),`<div class="fig">${mouthSVG()}</div>${d.anatomy.mouthparts.map(p=>`<p class="kv"><b>${esc(lt(p.label))}</b>（${esc(t.example)}${esc(lt(p.example))}）— ${esc(lt(p.body))}</p>`).join("")}`) +
+    sec("legs",ic("o-Mantodea"),`<div class="fig">${legsSVG()}</div>${d.anatomy.legs.map(p=>`<p class="kv"><b>${esc(lt(p.label))}</b> — ${esc(t.example)}${esc(lt(p.example))}</p>`).join("")}`) +
+    sec("lifecycle",ic("o-Lepidoptera"),`<p>${esc(lt(d.lifecycle.intro))}</p>${d.lifecycle.types.map((ty,i)=>`<div class="sub-card"><b>${esc(lt(ty.label))}</b><div class="fig">${lifecycleSVG(i)}<div class="cap">${esc(lt(ty.stages))}</div></div><p>${esc(lt(ty.body))}</p><p class="muted"><b>${esc(t.example)}</b>${esc(lt(ty.orders))}</p></div>`).join("")}`) +
+    sec("tips",ic("o-Hymenoptera"),`<p>${esc(lt(d.tips.intro))}</p>${d.tips.items.map(it=>`<div class="sub-card"><b>${esc(lt(it.title))}</b><p>${esc(lt(it.body))}</p></div>`).join("")}`) +
+    sec("safety",ic("o-Neuroptera"),`<p>${esc(lt(d.safety.intro))}</p>${d.safety.items.map(it=>`<div class="sub-card"><b>${esc(lt(it.title))}</b><p>${esc(lt(it.body))}</p></div>`).join("")}<div class="card"><h3>${esc(t.emergency)}</h3><p>${esc(lt(d.safety.emergency))}</p></div>`) +
+    sec("key",ic("o-Diptera"),`<p>${esc(t.keyIntro)}</p><div class="bgrp c2"><button class="chip on" id="to-key">${esc(t.keyTitle)}</button></div>`);
+  $("#to-key").addEventListener("click",()=>{ view="identify"; keyNode="start"; render(); window.scrollTo(0,0); });
+}
+/* original anatomy illustration */
+function anatomySVG(){
+  const lab = {hans:["头部","胸部","腹部","触角","复眼","口器","前足","中足","后足","前翅","后翅"],hant:["頭部","胸部","腹部","觸角","複眼","口器","前足","中足","後足","前翅","後翅"],en:["Head","Thorax","Abdomen","Antenna","Compound eye","Mouthparts","Front leg","Middle leg","Hind leg","Front wing","Hind wing"],ms:["Kepala","Toraks","Abdomen","Sesungut","Mata majmuk","Mulut","Kaki depan","Kaki tengah","Kaki belakang","Sayap depan","Sayap belakang"]}[lang];
+  const tx=(x,y,s,anchor="middle")=>`<text x="${x}" y="${y}" font-size="15" font-weight="700" fill="#1a1f1e" text-anchor="${anchor}">${esc(s)}</text>`;
+  return `<svg viewBox="0 0 600 440">
+  <g fill="none" stroke="#1a1f1e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 200C300 90 460 40 560 70C500 120 380 170 262 206Z" fill="#dfe8ec"/>
+    <path d="M264 214C330 150 440 120 520 140C460 185 360 205 270 220Z" fill="#eef3f5"/>
+    <ellipse cx="400" cy="243" rx="118" ry="34" fill="#e8c585"/>
+    <ellipse cx="240" cy="240" rx="54" ry="44" fill="#d9b26a"/>
+    <circle cx="150" cy="235" r="34" fill="#f1d9a7"/>
+    <circle cx="134" cy="222" r="9" fill="#1a1f1e"/><circle cx="158" cy="209" r="2.5" fill="#1a1f1e"/><circle cx="167" cy="206" r="2.5" fill="#1a1f1e"/>
+    <path d="M138 207C110 170 70 130 40 105M152 203C140 160 115 120 95 85"/>
+    <path d="M140 268l-6 22M152 268l0 22"/>
+    <path d="M215 278l-35 57-30 57M245 284l0 66 10 55M280 274l50 61 30 57"/>
+  </g>
+  <g stroke="#9a4a3a" stroke-width="2" fill="none"><path d="M112 266l16-36M118 302l22-18M520 182l-20-30M350 68l-45 38M60 82l-12 20"/></g>
+  ${tx(18,74,lab[3],"start")}${tx(10,272,lab[4],"start")}${tx(185,312,lab[5],"end")}${tx(175,172,lab[0],"start")}
+  ${tx(240,250,lab[1])}${tx(410,250,lab[2])}
+  ${tx(150,414,lab[6])}${tx(255,430,lab[7])}${tx(360,414,lab[8])}
+  ${tx(300,62,lab[9],"start")}${tx(590,190,lab[10],"end")}
+  </svg>`;
+}
+function mouthSVG(){
+  const lab={hans:["咀嚼式","刺吸式","虹吸式","舐吮式","咀吸式"],hant:["咀嚼式","刺吸式","虹吸式","舐吮式","咀吸式"],en:["Chewing","Piercing-sucking","Siphoning","Sponging","Chewing-lapping"],ms:["Mengunyah","Mencucuk-menghisap","Sifon","Menyerap","Mengunyah-menjilat"]}[lang];
+  const cell=(i,draw)=>`<g transform="translate(${i*120},0)"><rect x="6" y="6" width="108" height="88" rx="10" fill="#fff" stroke="#cfc6b3" stroke-width="2"/>${draw}<text x="60" y="118" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1f1e">${esc(lab[i])}</text></g>`;
+  const g='fill="none" stroke="#1a1f1e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"';
+  return `<svg viewBox="0 0 600 125">
+    ${cell(0,`<g ${g}><circle cx="60" cy="40" r="22"/><path d="M48 58l-12 18M72 58l12 18M46 70c8-4 20-4 28 0"/><path d="M40 76l10-6M80 76l-10-6"/></g>`)}
+    ${cell(1,`<g ${g}><circle cx="60" cy="36" r="20"/><path d="M60 56v32"/><path d="M60 88l-4-6M60 88l4-6"/></g>`)}
+    ${cell(2,`<g ${g}><circle cx="60" cy="34" r="20"/><path d="M60 54c0 20-12 20-18 28 0 8 10 8 12 0"/></g>`)}
+    ${cell(3,`<g ${g}><circle cx="60" cy="34" r="20"/><path d="M60 54v18"/><ellipse cx="60" cy="80" rx="16" ry="8"/></g>`)}
+    ${cell(4,`<g ${g}><circle cx="60" cy="34" r="20"/><path d="M50 50l-8 14M70 50l8 14"/><path d="M60 54v28M56 82h8"/></g>`)}
+  </svg>`;
+}
+function legsSVG(){
+  const lab={hans:["捕捉足","挖掘足","游泳足","跳跃足"],hant:["捕捉足","挖掘足","游泳足","跳躍足"],en:["Grasping","Digging","Swimming","Jumping"],ms:["Mencengkam","Menggali","Berenang","Melompat"]}[lang];
+  const cell=(i,draw)=>`<g transform="translate(${i*150},0)"><rect x="6" y="6" width="138" height="88" rx="10" fill="#fff" stroke="#cfc6b3" stroke-width="2"/>${draw}<text x="75" y="118" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1f1e">${esc(lab[i])}</text></g>`;
+  const g='fill="none" stroke="#1a1f1e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"';
+  return `<svg viewBox="0 0 600 125">
+    ${cell(0,`<g ${g}><path d="M30 70c20-30 40-40 60-40 10 0 16 6 16 14 0 10-10 14-20 10"/><path d="M106 44l-30 30-20 4"/><path d="M60 34l6 12M70 32l6 12M80 32l4 12"/></g>`)}
+    ${cell(1,`<g ${g}><path d="M40 30c20 10 30 20 40 36"/><path d="M80 66c10-8 24-6 36 2l-14 10"/><path d="M100 60l-8-10M110 64l-6-12M118 70l0-12"/></g>`)}
+    ${cell(2,`<g ${g}><path d="M30 40c30 0 50 10 70 30"/><path d="M100 70c8 4 16 6 24 4"/><path d="M60 50l-4 10M70 56l-3 10M82 62l-2 10M92 66l0 10"/></g>`)}
+    ${cell(3,`<g ${g}><path d="M40 70c10-30 30-50 50-50 14 0 20 12 14 26L80 82"/><path d="M80 82l40-4"/><path d="M100 44l10-6M96 36l8-10"/></g>`)}
+  </svg>`;
+}
+function lifecycleSVG(type){
+  const g='fill="none" stroke="#1a1f1e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"';
+  const egg=`<ellipse cx="0" cy="0" rx="14" ry="18" fill="#f1d9a7"/>`;
+  const mini=s=>`<g transform="scale(${s})"><ellipse cx="0" cy="0" rx="22" ry="12" fill="#d9b26a"/><circle cx="-26" cy="-2" r="8" fill="#f1d9a7"/><path d="M-10 -12l-6-12M-10 12l-6 12M8 -12l0-14M8 12l0 14M-32 -8l-8-10M-30 -9l-6-13"/></g>`;
+  const adult=`<g><ellipse cx="0" cy="0" rx="22" ry="12" fill="#d9b26a"/><circle cx="-26" cy="-2" r="8" fill="#f1d9a7"/><path d="M-6 -8c20-24 46-22 50-8-14 2-34 10-50 8Z" fill="#dfe8ec"/><path d="M-10 -12l-6-12M-10 12l-6 12M8 -12l0-14M8 12l0 14M-32 -8l-8-10M-30 -9l-6-13"/></g>`;
+  const larva=`<g><path d="M-26 0c6-10 12-10 18 0s12 10 18 0 12-10 18 0" stroke-width="10" stroke="#8fa36b" fill="none" stroke-linecap="round"/><circle cx="-30" cy="0" r="7" fill="#f1d9a7"/></g>`;
+  const pupa=`<g><path d="M-10 -22c14 0 20 10 20 24 0 12-8 22-20 22-6 0-10-10-10-22 0-14 4-24 10-24Z" fill="#b89b6a"/><path d="M-14 -10h14M-16 0h16M-14 10h12" stroke="#7a6240"/></g>`;
+  const stages = type===0?[egg,mini(.6),mini(.8),adult] : type===1?[egg,mini(.55),mini(.8),adult] : [egg,larva,pupa,adult];
+  const n=stages.length, W=600, step=W/n;
+  return `<svg viewBox="0 0 600 110"><g ${g}>${stages.map((s,i)=>`<g transform="translate(${step*i+step/2},55)">${s}</g>${i<n-1?`<path d="M${step*(i+1)-18} 55h14M${step*(i+1)-10} 49l6 6-6 6" stroke="#9a4a3a"/>`:""}`).join("")}</g></svg>`;
+}
+
+/* ---- photo identification ---- */
+function camHTML(){
+  const t=T().cam;
+  if(!cam.dataUrl) return `<p>${esc(t.intro)}</p><div class="bgrp c2"><button class="chip on" id="cam-btn">${esc(t.btn)}</button></div><input type="file" id="cam-file" accept="image/*" capture="environment" class="hide">`;
+  let body="";
+  if(cam.busy) body=`<p class="count">${esc(t.working)}</p>`;
+  else if(cam.error && cam.error!==t.noService) body=`<div class="errbox">${esc(cam.error)}</div>${googleFallbackHTML(null)}`;
+  else if(cam.error===t.noService) body=`${localHTML()}<p class="muted">${esc(t.noService)}</p>${googleFallbackHTML(null)}`;
+  else if(cam.result){
+    const r=cam.result; const sp=r.match?byPage[r.match]:null;
+    if(sp){
+      const c=Math.round((r.confidence||0)*100); const cls=c<50?"low":c<75?"mid":"";
+      body=`<div class="sec">${esc(t.match)}</div><button class="item" data-p="${sp.p}"><div class="thumb">${sp.ph?`<img src="${photoUrl(sp)}" alt="">`:orderGlyph(sp.order)}</div><div class="t"><div class="nm">${esc(nm(sp))}</div><div class="sci">${esc(sp.sci)}</div><div class="muted">${esc(orderName(sp.order))} · ${esc(sp.fam)}</div></div></button>
+        <div class="conf"><span>${esc(t.conf)}</span><div class="bar"><div class="${cls}" style="width:${c}%"></div></div><span>${c}%</span></div>
+        <div class="warn">${esc(t.check)}${r.notes?" "+esc(r.notes):""}</div>
+        ${(r.alternatives||[]).filter(p=>byPage[p]&&p!==sp.p).length?`<div class="sec">${esc(t.alts)}</div><div class="list">${(r.alternatives||[]).filter(p=>byPage[p]&&p!==sp.p).slice(0,3).map(p=>itemHTML(byPage[p])).join("")}</div>`:""}
+        ${c<50?googleFallbackHTML(r):""}`;
+    } else {
+      body=`<div class="warn">${esc(t.none)}</div>${r.guess&&(r.guess.scientific||r.guess.common_en||r.guess.order)?`<p><b>${esc(t.guess)}:</b> ${esc([r.guess.common_en,r.guess.scientific,r.guess.family,r.guess.order].filter(Boolean).join(" · "))}</p>`:""}${r.notes?`<p class="muted">${esc(r.notes)}</p>`:""}${googleFallbackHTML(r)}`;
+    }
+  }
+  if(!(cam.error===t.noService)) body = localHTML() + body;
+  return `<div class="shot"><img src="${cam.dataUrl}" alt=""></div>${body}<div class="bgrp c2"><button class="chip" id="cam-retry">${esc(t.retry)}</button></div><input type="file" id="cam-file" accept="image/*" capture="environment" class="hide">`;
+}
+function googleFallbackHTML(r){
+  const t=T().cam;
+  const q = r&&r.guess ? [r.guess.scientific,r.guess.common_en].filter(Boolean)[0] : "";
+  const gq = q || "insect Taijiang Taiwan";
+  const canShare = !!(navigator.canShare && cam.file && navigator.canShare({files:[cam.file]}));
+  return `<div class="bgrp" style="grid-template-columns:1fr">
+    ${q?`<a class="chip" style="text-decoration:none;justify-content:center" target="_blank" rel="noopener" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(gq)}">${esc(t.google)}: <i>${esc(q)}</i></a>`:""}
+    <button class="chip" id="cam-lens">${esc(t.lens)}</button></div>
+    ${canShare?`<p class="muted">${esc(t.lensHint)}</p>`:""}`;
+}
+async function camPick(file){
+  cam.file=null; cam.result=null; cam.error=null; cam.busy=false;
+  // downscale on device: ≤1280 px, JPEG q0.85 — enough for identification, small to upload
+  const bmp = await createImageBitmap(file).catch(()=>null); if(!bmp){ cam.error=T().cam.err; refreshCam(); return; }
+  const k=Math.min(1,1280/Math.max(bmp.width,bmp.height)); const c=document.createElement("canvas"); c.width=Math.round(bmp.width*k); c.height=Math.round(bmp.height*k);
+  c.getContext("2d").drawImage(bmp,0,0,c.width,c.height);
+  cam.dataUrl=c.toDataURL("image/jpeg",.85);
+  cam.file = await new Promise(res=>c.toBlob(b=>res(new File([b],"insect.jpg",{type:"image/jpeg"})),"image/jpeg",.85));
+  identifyLocal(cam.dataUrl);   // on-device group recognition, works offline once the model is cached
+  if(!ID_ENDPOINT){ cam.error=T().cam.noService; refreshCam(); return; }
+  cam.busy=true; refreshCam();
+  try{
+    const ctl=new AbortController(); const to=setTimeout(()=>ctl.abort(),45000);
+    const res=await fetch(ID_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:cam.dataUrl.split(",")[1],lang}),signal:ctl.signal});
+    clearTimeout(to);
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const j=await res.json();
+    if(typeof j!=="object"||!("match" in j)) throw new Error("bad response");
+    j.match = (j.match!==null && byPage[Number(j.match)]) ? Number(j.match) : null;
+    cam.result=j;
+  }catch(e){ cam.error=T().cam.err+" ("+(e.message||e)+")"; }
+  cam.busy=false; refreshCam();
+}
+function refreshCam(){ const b=$("#cam-box"); if(!b) return; b.innerHTML=camHTML(); bindCam(); }
+function bindCam(){
+  const f=$("#cam-file"); f?.addEventListener("change",()=>{ if(f.files[0]) camPick(f.files[0]); });
+  $("#cam-btn")?.addEventListener("click",()=>f.click());
+  $("#cam-retry")?.addEventListener("click",()=>f.click());
+  $("#cam-lens")?.addEventListener("click",async()=>{
+    if(navigator.canShare && cam.file && navigator.canShare({files:[cam.file]})){ try{ await navigator.share({files:[cam.file],title:"Insect"}); return; }catch(e){ if(e.name==="AbortError") return; } }
+    window.open("https://lens.google.com/","_blank","noopener");
+  });
+  document.querySelectorAll("#cam-box .item[data-p]").forEach(b=>b.addEventListener("click",()=>openSpecies(Number(b.dataset.p))));
+  document.querySelectorAll("#cam-box .cam-group[data-g]").forEach(b=>b.addEventListener("click",()=>{ const g=cam.local.groups[Number(b.dataset.g)]; if(!g||g.order===null) return; ident.order=g.order; renderIdentify(); $("#res-count")?.scrollIntoView({behavior:"smooth"}); }));
+}
+
+let moreOpen = null;
+function renderMore(){
+  const t=T(); const m=$("#main");
+  const sec=(key,title,body)=>`<details class="lrn" id="sec-${key}" ${moreOpen===key?"open":""}><summary>${title}</summary><div class="body" id="body-${key}">${body}</div></details>`;
+  m.innerHTML = sec("quiz",esc(t.more.quiz),quizHTML()) + sec("flash",esc(t.more.flash),flashHTML()) + sec("notebook",esc(t.more.notebook),notebookHTML()) + sec("about",esc(t.more.about),aboutHTML());
+  document.querySelectorAll("details.lrn").forEach(d=>d.addEventListener("toggle",()=>{ if(d.open) moreOpen=d.id.replace("sec-",""); else if(moreOpen===d.id.replace("sec-","")) moreOpen=null; }));
+  bindQuiz(); bindFlash(); bindNotebook();
+}
+/* ---- photo quiz ---- */
+const shuffle = a=>{ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+function startQuiz(){
+  const pool=withPhoto(); const qs=shuffle(pool).slice(0,10).map(ans=>{
+    const same=pool.filter(x=>x.order===ans.order&&x.p!==ans.p); const other=pool.filter(x=>x.p!==ans.p&&x.order!==ans.order);
+    const d=shuffle(same).slice(0,3); while(d.length<3){ d.push(shuffle(other).find(x=>!d.includes(x))); }
+    return {ans, opts:shuffle([ans,...d]), photo:0};
+  });
+  Object.assign(quiz,{on:true,qs,i:0,score:0,answered:false});
+}
+function quizHTML(){
+  const t=T().quiz;
+  if(!withPhoto().length) return `<p class="muted">${esc(T().noPhoto)}</p>`;
+  if(!quiz.on) return `<p>${esc(t.intro)}</p><div class="bgrp c2"><button class="chip on" id="quiz-start">${esc(t.start)}</button></div>`;
+  if(quiz.i>=quiz.qs.length) return `<div class="key-res"><div class="big">${esc(t.done)}</div><p>${esc(t.score)}: ${quiz.score} / ${quiz.qs.length}</p><button class="linkbtn" id="quiz-start">${esc(t.again)}</button></div>`;
+  const q=quiz.qs[quiz.i];
+  return `<div class="qbar"><span>${quiz.i+1} / ${quiz.qs.length}</span><span>${esc(t.score)}: ${quiz.score}</span></div>
+    <div class="quiz-photo"><img src="${photoUrl(q.ans,q.photo)}" alt=""></div><div class="key-q">${esc(t.q)}</div>
+    <div class="qopts">${q.opts.map(o=>`<button data-q="${o.p}" ${quiz.answered?"disabled":""} class="${quiz.answered?(o.p===q.ans.p?"ok":(o.p===quiz.pick?"bad":"")):""}">${esc(nm(o))}<br><small class="muted" style="color:inherit;opacity:.85">${esc(o.sci)}</small></button>`).join("")}</div>
+    ${quiz.answered?`<p style="margin-top:10px;font-weight:800">${quiz.pick===q.ans.p?esc(t.ok):esc(t.bad)+" "+esc(nm(q.ans))}</p><div class="bgrp c2"><button class="chip on" id="quiz-next">${esc(t.next)}</button><button class="chip" data-p="${q.ans.p}" id="quiz-open">${esc(nm(q.ans))} ›</button></div>`:""}`;
+}
+function bindQuiz(){
+  const re=()=>{ $("#body-quiz").innerHTML=quizHTML(); bindQuiz(); };
+  $("#quiz-start")?.addEventListener("click",()=>{ startQuiz(); re(); });
+  document.querySelectorAll("[data-q]").forEach(b=>b.addEventListener("click",()=>{ if(quiz.answered) return; quiz.pick=Number(b.dataset.q); quiz.answered=true; if(quiz.pick===quiz.qs[quiz.i].ans.p) quiz.score++; re(); }));
+  $("#quiz-next")?.addEventListener("click",()=>{ quiz.i++; quiz.answered=false; re(); });
+  $("#quiz-open")?.addEventListener("click",e=>openSpecies(Number(e.currentTarget.dataset.p)));
+}
+/* ---- flashcards ---- */
+function flashHTML(){
+  const t=T().flash; const pool=withPhoto(); if(!pool.length) return `<p class="muted">${esc(T().noPhoto)}</p>`;
+  if(flash.p===null) flash.p=pool[Math.floor(Math.random()*pool.length)].p;
+  const s=byPage[flash.p];
+  return `<p>${esc(t.intro)}</p><div class="flash-card" id="flash-card"><div class="quiz-photo" style="margin-bottom:8px"><img src="${photoUrl(s)}" alt=""></div>
+    ${flash.flipped?`<div class="ans">${esc(nm(s))}</div><div class="muted" style="font-style:italic">${esc(s.sci)}</div><div class="muted">${esc(orderName(s.order))} · ${esc(s.fam)}</div>`:`<div class="muted" style="font-weight:800">${esc(t.flip)}</div>`}</div>
+    <div class="bgrp c2"><button class="chip on" id="flash-next">${esc(t.next)}</button>${flash.flipped?`<button class="chip" id="flash-open">${esc(nm(s))} ›</button>`:""}</div>`;
+}
+function bindFlash(){
+  const re=()=>{ $("#body-flash").innerHTML=flashHTML(); bindFlash(); };
+  $("#flash-card")?.addEventListener("click",()=>{ flash.flipped=!flash.flipped; re(); });
+  $("#flash-next")?.addEventListener("click",()=>{ const pool=withPhoto(); let n; do{ n=pool[Math.floor(Math.random()*pool.length)].p; }while(n===flash.p&&pool.length>1); flash.p=n; flash.flipped=false; re(); });
+  $("#flash-open")?.addEventListener("click",()=>openSpecies(flash.p));
+}
+/* ---- field notebook ---- */
+function todayISO(){ return new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10); }
+function notebookHTML(){
+  const t=T().nb;
+  const sel = nbForm.species ? byPage[nbForm.species] : null;
+  const hits = nbForm.q.trim() ? DATA.species.filter(s=>searchHit(s,nbForm.q)).slice(0,6) : [];
+  const list = notes.length ? notes.slice().sort((a,b)=>(b.date||"").localeCompare(a.date||"")).map(r=>{ const sp=byPage[r.p]; return `<div class="rec"><div class="nm">${sp?esc(nm(sp)):esc(t.noSpecies)}</div><div class="meta">${esc(r.date||"")}${r.place?" · "+esc(r.place):""}</div>${r.note?`<div>${esc(r.note)}</div>`:""}<button class="del" data-del="${r.id}">${esc(t.del)}</button></div>`; }).join("") : `<p class="muted">${esc(t.empty)}</p>`;
+  return `<p>${esc(t.intro)}</p>
+    <div class="card"><div class="field"><label>${esc(t.species)}</label>${sel?`<div class="pick"><button class="on" id="nb-clear">★ ${esc(nm(sel))} <span class="muted">(${esc(sel.sci)})</span></button></div>`:`<input id="nb-q" type="search" placeholder="${esc(t.pick)}" value="${esc(nbForm.q)}" autocomplete="off"><div class="pick" id="nb-hits">${hits.map(h=>`<button data-sel="${h.p}">${esc(nm(h))} <span class="muted">${esc(h.sci)}</span></button>`).join("")}</div>`}</div>
+    <div class="field"><label>${esc(t.date)}</label><input id="nb-date" type="date" value="${todayISO()}"></div>
+    <div class="field"><label>${esc(t.place)}</label><input id="nb-place" type="text" autocomplete="off"></div>
+    <div class="field"><label>${esc(t.note)}</label><textarea id="nb-note"></textarea></div>
+    <div class="bgrp c2"><button class="chip on" id="nb-add">${esc(t.add)}</button></div></div>
+    <div class="count">${notes.length} ${esc(t.count)}</div>${list}
+    <div class="bgrp c2"><button class="chip" id="nb-export">${esc(t.export)}</button><button class="chip" id="nb-import">${esc(t.import)}</button></div><input type="file" id="nb-file" accept="application/json" class="hide">`;
+}
+function bindNotebook(){
+  const re=()=>{ $("#body-notebook").innerHTML=notebookHTML(); bindNotebook(); };
+  const q=$("#nb-q"); q?.addEventListener("input",()=>{ nbForm.q=q.value; const hits=nbForm.q.trim()?DATA.species.filter(s=>searchHit(s,nbForm.q)).slice(0,6):[]; $("#nb-hits").innerHTML=hits.map(h=>`<button data-sel="${h.p}">${esc(nm(h))} <span class="muted">${esc(h.sci)}</span></button>`).join(""); bindSel(); });
+  const bindSel=()=>document.querySelectorAll("[data-sel]").forEach(b=>b.addEventListener("click",()=>{ nbForm.species=Number(b.dataset.sel); re(); }));
+  bindSel();
+  $("#nb-clear")?.addEventListener("click",()=>{ nbForm.species=null; nbForm.q=""; re(); });
+  $("#nb-add")?.addEventListener("click",()=>{ notes.push({id:Date.now().toString(36),p:nbForm.species,date:$("#nb-date").value,place:$("#nb-place").value.trim(),note:$("#nb-note").value.trim(),lang}); store.set("tj_notes",notes); nbForm.species=null; nbForm.q=""; re(); });
+  document.querySelectorAll("[data-del]").forEach(b=>b.addEventListener("click",()=>{ notes=notes.filter(r=>r.id!==b.dataset.del); store.set("tj_notes",notes); re(); }));
+  $("#nb-export")?.addEventListener("click",()=>{ const out=notes.map(r=>({...r,species:byPage[r.p]?{zh:byPage[r.p].name.hant,en:byPage[r.p].name.en,sci:byPage[r.p].sci}:null})); const blob=new Blob([JSON.stringify({app:"taijiang-insects",version:VERSION,exported:new Date().toISOString(),saved:[...saved],notes:out},null,1)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`taijiang-notes-${todayISO()}.json`; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),2000); });
+  $("#nb-import")?.addEventListener("click",()=>$("#nb-file").click());
+  $("#nb-file")?.addEventListener("change",e=>{ const f=e.target.files[0]; if(!f) return; f.text().then(txt=>{ const d=JSON.parse(txt); const inc=Array.isArray(d)?d:(d.notes||[]); const ids=new Set(notes.map(r=>r.id)); inc.forEach(r=>{ if(r&&r.id&&!ids.has(r.id)) notes.push({id:String(r.id),p:Number(r.p)||null,date:String(r.date||""),place:String(r.place||""),note:String(r.note||""),lang:r.lang||lang}); }); (d.saved||[]).forEach(p=>saved.add(Number(p))); store.set("tj_notes",notes); store.set("tj_saved",[...saved]); re(); }).catch(()=>alert("!")); });
+}
+function aboutHTML(){
+  const t=T().about;
+  return `<div class="about"><p>${esc(t.p1)}</p><p>${esc(t.p2)}</p>
+    <div class="card"><h3>${esc(t.src)}</h3><div class="src"><p>${esc(t.srcText)}</p><p>${esc(t.photo)}</p></div></div>
+    <p class="muted">${esc(t.ver)} ${esc(VERSION)} · GitHub: stanleywoosweeleong</p></div>`;
+}
+
+/* ===================== boot ===================== */
+render();
+if("serviceWorker" in navigator){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
+</script>
+</body>
+</html>
