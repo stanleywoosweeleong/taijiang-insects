@@ -1,9 +1,0 @@
-name = "taijiang-identify"
-main = "identify.js"
-compatibility_date = "2026-01-01"
-
-[vars]
-DATA_URL = "https://stanleywoosweeleong.github.io/taijiang-insects/data.js"
-ALLOWED_ORIGIN = "https://stanleywoosweeleong.github.io"
-MODEL = "gemini-2.5-flash"
-# Set the key as a secret, never here:  npx wrangler secret put GEMINI_API_KEY

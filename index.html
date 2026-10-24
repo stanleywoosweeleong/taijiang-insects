@@ -160,11 +160,6 @@ details.lrn .body{padding:0 0 12px}
 .today .nm{font-size:1.3em;font-weight:900;line-height:1.25;margin-top:2px}
 .today .sci{font-style:italic;opacity:.92;font-size:.95em}
 .today .mid{font-size:.8em;opacity:.8;margin-top:4px;font-weight:600}
-.cam-group{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--teal);border-radius:var(--radius);padding:8px 12px;margin-bottom:8px;text-align:left;width:100%}
-.cam-group svg{width:38px;height:38px;flex:none}
-.cam-group .t{flex:1}.cam-group .nm{font-weight:900}
-.cam-group .bar{height:8px;background:#e6dfd0;border-radius:4px;overflow:hidden;margin-top:4px}.cam-group .bar div{height:100%;background:var(--teal)}
-.cam-group.low{border-color:var(--line)}.cam-group.low .bar div{background:var(--sand)}
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 14px}
 .actions .chip{justify-content:center;padding:10px 6px;white-space:normal;text-align:center}
 .item.saved .thumb::after{content:"★";position:absolute;top:2px;right:5px;color:var(--sand);font-size:1.1em;text-shadow:0 0 3px #000}
@@ -189,15 +184,6 @@ details.lrn .body{padding:0 0 12px}
 .rec .nm{font-weight:800}
 .rec .meta{color:var(--ink2);font-size:.92em;font-weight:600}
 .rec .del{color:var(--rust);font-weight:800;margin-top:6px}
-.cam-box{background:var(--card);border:2px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px}
-.cam-box .shot{border-radius:8px;overflow:hidden;background:#000;margin:8px 0;max-height:50vh;display:flex;justify-content:center}
-.cam-box .shot img{max-width:100%;max-height:50vh;object-fit:contain}
-.conf{display:flex;align-items:center;gap:10px;margin:6px 0 10px;font-weight:800}
-.conf .bar{flex:1;height:14px;background:#ece6d7;border-radius:7px;overflow:hidden}
-.conf .bar div{height:100%;background:var(--moss)}
-.conf .bar div.low{background:var(--rust)}.conf .bar div.mid{background:var(--sand)}
-.warn{background:#fdf3dc;border:2px solid var(--sand);border-radius:8px;padding:8px 10px;font-weight:600;margin:8px 0}
-.errbox{background:#f6e2dd;border:2px solid var(--rust);border-radius:8px;padding:8px 10px;font-weight:700;color:#6b2d20;margin:8px 0}
 /* lang picker overlay */
 #lpick{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:20px}
 #lpick .box{background:var(--card);border-radius:14px;padding:18px;width:100%;max-width:400px}
@@ -304,7 +290,7 @@ const I18N = {
     quiz:{intro:"看照片选出正确的名字，一轮 10 题。",start:"开始",q:"这是哪一种？",ok:"答对了！",bad:"答错了，正确答案：",next:"下一题",score:"得分",again:"再来一次",done:"完成！"},
     flash:{intro:"先看照片猜猜看，点一下翻面看答案。",flip:"翻面看答案",next:"下一张"},
     nb:{intro:"记录你在野外看到的昆虫。记录只存在这台装置的浏览器里，请定期导出备份。",species:"昆虫",pick:"输入名称搜寻…",date:"日期",place:"地点",note:"备注",add:"新增记录",export:"导出备份 (JSON)",import:"导入备份",del:"删除",empty:"还没有记录。",count:"笔记录",noSpecies:"（未指定昆虫）"},
-    toTop:"回到顶部",midnight:"每天午夜更换（UTC+8）",camLocal:{looksLike:"手机判断：看起来像",candidates:"图鉴中可能的种类（本月活动的排前面）",low:"不太确定——请对照下面的照片。",notInsect:"这看起来不像昆虫（可能是蜘蛛或其他小动物）。",loading:"正在准备离线辨识（第一次需连网下载约 7 MB）…",fail:"离线辨识模型载入失败（第一次需要连网）。",off:"离线辨识：不可用"},cam:{btn:"📷 拍照辨识",intro:"拍一张清楚的照片（整只虫，背景简单）。软件会和图鉴里的 180 种比对，并告诉你有多像；比对不到时，可以转到 Google 继续查。",working:"辨识中…",match:"可能是",conf:"相似度",check:"请对照「怎么认」的特征再确认，辨识结果不一定正确。",alts:"其他可能",none:"图鉴里找不到相符的种类。",guess:"看起来像",google:"用 Google 搜寻这个名字",lens:"用 Google 智慧镜头查这张照片",lensHint:"分享到手机上的 Google 软件即可打开智慧镜头",retry:"再拍一张",noService:"辨识服务尚未设定（需要在 index.html 填入 Worker 网址）。你仍可用下面的 Google 智慧镜头查这张照片。",err:"辨识服务连不上，请检查网络后再试。",open:"查看"},
+    toTop:"回到顶部",midnight:"每天午夜更换（UTC+8）",
     search:"搜寻名称…",all:"全部",species:"种",now:"本月",endemic:"台湾特有种",sub:"台湾特有亚种",exotic:"外来种",
     order:"目",family:"科",size:"体长",wingspan:"展翅",forewing:"前翅长",mm:"毫米",cm_ref:"1 厘米",
     months:"活动月份",monthNames:["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],
@@ -327,7 +313,7 @@ const I18N = {
     quiz:{intro:"看照片選出正確的名字，一輪 10 題。",start:"開始",q:"這是哪一種？",ok:"答對了！",bad:"答錯了，正確答案：",next:"下一題",score:"得分",again:"再來一次",done:"完成！"},
     flash:{intro:"先看照片猜猜看，點一下翻面看答案。",flip:"翻面看答案",next:"下一張"},
     nb:{intro:"記錄你在野外看到的昆蟲。紀錄只存在這台裝置的瀏覽器裡，請定期匯出備份。",species:"昆蟲",pick:"輸入名稱搜尋…",date:"日期",place:"地點",note:"備註",add:"新增紀錄",export:"匯出備份 (JSON)",import:"匯入備份",del:"刪除",empty:"還沒有紀錄。",count:"筆紀錄",noSpecies:"（未指定昆蟲）"},
-    toTop:"回到頂部",midnight:"每天午夜更換（UTC+8）",camLocal:{looksLike:"手機判斷：看起來像",candidates:"圖鑑中可能的種類（本月活動的排前面）",low:"不太確定——請對照下面的照片。",notInsect:"這看起來不像昆蟲（可能是蜘蛛或其他小動物）。",loading:"正在準備離線辨識（第一次需連網下載約 7 MB）…",fail:"離線辨識模型載入失敗（第一次需要連網）。",off:"離線辨識：不可用"},cam:{btn:"📷 拍照辨識",intro:"拍一張清楚的照片（整隻蟲，背景簡單）。軟體會和圖鑑裡的 180 種比對，並告訴你有多像；比對不到時，可以轉到 Google 繼續查。",working:"辨識中…",match:"可能是",conf:"相似度",check:"請對照「怎麼認」的特徵再確認，辨識結果不一定正確。",alts:"其他可能",none:"圖鑑裡找不到相符的種類。",guess:"看起來像",google:"用 Google 搜尋這個名字",lens:"用 Google 智慧鏡頭查這張照片",lensHint:"分享到手機上的 Google 軟體即可打開智慧鏡頭",retry:"再拍一張",noService:"辨識服務尚未設定（需要在 index.html 填入 Worker 網址）。你仍可用下面的 Google 智慧鏡頭查這張照片。",err:"辨識服務連不上，請檢查網路後再試。",open:"查看"},
+    toTop:"回到頂部",midnight:"每天午夜更換（UTC+8）",
     search:"搜尋名稱…",all:"全部",species:"種",now:"本月",endemic:"臺灣特有種",sub:"臺灣特有亞種",exotic:"外來種",
     order:"目",family:"科",size:"體長",wingspan:"展翅",forewing:"前翅長",mm:"公釐",cm_ref:"1 公分",
     months:"活動月份",monthNames:["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],
@@ -350,7 +336,7 @@ const I18N = {
     quiz:{intro:"Look at the photo and pick the right name — 10 questions a round.",start:"Start",q:"Which species is this?",ok:"Correct!",bad:"Not quite — it was:",next:"Next",score:"Score",again:"Play again",done:"Done!"},
     flash:{intro:"Guess from the photo, then tap to flip and see the answer.",flip:"Flip to see the answer",next:"Next card"},
     nb:{intro:"Record the insects you see in the field. Records live only in this device's browser — export a backup now and then.",species:"Insect",pick:"Type a name to search…",date:"Date",place:"Place",note:"Notes",add:"Add record",export:"Export backup (JSON)",import:"Import backup",del:"Delete",empty:"No records yet.",count:"records",noSpecies:"(no insect chosen)"},
-    toTop:"Back to top",midnight:"Changes at midnight (UTC+8)",camLocal:{looksLike:"On your phone: looks like",candidates:"Possible species in this guide (active this month first)",low:"Not very sure — compare the photos below.",notInsect:"This does not look like an insect (maybe a spider or another small animal).",loading:"Preparing offline recognition (first time downloads about 7 MB)…",fail:"The offline recogniser could not be loaded (the first time needs a connection).",off:"Offline recognition: unavailable"},cam:{btn:"📷 Identify from a photo",intro:"Take a clear photo (whole insect, plain background). The app compares it with the 180 species in this guide and tells you how close the match is; if nothing matches, you can continue on Google.",working:"Identifying…",match:"Possibly",conf:"Match",check:"Check it against the 'How to recognise it' points — the result is a suggestion, not a certainty.",alts:"Other possibilities",none:"No matching species in this guide.",guess:"It looks like",google:"Search Google for this name",lens:"Look up this photo with Google Lens",lensHint:"Share to the Google app on your phone to open Lens",retry:"Take another photo",noService:"The identification service is not set up yet (the Worker URL must be filled in index.html). You can still look the photo up with Google Lens below.",err:"The identification service could not be reached — check your connection and try again.",open:"Open"},
+    toTop:"Back to top",midnight:"Changes at midnight (UTC+8)",
     search:"Search names…",all:"All",species:"species",now:"this month",endemic:"Endemic to Taiwan",sub:"Endemic subspecies",exotic:"Introduced",
     order:"Order",family:"Family",size:"Body length",wingspan:"Wingspan",forewing:"Forewing length",mm:"mm",cm_ref:"1 cm",
     months:"Active months",monthNames:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
@@ -373,7 +359,7 @@ const I18N = {
     quiz:{intro:"Lihat gambar dan pilih nama yang betul — 10 soalan setiap pusingan.",start:"Mula",q:"Spesies apakah ini?",ok:"Betul!",bad:"Salah — jawapannya:",next:"Seterusnya",score:"Markah",again:"Main lagi",done:"Selesai!"},
     flash:{intro:"Teka daripada gambar, kemudian tekan untuk melihat jawapan.",flip:"Balik untuk lihat jawapan",next:"Kad seterusnya"},
     nb:{intro:"Catat serangga yang anda lihat di lapangan. Rekod disimpan hanya dalam pelayar peranti ini — eksport sandaran sekali-sekala.",species:"Serangga",pick:"Taip nama untuk mencari…",date:"Tarikh",place:"Tempat",note:"Catatan",add:"Tambah rekod",export:"Eksport sandaran (JSON)",import:"Import sandaran",del:"Padam",empty:"Belum ada rekod.",count:"rekod",noSpecies:"(tiada serangga dipilih)"},
-    toTop:"Kembali ke atas",midnight:"Bertukar pada tengah malam (UTC+8)",camLocal:{looksLike:"Pada telefon anda: nampak seperti",candidates:"Spesies yang mungkin dalam panduan ini (aktif bulan ini dahulu)",low:"Tidak begitu pasti — bandingkan gambar di bawah.",notInsect:"Ini tidak kelihatan seperti serangga (mungkin labah-labah atau haiwan kecil lain).",loading:"Menyediakan pengecaman luar talian (kali pertama memuat turun kira-kira 7 MB)…",fail:"Pengecam luar talian tidak dapat dimuatkan (kali pertama memerlukan sambungan).",off:"Pengecaman luar talian: tidak tersedia"},cam:{btn:"📷 Kenal pasti dari gambar",intro:"Ambil gambar yang jelas (seluruh serangga, latar belakang ringkas). Aplikasi akan membandingkannya dengan 180 spesies dalam panduan ini dan memberitahu sejauh mana padanannya; jika tiada yang sepadan, anda boleh teruskan di Google.",working:"Mengenal pasti…",match:"Mungkin",conf:"Padanan",check:"Semak dengan ciri 'Cara mengenalinya' — keputusan ini cadangan, bukan kepastian.",alts:"Kemungkinan lain",none:"Tiada spesies yang sepadan dalam panduan ini.",guess:"Ia kelihatan seperti",google:"Cari nama ini di Google",lens:"Semak gambar ini dengan Google Lens",lensHint:"Kongsi ke aplikasi Google di telefon anda untuk membuka Lens",retry:"Ambil gambar lain",noService:"Perkhidmatan pengenalan belum disediakan (URL Worker perlu diisi dalam index.html). Anda masih boleh menyemak gambar dengan Google Lens di bawah.",err:"Perkhidmatan pengenalan tidak dapat dihubungi — semak sambungan dan cuba lagi.",open:"Buka"},
+    toTop:"Kembali ke atas",midnight:"Bertukar pada tengah malam (UTC+8)",
     search:"Cari nama…",all:"Semua",species:"spesies",now:"bulan ini",endemic:"Endemik Taiwan",sub:"Subspesies endemik",exotic:"Spesies asing",
     order:"Order",family:"Famili",size:"Panjang badan",wingspan:"Rentang sayap",forewing:"Panjang sayap depan",mm:"mm",cm_ref:"1 cm",
     months:"Bulan aktif",monthNames:["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"],
@@ -397,9 +383,6 @@ const ORDER_KEYS = Object.keys(ORDERS);
 const HAB_KEYS=["mangrove","windbreak","wetgrass","drygrass","water"], MIC_KEYS=["ground","leaf","wood","water","flower"], ACT_KEYS=["day","light"];
 const SIZE_BANDS=[[0,5],[5,15],[15,30],[30,60],[60,9999]];
 const VERSION = DATA.version;
-/* Photo identification service: deploy worker/identify.js to Cloudflare and put its URL here.
-   Leave empty to hide the camera feature's network call (Google Lens fallback still works). */
-const ID_ENDPOINT = "";
 
 /* ===================== state ===================== */
 let lang = localStorage.getItem("tj_lang");
@@ -416,78 +399,6 @@ let notes = store.get("tj_notes",[]);
 const quiz = {on:false,qs:[],i:0,score:0,answered:false};
 const flash = {p:null,flipped:false};
 const nbForm = {species:null,q:""};
-const cam = {file:null,dataUrl:null,busy:false,result:null,error:null, local:null, localStatus:"idle"};
-/* On-device tier: MobileNet (TensorFlow.js) recognises the insect GROUP offline; the Worker above (optional) adds a species-level guess.
-   Scripts come from jsdelivr; the model loads from ./model/ when tools/fetch_model.py has vendored it, else from TF Hub. The service worker caches both. */
-const MODEL = { tf:"https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js", mobilenet:"https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.1/dist/mobilenet.min.js", local:"model/model.json", version:2, alpha:0.5 };
-// ImageNet class (text before the first comma) -> group in this guide. order:null = a real class this guide does not cover.
-const IMAGENET_GROUPS = {
-  "tiger beetle":{order:"Coleoptera",fams:["Carabidae"]}, "ground beetle":{order:"Coleoptera",fams:["Carabidae"]}, "ladybug":{order:"Coleoptera",fams:["Coccinellidae"]},
-  "long-horned beetle":{order:"Coleoptera",fams:["Cerambycidae"]}, "leaf beetle":{order:"Coleoptera",fams:["Chrysomelidae"]}, "dung beetle":{order:"Coleoptera",fams:["Scarabaeidae"]},
-  "rhinoceros beetle":{order:"Coleoptera",fams:["Scarabaeidae"]}, "weevil":{order:"Coleoptera",fams:["Curculionidae"]}, "fly":{order:"Diptera"},
-  "bee":{order:"Hymenoptera",notFams:["Formicidae"]}, "ant":{order:"Hymenoptera",fams:["Formicidae"]},
-  "grasshopper":{order:"Orthoptera",fams:["Acrididae","Pyrgomorphidae","Tridactylidae"]}, "cricket":{order:"Orthoptera",fams:["Gryllidae","Gryllotalpidae","Tettigoniidae"]},
-  "walking stick":{order:null}, "cockroach":{order:"Blattodea"}, "mantis":{order:"Mantodea"}, "cicada":{order:"Hemiptera",fams:["Cicadidae"]}, "leafhopper":{order:"Hemiptera"},
-  "lacewing":{order:"Neuroptera"}, "dragonfly":{order:"Odonata",fams:["Libellulidae","Aeshnidae"]}, "damselfly":{order:"Odonata",fams:["Coenagrionidae"]},
-  "admiral":{order:"Lepidoptera",fams:["Nymphalidae"]}, "ringlet":{order:"Lepidoptera",fams:["Nymphalidae"]}, "monarch":{order:"Lepidoptera",fams:["Nymphalidae"]},
-  "cabbage butterfly":{order:"Lepidoptera",fams:["Pieridae"]}, "sulphur butterfly":{order:"Lepidoptera",fams:["Pieridae"]}, "lycaenid":{order:"Lepidoptera",fams:["Lycaenidae"]},
-};
-const NOT_INSECT = ["black and gold garden spider","barn spider","garden spider","black widow","tarantula","wolf spider","tick","centipede","scorpion","harvestman","isopod","snail","slug","trilobite"];
-function loadScript(src){ return new Promise((ok,bad)=>{ const el=document.createElement("script"); el.src=src; el.onload=ok; el.onerror=()=>bad(new Error(src)); document.head.appendChild(el); }); }
-let modelPromise=null;
-function ensureModel(){
-  if(modelPromise) return modelPromise;
-  modelPromise=(async()=>{
-    if(!window.mobilenet){ if(!window.tf) await loadScript(MODEL.tf); await loadScript(MODEL.mobilenet); }
-    let local=false; try{ local=(await fetch(MODEL.local,{method:"HEAD"})).ok; }catch(e){}
-    const o={version:MODEL.version,alpha:MODEL.alpha}; if(local) o.modelUrl=MODEL.local;
-    return window.mobilenet.load(o);
-  })();
-  modelPromise.catch(()=>{ modelPromise=null; });
-  return modelPromise;
-}
-function groupsFromPredictions(preds){
-  const acc={}; let notInsect=0;
-  preds.forEach(p=>{ const key=p.className.split(",")[0].trim().toLowerCase();
-    if(NOT_INSECT.includes(key)){ notInsect+=p.probability; return; }
-    const g=IMAGENET_GROUPS[key]; if(!g) return;
-    const id=g.order+"|"+(g.fams||[]).join("/")+"|"+(g.notFams||[]).join("/");
-    acc[id]=acc[id]||{...g,p:0}; acc[id].p+=p.probability; });
-  const groups=Object.values(acc).sort((a,b)=>b.p-a.p).filter(g=>g.p>=0.05).slice(0,3);
-  return {groups, notInsect: notInsect>0.3 && (!groups.length || notInsect>groups[0].p)};
-}
-function candidatesFor(g){
-  const cur=curMonth();
-  return DATA.species.filter(s=>s.order===g.order && (!g.fams||g.fams.includes(s.fam)) && (!g.notFams||!g.notFams.includes(s.fam)))
-    .sort((a,b)=>(b.m.includes(cur)-a.m.includes(cur))||(a.p-b.p));
-}
-async function identifyLocal(dataUrl){
-  cam.local=null; cam.localStatus="loading"; refreshCam();
-  try{
-    const model=await ensureModel(); cam.localStatus="looking"; refreshCam();
-    const im=await new Promise((ok,bad)=>{ const i=new Image(); i.onload=()=>ok(i); i.onerror=bad; i.src=dataUrl; });
-    cam.local=groupsFromPredictions(await model.classify(im,10)); cam.localStatus="done";
-  }catch(e){ cam.localStatus="fail"; }
-  refreshCam();
-}
-function localHTML(){
-  const t=T().camLocal;
-  if(cam.localStatus==="loading") return `<p class="count">${esc(t.loading)}</p>`;
-  if(cam.localStatus==="looking") return `<p class="count">${esc(T().cam.working)}</p>`;
-  if(cam.localStatus==="fail") return `<p class="muted">${esc(t.fail)}</p>`;
-  if(!cam.local) return "";
-  if(cam.local.notInsect) return `<div class="warn">${esc(t.notInsect)}</div>`;
-  if(!cam.local.groups.length) return `<div class="warn">${esc(T().cam.none)}</div>`;
-  const gs=cam.local.groups; const low=gs[0].p<0.3;
-  let h=`<div class="sec">${esc(t.looksLike)}</div>`+gs.map((g,i)=>{
-    const pct=Math.round(g.p*100);
-    if(g.order===null) return `<div class="cam-group low"><div class="t"><div class="nm">${esc(T().cam.none)}</div><div class="bar"><div style="width:${pct}%"></div></div></div></div>`;
-    const label=orderName(g.order)+(g.fams?` · ${g.fams.join(" / ")}`:"");
-    return `<button class="cam-group ${g.p<0.3?"low":""}" data-g="${i}">${orderGlyph(g.order)}<div class="t"><div class="nm">${esc(label)}</div><div class="muted">${pct}%</div><div class="bar"><div style="width:${pct}%"></div></div></div></button>`; }).join("");
-  if(low) h+=`<div class="warn">${esc(t.low)}</div>`;
-  const g=gs.find(x=>x.order!==null); if(g){ const c=candidatesFor(g); if(c.length) h+=`<div class="sec">${esc(t.candidates)}</div><div class="list">${c.map(itemHTML).join("")}</div>`; }
-  return h;
-}
 const photoUrl = (s,i=0)=> i===0 ? `img/p${s.p}.jpg` : `img/p${s.p}-${i+1}.jpg`;
 const withPhoto = ()=>DATA.species.filter(s=>s.ph>0);
 function dayIndex(){ const d=new Date(Date.now()+8*3600e3); return Math.floor(d.getTime()/864e5); } // UTC+8 day number
@@ -622,7 +533,6 @@ function renderIdentify(){
   const monthBtns = `<div class="sec">${esc(t.when)}</div><div class="bgrp c6">${t.monthNames.map((n,i)=>`<button class="chip ${ident.month===i+1?"on":""}" data-f="month" data-v="${i+1}">${n}</button>`).join("")}</div><div class="bgrp c2"><button class="chip ${ident.month===null?"on":""}" data-f="month" data-v="__anyM">${esc(t.anyTime)}</button></div>`;
   const res = DATA.species.filter(s=>(!ident.hab||s.hab.includes(ident.hab))&&(!ident.mic||s.mic.includes(ident.mic))&&(ident.month===null||s.m.includes(ident.month))&&(!ident.act||s.act.includes(ident.act))&&(ident.size===null||sizeBand(s)===ident.size)&&(!ident.order||s.order===ident.order));
   m.innerHTML = `<p>${esc(t.idIntro)}</p>
-    <div class="cam-box" id="cam-box">${camHTML()}</div>
     <div class="card"><h3>${esc(t.keyTitle)}</h3>${keyHTML()}</div>
     ${grp(t.where,HAB_KEYS,ident.hab,"hab","c2",k=>`<svg viewBox="0 0 24 24"><use href="#h-${k}"/></svg>`)}
     ${grp(t.on,MIC_KEYS,ident.mic,"mic","c2",k=>`<svg viewBox="0 0 24 24"><use href="#m-${k}"/></svg>`)}
@@ -641,7 +551,7 @@ function renderIdentify(){
     renderIdentify(); window.scrollTo(0,0);
   }));
   $("#reset").addEventListener("click",()=>{ Object.assign(ident,{hab:null,mic:null,month:curMonth(),act:null,size:null,order:null}); renderIdentify(); });
-  bindKey(); bindItems(); bindCam();
+  bindKey(); bindItems();
 }
 
 /* ---- dichotomous key to orders (original, generic entomology) ---- */
@@ -782,75 +692,6 @@ function lifecycleSVG(type){
 }
 
 /* ---- photo identification ---- */
-function camHTML(){
-  const t=T().cam;
-  if(!cam.dataUrl) return `<p>${esc(t.intro)}</p><div class="bgrp c2"><button class="chip on" id="cam-btn">${esc(t.btn)}</button></div><input type="file" id="cam-file" accept="image/*" capture="environment" class="hide">`;
-  let body="";
-  if(cam.busy) body=`<p class="count">${esc(t.working)}</p>`;
-  else if(cam.error && cam.error!==t.noService) body=`<div class="errbox">${esc(cam.error)}</div>${googleFallbackHTML(null)}`;
-  else if(cam.error===t.noService) body=`${localHTML()}<p class="muted">${esc(t.noService)}</p>${googleFallbackHTML(null)}`;
-  else if(cam.result){
-    const r=cam.result; const sp=r.match?byPage[r.match]:null;
-    if(sp){
-      const c=Math.round((r.confidence||0)*100); const cls=c<50?"low":c<75?"mid":"";
-      body=`<div class="sec">${esc(t.match)}</div><button class="item" data-p="${sp.p}"><div class="thumb">${sp.ph?`<img src="${photoUrl(sp)}" alt="">`:orderGlyph(sp.order)}</div><div class="t"><div class="nm">${esc(nm(sp))}</div><div class="sci">${esc(sp.sci)}</div><div class="muted">${esc(orderName(sp.order))} · ${esc(sp.fam)}</div></div></button>
-        <div class="conf"><span>${esc(t.conf)}</span><div class="bar"><div class="${cls}" style="width:${c}%"></div></div><span>${c}%</span></div>
-        <div class="warn">${esc(t.check)}${r.notes?" "+esc(r.notes):""}</div>
-        ${(r.alternatives||[]).filter(p=>byPage[p]&&p!==sp.p).length?`<div class="sec">${esc(t.alts)}</div><div class="list">${(r.alternatives||[]).filter(p=>byPage[p]&&p!==sp.p).slice(0,3).map(p=>itemHTML(byPage[p])).join("")}</div>`:""}
-        ${c<50?googleFallbackHTML(r):""}`;
-    } else {
-      body=`<div class="warn">${esc(t.none)}</div>${r.guess&&(r.guess.scientific||r.guess.common_en||r.guess.order)?`<p><b>${esc(t.guess)}:</b> ${esc([r.guess.common_en,r.guess.scientific,r.guess.family,r.guess.order].filter(Boolean).join(" · "))}</p>`:""}${r.notes?`<p class="muted">${esc(r.notes)}</p>`:""}${googleFallbackHTML(r)}`;
-    }
-  }
-  if(!(cam.error===t.noService)) body = localHTML() + body;
-  return `<div class="shot"><img src="${cam.dataUrl}" alt=""></div>${body}<div class="bgrp c2"><button class="chip" id="cam-retry">${esc(t.retry)}</button></div><input type="file" id="cam-file" accept="image/*" capture="environment" class="hide">`;
-}
-function googleFallbackHTML(r){
-  const t=T().cam;
-  const q = r&&r.guess ? [r.guess.scientific,r.guess.common_en].filter(Boolean)[0] : "";
-  const gq = q || "insect Taijiang Taiwan";
-  const canShare = !!(navigator.canShare && cam.file && navigator.canShare({files:[cam.file]}));
-  return `<div class="bgrp" style="grid-template-columns:1fr">
-    ${q?`<a class="chip" style="text-decoration:none;justify-content:center" target="_blank" rel="noopener" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(gq)}">${esc(t.google)}: <i>${esc(q)}</i></a>`:""}
-    <button class="chip" id="cam-lens">${esc(t.lens)}</button></div>
-    ${canShare?`<p class="muted">${esc(t.lensHint)}</p>`:""}`;
-}
-async function camPick(file){
-  cam.file=null; cam.result=null; cam.error=null; cam.busy=false;
-  // downscale on device: ≤1280 px, JPEG q0.85 — enough for identification, small to upload
-  const bmp = await createImageBitmap(file).catch(()=>null); if(!bmp){ cam.error=T().cam.err; refreshCam(); return; }
-  const k=Math.min(1,1280/Math.max(bmp.width,bmp.height)); const c=document.createElement("canvas"); c.width=Math.round(bmp.width*k); c.height=Math.round(bmp.height*k);
-  c.getContext("2d").drawImage(bmp,0,0,c.width,c.height);
-  cam.dataUrl=c.toDataURL("image/jpeg",.85);
-  cam.file = await new Promise(res=>c.toBlob(b=>res(new File([b],"insect.jpg",{type:"image/jpeg"})),"image/jpeg",.85));
-  identifyLocal(cam.dataUrl);   // on-device group recognition, works offline once the model is cached
-  if(!ID_ENDPOINT){ cam.error=T().cam.noService; refreshCam(); return; }
-  cam.busy=true; refreshCam();
-  try{
-    const ctl=new AbortController(); const to=setTimeout(()=>ctl.abort(),45000);
-    const res=await fetch(ID_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:cam.dataUrl.split(",")[1],lang}),signal:ctl.signal});
-    clearTimeout(to);
-    if(!res.ok) throw new Error("HTTP "+res.status);
-    const j=await res.json();
-    if(typeof j!=="object"||!("match" in j)) throw new Error("bad response");
-    j.match = (j.match!==null && byPage[Number(j.match)]) ? Number(j.match) : null;
-    cam.result=j;
-  }catch(e){ cam.error=T().cam.err+" ("+(e.message||e)+")"; }
-  cam.busy=false; refreshCam();
-}
-function refreshCam(){ const b=$("#cam-box"); if(!b) return; b.innerHTML=camHTML(); bindCam(); }
-function bindCam(){
-  const f=$("#cam-file"); f?.addEventListener("change",()=>{ if(f.files[0]) camPick(f.files[0]); });
-  $("#cam-btn")?.addEventListener("click",()=>f.click());
-  $("#cam-retry")?.addEventListener("click",()=>f.click());
-  $("#cam-lens")?.addEventListener("click",async()=>{
-    if(navigator.canShare && cam.file && navigator.canShare({files:[cam.file]})){ try{ await navigator.share({files:[cam.file],title:"Insect"}); return; }catch(e){ if(e.name==="AbortError") return; } }
-    window.open("https://lens.google.com/","_blank","noopener");
-  });
-  document.querySelectorAll("#cam-box .item[data-p]").forEach(b=>b.addEventListener("click",()=>openSpecies(Number(b.dataset.p))));
-  document.querySelectorAll("#cam-box .cam-group[data-g]").forEach(b=>b.addEventListener("click",()=>{ const g=cam.local.groups[Number(b.dataset.g)]; if(!g||g.order===null) return; ident.order=g.order; renderIdentify(); $("#res-count")?.scrollIntoView({behavior:"smooth"}); }));
-}
-
 let moreOpen = null;
 function renderMore(){
   const t=T(); const m=$("#main");

@@ -65,30 +65,6 @@ then `p<page>-2.jpg`, `-3.jpg`… (`ph` in `data.js` is the count). You can repl
 of them with your own photos; re-run `work/build_data.py` after adding or removing
 files so the counts stay right.
 
-## Snap & identify (camera)
-
-Identify tab → **📷 Identify from a photo**. The photo is downscaled on the phone (≤1280 px)
-and never leaves it unless the Worker is configured. Three tiers, honest about what each can do:
-
-1. **On your phone, offline** — MobileNet v2 (TensorFlow.js) recognises the insect *group*
-   (ImageNet knows ladybird, leaf beetle, longhorn, dragonfly, damselfly, cicada, mantis,
-   grasshopper, cricket, cockroach, lacewing, bee, ant, fly, several butterfly families…). The
-   app maps that to the guide's order/family and lists the candidates, this month's active
-   species first, so the user compares photos. It cannot name a species — with 1–5 photos per
-   species no model can — and it says so with a confidence bar. Spiders and other
-   non-insects are reported as such. Scripts load from jsdelivr on first use (~7 MB with the
-   model); the service worker caches them, so later it works offline. To remove the
-   dependency on TF Hub, vendor the model: `python3 tools/fetch_model.py` (creates `model/`).
-2. **Species-level guess (optional, online)** — `worker/identify.js` is a Cloudflare Worker
-   that sends the photo plus the 180 candidates to a Gemini vision model and returns a strict
-   JSON match/confidence/alternatives, validated against the species list. Deploy with
-   `npx wrangler deploy` in `worker/`, set `GEMINI_API_KEY` with `npx wrangler secret put`,
-   adjust `DATA_URL`/`ALLOWED_ORIGIN` in `wrangler.toml`, then paste the Worker URL into
-   `ID_ENDPOINT` at the top of the script in `index.html`. Add a Cloudflare rate-limit rule
-   before sharing the URL. Leave `ID_ENDPOINT` empty to run without it.
-3. **Google** — "Look up this photo with Google Lens" shares the photo to the Google app
-   (Web Share API; Android and iOS), and a Google image search for the guessed name/group.
-
 ## What was merged from the Codex build (taijiang-entomology-atlas)
 
 Kept from here: the data model (months, habitat / micro-habitat / activity flags,
@@ -102,7 +78,9 @@ JSON export/import, back-to-top, the Pages workflow, and its three verified
 scientific-name corrections (which agreed with this build's data).
 
 Not ported: the verbatim book text and locale files, the bundled PDF and source
-reader, side-by-side compare.
+reader, side-by-side compare. A camera identification feature was built and then
+removed on 2026-10-24: with 1–5 photos per species no classifier can name a species
+honestly, and a group-only recogniser was judged not worth its 7 MB.
 
 ## Known data notes
 
