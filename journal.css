@@ -44,7 +44,7 @@ main{max-width:1120px;padding:24px 20px 125px}
 .sec{margin-top:24px}
 .photos{gap:16px}.photos .ph{background:#e6eadf}
 .dname{font-family:Georgia,"Noto Serif TC",serif;font-weight:600;margin-top:24px}
-nav.tabs{left:50%;right:auto;transform:translateX(-50%);width:min(640px,calc(100% - 24px));bottom:12px;border:1px solid var(--line);border-radius:24px;box-shadow:0 8px 36px #163c3324;padding:8px 6px calc(8px + env(safe-area-inset-bottom));background:#fffef9f5}
+nav.tabs{left:50%;right:auto;transform:translateX(-50%);width:min(640px,calc(100% - 24px));bottom:max(8px, env(safe-area-inset-bottom, 0px));border:1px solid var(--line);border-radius:24px;box-shadow:0 8px 36px #163c3324;padding:6px;background:#fffef9f5}
 nav.tabs button{min-height:52px;border-radius:16px;font-size:max(14px,.78em);padding:6px 3px;gap:5px}
 nav.tabs button.on{background:#e7eddf}nav.tabs button.on::after{display:none}
 nav.tabs button svg{width:24px;height:24px;stroke-width:1.7}
@@ -54,5 +54,5 @@ button:focus-visible,.order-toggle:focus-visible{outline:3px solid #a57826;outli
 @media(hover:hover){.item:hover{transform:translateY(-4px);box-shadow:0 12px 25px #214e4018}.chip:hover:not(.on){background:#e9eddf}}
 @media(min-width:800px){.today{display:grid;grid-template-columns:1.25fr 1fr}.today .cap{display:flex;flex-direction:column;justify-content:center;padding:36px}.today .hero img{height:390px}.today .nm{margin-top:24px}}
 @media(max-width:799px){.list{grid-template-columns:repeat(2,minmax(0,1fr))}.order-menu>.order-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:480px){main{padding:16px 14px 130px}.hbar{padding:10px 14px;height:64px}.list{grid-template-columns:1fr;gap:16px}.today .cap{padding:20px}.today .hero img{max-height:340px}.item .t{padding:18px}.bgrp.c6{grid-template-columns:repeat(3,1fr)}.hbar h1{font-size:1em}.months{gap:2px}.months div{font-size:14px}}
+@media(max-width:480px){main{padding:16px 14px calc(100px + env(safe-area-inset-bottom, 0px))}.hbar{padding:10px 14px;height:64px}.list{grid-template-columns:1fr;gap:16px}.today .cap{padding:20px}.today .hero img{max-height:340px}.item .t{padding:18px}.bgrp.c6{grid-template-columns:repeat(3,1fr)}.hbar h1{font-size:1em}.months{gap:2px}.months div{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
