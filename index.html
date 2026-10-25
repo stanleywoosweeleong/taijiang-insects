@@ -193,7 +193,7 @@ details.lrn .body{padding:0 0 12px}
 
 @media(min-width:640px){.photos{grid-template-columns:1fr 1fr}.list{display:grid;grid-template-columns:1fr 1fr}.item{align-self:start}}
 </style>
-<link rel="stylesheet" href="journal.css">
+<link rel="stylesheet" href="journal.css?v=9">
 </head>
 <body>
 
@@ -782,7 +782,7 @@ function aboutHTML(){
 
 /* ===================== boot ===================== */
 render();
-if("serviceWorker" in navigator){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
+if("serviceWorker" in navigator){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js", {updateViaCache:"none"}).catch(()=>{})); }
 </script>
 </body>
 </html>

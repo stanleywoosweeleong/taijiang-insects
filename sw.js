@@ -1,7 +1,7 @@
 /* Taijiang Insects — offline-first service worker.
    Bump CACHE when index.html or data.js change. */
-const CACHE = "taijiang-insects-v8";
-const SHELL = ["./", "./index.html", "./data.js", "./journal.css", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
+const CACHE = "taijiang-insects-v9";
+const SHELL = ["./", "./index.html", "./data.js", "./journal.css?v=9", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
 });
@@ -22,6 +22,6 @@ self.addEventListener("fetch", e => {
     return;
   }
   // shell: network-first so updates arrive, fall back to cache offline
-  e.respondWith(fetch(e.request).then(r => { if (r.ok) caches.open(CACHE).then(c => c.put(e.request, r.clone())); return r; })
+  e.respondWith(fetch(e.request, {cache: "no-cache"}).then(r => { if (r.ok) caches.open(CACHE).then(c => c.put(e.request, r.clone())); return r; })
     .catch(() => caches.match(e.request).then(h => h || caches.match("./index.html"))));
 });
