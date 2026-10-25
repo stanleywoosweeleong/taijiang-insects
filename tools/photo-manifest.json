@@ -1,0 +1,2544 @@
+{
+  "source": "Original supplied Taijiang field guide; each JPEG matched to its species page by exact-byte re-extraction.",
+  "pdfSha256": "26bc7f157a281c21f6112bb0fb0bbfa595fc37efefc65ae55b5d64aabcdf2e85",
+  "photos": {
+    "img/p45.jpg": {
+      "bookPage": 45,
+      "pdfPage": 47,
+      "scientific": "Agriocnemis pygmaea (Rambur, 1842)",
+      "sha256": "2130b17bb5cc6b93f7e36cd8aca45ec65c7b59c1bf160bbb868958fd120a8ce4"
+    },
+    "img/p45-2.jpg": {
+      "bookPage": 45,
+      "pdfPage": 47,
+      "scientific": "Agriocnemis pygmaea (Rambur, 1842)",
+      "sha256": "a018b3d13bc31bd50531410570b79d24b4429b7457b4443fbbe067fb7d9c96a3"
+    },
+    "img/p45-3.jpg": {
+      "bookPage": 45,
+      "pdfPage": 47,
+      "scientific": "Agriocnemis pygmaea (Rambur, 1842)",
+      "sha256": "e0418748db4db3931c12850281c6adc04cf3d3137ea3a8b0b01a54693bb3a258"
+    },
+    "img/p46.jpg": {
+      "bookPage": 46,
+      "pdfPage": 48,
+      "scientific": "Ceriagrion auranticum ryukyuanum Asahina, 1967",
+      "sha256": "58dc104e5c40ad461c5be5866e3b0724a7fb1fbda930b079172540da79fafd70"
+    },
+    "img/p46-2.jpg": {
+      "bookPage": 46,
+      "pdfPage": 48,
+      "scientific": "Ceriagrion auranticum ryukyuanum Asahina, 1967",
+      "sha256": "ecda478ca5d4aa221e27e8b77efd7aa60e8ca06753094cc4a829ddbae592d911"
+    },
+    "img/p47.jpg": {
+      "bookPage": 47,
+      "pdfPage": 49,
+      "scientific": "Ischnura senegalensis (Rambur, 1842)",
+      "sha256": "6127dc5878427f7389514501a974c18e1fad9bc60ab672aa2e06fe45471a8113"
+    },
+    "img/p47-2.jpg": {
+      "bookPage": 47,
+      "pdfPage": 49,
+      "scientific": "Ischnura senegalensis (Rambur, 1842)",
+      "sha256": "e50c01daf7504ff6dd0cd5b1e40007f16c57786d8bc536df3ab12a9251738c62"
+    },
+    "img/p47-3.jpg": {
+      "bookPage": 47,
+      "pdfPage": 49,
+      "scientific": "Ischnura senegalensis (Rambur, 1842)",
+      "sha256": "1f24f39345f1d53d3fe451beeb34bf7441e5a9e5829dec498cee427dbf8adee2"
+    },
+    "img/p47-4.jpg": {
+      "bookPage": 47,
+      "pdfPage": 49,
+      "scientific": "Ischnura senegalensis (Rambur, 1842)",
+      "sha256": "4fe7076b7b5274c33e1e04f7d7788dbafd8e325b556f02fb06dee05bbba0fb7d"
+    },
+    "img/p47-5.jpg": {
+      "bookPage": 47,
+      "pdfPage": 49,
+      "scientific": "Ischnura senegalensis (Rambur, 1842)",
+      "sha256": "c34c243d2e16fe57d1ee387765f93dbb383a976575535a6df8b198c9b8f9bad3"
+    },
+    "img/p48.jpg": {
+      "bookPage": 48,
+      "pdfPage": 50,
+      "scientific": "Anax guttatus (Burmeister, 1839)",
+      "sha256": "37f09474736d49478cedc7db964e8305e6690334eb03d2b5097b47c3b54832de"
+    },
+    "img/p48-2.jpg": {
+      "bookPage": 48,
+      "pdfPage": 50,
+      "scientific": "Anax guttatus (Burmeister, 1839)",
+      "sha256": "60c69dfd32bae95908dc958d38187bd49a9c923354990ed33e8b4b0e0f0d5afb"
+    },
+    "img/p49.jpg": {
+      "bookPage": 49,
+      "pdfPage": 51,
+      "scientific": "Gynacantha hyalina Selys, 1882",
+      "sha256": "8e34a6cc469c967aafe50ac0b915825edf23e1fb631f59145de51c13610be022"
+    },
+    "img/p49-2.jpg": {
+      "bookPage": 49,
+      "pdfPage": 51,
+      "scientific": "Gynacantha hyalina Selys, 1882",
+      "sha256": "289f1ed7d1288d98cb3a19a53bda9655b016a437cf068898f17fd0c5d40bc8db"
+    },
+    "img/p49-3.jpg": {
+      "bookPage": 49,
+      "pdfPage": 51,
+      "scientific": "Gynacantha hyalina Selys, 1882",
+      "sha256": "0ec77134ecdcfb7be59168262555ef92080b69c9fe838bd2e681ed96f07c3ed5"
+    },
+    "img/p50.jpg": {
+      "bookPage": 50,
+      "pdfPage": 52,
+      "scientific": "Acisoma panorpoides panorpoides Rambur, 1842",
+      "sha256": "07acebf69ad3517e19295cadbd9f5528b95135a67cb829853f490deb62aabe3d"
+    },
+    "img/p50-2.jpg": {
+      "bookPage": 50,
+      "pdfPage": 52,
+      "scientific": "Acisoma panorpoides panorpoides Rambur, 1842",
+      "sha256": "d78f16a541fd5afedb69c9165f3b755f8929c0232a6906a6742b9e1facd7e875"
+    },
+    "img/p50-3.jpg": {
+      "bookPage": 50,
+      "pdfPage": 52,
+      "scientific": "Acisoma panorpoides panorpoides Rambur, 1842",
+      "sha256": "f7b29c3deb37231bcb8769b71f4b86cc6b53701049ee3799b124b3f0bd7b2ad1"
+    },
+    "img/p50-4.jpg": {
+      "bookPage": 50,
+      "pdfPage": 52,
+      "scientific": "Acisoma panorpoides panorpoides Rambur, 1842",
+      "sha256": "feea6f5ca12c6cbc9ba721dbda042006034488c0734870bd4973f3287dd6c697"
+    },
+    "img/p51.jpg": {
+      "bookPage": 51,
+      "pdfPage": 53,
+      "scientific": "Brachydiplax chalybea flavovittata Ris, 1911",
+      "sha256": "6488d31e2f3891eaa0c576de8278acdbbb95c1f69951abf6390796d53a16c600"
+    },
+    "img/p51-2.jpg": {
+      "bookPage": 51,
+      "pdfPage": 53,
+      "scientific": "Brachydiplax chalybea flavovittata Ris, 1911",
+      "sha256": "a4b2e75baff6964606ff75b8fb63813010b0f61e47c8ee1e2c1942eaa9ebf3ed"
+    },
+    "img/p52.jpg": {
+      "bookPage": 52,
+      "pdfPage": 54,
+      "scientific": "Brachythemis contaminata (Fabricius, 1793)",
+      "sha256": "be968ece516151be663f62906b8698f6ffd9264cd7bd7c8c91d8f1cc3a7f7837"
+    },
+    "img/p52-2.jpg": {
+      "bookPage": 52,
+      "pdfPage": 54,
+      "scientific": "Brachythemis contaminata (Fabricius, 1793)",
+      "sha256": "98b53dc86e0036489ab35c5f7089d2195a8f7f409a43df7f71bd391a2f0bda35"
+    },
+    "img/p52-3.jpg": {
+      "bookPage": 52,
+      "pdfPage": 54,
+      "scientific": "Brachythemis contaminata (Fabricius, 1793)",
+      "sha256": "c642e5127cb42fe46b3bd111af864e6049e2fbc0d5246db7c715ede9c7d3ffcf"
+    },
+    "img/p52-4.jpg": {
+      "bookPage": 52,
+      "pdfPage": 54,
+      "scientific": "Brachythemis contaminata (Fabricius, 1793)",
+      "sha256": "d575ff5b423e7c85f25dac4f3d4553f70c4a5aeb497d532420723f48e942d023"
+    },
+    "img/p53.jpg": {
+      "bookPage": 53,
+      "pdfPage": 55,
+      "scientific": "Crocothemis servilia servilia (Drury, 1770)",
+      "sha256": "3091c12ff72e95a71539e1b7307a16a3323f090a9854ca391861aa4b5db0b310"
+    },
+    "img/p53-2.jpg": {
+      "bookPage": 53,
+      "pdfPage": 55,
+      "scientific": "Crocothemis servilia servilia (Drury, 1770)",
+      "sha256": "d20ac7227fbe288f70355a5b36dde6b6fa5d2e7a1277313934a5af2fee49c1fd"
+    },
+    "img/p53-3.jpg": {
+      "bookPage": 53,
+      "pdfPage": 55,
+      "scientific": "Crocothemis servilia servilia (Drury, 1770)",
+      "sha256": "231ecac12510cf7153d1143ba60e8295a8cc796335cc4cd951ff937d85885bb6"
+    },
+    "img/p54.jpg": {
+      "bookPage": 54,
+      "pdfPage": 56,
+      "scientific": "Diplacodes trivialis (Rambur, 1842)",
+      "sha256": "cb68e28e624216fbc69df070a03957e19a1acd3eba6b6761f71630351e24186e"
+    },
+    "img/p54-2.jpg": {
+      "bookPage": 54,
+      "pdfPage": 56,
+      "scientific": "Diplacodes trivialis (Rambur, 1842)",
+      "sha256": "44d17d4276800755d46e845626da62c2c95c396f07554cba06321d8e830cff91"
+    },
+    "img/p55.jpg": {
+      "bookPage": 55,
+      "pdfPage": 57,
+      "scientific": "Macrodiplax cora (Kaup in Brauer, 1867)",
+      "sha256": "946e5df757f3a281fa155861078908e255074e449b4986bbc746a08dc2f2413e"
+    },
+    "img/p55-2.jpg": {
+      "bookPage": 55,
+      "pdfPage": 57,
+      "scientific": "Macrodiplax cora (Kaup in Brauer, 1867)",
+      "sha256": "d79b11e9a2dcd0a7b4e006492742b36481fd685b25439c423666e87ca55dd592"
+    },
+    "img/p55-3.jpg": {
+      "bookPage": 55,
+      "pdfPage": 57,
+      "scientific": "Macrodiplax cora (Kaup in Brauer, 1867)",
+      "sha256": "1e2e87f57781ee4f59974d1f4f0a1fb423d5413e8da79ed71f38fb15296078b8"
+    },
+    "img/p56.jpg": {
+      "bookPage": 56,
+      "pdfPage": 58,
+      "scientific": "Orthetrum sabina sabina (Drury, 1770)",
+      "sha256": "7ab1ab52c6b45aec45e103fefde48a1c9c5dac9fe1fabf8f0e813a7c0dac627b"
+    },
+    "img/p56-2.jpg": {
+      "bookPage": 56,
+      "pdfPage": 58,
+      "scientific": "Orthetrum sabina sabina (Drury, 1770)",
+      "sha256": "bf4f2f9a425293319ad3bdd2e9c1a7b501b5d65474e290256db94193a744d63a"
+    },
+    "img/p56-3.jpg": {
+      "bookPage": 56,
+      "pdfPage": 58,
+      "scientific": "Orthetrum sabina sabina (Drury, 1770)",
+      "sha256": "bad697152abffeb7399bc8722b0f3a78db51ab0e695bce50df52a4b6b7e4fb2a"
+    },
+    "img/p56-4.jpg": {
+      "bookPage": 56,
+      "pdfPage": 58,
+      "scientific": "Orthetrum sabina sabina (Drury, 1770)",
+      "sha256": "84dd59707eb5483683de6d17e06d4db41791c9b9e8b596b0cf4472c533116715"
+    },
+    "img/p57.jpg": {
+      "bookPage": 57,
+      "pdfPage": 59,
+      "scientific": "Pantala flavescens (Fabricius, 1798)",
+      "sha256": "962e262f49d3213d068df28332beb6aa09710e2a3f48b7e1f2ed669de0152e2e"
+    },
+    "img/p57-2.jpg": {
+      "bookPage": 57,
+      "pdfPage": 59,
+      "scientific": "Pantala flavescens (Fabricius, 1798)",
+      "sha256": "36f853ec4036cbb068491499f7c66e5db70a594a7ebaef239989adef1bc6861c"
+    },
+    "img/p57-3.jpg": {
+      "bookPage": 57,
+      "pdfPage": 59,
+      "scientific": "Pantala flavescens (Fabricius, 1798)",
+      "sha256": "f693026ebaa4c0ad89454dd360f09a11fdd6d622784e14f271d2099d02c34581"
+    },
+    "img/p57-4.jpg": {
+      "bookPage": 57,
+      "pdfPage": 59,
+      "scientific": "Pantala flavescens (Fabricius, 1798)",
+      "sha256": "da0c94713823ad1ea06f71c2b4d0c2de6511436164cf6009796b1f211667b3f5"
+    },
+    "img/p58.jpg": {
+      "bookPage": 58,
+      "pdfPage": 60,
+      "scientific": "Rhyothemis variegata arria (Drury, 1773)",
+      "sha256": "f2df7ef63d2654be820304381afcf85bd4f56290c0e1bb1ebfb9d0b6d6d57e24"
+    },
+    "img/p58-2.jpg": {
+      "bookPage": 58,
+      "pdfPage": 60,
+      "scientific": "Rhyothemis variegata arria (Drury, 1773)",
+      "sha256": "d2378b20b35ed07fb0d16d248484783623fac4d4c37a46c389721f483a689a9d"
+    },
+    "img/p58-3.jpg": {
+      "bookPage": 58,
+      "pdfPage": 60,
+      "scientific": "Rhyothemis variegata arria (Drury, 1773)",
+      "sha256": "1f5fd93859d8e778ed2de2d982a21307492462a7e8144e9a7082bed0ef8c14a1"
+    },
+    "img/p59.jpg": {
+      "bookPage": 59,
+      "pdfPage": 61,
+      "scientific": "Tholymis tillarga (Fabricius, 1798)",
+      "sha256": "0f98c47e111a9e133852de956450c2681db3b00d8e58df7e026a6cde6e6fcb87"
+    },
+    "img/p59-2.jpg": {
+      "bookPage": 59,
+      "pdfPage": 61,
+      "scientific": "Tholymis tillarga (Fabricius, 1798)",
+      "sha256": "4158a18bf7dfd251d22b1dc34e7837ef717b384ee9a08929a108d2e7602eea6f"
+    },
+    "img/p59-3.jpg": {
+      "bookPage": 59,
+      "pdfPage": 61,
+      "scientific": "Tholymis tillarga (Fabricius, 1798)",
+      "sha256": "ba7a00a749f57437b87311bb606121a8bb6791c3f0ed15c7d028791ec961f7e8"
+    },
+    "img/p59-4.jpg": {
+      "bookPage": 59,
+      "pdfPage": 61,
+      "scientific": "Tholymis tillarga (Fabricius, 1798)",
+      "sha256": "fa19df906aea7bdb6852f1689af359297f2aa75b9d88da8390ed87b673e24641"
+    },
+    "img/p60.jpg": {
+      "bookPage": 60,
+      "pdfPage": 62,
+      "scientific": "Tramea transmarina euryale (Selys, 1878)",
+      "sha256": "843eeaa06bee105f6a42024c159efa7dd8b934d625d6e619382f9452a588538e"
+    },
+    "img/p60-2.jpg": {
+      "bookPage": 60,
+      "pdfPage": 62,
+      "scientific": "Tramea transmarina euryale (Selys, 1878)",
+      "sha256": "53a896b153492eb6aa4411e320c2cc496bf621a704a640bc153990ba0a72861a"
+    },
+    "img/p60-3.jpg": {
+      "bookPage": 60,
+      "pdfPage": 62,
+      "scientific": "Tramea transmarina euryale (Selys, 1878)",
+      "sha256": "f8d4a2d1de386bb09cec7e14526aa13100654d79e06f2c611831c008b948d4a0"
+    },
+    "img/p61.jpg": {
+      "bookPage": 61,
+      "pdfPage": 63,
+      "scientific": "Zyxomma petiolatum Rambur, 1842",
+      "sha256": "ff6799f9f90593a16c5cc62aa360ac8f290ded8ae61f9b0998b5138823e8685e"
+    },
+    "img/p61-2.jpg": {
+      "bookPage": 61,
+      "pdfPage": 63,
+      "scientific": "Zyxomma petiolatum Rambur, 1842",
+      "sha256": "6a776a8de867907745e70b4340d9eef4e557cb449f8979d7be8e1c06b07af8f3"
+    },
+    "img/p61-3.jpg": {
+      "bookPage": 61,
+      "pdfPage": 63,
+      "scientific": "Zyxomma petiolatum Rambur, 1842",
+      "sha256": "3edf569bd509752e87af243fd663b36d9592777d44da73922f5a54e8f1f2b207"
+    },
+    "img/p63.jpg": {
+      "bookPage": 63,
+      "pdfPage": 65,
+      "scientific": "Acrida sp.",
+      "sha256": "96b213e21b8f45aaf97bc778e520140c6e03425e32fbac5cbb2dc88ce4298f36"
+    },
+    "img/p63-2.jpg": {
+      "bookPage": 63,
+      "pdfPage": 65,
+      "scientific": "Acrida sp.",
+      "sha256": "79f8f243b9f063909b483e85b891f10744a19a94d7176270c828dae1c23e8a3a"
+    },
+    "img/p63-3.jpg": {
+      "bookPage": 63,
+      "pdfPage": 65,
+      "scientific": "Acrida sp.",
+      "sha256": "401004adb69880d4dc1b3d1aebbd8d16c5f02ced0b934ccd27a2a5418ab302d3"
+    },
+    "img/p63-4.jpg": {
+      "bookPage": 63,
+      "pdfPage": 65,
+      "scientific": "Acrida sp.",
+      "sha256": "0e142a74b27faa47f3041172d383ad53d695386cbf8d3f9ad350320c0868e2df"
+    },
+    "img/p64.jpg": {
+      "bookPage": 64,
+      "pdfPage": 66,
+      "scientific": "Aiolopus thalassinus tamulus (Fabricius, 1798)",
+      "sha256": "743b8048b670502a5112437229ae9b9b7e2a7b737a2dc35c032b84a036867b8c"
+    },
+    "img/p64-2.jpg": {
+      "bookPage": 64,
+      "pdfPage": 66,
+      "scientific": "Aiolopus thalassinus tamulus (Fabricius, 1798)",
+      "sha256": "57a8ec12dd2c6cc179560ed672fc1658cd97e28b79e0288bf9dac269e452f0b2"
+    },
+    "img/p64-3.jpg": {
+      "bookPage": 64,
+      "pdfPage": 66,
+      "scientific": "Aiolopus thalassinus tamulus (Fabricius, 1798)",
+      "sha256": "c1a95a4e90d39849e8226379e6c9b25553d630f1f0935802d314cba42ab3ded9"
+    },
+    "img/p64-4.jpg": {
+      "bookPage": 64,
+      "pdfPage": 66,
+      "scientific": "Aiolopus thalassinus tamulus (Fabricius, 1798)",
+      "sha256": "286d4e24354a43c38356f783a637441d9ef6cfa189a5a54149cd73ac92ca183d"
+    },
+    "img/p65.jpg": {
+      "bookPage": 65,
+      "pdfPage": 67,
+      "scientific": "Chondracris rosea (De Geer, 1773)",
+      "sha256": "bd05d34a10e964ad2d08d2a59a0455e5a2c7e134eae74ab1019ccc4783fc7975"
+    },
+    "img/p65-2.jpg": {
+      "bookPage": 65,
+      "pdfPage": 67,
+      "scientific": "Chondracris rosea (De Geer, 1773)",
+      "sha256": "5af22977957dbe051ddd7d27019f8fedb648288ae95a67bc2f6d2a688c332e30"
+    },
+    "img/p66.jpg": {
+      "bookPage": 66,
+      "pdfPage": 68,
+      "scientific": "Heteropternis rufipes (Shiraki, 1910)",
+      "sha256": "57b057f91b2365db1777e489987f09a411f91ce57fdc16318e4ba57cf2c7e8c4"
+    },
+    "img/p67.jpg": {
+      "bookPage": 67,
+      "pdfPage": 69,
+      "scientific": "Oxya hyla intricata (Stål, 1861)",
+      "sha256": "10feace648897ab9fe44c440697b27f4f1fa521511fe331c0d2b03600f9ccfbe"
+    },
+    "img/p67-2.jpg": {
+      "bookPage": 67,
+      "pdfPage": 69,
+      "scientific": "Oxya hyla intricata (Stål, 1861)",
+      "sha256": "8d27cb96ae61fda14544ea75824a575b09574754bba54f247655a6785518c88f"
+    },
+    "img/p68.jpg": {
+      "bookPage": 68,
+      "pdfPage": 70,
+      "scientific": "Stenocatantops splendens (Thunberg, 1815)",
+      "sha256": "c008427daabe6cdf45040b8f9c9ba6aa23d917db0605eb7946c5afc0e0de0499"
+    },
+    "img/p68-2.jpg": {
+      "bookPage": 68,
+      "pdfPage": 70,
+      "scientific": "Stenocatantops splendens (Thunberg, 1815)",
+      "sha256": "42dd983a11033aedd117873aa161bd3e10d401c011e02eec4ba9330effd688bd"
+    },
+    "img/p69.jpg": {
+      "bookPage": 69,
+      "pdfPage": 71,
+      "scientific": "Trilophidia annulata (Thunberg, 1815)",
+      "sha256": "0aa394d185265faf7a71643aace3ae2b5e908585483ad38d6cd857539ddba886"
+    },
+    "img/p69-2.jpg": {
+      "bookPage": 69,
+      "pdfPage": 71,
+      "scientific": "Trilophidia annulata (Thunberg, 1815)",
+      "sha256": "1f48b312185f334329cd9e4acf709299fd97f6c82aad0e8282ee2ee0665aa5e4"
+    },
+    "img/p70.jpg": {
+      "bookPage": 70,
+      "pdfPage": 72,
+      "scientific": "Xenocatantops brachycerus (Willemse, C., 1932)",
+      "sha256": "5953d086d9ae122928af5fcac007a1e0095bc31424d310445eaf36eca2fdcf29"
+    },
+    "img/p71.jpg": {
+      "bookPage": 71,
+      "pdfPage": 73,
+      "scientific": "Atractomorpha sinensis Bolívar, I., 1905",
+      "sha256": "1231864492d8716e1cd32cd38a15b7c88e6fdeb95872efbd171f2b5994292164"
+    },
+    "img/p71-2.jpg": {
+      "bookPage": 71,
+      "pdfPage": 73,
+      "scientific": "Atractomorpha sinensis Bolívar, I., 1905",
+      "sha256": "37267ab5996913608a7668af1a636fb0b2c3cbc88c0a4dd2b852ff2c71ac4d9b"
+    },
+    "img/p71-3.jpg": {
+      "bookPage": 71,
+      "pdfPage": 73,
+      "scientific": "Atractomorpha sinensis Bolívar, I., 1905",
+      "sha256": "68eacbdae35f8c48b9654332b62807a000c3be3aef97bcded8232fcde84b835d"
+    },
+    "img/p72.jpg": {
+      "bookPage": 72,
+      "pdfPage": 74,
+      "scientific": "Xya japonica (Haan, 1842)",
+      "sha256": "ad2da4f9f44c96955859b8f3d6c3c0a866b5eccd0211bd89fdd5fccfdf044b2a"
+    },
+    "img/p73.jpg": {
+      "bookPage": 73,
+      "pdfPage": 75,
+      "scientific": "Loxoblemmus equestris Saussure, 1877",
+      "sha256": "2d721cf7b82199e93f1ee7759426a97f8ee1957a0c1f79ad69749aa684bcb130"
+    },
+    "img/p73-2.jpg": {
+      "bookPage": 73,
+      "pdfPage": 75,
+      "scientific": "Loxoblemmus equestris Saussure, 1877",
+      "sha256": "bd3545eefdca655212ff549fca989e7e1ccb258cdc399247c87c447e5e5568ac"
+    },
+    "img/p74.jpg": {
+      "bookPage": 74,
+      "pdfPage": 76,
+      "scientific": "Tarbinskiellus portentosus (Lichtenstein, 1796)",
+      "sha256": "4cb4bc5f9b897226dcd779086bf632d59707825bafc684d75b3184df3fc1fe75"
+    },
+    "img/p74-2.jpg": {
+      "bookPage": 74,
+      "pdfPage": 76,
+      "scientific": "Tarbinskiellus portentosus (Lichtenstein, 1796)",
+      "sha256": "a4136955eaa22bf537ff64fd7cbcf65f3f4f2e6787a3ac38b79a2a578cec866a"
+    },
+    "img/p75.jpg": {
+      "bookPage": 75,
+      "pdfPage": 77,
+      "scientific": "Gryllotalpa orientalis Burmeister, 1838",
+      "sha256": "fa9c4a5be48b3fb632f4d381c0dfa6f1744b756a0d321a7524a524142442497f"
+    },
+    "img/p75-2.jpg": {
+      "bookPage": 75,
+      "pdfPage": 77,
+      "scientific": "Gryllotalpa orientalis Burmeister, 1838",
+      "sha256": "302347be439026e8236851c3415245b71e9478366f79c3209e59f3255c0fbe82"
+    },
+    "img/p76.jpg": {
+      "bookPage": 76,
+      "pdfPage": 78,
+      "scientific": "Conocephalus (Anisoptera) maculatus (Le Gouillou, 1841)",
+      "sha256": "0016db9191790bb190466edc1377a4967e7c137889f21e89e5dd59603e3f1ffc"
+    },
+    "img/p76-2.jpg": {
+      "bookPage": 76,
+      "pdfPage": 78,
+      "scientific": "Conocephalus (Anisoptera) maculatus (Le Gouillou, 1841)",
+      "sha256": "1361895098c04ad9c28755243171f3116ca22cf3f90d0b82aa5068224505edbc"
+    },
+    "img/p77.jpg": {
+      "bookPage": 77,
+      "pdfPage": 79,
+      "scientific": "Ducetia japonica (Thunberg, 1815)",
+      "sha256": "e3a8910384204d7bd53b0b88661a7c67cd86cd9dcbd8953ac27d0e5f23e93964"
+    },
+    "img/p77-2.jpg": {
+      "bookPage": 77,
+      "pdfPage": 79,
+      "scientific": "Ducetia japonica (Thunberg, 1815)",
+      "sha256": "7534916d6fb5b744324029a5e031ea9b10ca730885529cefcc09ff3d4bf0487b"
+    },
+    "img/p78.jpg": {
+      "bookPage": 78,
+      "pdfPage": 80,
+      "scientific": "Euconocephalus pallidus (Redtenbacher, 1891)",
+      "sha256": "6234f990498010a58f2a6a56d515db2f11d3140f7238118e61374867a8e07962"
+    },
+    "img/p78-2.jpg": {
+      "bookPage": 78,
+      "pdfPage": 80,
+      "scientific": "Euconocephalus pallidus (Redtenbacher, 1891)",
+      "sha256": "8e44bb03ce50784fa2db699b189b269bbb247e957181e850cf9d6a306494f621"
+    },
+    "img/p78-3.jpg": {
+      "bookPage": 78,
+      "pdfPage": 80,
+      "scientific": "Euconocephalus pallidus (Redtenbacher, 1891)",
+      "sha256": "e14110491ce800d82ce72aa9663f4fd94276d8bc720516341d469cfeb816a3ca"
+    },
+    "img/p80.jpg": {
+      "bookPage": 80,
+      "pdfPage": 82,
+      "scientific": "Hierodula patellifera (Serville, 1893)",
+      "sha256": "f2457dbdf758d6722f97f0d85387a9d822b0d69eed8a77361635782f6120967d"
+    },
+    "img/p80-2.jpg": {
+      "bookPage": 80,
+      "pdfPage": 82,
+      "scientific": "Hierodula patellifera (Serville, 1893)",
+      "sha256": "9f5964fafa6f042c5d06678792722aa1c9c1537515fb65444ccd275519915135"
+    },
+    "img/p80-3.jpg": {
+      "bookPage": 80,
+      "pdfPage": 82,
+      "scientific": "Hierodula patellifera (Serville, 1893)",
+      "sha256": "b0bc4c1db9fc8b3565b38eebc31d82cfa232367e8b6ec2a06da60ba6bab13eab"
+    },
+    "img/p81.jpg": {
+      "bookPage": 81,
+      "pdfPage": 83,
+      "scientific": "Mantis religiosa Linnaeus, 1758",
+      "sha256": "e908dc3ed45bedfe115762a204e9657a9da8228704fe927feb79137156be50db"
+    },
+    "img/p81-2.jpg": {
+      "bookPage": 81,
+      "pdfPage": 83,
+      "scientific": "Mantis religiosa Linnaeus, 1758",
+      "sha256": "63a6549d3d2429dbb9d7b068c3a15b5fcc5df3a2f8d511e18b4391d6cf90d49c"
+    },
+    "img/p81-3.jpg": {
+      "bookPage": 81,
+      "pdfPage": 83,
+      "scientific": "Mantis religiosa Linnaeus, 1758",
+      "sha256": "e7536c8d4969ef7f31b5ab9df88bea414c7dae908b7ef24e602eb3ac9d143c04"
+    },
+    "img/p81-4.jpg": {
+      "bookPage": 81,
+      "pdfPage": 83,
+      "scientific": "Mantis religiosa Linnaeus, 1758",
+      "sha256": "52ccaa4a42cdb7ed7d8caa1adf4c758e54af31fce899aa08ac67ba7084f36d67"
+    },
+    "img/p82.jpg": {
+      "bookPage": 82,
+      "pdfPage": 84,
+      "scientific": "Tenodera sp.",
+      "sha256": "80354254e4abfa57207afa6dee707c545561f1b43ffc5ea1a10fa7825839c001"
+    },
+    "img/p82-2.jpg": {
+      "bookPage": 82,
+      "pdfPage": 84,
+      "scientific": "Tenodera sp.",
+      "sha256": "f3b3faac7a8c52f8fe71d931c157b56bc48f81b8da931caf098670810ea3befe"
+    },
+    "img/p84.jpg": {
+      "bookPage": 84,
+      "pdfPage": 86,
+      "scientific": "Pycnoscelus sp.",
+      "sha256": "0ad7e845612335d1f462a34e20e35b09e67fc25b115068d358f8cf756480e5da"
+    },
+    "img/p84-2.jpg": {
+      "bookPage": 84,
+      "pdfPage": 86,
+      "scientific": "Pycnoscelus sp.",
+      "sha256": "5e923b9a4e2b8146cfb28b195d2bfa1d621aaf7feca1e8c4a8e02a0fd251f45d"
+    },
+    "img/p85.jpg": {
+      "bookPage": 85,
+      "pdfPage": 87,
+      "scientific": "Neostylopyga rhombifolia Stoll, 1813",
+      "sha256": "0746789164eac66e0e3fa35618a6f1576232f2b1f0fad8af47c9ec7ca6726b0b"
+    },
+    "img/p85-2.jpg": {
+      "bookPage": 85,
+      "pdfPage": 87,
+      "scientific": "Neostylopyga rhombifolia Stoll, 1813",
+      "sha256": "f4635a06022cdd81ab83f620f5188313141f782e0cc518f5c4ae58c6719b71bf"
+    },
+    "img/p87.jpg": {
+      "bookPage": 87,
+      "pdfPage": 89,
+      "scientific": "Coptotermes formosanus Shiraki, 1909",
+      "sha256": "85b8a4d8d32959b6a41b1e8a837332a935840807758b776ed6bdcda4fe49da21"
+    },
+    "img/p87-2.jpg": {
+      "bookPage": 87,
+      "pdfPage": 89,
+      "scientific": "Coptotermes formosanus Shiraki, 1909",
+      "sha256": "0fedf6192dbf2346f56b5203a4c217a208c3cf4fcb10154a1e4bedd1d050a936"
+    },
+    "img/p88.jpg": {
+      "bookPage": 88,
+      "pdfPage": 90,
+      "scientific": "Odontotermes formosanus (Shiraki, 1909)",
+      "sha256": "d02ddc4dcb64cbb0d914bfc8fb2cc43bf165d32868ac025cf967b06e91cd0b40"
+    },
+    "img/p88-2.jpg": {
+      "bookPage": 88,
+      "pdfPage": 90,
+      "scientific": "Odontotermes formosanus (Shiraki, 1909)",
+      "sha256": "d56b4c8048ae138e0734af39e0ce07521cf23fd2ed49f40abaa98721b15e1137"
+    },
+    "img/p90.jpg": {
+      "bookPage": 90,
+      "pdfPage": 92,
+      "scientific": "Cryptotympana atrata (Fabricius, 1775)",
+      "sha256": "a095c77418895cc6263ea39a44ca0f5d841e5756cfa065d4eb495c9ad2eaa5cc"
+    },
+    "img/p90-2.jpg": {
+      "bookPage": 90,
+      "pdfPage": 92,
+      "scientific": "Cryptotympana atrata (Fabricius, 1775)",
+      "sha256": "1e0089b28f3e3a6a3a06a415cdfa7d8149523706d16a4ba7b16204b27929e285"
+    },
+    "img/p90-3.jpg": {
+      "bookPage": 90,
+      "pdfPage": 92,
+      "scientific": "Cryptotympana atrata (Fabricius, 1775)",
+      "sha256": "0f5664d39a9df0c1b5cab550cf5277609af17d7e2f73dafd517ba0d2a22f132c"
+    },
+    "img/p90-4.jpg": {
+      "bookPage": 90,
+      "pdfPage": 92,
+      "scientific": "Cryptotympana atrata (Fabricius, 1775)",
+      "sha256": "e0b7b13982e00cc8d60f262b5e2a411c7b41a60194d663cdfdbcd77fefe5e4eb"
+    },
+    "img/p91.jpg": {
+      "bookPage": 91,
+      "pdfPage": 93,
+      "scientific": "Taiwanosemia hoppoensis (Matsumura, 1907)",
+      "sha256": "e14d2536d350372009a1a4cbe3903941e6e128a4c72c3b079307cd5f541760dd"
+    },
+    "img/p91-2.jpg": {
+      "bookPage": 91,
+      "pdfPage": 93,
+      "scientific": "Taiwanosemia hoppoensis (Matsumura, 1907)",
+      "sha256": "99d76d9027fcd99e9dd5487eb9314be483e6f4e7a2ca1080f1d038098cbe6ede"
+    },
+    "img/p91-3.jpg": {
+      "bookPage": 91,
+      "pdfPage": 93,
+      "scientific": "Taiwanosemia hoppoensis (Matsumura, 1907)",
+      "sha256": "d27109ed7b376f526f206587a2ba3c7d81672e6a0f66adfc0bdb57dc0b6ea04a"
+    },
+    "img/p91-4.jpg": {
+      "bookPage": 91,
+      "pdfPage": 93,
+      "scientific": "Taiwanosemia hoppoensis (Matsumura, 1907)",
+      "sha256": "fbd48e7780c1e814b78bb329584db52172f8b165f64dc53ba9bcd8e56b742cb9"
+    },
+    "img/p92.jpg": {
+      "bookPage": 92,
+      "pdfPage": 94,
+      "scientific": "Leptocorisa acuta (Thunberg, 1783 )",
+      "sha256": "e95f95d956439bed7852d5639631b539e9bcc3f3bd88ecde30697179448fb921"
+    },
+    "img/p92-2.jpg": {
+      "bookPage": 92,
+      "pdfPage": 94,
+      "scientific": "Leptocorisa acuta (Thunberg, 1783 )",
+      "sha256": "a9cddea49e9590011ceeb1430c00a3d5a8eb1327797c3509a7adf54689460995"
+    },
+    "img/p93.jpg": {
+      "bookPage": 93,
+      "pdfPage": 95,
+      "scientific": "Riptortus linearis (Fabricius, 1775)",
+      "sha256": "e4bdc5f62ff139d9b74a7d910e4097195d6c69ad74d5e5737344ec61e6614758"
+    },
+    "img/p93-2.jpg": {
+      "bookPage": 93,
+      "pdfPage": 95,
+      "scientific": "Riptortus linearis (Fabricius, 1775)",
+      "sha256": "ea4a2d720f57024b0a5c13ea81ca0d74677d2ced586d6930acf57577e5a254a5"
+    },
+    "img/p94.jpg": {
+      "bookPage": 94,
+      "pdfPage": 96,
+      "scientific": "Diplonychus sp.",
+      "sha256": "dd8a5942ccba092370a20adb5d677a87f6f6da2b0c67853d604971613fd35c21"
+    },
+    "img/p94-2.jpg": {
+      "bookPage": 94,
+      "pdfPage": 96,
+      "scientific": "Diplonychus sp.",
+      "sha256": "9f347ad8ca7008d4b75f7dce11d959a7f1931571bdc06710a6d8f8c7b57777fc"
+    },
+    "img/p94-3.jpg": {
+      "bookPage": 94,
+      "pdfPage": 96,
+      "scientific": "Diplonychus sp.",
+      "sha256": "70d0e9b588a0f0fc8ac481175c34037735f795924523a8cad2d9d056ed0b1624"
+    },
+    "img/p95.jpg": {
+      "bookPage": 95,
+      "pdfPage": 97,
+      "scientific": "Metacanthus pulchellus (Dallas, 1852)",
+      "sha256": "490c991b2a860e0bb6e053984fd07c5f2e7955894e15fed8f8d9f4558ac42e73"
+    },
+    "img/p95-2.jpg": {
+      "bookPage": 95,
+      "pdfPage": 97,
+      "scientific": "Metacanthus pulchellus (Dallas, 1852)",
+      "sha256": "3d1883c2ec0d50eea54e7b89a626cfcd9ee1003aec0de794f447541156ab356a"
+    },
+    "img/p96.jpg": {
+      "bookPage": 96,
+      "pdfPage": 98,
+      "scientific": "Acanthocoris scaber Linnaeus, 1763",
+      "sha256": "8988b9d400abd0127db062856f67a1185e052afec8075d40e5b6934b18516f0d"
+    },
+    "img/p96-2.jpg": {
+      "bookPage": 96,
+      "pdfPage": 98,
+      "scientific": "Acanthocoris scaber Linnaeus, 1763",
+      "sha256": "948717e2d4bb3f972b97b71ba414ad22707fd1c95a8f41a236925be686b3a518"
+    },
+    "img/p97.jpg": {
+      "bookPage": 97,
+      "pdfPage": 99,
+      "scientific": "Cletus punctiger (Dallas, 1852)",
+      "sha256": "c36fa2fee50c8fbe507d6da5fdb543278f7430e98cff2984288a92cbe343bb90"
+    },
+    "img/p97-2.jpg": {
+      "bookPage": 97,
+      "pdfPage": 99,
+      "scientific": "Cletus punctiger (Dallas, 1852)",
+      "sha256": "9c17adc61f6acfab77ee91268a249b54cee2471f74d2cca1b4901dff1640a3ab"
+    },
+    "img/p98.jpg": {
+      "bookPage": 98,
+      "pdfPage": 100,
+      "scientific": "Notobitus meleagris (Fabricius, 1787)",
+      "sha256": "5d6e804c49b4d3a84db91d4072898afaeca2dabbae912d72062899ed29c03d81"
+    },
+    "img/p98-2.jpg": {
+      "bookPage": 98,
+      "pdfPage": 100,
+      "scientific": "Notobitus meleagris (Fabricius, 1787)",
+      "sha256": "ffa886a15ba2dd72cc81e608c493079c1b356dda0e54916dbe4290da22e796ca"
+    },
+    "img/p99.jpg": {
+      "bookPage": 99,
+      "pdfPage": 101,
+      "scientific": "Cyclopelta parva (Distant, 1900)",
+      "sha256": "24f6a916ee450a91a396a583f0e239ebf3daaaa189040ee06d34d7d6fd3577ea"
+    },
+    "img/p99-2.jpg": {
+      "bookPage": 99,
+      "pdfPage": 101,
+      "scientific": "Cyclopelta parva (Distant, 1900)",
+      "sha256": "707273584af683bc91f64e45cdf335139d2bb2c5da64fd4935098df57e1dd603"
+    },
+    "img/p99-3.jpg": {
+      "bookPage": 99,
+      "pdfPage": 101,
+      "scientific": "Cyclopelta parva (Distant, 1900)",
+      "sha256": "157d3220c1f80b6f6b5defb694a1428052ac1710d55d400466359c73304a4048"
+    },
+    "img/p100.jpg": {
+      "bookPage": 100,
+      "pdfPage": 102,
+      "scientific": "Geocoris ochropterus (Fieber, 1844)",
+      "sha256": "60201e2d5b664bb5b2d4c99a53d229cfbd6c9bc77b7ae378277fc1f41e61c527"
+    },
+    "img/p100-2.jpg": {
+      "bookPage": 100,
+      "pdfPage": 102,
+      "scientific": "Geocoris ochropterus (Fieber, 1844)",
+      "sha256": "4b68e638fbacc01fccdce71a12d50f0f930b51ff13d2a02862149c4a6f3d0d37"
+    },
+    "img/p101.jpg": {
+      "bookPage": 101,
+      "pdfPage": 103,
+      "scientific": "Aquarius paludum (Fabricius, 1794)",
+      "sha256": "b90c06ceb09960ebb0d748c7c4a102a50591de229740c22b2ebb5039558d4ecd"
+    },
+    "img/p101-2.jpg": {
+      "bookPage": 101,
+      "pdfPage": 103,
+      "scientific": "Aquarius paludum (Fabricius, 1794)",
+      "sha256": "7ea0274e22bc27c78ebbe46597197801565a81199b186f2dcfbb54042ce79116"
+    },
+    "img/p102.jpg": {
+      "bookPage": 102,
+      "pdfPage": 104,
+      "scientific": "Asclepios apicalis (Esaki, 1924)",
+      "sha256": "d820e9fb63335faa50b0f8f4281613188c881f29aebafa15bee5508a6fab3f20"
+    },
+    "img/p102-2.jpg": {
+      "bookPage": 102,
+      "pdfPage": 104,
+      "scientific": "Asclepios apicalis (Esaki, 1924)",
+      "sha256": "a3127f211762128e09b40ec816362a34091ab2207b3222957e199eaf18b42f57"
+    },
+    "img/p103.jpg": {
+      "bookPage": 103,
+      "pdfPage": 105,
+      "scientific": "Limnogonus fossarum (Fabricius, 1775)",
+      "sha256": "3e38a5fbd99884ae269b5f7061fd6bd1cc8e9addae195331ed11b067134fbbe6"
+    },
+    "img/p104.jpg": {
+      "bookPage": 104,
+      "pdfPage": 106,
+      "scientific": "Physopelta gutta gutta (Burmeister, 1834)",
+      "sha256": "4fd5e82ec1c43cbedcbf6232c3c74702e26b9e0be6a3d66867cc03616f04ac0c"
+    },
+    "img/p104-2.jpg": {
+      "bookPage": 104,
+      "pdfPage": 106,
+      "scientific": "Physopelta gutta gutta (Burmeister, 1834)",
+      "sha256": "8972e22850b69856c6b30554dba4269ad29aacd61a48c3e442585c12a92f2952"
+    },
+    "img/p105.jpg": {
+      "bookPage": 105,
+      "pdfPage": 107,
+      "scientific": "Mesovelia horvathi Lundblad, 1933",
+      "sha256": "dcf62579e7ca4b51760edec85afbca33f497610ed0c5a43f6888d5750b8f33e9"
+    },
+    "img/p106.jpg": {
+      "bookPage": 106,
+      "pdfPage": 108,
+      "scientific": "Micronecta quadristrigata Breddin, 1905",
+      "sha256": "78dd9314430088841ba16df2e6d071b1a3a06bfdeb28e539ca83dd80518d5ea4"
+    },
+    "img/p106-2.jpg": {
+      "bookPage": 106,
+      "pdfPage": 108,
+      "scientific": "Micronecta quadristrigata Breddin, 1905",
+      "sha256": "7be434a82c6b4f3b4cf485112a1378cc5ab84899fc02997011c624e570bf5f58"
+    },
+    "img/p107.jpg": {
+      "bookPage": 107,
+      "pdfPage": 109,
+      "scientific": "Anisops ogasawarensis Matsumura, 1915",
+      "sha256": "b8ef59111b74a334afec0889783e3e13fc74870c066ff184f6bc7c2ae1a7a63c"
+    },
+    "img/p107-2.jpg": {
+      "bookPage": 107,
+      "pdfPage": 109,
+      "scientific": "Anisops ogasawarensis Matsumura, 1915",
+      "sha256": "78e656b4951e093621419246fb13da24340b85ba0c8eacc8f4b7a7e98f1e8aea"
+    },
+    "img/p108.jpg": {
+      "bookPage": 108,
+      "pdfPage": 110,
+      "scientific": "Chalcopis glandulosa (Wolff, 1811)",
+      "sha256": "8df323f5d3adb5c3f1e9d037bde1e60255f8ce6a8033d2d0461a4a418886e848"
+    },
+    "img/p109.jpg": {
+      "bookPage": 109,
+      "pdfPage": 111,
+      "scientific": "Erthesina fullo (Thunberg, 1783 )",
+      "sha256": "629091556203c9640b98fb41234712ece8ab460a3cf6718ffd75747a09b88754"
+    },
+    "img/p109-2.jpg": {
+      "bookPage": 109,
+      "pdfPage": 111,
+      "scientific": "Erthesina fullo (Thunberg, 1783 )",
+      "sha256": "b9b609cc11d8e47175c5d255f9e6bbc186ef6742663ce21ece5aa115a9ea2c5f"
+    },
+    "img/p109-3.jpg": {
+      "bookPage": 109,
+      "pdfPage": 111,
+      "scientific": "Erthesina fullo (Thunberg, 1783 )",
+      "sha256": "e2a841b3dc2125880f0b59bee27647300bdad184289cd76682b08f273ec78381"
+    },
+    "img/p109-4.jpg": {
+      "bookPage": 109,
+      "pdfPage": 111,
+      "scientific": "Erthesina fullo (Thunberg, 1783 )",
+      "sha256": "78d94050c3b3a331ef3de8f80b5ac17b0df8f35d81bf00ebdf0464bb990754f4"
+    },
+    "img/p110.jpg": {
+      "bookPage": 110,
+      "pdfPage": 112,
+      "scientific": "Eysarcoris guttiger (Thunberg, 1783)",
+      "sha256": "3b718a548879931b4fbba7ec21ee0f5c712301f347b2186aa00c64aa0903225a"
+    },
+    "img/p110-2.jpg": {
+      "bookPage": 110,
+      "pdfPage": 112,
+      "scientific": "Eysarcoris guttiger (Thunberg, 1783)",
+      "sha256": "797a8c7fd2cf3c2e42a737512b09c3a28e7d67da68c090a77466b1eacad568e7"
+    },
+    "img/p110-3.jpg": {
+      "bookPage": 110,
+      "pdfPage": 112,
+      "scientific": "Eysarcoris guttiger (Thunberg, 1783)",
+      "sha256": "fd3898ea81d544c0a851921b6718db7e4d1bb93e6159bf05a464e57bde735227"
+    },
+    "img/p111.jpg": {
+      "bookPage": 111,
+      "pdfPage": 113,
+      "scientific": "Plautia stali (Scott, 1874)",
+      "sha256": "2793a92c1455cdcd9571a810caf9f9ee69c1f614b21d08e526368d411367b173"
+    },
+    "img/p112.jpg": {
+      "bookPage": 112,
+      "pdfPage": 114,
+      "scientific": "Brachyplatys subaeneus (Westwood, 1837)",
+      "sha256": "5fb3cf849b573a149b32b183acbd4087312e867d0143935c8616be88bc549b37"
+    },
+    "img/p113.jpg": {
+      "bookPage": 113,
+      "pdfPage": 115,
+      "scientific": "Euagorus plagiatus (Burmeister, 1834)",
+      "sha256": "1ae5f7c355928a054712acc3b1fd362d575f54d978fd1c840a7f5b5e7f1a68fc"
+    },
+    "img/p114.jpg": {
+      "bookPage": 114,
+      "pdfPage": 116,
+      "scientific": "Acanthaspis westermanni Reuter, 1881",
+      "sha256": "d44e9ecb4214b6ee02d40819b02af0e6c6c3b71ac80d26ce9d76d54bb7d7bb0e"
+    },
+    "img/p115.jpg": {
+      "bookPage": 115,
+      "pdfPage": 117,
+      "scientific": "Gardena albiannulata Ishikawa, 2005",
+      "sha256": "1036f44eed46b68a316bfd6b9162b538eecd406c56762482e1925bc63a7bbb15"
+    },
+    "img/p116.jpg": {
+      "bookPage": 116,
+      "pdfPage": 118,
+      "scientific": "Oncocephalus assimilis Reuter, 1882",
+      "sha256": "1ddfa8ad1fa0b1a53d9337ba90cdd98f9cd7952ba2cc1bae079c5e69920396b1"
+    },
+    "img/p116-2.jpg": {
+      "bookPage": 116,
+      "pdfPage": 118,
+      "scientific": "Oncocephalus assimilis Reuter, 1882",
+      "sha256": "867bde9f0e712feaeab856722005ddf7407b00ff394c492c07eb9ee5b3700d54"
+    },
+    "img/p117.jpg": {
+      "bookPage": 117,
+      "pdfPage": 119,
+      "scientific": "Jadera haematoloma (Herrich-Schäffer, 1847)",
+      "sha256": "0fbf68badbccd185e9db53fb3caef0eb1514d74d0ac158306876b99c14ce2e20"
+    },
+    "img/p117-2.jpg": {
+      "bookPage": 117,
+      "pdfPage": 119,
+      "scientific": "Jadera haematoloma (Herrich-Schäffer, 1847)",
+      "sha256": "102d954a7537928af74b898126d1a644d40ccb4d492dd35dbb14d68eaf28234f"
+    },
+    "img/p118.jpg": {
+      "bookPage": 118,
+      "pdfPage": 120,
+      "scientific": "Leptocoris abdominalis abdominalis (Fabricius, 1803)",
+      "sha256": "e40643c16aae1db66b3daa53c1c9f7f15b9d384e33666f11dc13bf9c22d8d3e6"
+    },
+    "img/p118-2.jpg": {
+      "bookPage": 118,
+      "pdfPage": 120,
+      "scientific": "Leptocoris abdominalis abdominalis (Fabricius, 1803)",
+      "sha256": "09f49ac36aae2ae2d43677ed23abd3eb64694683ff5b1e04978e53037075fdf9"
+    },
+    "img/p118-3.jpg": {
+      "bookPage": 118,
+      "pdfPage": 120,
+      "scientific": "Leptocoris abdominalis abdominalis (Fabricius, 1803)",
+      "sha256": "6b7f17aa235f4fc3d49b10ff37ca40ae19781ab29347d6085e0b2603ea20a4ce"
+    },
+    "img/p119.jpg": {
+      "bookPage": 119,
+      "pdfPage": 121,
+      "scientific": "Leptocoris augur (Fabricius, 1781)",
+      "sha256": "77ff549df19c01971d2f46521b64d371e405bab7f1d1671282bfcc36937b72cf"
+    },
+    "img/p119-2.jpg": {
+      "bookPage": 119,
+      "pdfPage": 121,
+      "scientific": "Leptocoris augur (Fabricius, 1781)",
+      "sha256": "6043a4c13b19442a5207616bb9b26bdb4fc6870fb3cd345181df54a177726a47"
+    },
+    "img/p120.jpg": {
+      "bookPage": 120,
+      "pdfPage": 122,
+      "scientific": "Dieuches uniformis Distant, 1903",
+      "sha256": "148dd385391dae9cfed24ab8408fea8ef163e7f70537a01c42d80dcd51116f4a"
+    },
+    "img/p120-2.jpg": {
+      "bookPage": 120,
+      "pdfPage": 122,
+      "scientific": "Dieuches uniformis Distant, 1903",
+      "sha256": "5a35fbcacad174af5d9133ebfedd72abcb3f72d70f4770b5184da4c61193e793"
+    },
+    "img/p121.jpg": {
+      "bookPage": 121,
+      "pdfPage": 123,
+      "scientific": "Cantao ocellatus (Thunberg, 1784)",
+      "sha256": "01f4951873382201051f49d857dd586e4dafda28babbb5b7e7b97e09a5e84a5f"
+    },
+    "img/p121-2.jpg": {
+      "bookPage": 121,
+      "pdfPage": 123,
+      "scientific": "Cantao ocellatus (Thunberg, 1784)",
+      "sha256": "401e2a14c214def81d48fffaf682efbd1bc608c25124605599f30c06654647dd"
+    },
+    "img/p123.jpg": {
+      "bookPage": 123,
+      "pdfPage": 125,
+      "scientific": "Callytron inspeculare inspeculare (Horn, 1904)",
+      "sha256": "108ba7ecbe8b1e1269cabb8f9ad334c8dffa1485897c52b5e19a71337951a30f"
+    },
+    "img/p123-2.jpg": {
+      "bookPage": 123,
+      "pdfPage": 125,
+      "scientific": "Callytron inspeculare inspeculare (Horn, 1904)",
+      "sha256": "2b72502b6998e638c5c335fc2d10c5f49cf6c2503cd7643c2adc123f7e865459"
+    },
+    "img/p124.jpg": {
+      "bookPage": 124,
+      "pdfPage": 126,
+      "scientific": "Cosmodela batesi (Fleutiaux, 1893)",
+      "sha256": "aa608969aa6c71b7d2171d937ff878da86f7c05e05bfde6cec55b32cd4f9e546"
+    },
+    "img/p124-2.jpg": {
+      "bookPage": 124,
+      "pdfPage": 126,
+      "scientific": "Cosmodela batesi (Fleutiaux, 1893)",
+      "sha256": "5f71f85670c83a64c6034c4f38d587db18e91629ab73ca71868286ef7e701132"
+    },
+    "img/p125.jpg": {
+      "bookPage": 125,
+      "pdfPage": 127,
+      "scientific": "Pheropsophus javanus (Dejean, 1825)",
+      "sha256": "1414f9999678d810edc925c91d6ac3cff0905b37d7df7d85ccab60f26201bf61"
+    },
+    "img/p125-2.jpg": {
+      "bookPage": 125,
+      "pdfPage": 127,
+      "scientific": "Pheropsophus javanus (Dejean, 1825)",
+      "sha256": "b313a8f1b1fa4e6406e9b6bd5f250e7f6fb3c53b42d1ab227d93064a021043a3"
+    },
+    "img/p126.jpg": {
+      "bookPage": 126,
+      "pdfPage": 128,
+      "scientific": "Scarites sp.",
+      "sha256": "3bffc5a6aa4a2b5f3bc4078bcc2daa5a3d632aa6f14acaf55d68cd6dc51a9817"
+    },
+    "img/p126-2.jpg": {
+      "bookPage": 126,
+      "pdfPage": 128,
+      "scientific": "Scarites sp.",
+      "sha256": "ad203b0359e78aa8ad1a204ae9d964d14ad5c6de3c5b52a5c7b776f15dd416d7"
+    },
+    "img/p126-3.jpg": {
+      "bookPage": 126,
+      "pdfPage": 128,
+      "scientific": "Scarites sp.",
+      "sha256": "e2c3a71e9395b829404a8e4423975b235a50cc8e064da5eb048cde77c0307a15"
+    },
+    "img/p127.jpg": {
+      "bookPage": 127,
+      "pdfPage": 129,
+      "scientific": "Cybister rugosus (MacLeay, 1825)",
+      "sha256": "0106e3da56a2345aa38e58822b4a245642e5ddf4643c09d22641afd5e736a69c"
+    },
+    "img/p127-2.jpg": {
+      "bookPage": 127,
+      "pdfPage": 129,
+      "scientific": "Cybister rugosus (MacLeay, 1825)",
+      "sha256": "0a235d3e8d177f8b27aae1c2e39b8f7fd326aca15fbeff00afb98d162d58e3f8"
+    },
+    "img/p127-3.jpg": {
+      "bookPage": 127,
+      "pdfPage": 129,
+      "scientific": "Cybister rugosus (MacLeay, 1825)",
+      "sha256": "bd3f964d3d1295f0e485e7d18963a20f9ce43fe6668037178565054e0d734c1e"
+    },
+    "img/p128.jpg": {
+      "bookPage": 128,
+      "pdfPage": 130,
+      "scientific": "Cybister tripunctatus (Olivier, 1795) ",
+      "sha256": "86f7bb971c54e752ff0c6fff3fcff817e3ba65f3276afb1045f7c6d05c886b0b"
+    },
+    "img/p128-2.jpg": {
+      "bookPage": 128,
+      "pdfPage": 130,
+      "scientific": "Cybister tripunctatus (Olivier, 1795) ",
+      "sha256": "769729d177add55431000a8d5274a47a469018c79f6b5fb0b862375468e1fab6"
+    },
+    "img/p129.jpg": {
+      "bookPage": 129,
+      "pdfPage": 131,
+      "scientific": "Trachys inconspicua Saunders,1873",
+      "sha256": "688e49a52d801c074be3b2d93f82a1fee97bd0b6cc2c00e1cd57c14378a813bd"
+    },
+    "img/p130.jpg": {
+      "bookPage": 130,
+      "pdfPage": 132,
+      "scientific": "Anoplophora macularia (Thomson, 1865)",
+      "sha256": "db2c034bac950b154fdf6d97d56bfa0536b9957334d81c66691e7c5b15e1fd1b"
+    },
+    "img/p131.jpg": {
+      "bookPage": 131,
+      "pdfPage": 133,
+      "scientific": "Apriona rugicollis Chevrolat, 1852",
+      "sha256": "bdc1df5b381ba83b2b40e36c6463248d10e04b525ef7963068d133c2e5c9acac"
+    },
+    "img/p132.jpg": {
+      "bookPage": 132,
+      "pdfPage": 134,
+      "scientific": "Chlorophorus anticemaculatus Schwarzer, 1925",
+      "sha256": "c8cc3a6e671b5e9fbcbc1c78429c689cc8cca25e1ac520c43b4fb85bbbf647a7"
+    },
+    "img/p132-2.jpg": {
+      "bookPage": 132,
+      "pdfPage": 134,
+      "scientific": "Chlorophorus anticemaculatus Schwarzer, 1925",
+      "sha256": "247794a6e094d131dfdb9b1532cb9650783e0867feeeefe63d6864e1fb5b5b25"
+    },
+    "img/p133.jpg": {
+      "bookPage": 133,
+      "pdfPage": 135,
+      "scientific": "Chlorophorus graphus Holzschuh, 1998",
+      "sha256": "c2454236b04049895f8441f8820aa0f0a590874acc8bb3c9931d9a9af139f3f6"
+    },
+    "img/p134.jpg": {
+      "bookPage": 134,
+      "pdfPage": 136,
+      "scientific": "Niphona parallela (White, 1858)",
+      "sha256": "6733f9fbcfb2c69b7559c6f609f7b42c20801603d9a66a0636d3b0da5e2e1fc7"
+    },
+    "img/p134-2.jpg": {
+      "bookPage": 134,
+      "pdfPage": 136,
+      "scientific": "Niphona parallela (White, 1858)",
+      "sha256": "4fd37400043b4201d959b02b58f0c6cb99b554be0673e39c9dff76622e75181c"
+    },
+    "img/p135.jpg": {
+      "bookPage": 135,
+      "pdfPage": 137,
+      "scientific": "Stromatium longicorne (Newman, 1842)",
+      "sha256": "ba102485c8c755c731f9f948f2752cc6464427188c824d8ebfea2ecd89d73da4"
+    },
+    "img/p136.jpg": {
+      "bookPage": 136,
+      "pdfPage": 138,
+      "scientific": "Aspidomorpha miliaris (Fabricius, 1775)",
+      "sha256": "f63e54eb65d253561ce9663ce8327ba4b2dcde42972c265c6414e61772ea9163"
+    },
+    "img/p136-2.jpg": {
+      "bookPage": 136,
+      "pdfPage": 138,
+      "scientific": "Aspidomorpha miliaris (Fabricius, 1775)",
+      "sha256": "9e01f3432eaa6de8a24524039fb194278a6399a2631ca883659fca4efb9e1c69"
+    },
+    "img/p137.jpg": {
+      "bookPage": 137,
+      "pdfPage": 139,
+      "scientific": "Cassida circumdata Herbst, 1790",
+      "sha256": "c1a60cb99a4fee46ffcfef1cc429597acdc8ddc2eb57a42b3ae004d43156d3ea"
+    },
+    "img/p137-2.jpg": {
+      "bookPage": 137,
+      "pdfPage": 139,
+      "scientific": "Cassida circumdata Herbst, 1790",
+      "sha256": "571961d0a8532bb8d186ef2dd7934a83212bb089357e1b292336c68967678692"
+    },
+    "img/p137-3.jpg": {
+      "bookPage": 137,
+      "pdfPage": 139,
+      "scientific": "Cassida circumdata Herbst, 1790",
+      "sha256": "e1c94a728f7c08c1d2c2024be17906f76d2c8fd497d8a54bebfb97ff668a6a7b"
+    },
+    "img/p137-4.jpg": {
+      "bookPage": 137,
+      "pdfPage": 139,
+      "scientific": "Cassida circumdata Herbst, 1790",
+      "sha256": "355e9e86aef3931e4dd859a138f75dfc6f731e8892d5086cb5bd9de3779e6118"
+    },
+    "img/p138.jpg": {
+      "bookPage": 138,
+      "pdfPage": 140,
+      "scientific": "Calomicrus jungchangi Lee & Beenen, 2012",
+      "sha256": "2d6231fc1bcd0f8d699144713aa0a50fdd902b71805229c0cc6c1a2d81a85d0d"
+    },
+    "img/p138-2.jpg": {
+      "bookPage": 138,
+      "pdfPage": 140,
+      "scientific": "Calomicrus jungchangi Lee & Beenen, 2012",
+      "sha256": "244feac4dfd9fd45004153a5ca2ab6f838caff8db02aa7c01c53169a04ca4e9c"
+    },
+    "img/p139.jpg": {
+      "bookPage": 139,
+      "pdfPage": 141,
+      "scientific": "Galerucella grisescens (Joannis, 1866)",
+      "sha256": "fd8efb4008cf029409cf30eb37f8b1ea58c404e278f91dd9dc2f59c2f5f77021"
+    },
+    "img/p139-2.jpg": {
+      "bookPage": 139,
+      "pdfPage": 141,
+      "scientific": "Galerucella grisescens (Joannis, 1866)",
+      "sha256": "0fed2dc46130316246d0319b5f24dc4356efeeac14716c2dc320baf2b0e58108"
+    },
+    "img/p139-3.jpg": {
+      "bookPage": 139,
+      "pdfPage": 141,
+      "scientific": "Galerucella grisescens (Joannis, 1866)",
+      "sha256": "2914a0e9f40c71fda31d3b27021ebebc48f2ac4c76a12f88f0f475f26af261e8"
+    },
+    "img/p140.jpg": {
+      "bookPage": 140,
+      "pdfPage": 142,
+      "scientific": "Colasposoma auripenne (Motschulsky, 1860)",
+      "sha256": "954dd3cc20763d1bccea5d35db8ab12730ae8a5dd0492ca1c24891eea0981b3f"
+    },
+    "img/p140-2.jpg": {
+      "bookPage": 140,
+      "pdfPage": 142,
+      "scientific": "Colasposoma auripenne (Motschulsky, 1860)",
+      "sha256": "a5ac7685a694a3f5c1499d10e3d9fce5835622934afa758db0d24ed2432c5f79"
+    },
+    "img/p140-3.jpg": {
+      "bookPage": 140,
+      "pdfPage": 142,
+      "scientific": "Colasposoma auripenne (Motschulsky, 1860)",
+      "sha256": "18ca2a64a72f2da1f2d78e734c8bd4667f8c08ece72cd4b49a9986f1825140dd"
+    },
+    "img/p141.jpg": {
+      "bookPage": 141,
+      "pdfPage": 143,
+      "scientific": "Coptocephala bifasciata Jacoby, 1888",
+      "sha256": "f6ca28f4b9678346745b37802966abd591ae7fac197ba53fe464bad42698bdc2"
+    },
+    "img/p141-2.jpg": {
+      "bookPage": 141,
+      "pdfPage": 143,
+      "scientific": "Coptocephala bifasciata Jacoby, 1888",
+      "sha256": "b341f56b5be440f846d7ee787f5b7f25db9c1712322e5ff64668e2ebb5f95404"
+    },
+    "img/p142.jpg": {
+      "bookPage": 142,
+      "pdfPage": 144,
+      "scientific": "Cryptocephalus nitidissimus Chujo, 1934",
+      "sha256": "ce708c5799230a27e7e56753fc7d0bf2b53db7c757a44792352a71dafb6edc21"
+    },
+    "img/p143.jpg": {
+      "bookPage": 143,
+      "pdfPage": 145,
+      "scientific": "Lema (Petauristes) solani Fabricius, 1798",
+      "sha256": "1200991bc06fa360f19e5ff3d9ceedc4acea6389848f93764ceb85ae3d9ec687"
+    },
+    "img/p144.jpg": {
+      "bookPage": 144,
+      "pdfPage": 146,
+      "scientific": "Sinocrepis obscurofasciata (Jacoby, 1892)",
+      "sha256": "6acaf9a6c4302a65ffa44d2e5e224a99d77f76bf86aaa94c52b1bce54d069e4c"
+    },
+    "img/p144-2.jpg": {
+      "bookPage": 144,
+      "pdfPage": 146,
+      "scientific": "Sinocrepis obscurofasciata (Jacoby, 1892)",
+      "sha256": "12196aed8a38babdf386b354aadad83ca2774ffd5769afb3ace9434dfe4df68f"
+    },
+    "img/p145.jpg": {
+      "bookPage": 145,
+      "pdfPage": 147,
+      "scientific": "Brumoides ohtai Miyatake, 1970",
+      "sha256": "089b265b1387d2d73a4d22268b3c49910bd817d2fd852e9f4b677d975d98b3f9"
+    },
+    "img/p145-2.jpg": {
+      "bookPage": 145,
+      "pdfPage": 147,
+      "scientific": "Brumoides ohtai Miyatake, 1970",
+      "sha256": "081c2731b72f09b5b5ad486facc571a359fe98a5629ed0bf19e2ef481949cdde"
+    },
+    "img/p145-3.jpg": {
+      "bookPage": 145,
+      "pdfPage": 147,
+      "scientific": "Brumoides ohtai Miyatake, 1970",
+      "sha256": "3a16871f4c1928698670ade0b4b55f845f05dc0b3623ce3b8aab668506b95bf1"
+    },
+    "img/p146.jpg": {
+      "bookPage": 146,
+      "pdfPage": 148,
+      "scientific": "Cheilomenes sexmaculata (Fabricius, 1781)",
+      "sha256": "f9ed182c363408940e5ddd532cdb154ee7d2e8a381e52a851950c36b93728a2b"
+    },
+    "img/p146-2.jpg": {
+      "bookPage": 146,
+      "pdfPage": 148,
+      "scientific": "Cheilomenes sexmaculata (Fabricius, 1781)",
+      "sha256": "07275c190b06af4ebe9bebf945281ed8c902c0883c2a6f8b730cc45d3999dbac"
+    },
+    "img/p146-3.jpg": {
+      "bookPage": 146,
+      "pdfPage": 148,
+      "scientific": "Cheilomenes sexmaculata (Fabricius, 1781)",
+      "sha256": "2f663cc6b30c1fc8b2465c21bd0dec77be6e2a00ab62ed05b4a64b965e3010d0"
+    },
+    "img/p146-4.jpg": {
+      "bookPage": 146,
+      "pdfPage": 148,
+      "scientific": "Cheilomenes sexmaculata (Fabricius, 1781)",
+      "sha256": "57824a5184813a9414dfaae60dd00a7e5938f6021f04e5971d1764c2f70dc769"
+    },
+    "img/p146-5.jpg": {
+      "bookPage": 146,
+      "pdfPage": 148,
+      "scientific": "Cheilomenes sexmaculata (Fabricius, 1781)",
+      "sha256": "722f7b73bd79ec6094847742b4765ed6e14f997d458c90c2a47df6e159fb0285"
+    },
+    "img/p147.jpg": {
+      "bookPage": 147,
+      "pdfPage": 149,
+      "scientific": "Coccinella septempunctata Linnaeus, 1758",
+      "sha256": "c5db8b1c337780b8dc7be5f0f0100f7aa50089638ce70bd6dfb05592524b9d6a"
+    },
+    "img/p148.jpg": {
+      "bookPage": 148,
+      "pdfPage": 150,
+      "scientific": "Coccinella transversalis Fabricius, 1781",
+      "sha256": "8b6b22b02335848e980cecf1bf9e39d8d9956ca41e62674f5112d54707e0c4b2"
+    },
+    "img/p149.jpg": {
+      "bookPage": 149,
+      "pdfPage": 151,
+      "scientific": "Cryptolaemus montrouzieri Mulsant, 1853",
+      "sha256": "f255388c83fcdd24401a08bed02e26bc417dd8a4dbe8151483d7d58ebeb85f3d"
+    },
+    "img/p149-2.jpg": {
+      "bookPage": 149,
+      "pdfPage": 151,
+      "scientific": "Cryptolaemus montrouzieri Mulsant, 1853",
+      "sha256": "7fac08676f985402e80aaac6c2ffa5cb16b91c48c226b13b00cdea3535397777"
+    },
+    "img/p150.jpg": {
+      "bookPage": 150,
+      "pdfPage": 152,
+      "scientific": "Henosepilachna vigintioctopunctata (Fabricius, 1775 ) ",
+      "sha256": "2c1e3e56d3302727832d80f30fa59f2240a57a5694d1db75ab4412d4a4ccdd10"
+    },
+    "img/p150-2.jpg": {
+      "bookPage": 150,
+      "pdfPage": 152,
+      "scientific": "Henosepilachna vigintioctopunctata (Fabricius, 1775 ) ",
+      "sha256": "4df130f56cfb26bd06046dddff66fc5b23da929ce172696f42e02c8e25d979ce"
+    },
+    "img/p151.jpg": {
+      "bookPage": 151,
+      "pdfPage": 153,
+      "scientific": "Illeis koebelei Timberlake, 1943",
+      "sha256": "8f585e3776ad2d794f352dc4300067bedad30c5383254951b451fc07027ac53b"
+    },
+    "img/p151-2.jpg": {
+      "bookPage": 151,
+      "pdfPage": 153,
+      "scientific": "Illeis koebelei Timberlake, 1943",
+      "sha256": "0b82b85e7b6be369f5fc920944307c062197c037d2320e22b3c0e82051019ca8"
+    },
+    "img/p151-3.jpg": {
+      "bookPage": 151,
+      "pdfPage": 153,
+      "scientific": "Illeis koebelei Timberlake, 1943",
+      "sha256": "eefd14ebb85e71f8efd93249e32f0800400d9f6afcad624ab61d9504050bc145"
+    },
+    "img/p152.jpg": {
+      "bookPage": 152,
+      "pdfPage": 154,
+      "scientific": "Lemnia biplagiata (Swartz, 1808 )",
+      "sha256": "2096085e3e8056744fc699a01a7c646e700cc9b5185b5953498aebe0ed776f75"
+    },
+    "img/p152-2.jpg": {
+      "bookPage": 152,
+      "pdfPage": 154,
+      "scientific": "Lemnia biplagiata (Swartz, 1808 )",
+      "sha256": "28159d24ac59c21d5d952396193a3eaa7c5f10d05a3d5cbf844806e33e484426"
+    },
+    "img/p152-3.jpg": {
+      "bookPage": 152,
+      "pdfPage": 154,
+      "scientific": "Lemnia biplagiata (Swartz, 1808 )",
+      "sha256": "0d7b864a2ed91ad1a2ba92e0f017ea01676b86a01ff63098d7c6e0615614eac9"
+    },
+    "img/p152-4.jpg": {
+      "bookPage": 152,
+      "pdfPage": 154,
+      "scientific": "Lemnia biplagiata (Swartz, 1808 )",
+      "sha256": "fa080aa2dc5c0c480f8cb9cc08d8f20de13b2f14c0b3ac411caa9c3742a01e76"
+    },
+    "img/p152-5.jpg": {
+      "bookPage": 152,
+      "pdfPage": 154,
+      "scientific": "Lemnia biplagiata (Swartz, 1808 )",
+      "sha256": "f82230f42a9fa37c989472c15b7b3223b1fc5b6cde7189867e9f36ff9e1e4cf3"
+    },
+    "img/p153.jpg": {
+      "bookPage": 153,
+      "pdfPage": 155,
+      "scientific": "Micraspis discolor (Fabricius, 1798)",
+      "sha256": "696d6a98039ce1e1fe98fff676659ab98d23b70954c8da00f7f04c23c4cc0df8"
+    },
+    "img/p153-2.jpg": {
+      "bookPage": 153,
+      "pdfPage": 155,
+      "scientific": "Micraspis discolor (Fabricius, 1798)",
+      "sha256": "5fd165adb09e996a6dae629cd78d053c2bb3a415ef94d79242d55bbced367350"
+    },
+    "img/p154.jpg": {
+      "bookPage": 154,
+      "pdfPage": 156,
+      "scientific": "Micraspis taiwanensis Yu, 2001",
+      "sha256": "a2a53f84704d0dd553bb9c74e6a87643f3a9b156fdffbed460f0453563c6c213"
+    },
+    "img/p154-2.jpg": {
+      "bookPage": 154,
+      "pdfPage": 156,
+      "scientific": "Micraspis taiwanensis Yu, 2001",
+      "sha256": "8b5f3bf1e432bfb8f0b73c6c8287becb9349236029f615eca9b59c0eb87424af"
+    },
+    "img/p155.jpg": {
+      "bookPage": 155,
+      "pdfPage": 157,
+      "scientific": "Olla v-nigrum (Mulsant, 1866)",
+      "sha256": "cf6a9b176c6e0b8060ae5033a9c7e278d26edf6a45ab53663878006214b09d99"
+    },
+    "img/p155-2.jpg": {
+      "bookPage": 155,
+      "pdfPage": 157,
+      "scientific": "Olla v-nigrum (Mulsant, 1866)",
+      "sha256": "5daa79908dfdb0210bd56b2ce0b2cac6807f83d1e59b5d7ef5610ee1742e7f52"
+    },
+    "img/p155-3.jpg": {
+      "bookPage": 155,
+      "pdfPage": 157,
+      "scientific": "Olla v-nigrum (Mulsant, 1866)",
+      "sha256": "57fdacfa39564a15b73809e0f65efb076a1bb6a38d1694e52d0e8ba50ff7cb58"
+    },
+    "img/p155-4.jpg": {
+      "bookPage": 155,
+      "pdfPage": 157,
+      "scientific": "Olla v-nigrum (Mulsant, 1866)",
+      "sha256": "042dd5a8ae174f8b21e2d2847271695b155d7776ac054c8402367dce19ad457b"
+    },
+    "img/p156.jpg": {
+      "bookPage": 156,
+      "pdfPage": 158,
+      "scientific": "Propylaea japonica (Thunberg, 1781)",
+      "sha256": "375cb4d0edd205c8f2135d5e87f1b96608fc99e8d3010cb48e5ab9d674a5ee25"
+    },
+    "img/p157.jpg": {
+      "bookPage": 157,
+      "pdfPage": 159,
+      "scientific": "Rodolia cardinalis (Mulsant, 1850)",
+      "sha256": "8c324969ae04e7ec5650c6f1b889d15b52768cdbbf1a70d16abf5c70e007a0ba"
+    },
+    "img/p157-2.jpg": {
+      "bookPage": 157,
+      "pdfPage": 159,
+      "scientific": "Rodolia cardinalis (Mulsant, 1850)",
+      "sha256": "c3669506708186b6278353238f68421c49929965702ed79a5bf96801d37a2f40"
+    },
+    "img/p157-3.jpg": {
+      "bookPage": 157,
+      "pdfPage": 159,
+      "scientific": "Rodolia cardinalis (Mulsant, 1850)",
+      "sha256": "cd5b818ee4a520de133664d34ff2c18d9fae9f2c2028990aa54b4c0caa9125cb"
+    },
+    "img/p157-4.jpg": {
+      "bookPage": 157,
+      "pdfPage": 159,
+      "scientific": "Rodolia cardinalis (Mulsant, 1850)",
+      "sha256": "64ac9917e3b531edcb49cfa56083115f4d54c4b23612d12224e7d390fb3c1ef0"
+    },
+    "img/p158.jpg": {
+      "bookPage": 158,
+      "pdfPage": 160,
+      "scientific": "Rodolia pumila Weise, 1892",
+      "sha256": "3afaa25c163f08db36e452b58d03758cec7996f2374cfb7cbf9dcf5287010a41"
+    },
+    "img/p158-2.jpg": {
+      "bookPage": 158,
+      "pdfPage": 160,
+      "scientific": "Rodolia pumila Weise, 1892",
+      "sha256": "db18fe35840818b609d597ecb7a5752bd6ac83c99e9c2e741973fc65d28077a6"
+    },
+    "img/p159.jpg": {
+      "bookPage": 159,
+      "pdfPage": 161,
+      "scientific": "Scymnus (pullus) quadrillum Motschulsky, 1858",
+      "sha256": "2cd8b2506854ca9efc3ee812cc7dcf94e290a01a171c71e97593f19bd722696b"
+    },
+    "img/p160.jpg": {
+      "bookPage": 160,
+      "pdfPage": 162,
+      "scientific": "Desmidophorus crassus Hubenthal, 1917",
+      "sha256": "79756ccf7af6daea2b6e5634dc72ac5918e403c3895400f8da0a868c595c8f86"
+    },
+    "img/p161.jpg": {
+      "bookPage": 161,
+      "pdfPage": 163,
+      "scientific": "Saprinus optabilis Marseul, 1855",
+      "sha256": "66135a69307c274530a08a0df314140a1e1e87e7f7f00b3bcda3c5b4404cdc7e"
+    },
+    "img/p162.jpg": {
+      "bookPage": 162,
+      "pdfPage": 164,
+      "scientific": "Berosus tayouanus Ueng, Wang & Wang, 2007",
+      "sha256": "487d825af1757b8029e1c72dce6e2795f8a06d31b25b62e13413931703f9073c"
+    },
+    "img/p162-2.jpg": {
+      "bookPage": 162,
+      "pdfPage": 164,
+      "scientific": "Berosus tayouanus Ueng, Wang & Wang, 2007",
+      "sha256": "a70f566ba5ccbbb276ee45e230f1be9d5ede9d9dda0f134aaee379438105cfea"
+    },
+    "img/p162-3.jpg": {
+      "bookPage": 162,
+      "pdfPage": 164,
+      "scientific": "Berosus tayouanus Ueng, Wang & Wang, 2007",
+      "sha256": "9ece2e464d0a86fc4cfb6cdbea12e2295e8de8980454af22153a39874ba7e217"
+    },
+    "img/p163.jpg": {
+      "bookPage": 163,
+      "pdfPage": 165,
+      "scientific": "Pyrocoelia analis Fabricius, 1801",
+      "sha256": "a997454db7027a371c66cf7f44e6ce1419501849eebb4e2243d08a5d14b4fcf8"
+    },
+    "img/p163-2.jpg": {
+      "bookPage": 163,
+      "pdfPage": 165,
+      "scientific": "Pyrocoelia analis Fabricius, 1801",
+      "sha256": "f72799431a24c915d643dd702d60f02c30fb8e6994e01321f53f1b13d6890387"
+    },
+    "img/p163-3.jpg": {
+      "bookPage": 163,
+      "pdfPage": 165,
+      "scientific": "Pyrocoelia analis Fabricius, 1801",
+      "sha256": "51e3d8be3cc176d7ae60b179ba4a67f14415549857356352a1772d272aca8690"
+    },
+    "img/p164.jpg": {
+      "bookPage": 164,
+      "pdfPage": 166,
+      "scientific": "Anomala erubescens Ohaus, 1925",
+      "sha256": "fd64dbccc63e0f01721ce8e0fe5de8175d509d68fa42c113e72fc38bf6eeb9a9"
+    },
+    "img/p164-2.jpg": {
+      "bookPage": 164,
+      "pdfPage": 166,
+      "scientific": "Anomala erubescens Ohaus, 1925",
+      "sha256": "ddf88f8f827d16eecf7b30d5759b801bff5944dbc16669eb6d7efb8f9ca288b1"
+    },
+    "img/p165.jpg": {
+      "bookPage": 165,
+      "pdfPage": 167,
+      "scientific": "Anomala expansa expansa (Bates, 1866)",
+      "sha256": "b604f6bc28495bb87b441f663532c44a7660d8e37de5b64ccabb2b05ebd110db"
+    },
+    "img/p166.jpg": {
+      "bookPage": 166,
+      "pdfPage": 168,
+      "scientific": "Anomala sauteri Ohaus, 1915",
+      "sha256": "9bc4166585c99695e3be92b4200a882f468d4d20ba07e8b5f58767008ecac1f4"
+    },
+    "img/p166-2.jpg": {
+      "bookPage": 166,
+      "pdfPage": 168,
+      "scientific": "Anomala sauteri Ohaus, 1915",
+      "sha256": "02aae7b8860ba414d9870c7379bebdfb1680a74cc4e77d0396ac8dec54580b40"
+    },
+    "img/p167.jpg": {
+      "bookPage": 167,
+      "pdfPage": 169,
+      "scientific": "Maladera sp.",
+      "sha256": "c885bdde4e25b680c5741aec349a0b4164ea06894047e9eb2f2059265941c9a5"
+    },
+    "img/p167-2.jpg": {
+      "bookPage": 167,
+      "pdfPage": 169,
+      "scientific": "Maladera sp.",
+      "sha256": "4846d3235c2413fc449fc9e965e42aea43b19b1c0833e3fdf425435affc6eb18"
+    },
+    "img/p167-3.jpg": {
+      "bookPage": 167,
+      "pdfPage": 169,
+      "scientific": "Maladera sp.",
+      "sha256": "196b3ff2a9ccc79416d17e30ba92706e0f0a1c634fa9f4a6b8f1a1f3ed107659"
+    },
+    "img/p168.jpg": {
+      "bookPage": 168,
+      "pdfPage": 170,
+      "scientific": "Protaetia culta culta Waterhouse, 1879",
+      "sha256": "d3e8e8ac67a82a303823152285ce71246278d6a34425eb9e35f602f550e774fa"
+    },
+    "img/p169.jpg": {
+      "bookPage": 169,
+      "pdfPage": 171,
+      "scientific": "Protaetia inquinata Arrow, 1913",
+      "sha256": "9946a33f555be0b184a1cc80ce04e80e3aeb499d817fd4555d826a77784fcbc0"
+    },
+    "img/p170.jpg": {
+      "bookPage": 170,
+      "pdfPage": 172,
+      "scientific": "Protaetia orientalis sakaii Kobayashi, 1994",
+      "sha256": "49cbdfed7a2647ad98bef131cbe9abeb5a3acd1e35f6967046b7002abe244348"
+    },
+    "img/p170-2.jpg": {
+      "bookPage": 170,
+      "pdfPage": 172,
+      "scientific": "Protaetia orientalis sakaii Kobayashi, 1994",
+      "sha256": "3c16b08f65cb5d62b6c70c773ff656b150ac3f4d3c3d58269e94db81bc2cf6ea"
+    },
+    "img/p171.jpg": {
+      "bookPage": 171,
+      "pdfPage": 173,
+      "scientific": "Thaumastopeus shangaicus (Poll, 1886)",
+      "sha256": "42c4811a59d278f6db0d0f30dc2d412a5da55e6db1d021a01e73e78de04e79ab"
+    },
+    "img/p171-2.jpg": {
+      "bookPage": 171,
+      "pdfPage": 173,
+      "scientific": "Thaumastopeus shangaicus (Poll, 1886)",
+      "sha256": "dce1605ae6572392b4820aeedf0ef7436715a1d844a4879a6fd59499551a00fd"
+    },
+    "img/p172.jpg": {
+      "bookPage": 172,
+      "pdfPage": 174,
+      "scientific": "Paederus (Heteropaederus) fuscipes Curtis, 1826",
+      "sha256": "2d667679f102faf707c4c0a1167f53ba859a51a50d3c96640edd1e09a0dc4220"
+    },
+    "img/p172-2.jpg": {
+      "bookPage": 172,
+      "pdfPage": 174,
+      "scientific": "Paederus (Heteropaederus) fuscipes Curtis, 1826",
+      "sha256": "33a7fe032ebf4488988aeebbb890a38e61aef465a06078e34fa520790da940aa"
+    },
+    "img/p173.jpg": {
+      "bookPage": 173,
+      "pdfPage": 175,
+      "scientific": "Cistelomorpha bina Fairmaire, 1899",
+      "sha256": "ecf15cfb211c11f98581262d125d1ef6859fabbf7eca0e0c6d86b874d62f7f7c"
+    },
+    "img/p173-2.jpg": {
+      "bookPage": 173,
+      "pdfPage": 175,
+      "scientific": "Cistelomorpha bina Fairmaire, 1899",
+      "sha256": "0722f636ee79a007664a84a01b1e4ead59752b8d12dbf30d985bdeaf9644105b"
+    },
+    "img/p174.jpg": {
+      "bookPage": 174,
+      "pdfPage": 176,
+      "scientific": "Strongylium erythrocephalum (Fabricius, 1801)",
+      "sha256": "f287713cec0ba56ef4dc6d40da79800346e32d52bc8729580f6009fc06e9ffab"
+    },
+    "img/p176.jpg": {
+      "bookPage": 176,
+      "pdfPage": 178,
+      "scientific": "Ligyra tantalus (Fabricius, 1794)",
+      "sha256": "a90bf1f370384de7f2cf854ada48006c643688de6fadafe52343c3b9484400c5"
+    },
+    "img/p176-2.jpg": {
+      "bookPage": 176,
+      "pdfPage": 178,
+      "scientific": "Ligyra tantalus (Fabricius, 1794)",
+      "sha256": "083fb9a82cef45618ed7c71b7e1f616ba23df503e0eaa3ad4f746dd50e6eaf6c"
+    },
+    "img/p177.jpg": {
+      "bookPage": 177,
+      "pdfPage": 179,
+      "scientific": "Chrysomya megacephala (Fabricius, 1794)",
+      "sha256": "395bdac2910a48be050629cf63e41a23d9f02b415e4e4254b7f2be068c9e3b5b"
+    },
+    "img/p177-2.jpg": {
+      "bookPage": 177,
+      "pdfPage": 179,
+      "scientific": "Chrysomya megacephala (Fabricius, 1794)",
+      "sha256": "79c104ac10a5c157c85794fccd70764d279de0e91887e5a49a1c22cde5726e62"
+    },
+    "img/p178.jpg": {
+      "bookPage": 178,
+      "pdfPage": 180,
+      "scientific": "Eristalinus sp.",
+      "sha256": "08446562b962687ca7170641b6b71897bfc9ef6063e3ec83b51eebd9ac8c2b6b"
+    },
+    "img/p178-2.jpg": {
+      "bookPage": 178,
+      "pdfPage": 180,
+      "scientific": "Eristalinus sp.",
+      "sha256": "4f736843797c950e0191c7d5ce8b8b9a5ef1e601403e2e04e5ada0c1191a6c51"
+    },
+    "img/p179.jpg": {
+      "bookPage": 179,
+      "pdfPage": 181,
+      "scientific": "Bactrocera (Zeugodacus) cucurbitae (Coquillett, 1899)",
+      "sha256": "1d0dde4474b4aefdf439a93571264d45b083910b27175b2a79225e50511da578"
+    },
+    "img/p179-2.jpg": {
+      "bookPage": 179,
+      "pdfPage": 181,
+      "scientific": "Bactrocera (Zeugodacus) cucurbitae (Coquillett, 1899)",
+      "sha256": "340247325f8bd7982bfd0c07ed57bfa452a4e96929c2fc378e70af379dd1f0ce"
+    },
+    "img/p181.jpg": {
+      "bookPage": 181,
+      "pdfPage": 183,
+      "scientific": "Choreutis ophiosema (Lower, 1896)",
+      "sha256": "554546566dfae59c48006da8912399a0e6f6da9f6bfcd88fd7735b95bde295ae"
+    },
+    "img/p181-2.jpg": {
+      "bookPage": 181,
+      "pdfPage": 183,
+      "scientific": "Choreutis ophiosema (Lower, 1896)",
+      "sha256": "c1f9ff07075c1b48b7747f9728c2716ce28798bc7e6f5cb265cdf7143686408a"
+    },
+    "img/p182.jpg": {
+      "bookPage": 182,
+      "pdfPage": 184,
+      "scientific": "Spoladea recurvalis (Fabricius, 1775)",
+      "sha256": "baf35aacf4f08fab6a8bee361dffb6cad9397a35fac89f0ca79e49c17f4cba6b"
+    },
+    "img/p182-2.jpg": {
+      "bookPage": 182,
+      "pdfPage": 184,
+      "scientific": "Spoladea recurvalis (Fabricius, 1775)",
+      "sha256": "abbafb3c9da3def3ecd1ec241bf63f3a9b078c2e00affbe2ece6dc2e6e96f510"
+    },
+    "img/p183.jpg": {
+      "bookPage": 183,
+      "pdfPage": 185,
+      "scientific": "Aloa lactinea (Cramer, 1777)",
+      "sha256": "08289a6d74d16bbdf2ec612b07acb0161f7b33330ba6dcddfd830ac000b2a268"
+    },
+    "img/p183-2.jpg": {
+      "bookPage": 183,
+      "pdfPage": 185,
+      "scientific": "Aloa lactinea (Cramer, 1777)",
+      "sha256": "b6053dd62efd59e7d00ebecf8b932cf9aa2cc7d0178285af3a74301cd6493d3f"
+    },
+    "img/p183-3.jpg": {
+      "bookPage": 183,
+      "pdfPage": 185,
+      "scientific": "Aloa lactinea (Cramer, 1777)",
+      "sha256": "5036f35a925fb81cf21565daab7358ac8deb173f39467435ab244d2ba043c7e9"
+    },
+    "img/p184.jpg": {
+      "bookPage": 184,
+      "pdfPage": 186,
+      "scientific": "Creatonotos gangis (Linnaeus, 1763)",
+      "sha256": "47796acd3098de7c94870d09c595a54d06fd61a725cd76f4178906d82344fca4"
+    },
+    "img/p184-2.jpg": {
+      "bookPage": 184,
+      "pdfPage": 186,
+      "scientific": "Creatonotos gangis (Linnaeus, 1763)",
+      "sha256": "0ede1f8e3465c3591431ff7ea2904298a8b5096b72dc298a10408dc39e69d887"
+    },
+    "img/p185.jpg": {
+      "bookPage": 185,
+      "pdfPage": 187,
+      "scientific": "Euproctis taiwana (Shiraki, 1913)",
+      "sha256": "efff0a85d6fefe948d506ec39828367c30a9fed451868030a0a878961012d38c"
+    },
+    "img/p185-2.jpg": {
+      "bookPage": 185,
+      "pdfPage": 187,
+      "scientific": "Euproctis taiwana (Shiraki, 1913)",
+      "sha256": "5065b8ea80e4ad81aa9cf0bae871b89219cda5c0b970e91d474d7245547a02b1"
+    },
+    "img/p186.jpg": {
+      "bookPage": 186,
+      "pdfPage": 188,
+      "scientific": "Ophiusa tirhaca (Cramer, 1777)",
+      "sha256": "6ee3a033656c9afa0c6a4c0c0ad23ff71c6e2d1532264faf840a64f3d9046334"
+    },
+    "img/p187.jpg": {
+      "bookPage": 187,
+      "pdfPage": 189,
+      "scientific": "Syntomoides imaon (Cramer, 1780)",
+      "sha256": "eb22cf6fbd312081f15787095a2c736c9a842ae134b332c660f41fdbadade587"
+    },
+    "img/p187-2.jpg": {
+      "bookPage": 187,
+      "pdfPage": 189,
+      "scientific": "Syntomoides imaon (Cramer, 1780)",
+      "sha256": "dd640a5ced1ce80dafd33366f2a276b1d77250fe34afefe5540b0dee5ba9c501"
+    },
+    "img/p188.jpg": {
+      "bookPage": 188,
+      "pdfPage": 190,
+      "scientific": "Utetheisa pulchelloides vaga Jordan,1939",
+      "sha256": "7946795f6bce3b880137818259e4918851cd580dc889bb6de2a918fb065fe7f9"
+    },
+    "img/p188-2.jpg": {
+      "bookPage": 188,
+      "pdfPage": 190,
+      "scientific": "Utetheisa pulchelloides vaga Jordan,1939",
+      "sha256": "c993875bf9c9dc90bf70280b704e7955a60b694a756540bbae87901efc82c3d5"
+    },
+    "img/p188-3.jpg": {
+      "bookPage": 188,
+      "pdfPage": 190,
+      "scientific": "Utetheisa pulchelloides vaga Jordan,1939",
+      "sha256": "14a8503ff0f26e3088520fa9181588d84c0c5ad971919c02cc3b2d9897c1bf76"
+    },
+    "img/p189.jpg": {
+      "bookPage": 189,
+      "pdfPage": 191,
+      "scientific": "Eumeta pryeri (Leech, 1888)",
+      "sha256": "8c733ff49daad0dbee5aea09d9e039debf4177c22b69541913f42e1e9d07295f"
+    },
+    "img/p189-2.jpg": {
+      "bookPage": 189,
+      "pdfPage": 191,
+      "scientific": "Eumeta pryeri (Leech, 1888)",
+      "sha256": "45183bc43f08dc8e6604eef34660b74e1abfabfc0bbb5a6184adfbd1df377751"
+    },
+    "img/p189-3.jpg": {
+      "bookPage": 189,
+      "pdfPage": 191,
+      "scientific": "Eumeta pryeri (Leech, 1888)",
+      "sha256": "c202364af4b2979b925c9f0f4d42650f9c96530b7e8f81107c9e47e2b964e8a9"
+    },
+    "img/p190.jpg": {
+      "bookPage": 190,
+      "pdfPage": 192,
+      "scientific": "Borbo cinnara (Wallace, 1866)",
+      "sha256": "98f1c6b678a1d209694f149b1d0375598e829f157899339cf9ac8dba0528d48e"
+    },
+    "img/p191.jpg": {
+      "bookPage": 191,
+      "pdfPage": 193,
+      "scientific": "Potanthus confucius angustatus (Matsumura, 1910)",
+      "sha256": "d7e8867ef7cb87de4e3649971d7a7b3a6eb53e11ec56c63fadfb57c0531874bd"
+    },
+    "img/p191-2.jpg": {
+      "bookPage": 191,
+      "pdfPage": 193,
+      "scientific": "Potanthus confucius angustatus (Matsumura, 1910)",
+      "sha256": "d80b2e23ffca2ef2f7f5e2527f85fab04171790bb9c5f0b4b0db4e3384440489"
+    },
+    "img/p192.jpg": {
+      "bookPage": 192,
+      "pdfPage": 194,
+      "scientific": "Celastrina lavendularis himilcon (Fruhstorfer, 1909)",
+      "sha256": "e16bd6621eea55a5473e9f0814ea7d0f49d71e7cd0116bfdd6efb2652f4b9223"
+    },
+    "img/p193.jpg": {
+      "bookPage": 193,
+      "pdfPage": 195,
+      "scientific": "Euchrysops cnejus (Fabricius, 1798)",
+      "sha256": "693b3de7160b07df15f09a93d3d7e8e877ad76382fcf57bc85f26080e7a55cb2"
+    },
+    "img/p193-2.jpg": {
+      "bookPage": 193,
+      "pdfPage": 195,
+      "scientific": "Euchrysops cnejus (Fabricius, 1798)",
+      "sha256": "6a24abb0ea5a9afead38adcf5fa7b87412ded39fd80aafde1bab7e80097b956f"
+    },
+    "img/p194.jpg": {
+      "bookPage": 194,
+      "pdfPage": 196,
+      "scientific": "Lampides boeticus (Linnaeus, 1767)",
+      "sha256": "158eb59d74b34946ae316db429a482a5ba463aa500bb7d69646cad949632aca3"
+    },
+    "img/p194-2.jpg": {
+      "bookPage": 194,
+      "pdfPage": 196,
+      "scientific": "Lampides boeticus (Linnaeus, 1767)",
+      "sha256": "e3f645c8c7d8e10367f7cdf7bbafd3d420cd844b762932d9a75a0f6d6a4e7ea4"
+    },
+    "img/p195.jpg": {
+      "bookPage": 195,
+      "pdfPage": 197,
+      "scientific": "Leptotes plinius (Fabricius, 1793)",
+      "sha256": "59801438a2844d57bc2985aa2aadb92224b13d58896603e9866596681adb061f"
+    },
+    "img/p196.jpg": {
+      "bookPage": 196,
+      "pdfPage": 198,
+      "scientific": "Zizeeria maha okinawana",
+      "sha256": "46eb19299624ea5c4b5575db2f07c07318f79479d64f7f33199a8fe6a4045d0f"
+    },
+    "img/p196-2.jpg": {
+      "bookPage": 196,
+      "pdfPage": 198,
+      "scientific": "Zizeeria maha okinawana",
+      "sha256": "9d977abac7b4b056852a9c0b2cdbb4f9178b1ccc98185d2f30decab9d6a027ab"
+    },
+    "img/p197.jpg": {
+      "bookPage": 197,
+      "pdfPage": 199,
+      "scientific": "Zizina otis riukuensis (Matsumura, 1929)",
+      "sha256": "3b3dd5737a906ea54f701e762caa60c55cbfeb27d883acfb7efd65fac744e738"
+    },
+    "img/p198.jpg": {
+      "bookPage": 198,
+      "pdfPage": 200,
+      "scientific": "Danaus chrysippus (Linnaeus, 1758)",
+      "sha256": "08fdcb1fdfcf398858f4a27f85d859864803e20096799f500da50d713cd1c558"
+    },
+    "img/p198-2.jpg": {
+      "bookPage": 198,
+      "pdfPage": 200,
+      "scientific": "Danaus chrysippus (Linnaeus, 1758)",
+      "sha256": "a3ce553ab6b43207c9e1abe77720486dcbed49e2b94d47cf2029e46142ab50b3"
+    },
+    "img/p198-3.jpg": {
+      "bookPage": 198,
+      "pdfPage": 200,
+      "scientific": "Danaus chrysippus (Linnaeus, 1758)",
+      "sha256": "2c2d25cfc5240153592e0e584629336c808f132e451de2185692c1442acbb6b6"
+    },
+    "img/p198-4.jpg": {
+      "bookPage": 198,
+      "pdfPage": 200,
+      "scientific": "Danaus chrysippus (Linnaeus, 1758)",
+      "sha256": "858af1bc2727f55417d407a8b33f366db4080669ec1d393ff025f3647811ddec"
+    },
+    "img/p198-5.jpg": {
+      "bookPage": 198,
+      "pdfPage": 200,
+      "scientific": "Danaus chrysippus (Linnaeus, 1758)",
+      "sha256": "0f2f3c955daaecb9c61c8f696eca9041c3711b5d566b7a55e2e7596ac7f4dff0"
+    },
+    "img/p199.jpg": {
+      "bookPage": 199,
+      "pdfPage": 201,
+      "scientific": "Tirumala limniace limniace (Cramer, 1775)",
+      "sha256": "11b74d901623daf9880712619dda2e318754620bd9749180e8fad3f0dacae0a9"
+    },
+    "img/p199-2.jpg": {
+      "bookPage": 199,
+      "pdfPage": 201,
+      "scientific": "Tirumala limniace limniace (Cramer, 1775)",
+      "sha256": "cc5fc2b40e17c4c79c3768adfe9eb4b9eee46ef6cbc045ea9561362fc88b0356"
+    },
+    "img/p200.jpg": {
+      "bookPage": 200,
+      "pdfPage": 202,
+      "scientific": "Ariadne ariadne pallidior Fruhstorfer, 1899",
+      "sha256": "721d391b315d86b65e1231e16fa473789fd6c1ab35dc3d67d8785a58b07a6d3a"
+    },
+    "img/p200-2.jpg": {
+      "bookPage": 200,
+      "pdfPage": 202,
+      "scientific": "Ariadne ariadne pallidior Fruhstorfer, 1899",
+      "sha256": "d55c838fcd1ec53ebf21eace14ed5d74f0c33f81133e371be35efa3449f7bc76"
+    },
+    "img/p200-3.jpg": {
+      "bookPage": 200,
+      "pdfPage": 202,
+      "scientific": "Ariadne ariadne pallidior Fruhstorfer, 1899",
+      "sha256": "f43b2d6ee8da843e5c23b934fb8f9747c5b97d6cb4f5b34fc8a3ff8e3ef789bf"
+    },
+    "img/p200-4.jpg": {
+      "bookPage": 200,
+      "pdfPage": 202,
+      "scientific": "Ariadne ariadne pallidior Fruhstorfer, 1899",
+      "sha256": "e4d2ff1df4be06ee61bc454640cc1d5410da0cc25ae21985a6998ae1b10e2569"
+    },
+    "img/p201.jpg": {
+      "bookPage": 201,
+      "pdfPage": 203,
+      "scientific": "Cyrestis thyodamas formosana Fruhstorfer, 1898",
+      "sha256": "f69e83f2027b833b71065877ca598cc2fd713f1ad11585bbd5423e8b182457f5"
+    },
+    "img/p201-2.jpg": {
+      "bookPage": 201,
+      "pdfPage": 203,
+      "scientific": "Cyrestis thyodamas formosana Fruhstorfer, 1898",
+      "sha256": "4c8a4e43860f866814a563c92ede749017909839bc9fafd79769b8912ee4171e"
+    },
+    "img/p202.jpg": {
+      "bookPage": 202,
+      "pdfPage": 204,
+      "scientific": "Hypolimnas bolina kezia (Butler, 1877)",
+      "sha256": "6de0ce7c3f4244ee000cd20175d986b95f1e4d93319d9e4a94c4f7ff2ca476c5"
+    },
+    "img/p202-2.jpg": {
+      "bookPage": 202,
+      "pdfPage": 204,
+      "scientific": "Hypolimnas bolina kezia (Butler, 1877)",
+      "sha256": "d1f000b3de176f077a4278d1b0ffa3de45c48aeacc5b7ab96e5b1a1d1112284e"
+    },
+    "img/p202-3.jpg": {
+      "bookPage": 202,
+      "pdfPage": 204,
+      "scientific": "Hypolimnas bolina kezia (Butler, 1877)",
+      "sha256": "765ae4c44a54f7fd1a018e0ab93f6810cb88c54b38396167eaa67631e2b24aed"
+    },
+    "img/p203.jpg": {
+      "bookPage": 203,
+      "pdfPage": 205,
+      "scientific": "Hypolimnas misippus (Linnaeus, 1764)",
+      "sha256": "74285c00435ae6fe6d91f3d36ad4f5a64ea8e9a9650886d27fb3f81dc7fd8e4d"
+    },
+    "img/p203-2.jpg": {
+      "bookPage": 203,
+      "pdfPage": 205,
+      "scientific": "Hypolimnas misippus (Linnaeus, 1764)",
+      "sha256": "f48f2058ffbf4b035f47c438553d0561597dd0b7a46cb86665f62b2e2bb2bfd1"
+    },
+    "img/p204.jpg": {
+      "bookPage": 204,
+      "pdfPage": 206,
+      "scientific": "Junonia almana (Linnaeus, 1758)",
+      "sha256": "c9ee11908b0537c4e58cf6469ec997be08aca47e997569710b257afb74dcf6bc"
+    },
+    "img/p204-2.jpg": {
+      "bookPage": 204,
+      "pdfPage": 206,
+      "scientific": "Junonia almana (Linnaeus, 1758)",
+      "sha256": "9f9a39421c2e7c310db923b84e20396f6e305c70bf0f9a1308910d78d72d9ac0"
+    },
+    "img/p205.jpg": {
+      "bookPage": 205,
+      "pdfPage": 207,
+      "scientific": "Melanitis leda (Linnaeus, 1758)",
+      "sha256": "5b7087ffe50432048f96a70ec6a20b94837d12ce3b11ff78fba7cc3133fae814"
+    },
+    "img/p205-2.jpg": {
+      "bookPage": 205,
+      "pdfPage": 207,
+      "scientific": "Melanitis leda (Linnaeus, 1758)",
+      "sha256": "ac6cf9692a22ef3a0a4f30dbb713fe752303f680daf670b112478c0c6203bbab"
+    },
+    "img/p205-3.jpg": {
+      "bookPage": 205,
+      "pdfPage": 207,
+      "scientific": "Melanitis leda (Linnaeus, 1758)",
+      "sha256": "893b714afeccebfd060cf70bcef0690c6edc2ee15ce11915d0f9333dc92309b7"
+    },
+    "img/p206.jpg": {
+      "bookPage": 206,
+      "pdfPage": 208,
+      "scientific": "Graphium sarpedon connectens (Fruhstorfer, 1906)",
+      "sha256": "ecdc954bf9dd40366656d90e3a8977137929d4009ec7f0bcf328e09511167831"
+    },
+    "img/p206-2.jpg": {
+      "bookPage": 206,
+      "pdfPage": 208,
+      "scientific": "Graphium sarpedon connectens (Fruhstorfer, 1906)",
+      "sha256": "f5d80bf48da0dbe4432409cc2cb03fb558feb27c1e0a76117654a4ce72936aef"
+    },
+    "img/p207.jpg": {
+      "bookPage": 207,
+      "pdfPage": 209,
+      "scientific": "Papilio demoleus Linnaeus, 1758",
+      "sha256": "1817ad15112adf09832461d41b80d537bf4417a1643651a963bf41fc8c50fd38"
+    },
+    "img/p207-2.jpg": {
+      "bookPage": 207,
+      "pdfPage": 209,
+      "scientific": "Papilio demoleus Linnaeus, 1758",
+      "sha256": "42fa66cefb07806859c38076b7939f737fe2caec8f99cf09566e67dfcea576d8"
+    },
+    "img/p207-3.jpg": {
+      "bookPage": 207,
+      "pdfPage": 209,
+      "scientific": "Papilio demoleus Linnaeus, 1758",
+      "sha256": "9a985947f2bd7194bf822a5f5e7b8be2dd55a4c67d3ce22d628619c6080ad7d2"
+    },
+    "img/p207-4.jpg": {
+      "bookPage": 207,
+      "pdfPage": 209,
+      "scientific": "Papilio demoleus Linnaeus, 1758",
+      "sha256": "319a1d3549927ecb327777630ea64ab1cd574f8ff91fa170877c532588d41056"
+    },
+    "img/p207-5.jpg": {
+      "bookPage": 207,
+      "pdfPage": 209,
+      "scientific": "Papilio demoleus Linnaeus, 1758",
+      "sha256": "77d14d217fccf7dcc2f607e0f988cde1beb82166b9c690bca048ccb19f16fa6d"
+    },
+    "img/p208.jpg": {
+      "bookPage": 208,
+      "pdfPage": 210,
+      "scientific": "Appias olferna peducaea Fruhstorfer, 1910",
+      "sha256": "824282206a392e409cda52525af55faf64b7f3dff5cc0a57a3a344bf1d59e551"
+    },
+    "img/p208-2.jpg": {
+      "bookPage": 208,
+      "pdfPage": 210,
+      "scientific": "Appias olferna peducaea Fruhstorfer, 1910",
+      "sha256": "d8434e317b714fb76b1dc958de7475c2f94a3c92b5f6d575a1cf11a511e73120"
+    },
+    "img/p209.jpg": {
+      "bookPage": 209,
+      "pdfPage": 211,
+      "scientific": "Eurema hecabe (Linnaeus, 1758)",
+      "sha256": "ecf14ceae635b81d2cb7975678641d4a0ea81dcb281c60c42c95f02643a76b7a"
+    },
+    "img/p210.jpg": {
+      "bookPage": 210,
+      "pdfPage": 212,
+      "scientific": "Pieris rapae crucivora Boisduval, 1836",
+      "sha256": "dcf2f60b443a072ae3eedcc712a9b4e44b22703bc499d73a42c8e87b6859ef33"
+    },
+    "img/p210-2.jpg": {
+      "bookPage": 210,
+      "pdfPage": 212,
+      "scientific": "Pieris rapae crucivora Boisduval, 1836",
+      "sha256": "5b0f1e96916901d5ec2ba8b77859ece8dc996dce7ce3ffa2a19212dce5179acc"
+    },
+    "img/p210-3.jpg": {
+      "bookPage": 210,
+      "pdfPage": 212,
+      "scientific": "Pieris rapae crucivora Boisduval, 1836",
+      "sha256": "612be96eb1f8273037440fb55c73b34d8b96d0f3ee4c7b71f67be8ca67b25790"
+    },
+    "img/p212.jpg": {
+      "bookPage": 212,
+      "pdfPage": 214,
+      "scientific": "Apis cerana Fabricius, 1793",
+      "sha256": "9ee6787948ad6c78ab0156acbc613dfd5f23020c09df7946fa8c45eb837b441d"
+    },
+    "img/p212-2.jpg": {
+      "bookPage": 212,
+      "pdfPage": 214,
+      "scientific": "Apis cerana Fabricius, 1793",
+      "sha256": "a34b1c23b9c5a69827c7df215928a3364d98639af6404b72ab4d77b75a24ab4d"
+    },
+    "img/p213.jpg": {
+      "bookPage": 213,
+      "pdfPage": 215,
+      "scientific": "Apis mellifera Linnaeus, 1758",
+      "sha256": "cb4b94a2a205e03a0cb77ec24ce58fa48e74353900da7c22396e1faea8f6ad32"
+    },
+    "img/p213-2.jpg": {
+      "bookPage": 213,
+      "pdfPage": 215,
+      "scientific": "Apis mellifera Linnaeus, 1758",
+      "sha256": "3557719f0c643275bcc1d6b22677684531d7f3b3e8aac44c8fb983814ca8f74c"
+    },
+    "img/p214.jpg": {
+      "bookPage": 214,
+      "pdfPage": 216,
+      "scientific": "Bembix formosana Bischoff, 1913",
+      "sha256": "d21f7083a5df0d0ac02f066ac72e3163528804bb588b3dd976ebeebba8d6f014"
+    },
+    "img/p214-2.jpg": {
+      "bookPage": 214,
+      "pdfPage": 216,
+      "scientific": "Bembix formosana Bischoff, 1913",
+      "sha256": "95aa55466b6de5b94825368cb59b2bbd425810c33e73139de8b73249ed2f953f"
+    },
+    "img/p214-3.jpg": {
+      "bookPage": 214,
+      "pdfPage": 216,
+      "scientific": "Bembix formosana Bischoff, 1913",
+      "sha256": "deeded8b970859accaae1ac70234f6a4abe3b0b34f0ab90dd7fb9d290f376692"
+    },
+    "img/p214-4.jpg": {
+      "bookPage": 214,
+      "pdfPage": 216,
+      "scientific": "Bembix formosana Bischoff, 1913",
+      "sha256": "4dedbb7202e382de34c96f760daf9683ef8bd9271a5b8b04d2d889fb7575ca89"
+    },
+    "img/p215.jpg": {
+      "bookPage": 215,
+      "pdfPage": 217,
+      "scientific": "Mutillidae spp.",
+      "sha256": "91814ea42a7ee1906a71099e559661226136345a6fa3e6ffd10183f89028000b"
+    },
+    "img/p215-2.jpg": {
+      "bookPage": 215,
+      "pdfPage": 217,
+      "scientific": "Mutillidae spp.",
+      "sha256": "83a41dda2498340d9aeb92e7a9201ce4b7ffeb2bb4aece8ca00e675f3e1c1686"
+    },
+    "img/p215-3.jpg": {
+      "bookPage": 215,
+      "pdfPage": 217,
+      "scientific": "Mutillidae spp.",
+      "sha256": "0fe262f088291247d58945c41ee9eec45aeec1f846e11bd7fd438aa6b47a5b78"
+    },
+    "img/p215-4.jpg": {
+      "bookPage": 215,
+      "pdfPage": 217,
+      "scientific": "Mutillidae spp.",
+      "sha256": "d71ad7c086c75d9141d73346ebda126e03326c7e02d6403b78cf61f473aae0b6"
+    },
+    "img/p216.jpg": {
+      "bookPage": 216,
+      "pdfPage": 218,
+      "scientific": "Scoliidae spp.",
+      "sha256": "052d6ec1e2ba1ac4d88a8ea6b41ef1560302b3d7940b26ed7e7b359d559800ec"
+    },
+    "img/p216-2.jpg": {
+      "bookPage": 216,
+      "pdfPage": 218,
+      "scientific": "Scoliidae spp.",
+      "sha256": "1f7462b73e4a8b495a1a001d568d074f8045850d22691ddd8f1ce2e5cdd802b4"
+    },
+    "img/p216-3.jpg": {
+      "bookPage": 216,
+      "pdfPage": 218,
+      "scientific": "Scoliidae spp.",
+      "sha256": "2f60cc0d1bff2ae45fa28993e8770cff843fafebcef485b371121c269abbadf3"
+    },
+    "img/p216-4.jpg": {
+      "bookPage": 216,
+      "pdfPage": 218,
+      "scientific": "Scoliidae spp.",
+      "sha256": "086e7fe2339756d0ac16d3606e7d8c526b448eff2cc83f010063ea3f526f4f07"
+    },
+    "img/p216-5.jpg": {
+      "bookPage": 216,
+      "pdfPage": 218,
+      "scientific": "Scoliidae spp.",
+      "sha256": "92a4ac8f0135a3df0bb400e70d378cfdb45c378c15b88e17c32f502cdc996ec9"
+    },
+    "img/p217.jpg": {
+      "bookPage": 217,
+      "pdfPage": 219,
+      "scientific": "Podagrion sp.",
+      "sha256": "34009985a391ad356b5414b440c282a2fe8f4ce59fef1a71a216e888c9920dba"
+    },
+    "img/p217-2.jpg": {
+      "bookPage": 217,
+      "pdfPage": 219,
+      "scientific": "Podagrion sp.",
+      "sha256": "3dbbd4e60c75f356dc9e972b98c8e777966668f2707fe45cb43e39584668ccd2"
+    },
+    "img/p218.jpg": {
+      "bookPage": 218,
+      "pdfPage": 220,
+      "scientific": "Brachymeria sp.",
+      "sha256": "391809b11c968b30c10182fd185220a66be0b7b33a0813b97fc79ad762da7d88"
+    },
+    "img/p218-2.jpg": {
+      "bookPage": 218,
+      "pdfPage": 220,
+      "scientific": "Brachymeria sp.",
+      "sha256": "4c8a0dc203e61949d7aa70b4d87c1262eedc00205db275299ff69beefc59e658"
+    },
+    "img/p219.jpg": {
+      "bookPage": 219,
+      "pdfPage": 221,
+      "scientific": "Delta esuriens okinawae Giordani Soika, 1986",
+      "sha256": "2b55dad812b321a415b782085b79324230c5aad143a91cef932dcf0ce3f8cfc0"
+    },
+    "img/p219-2.jpg": {
+      "bookPage": 219,
+      "pdfPage": 221,
+      "scientific": "Delta esuriens okinawae Giordani Soika, 1986",
+      "sha256": "445f5ac96589cba9dd6ceea47cff3fa7af2bd5deb001acadab4d7d1d245e414f"
+    },
+    "img/p220.jpg": {
+      "bookPage": 220,
+      "pdfPage": 222,
+      "scientific": "Ropalidia fasciata (Fabricius, 1804)",
+      "sha256": "aa190ae1eb6b3a4a87cf224ab55a53830e146e663f0bd79fc11fb374d12648af"
+    },
+    "img/p220-2.jpg": {
+      "bookPage": 220,
+      "pdfPage": 222,
+      "scientific": "Ropalidia fasciata (Fabricius, 1804)",
+      "sha256": "bf11fec26ccf48a8b796d51244726531808386f3bcf1d8116a8df454a2694b9d"
+    },
+    "img/p221.jpg": {
+      "bookPage": 221,
+      "pdfPage": 223,
+      "scientific": "Vespa affinis (Linnaeus, 1764)",
+      "sha256": "69ff5c0f14888923ba4c95979e90fd0558ed431461eb4a4280a73f5a95811baf"
+    },
+    "img/p221-2.jpg": {
+      "bookPage": 221,
+      "pdfPage": 223,
+      "scientific": "Vespa affinis (Linnaeus, 1764)",
+      "sha256": "1cb0df845ab0938df6a08b20c9c27e6a0a3e4fa152eeaac5288344927c4b362a"
+    },
+    "img/p222.jpg": {
+      "bookPage": 222,
+      "pdfPage": 224,
+      "scientific": "Anoplolepis gracilipes (Smith, 1857)",
+      "sha256": "05a2d26db7eb055897bd137ea4e2a6fbf4c7d2816f2e267147e55e6d474cb7b7"
+    },
+    "img/p222-2.jpg": {
+      "bookPage": 222,
+      "pdfPage": 224,
+      "scientific": "Anoplolepis gracilipes (Smith, 1857)",
+      "sha256": "e54ed7644a55cc42ee2ddf4b469f1409f09b0e19ec14e2bae84d134ac886c2aa"
+    },
+    "img/p223.jpg": {
+      "bookPage": 223,
+      "pdfPage": 225,
+      "scientific": "Polyrhachis dives Smith, 1857",
+      "sha256": "6ebb3570895eea66f9e124ebf2a0f183d1edc48bff2455b06153b10f0685c900"
+    },
+    "img/p223-2.jpg": {
+      "bookPage": 223,
+      "pdfPage": 225,
+      "scientific": "Polyrhachis dives Smith, 1857",
+      "sha256": "f5854029d706f48831b4e482933aef33369de05168c8c27a00ece51ed670194a"
+    },
+    "img/p224.jpg": {
+      "bookPage": 224,
+      "pdfPage": 226,
+      "scientific": "Solenopsis geminata Fabricius, 1840",
+      "sha256": "e2469d2e380ef517b2f0b6716cd9611cc4c70e4ff5604eba88019f05cc41efbe"
+    },
+    "img/p224-2.jpg": {
+      "bookPage": 224,
+      "pdfPage": 226,
+      "scientific": "Solenopsis geminata Fabricius, 1840",
+      "sha256": "08acd9e8035afa4988a74240bda4b6ca653930da1cbf89aab0174e9211908b24"
+    },
+    "img/p226.jpg": {
+      "bookPage": 226,
+      "pdfPage": 228,
+      "scientific": "Acheron trux (Walker, 1853)",
+      "sha256": "746574ba642b9c32a5ca7aabb7da71c8b84db8fd3562c23629fa0133f45bac32"
+    },
+    "img/p226-2.jpg": {
+      "bookPage": 226,
+      "pdfPage": 228,
+      "scientific": "Acheron trux (Walker, 1853)",
+      "sha256": "f48ebad3315d3e1fa3fd1ecc7e6f55a4ef5aafc8ae9ff88c48508bf98ab39b7b"
+    },
+    "img/p226-3.jpg": {
+      "bookPage": 226,
+      "pdfPage": 228,
+      "scientific": "Acheron trux (Walker, 1853)",
+      "sha256": "f6e4fe5ef537c71907b32acca84cfa9827e3a10e9a2e938984cd4f74c04e2783"
+    },
+    "img/p226-4.jpg": {
+      "bookPage": 226,
+      "pdfPage": 228,
+      "scientific": "Acheron trux (Walker, 1853)",
+      "sha256": "f8677af26627f22f578a90b814e05b284b08db9d4a11074f01cd3e4a967bc328"
+    },
+    "img/p227.jpg": {
+      "bookPage": 227,
+      "pdfPage": 229,
+      "scientific": "Ascalaphus placidus (Gerstaecker, 1894)",
+      "sha256": "bdb956bcf261a5cf6cc4dd7876e1b9e341003182b554933754c7b7d3a916248f"
+    },
+    "img/p227-2.jpg": {
+      "bookPage": 227,
+      "pdfPage": 229,
+      "scientific": "Ascalaphus placidus (Gerstaecker, 1894)",
+      "sha256": "eb7f00c848d12ad743edffe8d2947a7ee3c98179a8a83ebbae7bdaad684cd0fe"
+    },
+    "img/p227-3.jpg": {
+      "bookPage": 227,
+      "pdfPage": 229,
+      "scientific": "Ascalaphus placidus (Gerstaecker, 1894)",
+      "sha256": "661011f2409e754b9164b127c8078ef9f80636f4da1cb4294d83ff437003c3da"
+    },
+    "img/p227-4.jpg": {
+      "bookPage": 227,
+      "pdfPage": 229,
+      "scientific": "Ascalaphus placidus (Gerstaecker, 1894)",
+      "sha256": "04906e0e0da9caec4da6c5a1abf3358caeafa8607ab42c2b327be40bd5141719"
+    },
+    "img/p228.jpg": {
+      "bookPage": 228,
+      "pdfPage": 230,
+      "scientific": "Ascalohybris subjacens (Walker, 1853)",
+      "sha256": "424f4e3d4f91beaf1255f628a21e733f745ddd1016f204be78ac2cabb200d327"
+    },
+    "img/p229.jpg": {
+      "bookPage": 229,
+      "pdfPage": 231,
+      "scientific": "Cueta sauteri Esben-Petersen, 1913",
+      "sha256": "b55210d78029de0794e1d2b14452615a334fc647a3185392c30b4e54aaba5d70"
+    },
+    "img/p229-2.jpg": {
+      "bookPage": 229,
+      "pdfPage": 231,
+      "scientific": "Cueta sauteri Esben-Petersen, 1913",
+      "sha256": "21dd55c87f28cb68091f50e9c80dc6244e3b013d3e4194d1d50923251d8e76d0"
+    },
+    "img/p229-3.jpg": {
+      "bookPage": 229,
+      "pdfPage": 231,
+      "scientific": "Cueta sauteri Esben-Petersen, 1913",
+      "sha256": "014a21fa891da03bcb607258b8ae23d83fbaf1aabb466851ff423ddc8ccf9933"
+    },
+    "img/p229-4.jpg": {
+      "bookPage": 229,
+      "pdfPage": 231,
+      "scientific": "Cueta sauteri Esben-Petersen, 1913",
+      "sha256": "ed2b5261616ab61a7cd25821e1d7b93a629c2cc4a561eade461f29230a9deda7"
+    },
+    "img/p229-5.jpg": {
+      "bookPage": 229,
+      "pdfPage": 231,
+      "scientific": "Cueta sauteri Esben-Petersen, 1913",
+      "sha256": "9200e5c3c575d5712aab83783ebe999b4884e08fbc58b241244560b9a2f50095"
+    },
+    "img/p230.jpg": {
+      "bookPage": 230,
+      "pdfPage": 232,
+      "scientific": "Myrmeleon littoralis Miller & Stange, 1999",
+      "sha256": "1a2bc41501e85acbf0605bed0edbc0e952efc0452c48d7d245122a51d0ee08ab"
+    },
+    "img/p230-2.jpg": {
+      "bookPage": 230,
+      "pdfPage": 232,
+      "scientific": "Myrmeleon littoralis Miller & Stange, 1999",
+      "sha256": "12ced4c1cf362246059bf3c7721967a0bef806567fb3fbdef0a3c926b748cb6d"
+    },
+    "img/p230-3.jpg": {
+      "bookPage": 230,
+      "pdfPage": 232,
+      "scientific": "Myrmeleon littoralis Miller & Stange, 1999",
+      "sha256": "cdb88c2999eb6cf355a2345d32a63b56ce79bbcc207d47762740c5b6b34561f7"
+    },
+    "img/p230-4.jpg": {
+      "bookPage": 230,
+      "pdfPage": 232,
+      "scientific": "Myrmeleon littoralis Miller & Stange, 1999",
+      "sha256": "b6dc8cc67f4e5ccd9371b4a813a115ba9f542b6c1feff03623302b63b0eeed0a"
+    },
+    "img/p230-5.jpg": {
+      "bookPage": 230,
+      "pdfPage": 232,
+      "scientific": "Myrmeleon littoralis Miller & Stange, 1999",
+      "sha256": "679f460992eb11a210d6668f3c5db959ebb3b653471dfa4706f8eba0c215af4f"
+    },
+    "img/p231.jpg": {
+      "bookPage": 231,
+      "pdfPage": 233,
+      "scientific": "Myrmeleon persimilis Miller & Stange, 1999",
+      "sha256": "a5bb9c2c5ec57bf4193f6dc8bc1542eef424e953e503b59b993b6fac78c25f7e"
+    },
+    "img/p231-2.jpg": {
+      "bookPage": 231,
+      "pdfPage": 233,
+      "scientific": "Myrmeleon persimilis Miller & Stange, 1999",
+      "sha256": "f8803f29d1f468cdb57e2c24a807cc6d6bcef707c7aba6a281e0d2b2abfd7d20"
+    },
+    "img/p231-3.jpg": {
+      "bookPage": 231,
+      "pdfPage": 233,
+      "scientific": "Myrmeleon persimilis Miller & Stange, 1999",
+      "sha256": "17889061fcdb6b348aba6815011f9029d1ea382330a04cbbeda61a1373376288"
+    },
+    "img/p231-4.jpg": {
+      "bookPage": 231,
+      "pdfPage": 233,
+      "scientific": "Myrmeleon persimilis Miller & Stange, 1999",
+      "sha256": "bef33f6c967f8a908160ebec2169e7e0c7f1b972367efab9087f05784bcfcb3b"
+    },
+    "img/p231-5.jpg": {
+      "bookPage": 231,
+      "pdfPage": 233,
+      "scientific": "Myrmeleon persimilis Miller & Stange, 1999",
+      "sha256": "e0523f5a0162f1825971375511ff88463203b07a71cafc7fb2f734fd156f26d4"
+    },
+    "img/p232.jpg": {
+      "bookPage": 232,
+      "pdfPage": 234,
+      "scientific": "Myrmeleon punctinervis Banks, 1937",
+      "sha256": "962a7530cf1994fb27d3fabe29e3dfab7939e39767931ede6cf2a38f5c814c54"
+    },
+    "img/p232-2.jpg": {
+      "bookPage": 232,
+      "pdfPage": 234,
+      "scientific": "Myrmeleon punctinervis Banks, 1937",
+      "sha256": "e9268f4681630f30539fb372e4f2881e33c467df5ccc80c143bae6d34f2c0b96"
+    },
+    "img/p232-3.jpg": {
+      "bookPage": 232,
+      "pdfPage": 234,
+      "scientific": "Myrmeleon punctinervis Banks, 1937",
+      "sha256": "96603f3a9efc6816a97df9dcbad7f43216f7aaf524124c216a1aca9a79f10472"
+    },
+    "img/p232-4.jpg": {
+      "bookPage": 232,
+      "pdfPage": 234,
+      "scientific": "Myrmeleon punctinervis Banks, 1937",
+      "sha256": "1b85d8a8947fca045d96c8298ec70ee76b078c05c829ec761ad8cbcb685e79e0"
+    },
+    "img/p232-5.jpg": {
+      "bookPage": 232,
+      "pdfPage": 234,
+      "scientific": "Myrmeleon punctinervis Banks, 1937",
+      "sha256": "bc472484d2f1cbe3d7338ffae3c04b615a972d3f0cb5c58d4f42d542e743b74b"
+    },
+    "img/p234.jpg": {
+      "bookPage": 234,
+      "pdfPage": 236,
+      "scientific": "Labidura japonica (de Haan, 1842)",
+      "sha256": "c5220e2f899a33100fe3034ad7d22f4f87a939ae016f73a214075599c5172b20"
+    },
+    "img/p234-2.jpg": {
+      "bookPage": 234,
+      "pdfPage": 236,
+      "scientific": "Labidura japonica (de Haan, 1842)",
+      "sha256": "0a2bd9a36f305a880b655336cdd4d8cb1a4f6b456d0ffad0e0185ddb1c774f32"
+    },
+    "img/p235.jpg": {
+      "bookPage": 235,
+      "pdfPage": 237,
+      "scientific": "Euborellia plebeja (Dohrn, 1863)",
+      "sha256": "93dd0e40c9a0142ad057e8867a97248cbc0a3a58276a88f5b840660df4736169"
+    },
+    "img/p235-2.jpg": {
+      "bookPage": 235,
+      "pdfPage": 237,
+      "scientific": "Euborellia plebeja (Dohrn, 1863)",
+      "sha256": "2633f4325d02e90c9e7aa76a532713c96369eac88d87a569c690ea7476d593c6"
+    },
+    "img/p235-3.jpg": {
+      "bookPage": 235,
+      "pdfPage": 237,
+      "scientific": "Euborellia plebeja (Dohrn, 1863)",
+      "sha256": "5d36f732129f5ad316dc5aa1fd0ebc3d21511705526f8194846105db10e416b1"
+    }
+  }
+}

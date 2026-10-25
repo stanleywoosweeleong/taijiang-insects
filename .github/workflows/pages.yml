@@ -18,6 +18,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Validate photo paths and species mappings
+        run: node tools/check-photos.cjs
       - uses: actions/configure-pages@v5
         with:
           enablement: true

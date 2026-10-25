@@ -104,3 +104,16 @@ cd work && python3 build_data.py        # regenerates ../data.js, incl. Simplifi
 ```
 
 UI strings live in the `I18N` object at the top of the script in `index.html`.
+
+## Photo integrity checks
+
+All species images belong in `img/`, never at the repository root. Run
+`node tools/check-photos.cjs` before publishing; GitHub Pages deployment runs it
+automatically. It checks all 423 expected paths against a manifest of the original
+PDF-verified image hashes and printed-page mappings. If intentionally replacing a
+photo, verify the insect identity and update `tools/photo-manifest.json` as well as
+the photo count. A missing file or unexpected image substitution blocks deployment.
+
+On 25 October 2026, 96 photographs uploaded to the root were moved into `img/`.
+All 423 JPEGs matched the previously verified source images byte for byte; no
+insect photo or species assignment was replaced.
