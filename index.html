@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1d5c57">
+<meta name="theme-color" content="#214e40">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>台江昆蟲圖鑑 · Taijiang Insects</title>
@@ -13,7 +13,7 @@
 <style>
 :root{
   --ink:#1a1f1e; --ink2:#2f3a38; --bg:#f4efe4; --card:#fffdf8; --line:#cfc6b3;
-  --teal:#1d5c57; --teal2:#2a7a73; --sand:#d9b26a; --rust:#9a4a3a; --sky:#2f6b9a; --moss:#5c7d3a;
+  --teal:#214e40; --teal2:#2a7a73; --sand:#d9b26a; --rust:#9a4a3a; --sky:#2f6b9a; --moss:#5c7d3a;
   --fs:17px; --radius:10px;
 }
 html[data-fs="1"]{--fs:19px}
@@ -193,6 +193,7 @@ details.lrn .body{padding:0 0 12px}
 
 @media(min-width:640px){.photos{grid-template-columns:1fr 1fr}.list{display:grid;grid-template-columns:1fr 1fr}.item{align-self:start}}
 </style>
+<link rel="stylesheet" href="journal.css">
 </head>
 <body>
 
@@ -243,14 +244,14 @@ details.lrn .body{padding:0 0 12px}
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <defs>
 <symbol id="ico-app" viewBox="0 0 120 120">
-  <rect width="120" height="120" rx="26" fill="#1d5c57"/>
+  <rect width="120" height="120" rx="26" fill="#214e40"/>
   <ellipse cx="60" cy="56" rx="7" ry="7" fill="#f4efe4"/>
   <rect x="56.5" y="60" width="7" height="46" rx="3.5" fill="#f4efe4"/>
   <path d="M57 62 C 30 50, 12 56, 10 68 C 12 78, 34 74, 57 68 Z" fill="#d9b26a" opacity=".95"/>
   <path d="M63 62 C 90 50, 108 56, 110 68 C 108 78, 86 74, 63 68 Z" fill="#d9b26a" opacity=".95"/>
   <path d="M57 69 C 34 76, 20 84, 20 92 C 24 98, 42 90, 57 74 Z" fill="#e8cf95" opacity=".9"/>
   <path d="M63 69 C 86 76, 100 84, 100 92 C 96 98, 78 90, 63 74 Z" fill="#e8cf95" opacity=".9"/>
-  <circle cx="55" cy="52" r="3.5" fill="#1d5c57"/><circle cx="65" cy="52" r="3.5" fill="#1d5c57"/>
+  <circle cx="55" cy="52" r="3.5" fill="#214e40"/><circle cx="65" cy="52" r="3.5" fill="#214e40"/>
 </symbol>
 <!-- orders -->
 <symbol id="o-Odonata" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="12" r="5"/><path d="M32 17v38"/><path d="M30 22C14 16 6 22 7 30c6 6 16 2 23-2Z"/><path d="M34 22c16-6 24 0 23 8-6 6-16 2-23-2Z"/><path d="M30 28C18 34 10 42 12 48c6 2 14-6 18-12Z"/><path d="M34 28c12 6 20 14 18 20-6 2-14-6-18-12Z"/></g></symbol>
@@ -444,7 +445,7 @@ function itemHTML(s){
   return `<button class="item ${saved.has(s.p)?"saved":""}" data-p="${s.p}">
     <div class="thumb">${orderGlyph(s.order)}${s.ph?`<img src="${photoUrl(s)}" alt="" loading="lazy" onerror="this.remove()">`:""}</div>
     <div class="t"><div class="nm">${esc(nm(s))}</div>
-    <div class="sci">${esc(s.sci)}</div>
+    <div class="sci" lang="la" translate="no">${esc(s.sci)}</div>
     <div class="meta">${s.size?`<span class="tag">${esc(sizeText(s))}</span>`:""}${now?`<span class="tag now">${esc(T().now)}</span>`:""}${badgeTag(s)}</div></div></button>`;
 }
 function listHTML(arr, grouped=true){
@@ -473,16 +474,17 @@ function render(){
 function renderBrowse(){
   const t=T(); const m=$("#main");
   const td = todaySpecies();
-  const todayCard = `<button class="today" data-p="${td.p}"><div class="hero">${td.ph?`<img src="${photoUrl(td)}" alt="${esc(nm(td))}" onerror="this.remove()">`:orderGlyph(td.order)}</div><div class="cap"><div class="lab"><span>${esc(t.today)}</span><span>${esc(orderName(td.order))}</span></div><div class="nm">${esc(nm(td))} ›</div><div class="sci">${esc(td.sci)}</div><div class="mid">${esc(t.midnight)}</div></div></button>`;
+  const todayCard = `<button class="today" data-p="${td.p}"><div class="hero">${td.ph?`<img src="${photoUrl(td)}" alt="${esc(nm(td))}" onerror="this.remove()">`:orderGlyph(td.order)}</div><div class="cap"><div class="lab"><span>${esc(t.today)}</span><span>${esc(orderName(td.order))}</span></div><div class="nm">${esc(nm(td))} ›</div><div class="sci" lang="la" translate="no">${esc(td.sci)}</div><div class="mid">${esc(t.midnight)}</div></div></button>`;
   const chips = [`<button class="chip ${browse.order==="all"?"on":""}" data-o="all">${esc(t.all)} <span class="n">${DATA.species.length}</span></button>`,
                  `<button class="chip ${browse.order==="saved"?"on":""}" data-o="saved">★ ${esc(t.saved)} <span class="n">${saved.size}</span></button>`]
     .concat(ORDER_KEYS.map(k=>`<button class="chip ${browse.order===k?"on":""}" data-o="${k}">${orderGlyph(k)}${esc(orderName(k))} <span class="n">${DATA.species.filter(s=>s.order===k).length}</span></button>`));
   const inScope = s => browse.order==="all" || (browse.order==="saved" ? saved.has(s.p) : s.order===browse.order);
   const arr = DATA.species.filter(s=>inScope(s)&&searchHit(s,browse.q));
   m.innerHTML = `${browse.q||browse.order!=="all"?"":todayCard}<div class="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg><input id="q" type="search" placeholder="${esc(t.search)}" value="${esc(browse.q)}" autocomplete="off"></div>
-    <div class="chips scroll">${chips.join("")}</div>
-    <div class="count">${arr.length} ${esc(t.species)}</div>${listHTML(arr)}`;
-  const q=$("#q"); q.addEventListener("input",()=>{ browse.q=q.value; const arr2=DATA.species.filter(s=>inScope(s)&&searchHit(s,browse.q)); $(".count").textContent=`${arr2.length} ${t.species}`; $(".count").nextElementSibling?.remove(); let d=document.createElement("div"); d.innerHTML=listHTML(arr2); m.appendChild(d); bindItems(); });
+    <div class="order-menu"><button class="order-toggle" aria-expanded="false" aria-label="${esc(t.tabs[0])}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="order-tiles">${chips.join("")}</div></div>
+    <div class="count">${arr.length} ${esc(t.species)}</div><div id="browse-results">${listHTML(arr)}</div>`;
+  $(".order-toggle").addEventListener("click",e=>{const b=e.currentTarget; const expanded=b.getAttribute("aria-expanded")!=="true"; b.setAttribute("aria-expanded",String(expanded)); b.parentElement.classList.toggle("expanded",expanded);});
+  const q=$("#q"); q.addEventListener("input",()=>{ browse.q=q.value; const arr2=DATA.species.filter(s=>inScope(s)&&searchHit(s,browse.q)); $(".count").textContent=`${arr2.length} ${t.species}`; $("#browse-results").innerHTML=listHTML(arr2); bindItems(); });
   document.querySelectorAll(".chip[data-o]").forEach(b=>b.addEventListener("click",()=>{ browse.order=b.dataset.o; renderBrowse(); }));
   $(".today")?.addEventListener("click",e=>openSpecies(Number(e.currentTarget.dataset.p)));
   bindItems();
@@ -501,7 +503,7 @@ function detailHTML(s){
   const al = s.al[lang==="hans"?"hans":lang==="hant"?"hant":"hant"]; // aliases are Chinese names from the source
   return `<div class="photos">${photos}</div>
     <h2 class="dname">${esc(nm(s))}</h2>
-    <div class="dsci">${esc(s.sci)}</div>
+    <div class="dsci" lang="la" translate="no">${esc(s.sci)}</div>
     <div class="taxo"><span class="tag">${orderGlyph(s.order,"")} ${esc(orderName(s.order))}</span><span class="tag">${esc(s.fam)}${(lang==="hans"||lang==="hant")?" · "+esc(s.famzh[lang]):""}</span>${badgeTag(s)}<span class="tag">${esc(t.bookPage)} ${s.p}</span></div>
     <div class="actions"><button class="chip ${saved.has(s.p)?"on":""}" id="btn-save">${esc(saved.has(s.p)?t.unsave:t.save)}</button><button class="chip" id="btn-record">${esc(t.record)}</button></div>
     ${s.size?`<div class="sec">${esc(sizeText(s))}</div><div class="ruler">${ruler}</div>`:""}
